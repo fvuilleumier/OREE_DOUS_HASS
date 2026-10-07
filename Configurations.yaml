@@ -53,6 +53,9 @@ template:
         unit_of_measurement: kWh
         device_class: energy
         state_class: total_increasing
+        availability: >-
+          {{ has_value('sensor.electricity_meter_energy_consumption_tarif_1')
+             and has_value('sensor.electricity_meter_energy_consumption_tarif_2') }}
         state: >-
           {{ (states('sensor.electricity_meter_energy_consumption_tarif_1') | float(0)
             + states('sensor.electricity_meter_energy_consumption_tarif_2') | float(0)) | round(3) }}
