@@ -1407,31 +1407,46 @@ views:
             name: 🔌 Compteur secondaire
             grid_options:
               columns: full
-          - type: gauge
-            entity: sensor.electricity_meter_secondary_compteur_energy_day
-            name: Consommation ajd (depuis 00:00)
-            needle: true
-            min: 0
-            max: 30
-            severity:
-              green: 0
-              yellow: 12
-              red: 20
+          - type: custom:vertical-stack-in-card
+            cards:
+              - type: custom:mushroom-template-card
+                entity: sensor.electricity_meter_power_consumption
+                icon: mdi:flash
+                primary: >-
+                  {{ states('sensor.electricity_meter_power_consumption') |
+                  float(0) | round(0) }} W
+                secondary: Puissance actuelle
+                tap_action:
+                  action: more-info
+                color: orange
+                features_position: bottom
+                vertical: true
+                multiline_secondary: false
+              - type: custom:mushroom-template-card
+                entity: sensor.electricity_meter_secondary_compteur_energy_day
+                icon: mdi:lightning-bolt
+                primary: >-
+                  {{
+                  states('sensor.electricity_meter_secondary_compteur_energy_day')
+                  | float(0) | round(2) }} kWh
+                secondary: Énergie du jour (24 h)
+                tap_action:
+                  action: more-info
+                color: amber
+                features_position: bottom
+                vertical: true
+              - type: gauge
+                entity: sensor.electricity_meter_power_consumption
+                max: 40
+                severity:
+                  green: 0
+                  yellow: 12
+                  red: 20
+                needle: true
+                name: Consommation instantanée
             grid_options:
-              columns: 6
               rows: auto
-          - type: custom:mushroom-template-card
-            entity: sensor.electricity_meter_power_consumption
-            icon: mdi:flash
-            icon_color: orange
-            primary: "{{ states('sensor.electricity_meter_power_consumption') | float(0) | round(0) }} W"
-            secondary: Puissance actuelle
-            tap_action:
-              action: more-info
-            vertical: true
-            grid_options:
-              columns: 6
-              rows: auto
+              columns: 12
           - type: custom:apexcharts-card
             graph_span: 7d
             update_interval: 30min
@@ -1471,7 +1486,7 @@ views:
                   tickAmount: 4
             series:
               - entity: sensor.electricity_meter_energy_consumption_tarif_1
-                name: Tarif 1
+                name: Haut tarif (Tarif 1 - 7h à 12h-17h à 23h)
                 color: var(--info-color)
                 type: column
                 stack_group: conso
@@ -1480,7 +1495,7 @@ views:
                   period: day
                   align: start
               - entity: sensor.electricity_meter_energy_consumption_tarif_2
-                name: Tarif 2
+                name: Bas tarif (Tarif 2 -23h à 7h-12h à 17h)
                 color: var(--purple-color)
                 type: column
                 stack_group: conso
@@ -1489,7 +1504,7 @@ views:
                   period: day
                   align: start
             grid_options:
-              columns: 12
+              columns: 35
               rows: auto
         column_span: 4
       - type: grid
