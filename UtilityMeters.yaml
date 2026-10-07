@@ -61,3 +61,7 @@ msws65_energy_day:
 sp1pm70_energy_day:
   source: sensor.sp1pm70_energy
   cycle: daily
+
+electricity_meter_secondary_compteur_energy_day:
+  source: sensor.electricity_meter_secondary_compteur_energy_consumption_total
+  cycle: daily
