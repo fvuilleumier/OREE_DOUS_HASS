@@ -1493,64 +1493,72 @@
   mode: single
 - id: '1787566919858'
   alias: Cave à vin - gestion optimisée
-  description: 'Cave à vin : on garde le vin entre 16 et 20 °C en minimisant le recours
-    au réseau. Jamais en dessous de 16 °C (cible atteinte) ; au dessus de 20 °C on
-    refroidit quoi qu''il arrive (hors bande) ; entre les deux on profite du soleil
-    pour descendre à 16 °C (stockage de froid), sinon on laisse l''appareil finir
-    son cycle ou on reste éteint. Capteur inconnu : fail-safe allumé + notification.
-    Verrou de 5 min entre deux changements d''état pour préserver le compresseur,
-    recalcul toutes les 10 min pour rejouer une commande ratée.'
+  description: >-
+    Cave à vin : on garde le vin entre 16 et 20 °C en minimisant le recours au
+    réseau. Jamais en dessous de 16 °C (cible atteinte) ; au dessus de 20 °C on
+    refroidit quoi qu'il arrive (hors bande) ; entre les deux on profite du soleil
+    pour descendre à 16 °C (stockage de froid), sinon on laisse l'appareil finir
+    son cycle ou on reste éteint. Capteur inconnu : fail-safe allumé +
+    notification. Verrou de 5 min entre deux changements d'état pour préserver le
+    compresseur, recalcul toutes les 10 min pour rejouer une commande ratée.
   triggers:
-  - trigger: state
-    entity_id: sensor.zg_227z_20_temperature
-  - trigger: state
-    entity_id: binary_sensor.production_panneaux_solaire
-  - trigger: time_pattern
-    minutes: /10
+    - trigger: state
+      entity_id: sensor.zg_227z_20_temperature
+    - trigger: state
+      entity_id: binary_sensor.production_panneaux_solaire
+    - trigger: time_pattern
+      minutes: /30
   conditions: []
   actions:
-  - variables:
-      cible: '{%- set e = states.switch.s1pm58 -%} {%- set s = ''unknown'' if e is
-        none else e.state -%} {%- set t = states(''sensor.zg_227z_20_temperature'')
-        | float(none) -%} {%- set soleil = is_state(''binary_sensor.production_panneaux_solaire'',
-        ''on'') -%} {%- if t is none -%}on {%- elif t > 20 -%}on {%- elif t <= 16
-        -%}off {%- elif t >= 17 and soleil -%}on {%- else -%}{{ s }} {%- endif -%}'
-  - choose:
-    - conditions:
-      - condition: template
-        value_template: '{%- set e = states.switch.s1pm58 -%} {%- set dt = 0 if e
-          is none else (as_timestamp(now()) - as_timestamp(e.last_changed)) -%} {{-
-          cible == ''on'' and e is not none and e.state == ''off'' and dt >= 300 -}}'
-      sequence:
-      - action: switch.turn_on
-        continue_on_error: true
-        target:
-          entity_id: switch.s1pm58
-    - conditions:
-      - condition: template
-        value_template: '{%- set e = states.switch.s1pm58 -%} {%- set dt = 0 if e
-          is none else (as_timestamp(now()) - as_timestamp(e.last_changed)) -%} {{-
-          cible == ''off'' and e is not none and e.state == ''on'' and dt >= 300 -}}'
-      sequence:
-      - action: switch.turn_off
-        continue_on_error: true
-        target:
-          entity_id: switch.s1pm58
-  - choose:
-    - conditions:
-      - condition: template
-        value_template: '{%- set e = states.sensor.zg_227z_20_temperature -%} {{-
-          e is not none and e.state in [''unknown'', ''unavailable''] and (as_timestamp(now())
-          - as_timestamp(e.last_changed)) < 600 -}}'
-      sequence:
-      - action: notify.mobile_app_pixel_8_pro_du_fab
-        data:
-          title: ⚠️ Capteur cave à vin perdu
-          message: 'Le capteur de température de la cave (zg_227z_20) est indisponible
-            : la cave à vin est en sécurité (allumée en continu) jusqu''à son retour.'
-          data:
-            ttl: 0
-            priority: high
+    - variables:
+        cible: >-
+          {% set t = states('sensor.zg_227z_20_temperature') | float(none) %} {%
+          set soleil = is_state('binary_sensor.production_panneaux_solaire', 'on')
+          %} {% if t is none %}on {% elif t > 20 %}on {% elif t <= 16 %}off {%
+          elif soleil %}on {% else %} off {% endif %}
+    - choose:
+        - conditions:
+            - condition: template
+              value_template: >-
+                {%- set e = states.switch.s1pm58 -%} {%- set dt = 0 if e is none
+                else (as_timestamp(now()) - as_timestamp(e.last_changed)) -%} {{-
+                cible == 'on' and e is not none and e.state == 'off' and dt >= 300
+                -}}
+          sequence:
+            - action: switch.turn_on
+              continue_on_error: true
+              target:
+                entity_id: switch.s1pm58
+        - conditions:
+            - condition: template
+              value_template: >-
+                {%- set e = states.switch.s1pm58 -%} {%- set dt = 0 if e is none
+                else (as_timestamp(now()) - as_timestamp(e.last_changed)) -%} {{-
+                cible == 'off' and e is not none and e.state == 'on' and dt >= 300
+                -}}
+          sequence:
+            - action: switch.turn_off
+              continue_on_error: true
+              target:
+                entity_id: switch.s1pm58
+    - choose:
+        - conditions:
+            - condition: template
+              value_template: >-
+                {%- set e = states.sensor.zg_227z_20_temperature -%} {{- e is not
+                none and e.state in ['unknown', 'unavailable'] and
+                (as_timestamp(now()) - as_timestamp(e.last_changed)) < 600 -}}
+          sequence:
+            - action: notify.mobile_app_pixel_8_pro_du_fab
+              data:
+                title: ⚠️ Capteur cave à vin perdu
+                message: >-
+                  Le capteur de température de la cave (zg_227z_20) est
+                  indisponible : la cave à vin est en sécurité (allumée en
+                  continu) jusqu'à son retour.
+                data:
+                  ttl: 0
+                  priority: high
   mode: restart
 - id: '1787831749036'
   alias: Porte haut Toggle from bureau FV button

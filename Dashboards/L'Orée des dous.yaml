@@ -4758,7 +4758,7 @@ views:
               action: more-info
             features_position: bottom
           - type: tile
-            entity: sensor.s1pm58_power
+            entity: switch.s1pm58
             name: Cave à vin
             icon: mdi:glass-wine
             color: red
