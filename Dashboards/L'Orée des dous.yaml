@@ -89,7 +89,7 @@ views:
                   {{ states('sensor.moon_phase') | replace('_',' ') | capitalize
                   }}
                 icon: mdi:home
-                picture: '{{ state_attr(''sensor.moon_phase_image'',''entity_picture'') }}'
+                picture: "{{ state_attr('sensor.moon_phase_image','entity_picture') }}"
                 tap_action:
                   action: none
                 hold_action:
@@ -228,7 +228,7 @@ views:
         cards:
           - type: custom:mushroom-template-card
             primary: IP publique
-            secondary: '{{ states(''sensor.myip'') }}'
+            secondary: "{{ states('sensor.myip') }}"
             icon: mdi:ip-network
             entity: sensor.myip
             icon_color: ''
@@ -1663,7 +1663,7 @@ views:
       - type: grid
         cards:
           - type: gauge
-            entity: sensor.s1pm43_power
+            entity: sensor.sp1pm71_power
             name: Chaudière
             needle: true
             severity:
@@ -2468,8 +2468,8 @@ views:
                 apex_config:
                   tickAmount: 4
             series:
-              - entity: sensor.s1pm43_power
-                name: s1pm43 power
+              - entity: sensor.sp1pm71_power
+                name: sp1pm71 power
                 color: var(--info-color)
                 type: area
                 stroke_width: 2
@@ -2931,8 +2931,8 @@ views:
                 apex_config:
                   tickAmount: 4
             series:
-              - entity: sensor.s1pm43_energy
-                name: s1pm43 energy
+              - entity: sensor.sp1pm71_energy
+                name: sp1pm71 energy
                 color: var(--info-color)
                 type: area
                 stroke_width: 2
@@ -4014,14 +4014,16 @@ views:
             entities:
               - entity: sensor.s1pm30_power
                 name: 🖥️ Serveurs
-              - entity: sensor.sp1pm64_power
+              - entity: sensor.s1pm58_power
                 name: 🍷 Cave
+              - entity: sensor.sp1pm64_power
+                name: ❄️ Congélateur
               - entity: sensor.s1pm59_power
                 name: 💧 Déshumidificateur
-              - entity: sensor.s1pm43_power
-                name: 🔥 Chauffage
+              - entity: sensor.sp1pm71_power
+                name: 🔥 Chaudière
               - entity: sensor.s1pm44_power
-                name: 🚿 Boiler
+                name: 🚿 Pompe eau chaude
               - entity: sensor.s1pm60_power
                 name: 💦 Culligan
       - type: grid
@@ -4793,7 +4795,7 @@ views:
             vertical: false
             features_position: bottom
           - type: tile
-            entity: switch.s1pm43
+            entity: switch.sp1pm71
             name: Chaudière
             color: light-blue
             show_entity_picture: false

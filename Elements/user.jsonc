@@ -1,0 +1,20 @@
+// document.querySelector('home-assistant').hass.user
+{
+  "id": "7de188a07dc44e7da132231d22be024e",
+  "name": "Wismerhill",
+  "is_owner": true,
+  "is_admin": true,
+  "credentials": [
+    {
+      "auth_provider_type": "homeassistant",
+      "auth_provider_id": null,
+    },
+  ],
+  "mfa_modules": [
+    {
+      "id": "totp",
+      "name": "Authenticator app",
+      "enabled": true,
+    },
+  ],
+}
