@@ -1011,13 +1011,13 @@
     "entity_id": "automation.vacances_bureau_on",
     "labels": [],
     "platform": "automation",
-    "name": "Vacances enfants ON"
+    "name": "Vacances lampe enfants (SdJ Tasmorallonge) ON"
   },
   "automation.vacances_bureau_off": {
     "entity_id": "automation.vacances_bureau_off",
     "labels": [],
     "platform": "automation",
-    "name": "Vacances enfants OFF"
+    "name": "Vacances lampe enfants (SdJ Tasmorallonge) OFF"
   },
   "automation.vacances_chambre_on": {
     "entity_id": "automation.vacances_chambre_on",
@@ -1648,65 +1648,8 @@
     "labels": [],
     "platform": "mikrotik",
     "entity_category": "diagnostic",
+    "has_entity_name": true,
     "name": "48:55:19:74:A0:FB"
-  },
-  "sensor.sb51_last_restart_time": {
-    "entity_id": "sensor.sb51_last_restart_time",
-    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "Last Restart Time"
-  },
-  "sensor.sb51_wifi_connect_count": {
-    "entity_id": "sensor.sb51_wifi_connect_count",
-    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "WiFi Connect Count"
-  },
-  "sensor.sb51_mqtt_connect_count": {
-    "entity_id": "sensor.sb51_mqtt_connect_count",
-    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "MQTT Connect Count"
-  },
-  "sensor.sb51_restart_reason": {
-    "entity_id": "sensor.sb51_restart_reason",
-    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "Restart Reason"
-  },
-  "sensor.sb51_ssid": {
-    "entity_id": "sensor.sb51_ssid",
-    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "SSID"
-  },
-  "switch.sb51": {
-    "entity_id": "switch.sb51",
-    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "has_entity_name": true
   },
   "automation.bouton_porte_garage": {
     "entity_id": "automation.bouton_porte_garage",
@@ -5207,66 +5150,6 @@
     "entity_category": "diagnostic",
     "has_entity_name": true,
     "name": "WiFi Connect Count"
-  },
-  "sensor.sb24_last_restart_time": {
-    "entity_id": "sensor.sb24_last_restart_time",
-    "device_id": "c22cb150242a268e85c3f394b941f8a7",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "Last Restart Time"
-  },
-  "sensor.sb24_wifi_connect_count": {
-    "entity_id": "sensor.sb24_wifi_connect_count",
-    "device_id": "c22cb150242a268e85c3f394b941f8a7",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "WiFi Connect Count"
-  },
-  "sensor.sb24_mqtt_connect_count": {
-    "entity_id": "sensor.sb24_mqtt_connect_count",
-    "device_id": "c22cb150242a268e85c3f394b941f8a7",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "MQTT Connect Count"
-  },
-  "sensor.sb24_restart_reason": {
-    "entity_id": "sensor.sb24_restart_reason",
-    "device_id": "c22cb150242a268e85c3f394b941f8a7",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "Restart Reason"
-  },
-  "sensor.sb24_ssid": {
-    "entity_id": "sensor.sb24_ssid",
-    "device_id": "c22cb150242a268e85c3f394b941f8a7",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "entity_category": "diagnostic",
-    "has_entity_name": true,
-    "name": "SSID"
-  },
-  "switch.sb24_sb24_tasmorallonge": {
-    "entity_id": "switch.sb24_sb24_tasmorallonge",
-    "device_id": "c22cb150242a268e85c3f394b941f8a7",
-    "next_name_part": "device",
-    "labels": [],
-    "platform": "tasmota",
-    "has_entity_name": true,
-    "name": "SB24 - Tasmorallonge",
-    "icon": "mdi:weather-night"
   },
   "update.duck_dns_update": {
     "entity_id": "update.duck_dns_update",
@@ -10144,8 +10027,7 @@
     "next_name_part": "area",
     "labels": [],
     "platform": "min_max",
-    "name": "buanderie_power",
-    "display_precision": 0
+    "name": "buanderie_power"
   },
   "sensor.buanderie_energy_day": {
     "entity_id": "sensor.buanderie_energy_day",
@@ -10153,7 +10035,8 @@
     "next_name_part": "area",
     "labels": [],
     "platform": "min_max",
-    "name": "buanderie_energy_day"
+    "name": "buanderie_energy_day",
+    "display_precision": 2
   },
   "sensor.atelier_power": {
     "entity_id": "sensor.atelier_power",
@@ -10893,5 +10776,236 @@
     "entity_category": "diagnostic",
     "has_entity_name": true,
     "name": "Overvoltage"
+  },
+  "sensor.sb24_last_restart_time": {
+    "entity_id": "sensor.sb24_last_restart_time",
+    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "tasmota",
+    "entity_category": "diagnostic",
+    "has_entity_name": true,
+    "name": "Last Restart Time"
+  },
+  "sensor.sb24_mqtt_connect_count": {
+    "entity_id": "sensor.sb24_mqtt_connect_count",
+    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "tasmota",
+    "entity_category": "diagnostic",
+    "has_entity_name": true,
+    "name": "MQTT Connect Count"
+  },
+  "sensor.sb24_restart_reason": {
+    "entity_id": "sensor.sb24_restart_reason",
+    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "tasmota",
+    "entity_category": "diagnostic",
+    "has_entity_name": true,
+    "name": "Restart Reason"
+  },
+  "sensor.sb24_ssid": {
+    "entity_id": "sensor.sb24_ssid",
+    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "tasmota",
+    "entity_category": "diagnostic",
+    "has_entity_name": true,
+    "name": "SSID"
+  },
+  "sensor.sb24_wifi_connect_count": {
+    "entity_id": "sensor.sb24_wifi_connect_count",
+    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "tasmota",
+    "entity_category": "diagnostic",
+    "has_entity_name": true,
+    "name": "WiFi Connect Count"
+  },
+  "switch.sb24": {
+    "entity_id": "switch.sb24",
+    "device_id": "f8df70f3f2b2b7cd3091541ca984522d",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "tasmota",
+    "has_entity_name": true,
+    "icon": "mdi:weather-night"
+  },
+  "switch.2ch_usbs_01_l1": {
+    "entity_id": "switch.2ch_usbs_01_l1",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "has_entity_name": true,
+    "name": "L1"
+  },
+  "switch.2ch_usbs_01_l2": {
+    "entity_id": "switch.2ch_usbs_01_l2",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "has_entity_name": true,
+    "name": "L2"
+  },
+  "number.2ch_usbs_01_countdown_l1": {
+    "entity_id": "number.2ch_usbs_01_countdown_l1",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "has_entity_name": true,
+    "name": "Countdown l1"
+  },
+  "number.2ch_usbs_01_countdown_l2": {
+    "entity_id": "number.2ch_usbs_01_countdown_l2",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "has_entity_name": true,
+    "name": "Countdown l2"
+  },
+  "select.2ch_usbs_01_power_on_behavior_l1": {
+    "entity_id": "select.2ch_usbs_01_power_on_behavior_l1",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Power-on behavior l1"
+  },
+  "select.2ch_usbs_01_power_on_behavior_l2": {
+    "entity_id": "select.2ch_usbs_01_power_on_behavior_l2",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Power-on behavior l2"
+  },
+  "select.2ch_usbs_01_switch_type": {
+    "entity_id": "select.2ch_usbs_01_switch_type",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Switch type"
+  },
+  "switch.2ch_usbs_01_backlight_mode": {
+    "entity_id": "switch.2ch_usbs_01_backlight_mode",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Backlight mode"
+  },
+  "select.2ch_usbs_01_indicator_mode": {
+    "entity_id": "select.2ch_usbs_01_indicator_mode",
+    "device_id": "43125e73c48edde9cd84aba0601a6722",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Indicator mode"
+  },
+  "switch.2ch_usbs_02_l1": {
+    "entity_id": "switch.2ch_usbs_02_l1",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "has_entity_name": true,
+    "name": "L1"
+  },
+  "switch.2ch_usbs_02_l2": {
+    "entity_id": "switch.2ch_usbs_02_l2",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "has_entity_name": true,
+    "name": "L2"
+  },
+  "number.2ch_usbs_02_countdown_l1": {
+    "entity_id": "number.2ch_usbs_02_countdown_l1",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "has_entity_name": true,
+    "name": "Countdown l1"
+  },
+  "number.2ch_usbs_02_countdown_l2": {
+    "entity_id": "number.2ch_usbs_02_countdown_l2",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "has_entity_name": true,
+    "name": "Countdown l2"
+  },
+  "select.2ch_usbs_02_power_on_behavior_l1": {
+    "entity_id": "select.2ch_usbs_02_power_on_behavior_l1",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Power-on behavior l1"
+  },
+  "select.2ch_usbs_02_power_on_behavior_l2": {
+    "entity_id": "select.2ch_usbs_02_power_on_behavior_l2",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Power-on behavior l2"
+  },
+  "select.2ch_usbs_02_switch_type": {
+    "entity_id": "select.2ch_usbs_02_switch_type",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Switch type"
+  },
+  "switch.2ch_usbs_02_backlight_mode": {
+    "entity_id": "switch.2ch_usbs_02_backlight_mode",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Backlight mode"
+  },
+  "select.2ch_usbs_02_indicator_mode": {
+    "entity_id": "select.2ch_usbs_02_indicator_mode",
+    "device_id": "203ac42a0993641bea599775268a3d29",
+    "next_name_part": "device",
+    "labels": [],
+    "platform": "mqtt",
+    "entity_category": "config",
+    "has_entity_name": true,
+    "name": "Indicator mode"
   }
 }

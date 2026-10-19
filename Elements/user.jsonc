@@ -7,14 +7,14 @@
   "credentials": [
     {
       "auth_provider_type": "homeassistant",
-      "auth_provider_id": null,
-    },
+      "auth_provider_id": null
+    }
   ],
   "mfa_modules": [
     {
       "id": "totp",
       "name": "Authenticator app",
-      "enabled": true,
-    },
-  ],
+      "enabled": true
+    }
+  ]
 }

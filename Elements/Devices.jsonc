@@ -29,14 +29,14 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Core",
     "model_id": null,
-    "modified_at": 1791541533.349263,
+    "modified_at": 1792261175.356276,
     "name_by_user": null,
     "name": "Home Assistant Core",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "6b38281934e3239a15295f8d0caf35f3",
     "serial_number": null,
-    "sw_version": "2026.10.0",
+    "sw_version": "2026.10.2",
     "via_device_id": null
   },
   "a121b305ccc21293e1d03a88198f4b8f": {
@@ -68,14 +68,14 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Supervisor",
     "model_id": null,
-    "modified_at": 1790706789.439905,
+    "modified_at": 1792261175.356429,
     "name_by_user": null,
     "name": "Home Assistant Supervisor",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "6b38281934e3239a15295f8d0caf35f3",
     "serial_number": null,
-    "sw_version": "2026.09.3",
+    "sw_version": "2026.10.2",
     "via_device_id": null
   },
   "314ce938d32f82e01ee3ce04c96a9d71": {
@@ -781,12 +781,12 @@
     "config_subentry_id": null,
     "connections": [
       [
-        "upnp",
-        "uuid:3f97e6a2-6453-4afd-ae5f-460d6d4d6432"
-      ],
-      [
         "mac",
         "fc:8f:90:78:26:02"
+      ],
+      [
+        "upnp",
+        "uuid:3f97e6a2-6453-4afd-ae5f-460d6d4d6432"
       ]
     ],
     "created_at": 0,
@@ -1781,8 +1781,8 @@
     "via_device_id": null
   },
   "f8df70f3f2b2b7cd3091541ca984522d": {
-    "area_id": null,
-    "configuration_url": "http://192.168.33.51/",
+    "area_id": "maison_des_dous",
+    "configuration_url": "http://192.168.33.154/",
     "config_entries": [
       "253a16e1b03cc508b47c972b0f70bc90"
     ],
@@ -1809,10 +1809,10 @@
     "manufacturer": "Tasmota",
     "model": "Sonoff Basic",
     "model_id": null,
-    "modified_at": 1785955123.093254,
-    "name_by_user": null,
-    "name": "SB51",
-    "next_name_part": null,
+    "modified_at": 1792316091.674638,
+    "name_by_user": "SB24 - Tasmorallonge",
+    "name": "SB24",
+    "next_name_part": "area",
     "parent_device_id": null,
     "primary_config_entry": "253a16e1b03cc508b47c972b0f70bc90",
     "serial_number": null,
@@ -1848,9 +1848,9 @@
     "manufacturer": "Tasmota",
     "model": "Sonoff Basic",
     "model_id": null,
-    "modified_at": 0,
+    "modified_at": 1792316054.870872,
     "name_by_user": null,
-    "name": "SB51",
+    "name": "48:55:19:74:A0:FB",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -3701,14 +3701,14 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Backup",
     "model_id": null,
-    "modified_at": 1791541534.423936,
+    "modified_at": 1792261175.959227,
     "name_by_user": null,
     "name": "Backup",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "01JRSPGW5NKKSTGFQJS3CEYHJK",
     "serial_number": null,
-    "sw_version": "2026.10.0",
+    "sw_version": "2026.10.2",
     "via_device_id": null
   },
   "204522c59a1ef8adcbe7eb2f437beb01": {
@@ -3836,45 +3836,6 @@
     "primary_config_entry": "01K4SNPNA8XN70S27A8320NJ75",
     "serial_number": null,
     "sw_version": "20260311-095847/1.7.5-g9979d16",
-    "via_device_id": null
-  },
-  "c22cb150242a268e85c3f394b941f8a7": {
-    "area_id": "maison_des_dous",
-    "configuration_url": "http://192.168.33.24/",
-    "config_entries": [
-      "253a16e1b03cc508b47c972b0f70bc90"
-    ],
-    "config_entries_subentries": {
-      "253a16e1b03cc508b47c972b0f70bc90": [
-        null
-      ]
-    },
-    "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
-    "config_subentry_id": null,
-    "connections": [
-      [
-        "mac",
-        "4c:eb:d6:b6:a8:cd"
-      ]
-    ],
-    "created_at": 1758203830.37065,
-    "disabled_by": null,
-    "entry_type": null,
-    "hw_version": null,
-    "id": "c22cb150242a268e85c3f394b941f8a7",
-    "identifiers": [],
-    "labels": [],
-    "manufacturer": "Tasmota",
-    "model": "Sonoff Basic",
-    "model_id": null,
-    "modified_at": 1758204569.399661,
-    "name_by_user": "SB24 - Tasmorallonge",
-    "name": "SB24",
-    "next_name_part": "area",
-    "parent_device_id": null,
-    "primary_config_entry": "253a16e1b03cc508b47c972b0f70bc90",
-    "serial_number": null,
-    "sw_version": "12.1.1",
     "via_device_id": null
   },
   "86229aa4130b3424fe00c616a1cc1456": {
@@ -7811,5 +7772,83 @@
     "serial_number": null,
     "sw_version": "20260311-095847/1.7.5-g9979d16",
     "via_device_id": null
+  },
+  "43125e73c48edde9cd84aba0601a6722": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "35a576a70057cacfa7ace7b872ae41f8"
+    ],
+    "config_entries_subentries": {
+      "35a576a70057cacfa7ace7b872ae41f8": [
+        null
+      ]
+    },
+    "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
+    "config_subentry_id": null,
+    "connections": [],
+    "created_at": 1792410285.552617,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "1",
+    "id": "43125e73c48edde9cd84aba0601a6722",
+    "identifiers": [
+      [
+        "mqtt",
+        "zigbee2mqtt_0xa4c138a8a7d3aa5e"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Tuya",
+    "model": "2-Gang switch with backlight, countdown and inching",
+    "model_id": "TS0002",
+    "modified_at": 1792410431.901765,
+    "name_by_user": null,
+    "name": "2CH-USBS-01 - Porte bas",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "35a576a70057cacfa7ace7b872ae41f8",
+    "serial_number": null,
+    "sw_version": "1.0.10",
+    "via_device_id": "c504e018abb2a0362923cdbdcf6aca90"
+  },
+  "203ac42a0993641bea599775268a3d29": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "35a576a70057cacfa7ace7b872ae41f8"
+    ],
+    "config_entries_subentries": {
+      "35a576a70057cacfa7ace7b872ae41f8": [
+        null
+      ]
+    },
+    "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
+    "config_subentry_id": null,
+    "connections": [],
+    "created_at": 1792410587.120172,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "1",
+    "id": "203ac42a0993641bea599775268a3d29",
+    "identifiers": [
+      [
+        "mqtt",
+        "zigbee2mqtt_0xa4c1383d07276425"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Tuya",
+    "model": "2-Gang switch with backlight, countdown and inching",
+    "model_id": "TS0002",
+    "modified_at": 1792410630.679659,
+    "name_by_user": null,
+    "name": "2CH-USBS-02 - Porte haut",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "35a576a70057cacfa7ace7b872ae41f8",
+    "serial_number": null,
+    "sw_version": "1.0.10",
+    "via_device_id": "c504e018abb2a0362923cdbdcf6aca90"
   }
 }
