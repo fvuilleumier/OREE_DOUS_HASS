@@ -146,14 +146,14 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1789136436.416266,
+    "modified_at": 1792415778.707685,
     "name_by_user": null,
     "name": "Mosquitto broker",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "6b38281934e3239a15295f8d0caf35f3",
     "serial_number": null,
-    "sw_version": "7.1.1",
+    "sw_version": "7.1.2",
     "via_device_id": null
   },
   "b3541d9fe6ff0aa50ee089d64d6131b2": {
@@ -781,12 +781,12 @@
     "config_subentry_id": null,
     "connections": [
       [
-        "mac",
-        "fc:8f:90:78:26:02"
-      ],
-      [
         "upnp",
         "uuid:3f97e6a2-6453-4afd-ae5f-460d6d4d6432"
+      ],
+      [
+        "mac",
+        "fc:8f:90:78:26:02"
       ]
     ],
     "created_at": 0,

@@ -37,8 +37,8 @@
         "temperature_calibration": 0,
         "humidity_calibration": 0,
         "battery": 100,
-        "temperature": 19.7,
-        "humidity": 62,
+        "temperature": 19.8,
+        "humidity": 63,
         "temperature_unit": "celsius",
         "linkquality": 192,
         "last_seen": "2026-10-19T11:11:09.767Z"
@@ -299,7 +299,7 @@
     },
     "0xa4c138a24af79390": {
         "battery": 100,
-        "temperature": 13.4,
+        "temperature": 13.6,
         "humidity": 63,
         "temperature_unit": "celsius",
         "temperature_calibration": 0,
@@ -319,8 +319,8 @@
     },
     "0xa4c1380abb16180e": {
         "battery": 100,
-        "temperature": 19,
-        "humidity": 64,
+        "temperature": 19.1,
+        "humidity": 66,
         "temperature_unit": "celsius",
         "temperature_calibration": 0,
         "humidity_calibration": 0,
@@ -328,7 +328,7 @@
         "linkquality": 92
     },
     "0x540f57fffe9030cf": {
-        "linkquality": 88,
+        "linkquality": 92,
         "state": "OFF",
         "last_seen": "2026-10-19T11:38:29.442Z"
     },
@@ -370,8 +370,8 @@
     },
     "0xa4c1385cd3754dca": {
         "battery": 90,
-        "temperature": 10.2,
-        "humidity": 69,
+        "temperature": 10.4,
+        "humidity": 70,
         "temperature_unit": "celsius",
         "temperature_calibration": 0,
         "humidity_calibration": 0,

@@ -149,41 +149,15 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
-  "1bd4a9fb_victoria_metrics": {
+  "45df7312_zigbee2mqtt": {
     "component_name": "app",
-    "icon": "mdi:puzzle",
-    "title": "VictoriaMetrics",
+    "icon": "mdi:zigbee",
+    "title": "Zigbee2MQTT",
     "default_visible": true,
     "config": {
-      "addon": "1bd4a9fb_victoria_metrics"
+      "addon": "45df7312_zigbee2mqtt"
     },
-    "url_path": "1bd4a9fb_victoria_metrics",
-    "require_admin": true,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
-  "core_ssh": {
-    "component_name": "app",
-    "icon": "mdi:console",
-    "title": "Terminal",
-    "default_visible": true,
-    "config": {
-      "addon": "core_ssh"
-    },
-    "url_path": "core_ssh",
-    "require_admin": true,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
-  "a0d7b954_grafana": {
-    "component_name": "app",
-    "icon": "mdi:chart-timeline",
-    "title": "Grafana",
-    "default_visible": true,
-    "config": {
-      "addon": "a0d7b954_grafana"
-    },
-    "url_path": "a0d7b954_grafana",
+    "url_path": "45df7312_zigbee2mqtt",
     "require_admin": true,
     "config_panel_domain": null,
     "show_in_sidebar": true
@@ -201,15 +175,41 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
-  "45df7312_zigbee2mqtt": {
+  "core_ssh": {
     "component_name": "app",
-    "icon": "mdi:zigbee",
-    "title": "Zigbee2MQTT",
+    "icon": "mdi:console",
+    "title": "Terminal",
     "default_visible": true,
     "config": {
-      "addon": "45df7312_zigbee2mqtt"
+      "addon": "core_ssh"
     },
-    "url_path": "45df7312_zigbee2mqtt",
+    "url_path": "core_ssh",
+    "require_admin": true,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
+  "1bd4a9fb_victoria_metrics": {
+    "component_name": "app",
+    "icon": "mdi:puzzle",
+    "title": "VictoriaMetrics",
+    "default_visible": true,
+    "config": {
+      "addon": "1bd4a9fb_victoria_metrics"
+    },
+    "url_path": "1bd4a9fb_victoria_metrics",
+    "require_admin": true,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
+  "a0d7b954_grafana": {
+    "component_name": "app",
+    "icon": "mdi:chart-timeline",
+    "title": "Grafana",
+    "default_visible": true,
+    "config": {
+      "addon": "a0d7b954_grafana"
+    },
+    "url_path": "a0d7b954_grafana",
     "require_admin": true,
     "config_panel_domain": null,
     "show_in_sidebar": true
@@ -225,17 +225,6 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
-  "logbook": {
-    "component_name": "logbook",
-    "icon": "mdi:format-list-bulleted-type",
-    "title": "logbook",
-    "default_visible": true,
-    "config": null,
-    "url_path": "logbook",
-    "require_admin": false,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
   "history": {
     "component_name": "history",
     "icon": "mdi:chart-box",
@@ -243,6 +232,17 @@
     "default_visible": true,
     "config": null,
     "url_path": "history",
+    "require_admin": false,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
+  "logbook": {
+    "component_name": "logbook",
+    "icon": "mdi:format-list-bulleted-type",
+    "title": "logbook",
+    "default_visible": true,
+    "config": null,
+    "url_path": "logbook",
     "require_admin": false,
     "config_panel_domain": null,
     "show_in_sidebar": true
