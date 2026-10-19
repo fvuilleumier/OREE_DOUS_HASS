@@ -702,18 +702,18 @@
       "next_noon": "2026-10-20T11:17:12\u002B00:00",
       "next_rising": "2026-10-20T05:53:30.776155\u002B00:00",
       "next_setting": "2026-10-19T16:41:47.275977\u002B00:00",
-      "elevation": 28.34,
-      "azimuth": 209.38,
+      "elevation": 27.65,
+      "azimuth": 211.47,
       "rising": false,
       "friendly_name": "Sun"
     },
     "context": {
-      "id": "01M5A4176ENTY2ZDX8BZSQB4NE",
+      "id": "01M5A4FVYF3KK60B0F4RR7230B",
       "parent_id": null,
       "user_id": null
     },
     "last_changed": "2026-10-19T05:56:05.260Z",
-    "last_updated": "2026-10-19T13:01:23.022Z"
+    "last_updated": "2026-10-19T13:09:23.023Z"
   },
   "sensor.sun_next_dawn": {
     "entity_id": "sensor.sun_next_dawn",
@@ -849,7 +849,7 @@
   },
   "sensor.ups_input_voltage": {
     "entity_id": "sensor.ups_input_voltage",
-    "state": "243.0",
+    "state": "248.0",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "V",
@@ -857,12 +857,12 @@
       "friendly_name": "Ups Input voltage"
     },
     "context": {
-      "id": "01M5A411VJ5VZ93GVGX2DF6DSM",
+      "id": "01M5A4DW0H1NGT0MNYMSWSZBKK",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:17.554Z",
-    "last_updated": "2026-10-19T13:01:17.554Z"
+    "last_changed": "2026-10-19T13:08:17.553Z",
+    "last_updated": "2026-10-19T13:08:17.553Z"
   },
   "sensor.ups_load": {
     "entity_id": "sensor.ups_load",
@@ -873,49 +873,49 @@
       "friendly_name": "Ups Load"
     },
     "context": {
-      "id": "01M5A411VJHCC5HWHWAD8VVYH8",
+      "id": "01M5A4FPKHCYS5PMEBA7YF1Q8E",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:17.554Z",
-    "last_updated": "2026-10-19T13:01:17.554Z"
+    "last_changed": "2026-10-19T13:09:17.553Z",
+    "last_updated": "2026-10-19T13:09:17.553Z"
   },
   "sensor.ups_status_data": {
     "entity_id": "sensor.ups_status_data",
-    "state": "OL",
+    "state": "OL CHRG",
     "attributes": {
       "friendly_name": "Ups Status data"
     },
     "context": {
-      "id": "01M5A411VJ3VCT9MPVQYGW9REA",
+      "id": "01M5A4DW0H3NY8FKZ2TQQRZMF6",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:17.554Z",
-    "last_updated": "2026-10-19T13:01:17.554Z"
+    "last_changed": "2026-10-19T13:08:17.553Z",
+    "last_updated": "2026-10-19T13:08:17.553Z"
   },
   "sensor.ups_status": {
     "entity_id": "sensor.ups_status",
-    "state": "Online",
+    "state": "Online, Battery Charging",
     "attributes": {
       "friendly_name": "Ups Status"
     },
     "context": {
-      "id": "01M5A411VJTQDYSKR92N53JTNR",
+      "id": "01M5A4DW0J1FJ5VF4GXS5H7QG5",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:17.554Z",
-    "last_updated": "2026-10-19T13:01:17.554Z"
+    "last_changed": "2026-10-19T13:08:17.554Z",
+    "last_updated": "2026-10-19T13:08:17.554Z"
   },
   "sensor.s1pm30_energy_day": {
     "entity_id": "sensor.s1pm30_energy_day",
-    "state": "0.906900000000",
+    "state": "0.914200000000",
     "attributes": {
       "state_class": "total_increasing",
       "status": "collecting",
       "last_period": "1.4187833333329",
-      "last_valid_state": "101.070033333333",
+      "last_valid_state": "101.077333333333",
       "last_reset": "2026-10-18T22:00:00.000733\u002B00:00",
       "next_reset": "2026-10-20T00:00:00\u002B02:00",
       "unit_of_measurement": "kWh",
@@ -923,12 +923,12 @@
       "friendly_name": "s1pm30_energy_day"
     },
     "context": {
-      "id": "01M5A42JPF0PMM16B9TMVG5QS3",
+      "id": "01M5A4F610WFKH94EPP3DJPCG0",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:07.567Z",
-    "last_updated": "2026-10-19T13:02:07.567Z"
+    "last_changed": "2026-10-19T13:09:00.576Z",
+    "last_updated": "2026-10-19T13:09:00.576Z"
   },
   "sensor.s1pm31_energy_day": {
     "entity_id": "sensor.s1pm31_energy_day",
@@ -1062,12 +1062,12 @@
   },
   "sensor.s1pm58_energy_day": {
     "entity_id": "sensor.s1pm58_energy_day",
-    "state": "0.12925000000000",
+    "state": "0.12991666666666",
     "attributes": {
       "state_class": "total_increasing",
       "status": "collecting",
       "last_period": "0.06851666666667",
-      "last_valid_state": "1.58821666666667",
+      "last_valid_state": "1.58888333333333",
       "last_reset": "2026-10-18T22:00:00.002449\u002B00:00",
       "next_reset": "2026-10-20T00:00:00\u002B02:00",
       "unit_of_measurement": "kWh",
@@ -1075,12 +1075,12 @@
       "friendly_name": "s1pm58_energy_day"
     },
     "context": {
-      "id": "01M5A42E1FHYK7KN3ZVQ302KTW",
+      "id": "01M5A4F68DQFEW2DPKJX8Y2T6W",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:02.799Z",
-    "last_updated": "2026-10-19T13:02:02.799Z"
+    "last_changed": "2026-10-19T13:09:00.813Z",
+    "last_updated": "2026-10-19T13:09:00.813Z"
   },
   "sensor.s1pm59_energy_day": {
     "entity_id": "sensor.s1pm59_energy_day",
@@ -1106,12 +1106,12 @@
   },
   "sensor.s1pm60_energy_day": {
     "entity_id": "sensor.s1pm60_energy_day",
-    "state": "0.07631666666666",
+    "state": "0.07695000000000",
     "attributes": {
       "state_class": "total_increasing",
       "status": "collecting",
       "last_period": "0.11846666666666",
-      "last_valid_state": "1.53323333333333",
+      "last_valid_state": "1.53386666666667",
       "last_reset": "2026-10-18T22:00:00.002878\u002B00:00",
       "next_reset": "2026-10-20T00:00:00\u002B02:00",
       "unit_of_measurement": "kWh",
@@ -1119,21 +1119,21 @@
       "friendly_name": "s1pm60_energy_day"
     },
     "context": {
-      "id": "01M5A42DPKA1WW8RTC7RSF8KVN",
+      "id": "01M5A4F7XTQZ9XKEWAP393GKYX",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:02.451Z",
-    "last_updated": "2026-10-19T13:02:02.451Z"
+    "last_changed": "2026-10-19T13:09:02.522Z",
+    "last_updated": "2026-10-19T13:09:02.522Z"
   },
   "sensor.sp1pm61_energy_day": {
     "entity_id": "sensor.sp1pm61_energy_day",
-    "state": "0.196050",
+    "state": "0.197558",
     "attributes": {
       "state_class": "total_increasing",
       "status": "collecting",
       "last_period": "0.305442",
-      "last_valid_state": "22.331513",
+      "last_valid_state": "22.333021",
       "last_reset": "2026-10-18T22:00:00.006667\u002B00:00",
       "next_reset": "2026-10-20T00:00:00\u002B02:00",
       "unit_of_measurement": "kWh",
@@ -1141,12 +1141,12 @@
       "friendly_name": "sp1pm61_energy_day"
     },
     "context": {
-      "id": "01M5A41XCAZTWFVY71RZRT6N0C",
+      "id": "01M5A4EQH6R0PEGA1AMDA8DQGE",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:45.738Z",
-    "last_updated": "2026-10-19T13:01:45.738Z"
+    "last_changed": "2026-10-19T13:08:45.734Z",
+    "last_updated": "2026-10-19T13:08:45.734Z"
   },
   "sensor.sp1pm62_energy_day": {
     "entity_id": "sensor.sp1pm62_energy_day",
@@ -1172,12 +1172,12 @@
   },
   "sensor.sp1pm63_energy_day": {
     "entity_id": "sensor.sp1pm63_energy_day",
-    "state": "0.736247",
+    "state": "0.747572",
     "attributes": {
       "state_class": "total_increasing",
       "status": "collecting",
       "last_period": "0.475803",
-      "last_valid_state": "111.202767",
+      "last_valid_state": "111.214092",
       "last_reset": "2026-10-18T22:00:00.008019\u002B00:00",
       "next_reset": "2026-10-20T00:00:00\u002B02:00",
       "unit_of_measurement": "kWh",
@@ -1185,21 +1185,21 @@
       "friendly_name": "sp1pm63_energy_day"
     },
     "context": {
-      "id": "01M5A42B9SCHKYRXFBYRRWBQ7E",
+      "id": "01M5A4F5FZC0R8S0XFAAY4Z3X9",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:59.993Z",
-    "last_updated": "2026-10-19T13:01:59.993Z"
+    "last_changed": "2026-10-19T13:09:00.031Z",
+    "last_updated": "2026-10-19T13:09:00.031Z"
   },
   "sensor.sp1pm64_energy_day": {
     "entity_id": "sensor.sp1pm64_energy_day",
-    "state": "0.233971",
+    "state": "0.233995",
     "attributes": {
       "state_class": "total_increasing",
       "status": "collecting",
       "last_period": "0.396120",
-      "last_valid_state": "47.824588",
+      "last_valid_state": "47.824612",
       "last_reset": "2026-10-18T22:00:00.003934\u002B00:00",
       "next_reset": "2026-10-20T00:00:00\u002B02:00",
       "unit_of_measurement": "kWh",
@@ -1207,12 +1207,12 @@
       "friendly_name": "sp1pm64_energy_day"
     },
     "context": {
-      "id": "01M5A42BAC202Y8S2WG9EQZDYZ",
+      "id": "01M5A4F5F3S83NYZQYWWCSMV6Y",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:00.012Z",
-    "last_updated": "2026-10-19T13:02:00.012Z"
+    "last_changed": "2026-10-19T13:09:00.003Z",
+    "last_updated": "2026-10-19T13:09:00.003Z"
   },
   "sensor.msws65_energy_day": {
     "entity_id": "sensor.msws65_energy_day",
@@ -1258,12 +1258,12 @@
   },
   "sensor.sp1pm71_energy_day": {
     "entity_id": "sensor.sp1pm71_energy_day",
-    "state": "1.021380",
+    "state": "1.024551",
     "attributes": {
       "state_class": "total_increasing",
       "status": "collecting",
       "last_period": "1.592664",
-      "last_valid_state": "6.21772",
+      "last_valid_state": "6.220891",
       "last_reset": "2026-10-18T22:00:00.001505\u002B00:00",
       "next_reset": "2026-10-20T00:00:00\u002B02:00",
       "unit_of_measurement": "kWh",
@@ -1271,12 +1271,12 @@
       "friendly_name": "sp1pm71_energy_day"
     },
     "context": {
-      "id": "01M5A42BA70VT94ZBW0RGEFM18",
+      "id": "01M5A4F5EVY4AHHRAF27JWSC3Q",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:00.007Z",
-    "last_updated": "2026-10-19T13:02:00.007Z"
+    "last_changed": "2026-10-19T13:08:59.995Z",
+    "last_updated": "2026-10-19T13:08:59.995Z"
   },
   "sensor.electricity_meter_secondary_compteur_energy_day": {
     "entity_id": "sensor.electricity_meter_secondary_compteur_energy_day",
@@ -1327,7 +1327,7 @@
   },
   "sensor.energy_grid_server_compteur_groupe_e_principal_power_consumption_server_compteur_groupe_e_principal_power_production_net_power": {
     "entity_id": "sensor.energy_grid_server_compteur_groupe_e_principal_power_consumption_server_compteur_groupe_e_principal_power_production_net_power",
-    "state": "-2116.0",
+    "state": "-1812.0",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -1335,12 +1335,12 @@
       "friendly_name": "Compteur Groupe E principal Grid Power"
     },
     "context": {
-      "id": "01M5A43H8377NW48BA39KT3DWE",
+      "id": "01M5A4FPWT3PDM064ATH33P3DY",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:38.851Z",
-    "last_updated": "2026-10-19T13:02:38.851Z"
+    "last_changed": "2026-10-19T13:09:17.850Z",
+    "last_updated": "2026-10-19T13:09:17.850Z"
   },
   "device_tracker.pixel_9_pro_xl_de_camille": {
     "entity_id": "device_tracker.pixel_9_pro_xl_de_camille",
@@ -1724,7 +1724,7 @@
   },
   "sensor.cave_power": {
     "entity_id": "sensor.cave_power",
-    "state": "4.23",
+    "state": "5.52",
     "attributes": {
       "state_class": "measurement",
       "entity_id": [
@@ -1737,12 +1737,12 @@
       "friendly_name": "cave_power"
     },
     "context": {
-      "id": "01M5A43E8W962WA6XSX1HBXWJ2",
+      "id": "01M5A4GE9N0C417TWSD3Z6N3EK",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:35.804Z",
-    "last_updated": "2026-10-19T13:02:35.804Z"
+    "last_changed": "2026-10-19T13:09:41.813Z",
+    "last_updated": "2026-10-19T13:09:41.813Z"
   },
   "sensor.cave_energy_day": {
     "entity_id": "sensor.cave_energy_day",
@@ -2469,7 +2469,7 @@
   },
   "sensor.s1pm30_power": {
     "entity_id": "sensor.s1pm30_power",
-    "state": "62.19",
+    "state": "62.07",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -2477,16 +2477,16 @@
       "friendly_name": "S1PM30 - Serveurs Power"
     },
     "context": {
-      "id": "01M5A43G00FT77MRXE7DVCASS0",
+      "id": "01M5A4G3B3XK9DT0XGAZRRFKFX",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.568Z",
-    "last_updated": "2026-10-19T13:02:37.568Z"
+    "last_changed": "2026-10-19T13:09:30.595Z",
+    "last_updated": "2026-10-19T13:09:30.595Z"
   },
   "sensor.s1pm30_energy": {
     "entity_id": "sensor.s1pm30_energy",
-    "state": "101.070033333333",
+    "state": "101.077333333333",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -2494,12 +2494,12 @@
       "friendly_name": "S1PM30 - Serveurs Energy"
     },
     "context": {
-      "id": "01M5A42JPFTJ6JVV02ME2A9ST0",
+      "id": "01M5A4F61058M9J750AW66PTV0",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:07.567Z",
-    "last_updated": "2026-10-19T13:02:07.567Z"
+    "last_changed": "2026-10-19T13:09:00.576Z",
+    "last_updated": "2026-10-19T13:09:00.576Z"
   },
   "switch.s1pm30": {
     "entity_id": "switch.s1pm30",
@@ -2563,7 +2563,7 @@
   },
   "sensor.s1pm60_power": {
     "entity_id": "sensor.s1pm60_power",
-    "state": "5.42",
+    "state": "5.45",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -2571,16 +2571,16 @@
       "friendly_name": "S1PM60 - Rallong culligan power"
     },
     "context": {
-      "id": "01M5A43B04SP9MZV7FQ1BCCXTW",
+      "id": "01M5A4G57C5ANJYRE92S83V3SA",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:32.452Z",
-    "last_updated": "2026-10-19T13:02:32.452Z"
+    "last_changed": "2026-10-19T13:09:32.524Z",
+    "last_updated": "2026-10-19T13:09:32.524Z"
   },
   "sensor.s1pm60_energy": {
     "entity_id": "sensor.s1pm60_energy",
-    "state": "1.53323333333333",
+    "state": "1.53386666666667",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -2588,12 +2588,12 @@
       "friendly_name": "S1PM60 - Rallong culligan energy"
     },
     "context": {
-      "id": "01M5A42DPK40VTS8H29ZV7TJXC",
+      "id": "01M5A4F7XTD0KG4V8H0WG5G75Z",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:02.451Z",
-    "last_updated": "2026-10-19T13:02:02.451Z"
+    "last_changed": "2026-10-19T13:09:02.522Z",
+    "last_updated": "2026-10-19T13:09:02.522Z"
   },
   "switch.s1pm60": {
     "entity_id": "switch.s1pm60",
@@ -2657,7 +2657,7 @@
   },
   "sensor.s1pm58_power": {
     "entity_id": "sensor.s1pm58_power",
-    "state": "4.23",
+    "state": "5.52",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -2665,16 +2665,16 @@
       "friendly_name": "S1PM58 - mesure 1er power"
     },
     "context": {
-      "id": "01M5A43E8W3HKF6DK2PPS0JYY6",
+      "id": "01M5A4GE9N3TMTVJ8E2FDS3V6T",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:35.804Z",
-    "last_updated": "2026-10-19T13:02:35.804Z"
+    "last_changed": "2026-10-19T13:09:41.813Z",
+    "last_updated": "2026-10-19T13:09:41.813Z"
   },
   "sensor.s1pm58_energy": {
     "entity_id": "sensor.s1pm58_energy",
-    "state": "1.58821666666667",
+    "state": "1.58888333333333",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -2682,12 +2682,12 @@
       "friendly_name": "S1PM58 - Cave \u00E0 vin energy"
     },
     "context": {
-      "id": "01M5A42E1FYFNHA1FPPNWH6FXA",
+      "id": "01M5A4F68DY5VJX07F8E8C84XJ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:02.799Z",
-    "last_updated": "2026-10-19T13:02:02.799Z"
+    "last_changed": "2026-10-19T13:09:00.813Z",
+    "last_updated": "2026-10-19T13:09:00.813Z"
   },
   "switch.s1pm58": {
     "entity_id": "switch.s1pm58",
@@ -3010,7 +3010,7 @@
   },
   "sensor.sp1pm63_power": {
     "entity_id": "sensor.sp1pm63_power",
-    "state": "88.5",
+    "state": "96.1",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -3018,16 +3018,16 @@
       "friendly_name": "SP1PM63 - Mesure bureau Power"
     },
     "context": {
-      "id": "01M5A43HXQ362DJZ1QT5HSZM1J",
+      "id": "01M5A4GE0WC7RT8R94YNXVA0QN",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:39.543Z",
-    "last_updated": "2026-10-19T13:02:39.543Z"
+    "last_changed": "2026-10-19T13:09:41.532Z",
+    "last_updated": "2026-10-19T13:09:41.532Z"
   },
   "sensor.sp1pm63_energy": {
     "entity_id": "sensor.sp1pm63_energy",
-    "state": "111.202767",
+    "state": "111.214092",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -3035,12 +3035,12 @@
       "friendly_name": "SP1PM63 - Mesure bureau Energy"
     },
     "context": {
-      "id": "01M5A42B9SJ6RZW1HSF4S9D82J",
+      "id": "01M5A4F5FZAJ3SWBCP932D6NQ8",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:59.993Z",
-    "last_updated": "2026-10-19T13:01:59.993Z"
+    "last_changed": "2026-10-19T13:09:00.031Z",
+    "last_updated": "2026-10-19T13:09:00.031Z"
   },
   "switch.sp1pm63": {
     "entity_id": "switch.sp1pm63",
@@ -3320,16 +3320,16 @@
       "friendly_name": "SP1PM61 - Prise jardin Wall-e Power"
     },
     "context": {
-      "id": "01M5A41XCA39945F0P2BBZ6H4S",
+      "id": "01M5A4EQH6EMVRRP80VFKR4VT7",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:45.738Z",
-    "last_updated": "2026-10-19T13:01:45.738Z"
+    "last_changed": "2026-10-19T13:08:45.734Z",
+    "last_updated": "2026-10-19T13:08:45.734Z"
   },
   "sensor.sp1pm61_energy": {
     "entity_id": "sensor.sp1pm61_energy",
-    "state": "22.331513",
+    "state": "22.333021",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -3337,12 +3337,12 @@
       "friendly_name": "SP1PM61 - Prise jardin Wall-e Energy"
     },
     "context": {
-      "id": "01M5A41XCAPM9B62BTDJ2TVCH9",
+      "id": "01M5A4EQH6M38HJSA9BVD9HV45",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:01:45.738Z",
-    "last_updated": "2026-10-19T13:01:45.738Z"
+    "last_changed": "2026-10-19T13:08:45.734Z",
+    "last_updated": "2026-10-19T13:08:45.734Z"
   },
   "switch.sp1pm61": {
     "entity_id": "switch.sp1pm61",
@@ -3766,16 +3766,16 @@
       "friendly_name": "SP1PM64 - Cong\u00E9lateur Power"
     },
     "context": {
-      "id": "01M5A42BABP819CP5RTFSQ4JHC",
+      "id": "01M5A4F5F305WBRWJVBSWE2G1J",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:00.011Z",
-    "last_updated": "2026-10-19T13:02:00.011Z"
+    "last_changed": "2026-10-19T13:09:00.003Z",
+    "last_updated": "2026-10-19T13:09:00.003Z"
   },
   "sensor.sp1pm64_energy": {
     "entity_id": "sensor.sp1pm64_energy",
-    "state": "47.824588",
+    "state": "47.824612",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -3783,12 +3783,12 @@
       "friendly_name": "SP1PM64 - Cong\u00E9lateur Energy"
     },
     "context": {
-      "id": "01M5A42BAB9A0S9SS6CBP70RKB",
+      "id": "01M5A4F5F3A05D6B7M3QG1A0PB",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:00.011Z",
-    "last_updated": "2026-10-19T13:02:00.011Z"
+    "last_changed": "2026-10-19T13:09:00.003Z",
+    "last_updated": "2026-10-19T13:09:00.003Z"
   },
   "switch.sp1pm64": {
     "entity_id": "switch.sp1pm64",
@@ -3924,7 +3924,7 @@
   },
   "sensor.sp1pm71_power": {
     "entity_id": "sensor.sp1pm71_power",
-    "state": "21.6",
+    "state": "21.3",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -3932,16 +3932,16 @@
       "friendly_name": "SP1PM71 - Chaudi\u00E8re Power"
     },
     "context": {
-      "id": "01M5A43B9611RWF1151FVM03E9",
+      "id": "01M5A4GD7S34QRAYQDAVGACTYE",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:32.742Z",
-    "last_updated": "2026-10-19T13:02:32.742Z"
+    "last_changed": "2026-10-19T13:09:40.729Z",
+    "last_updated": "2026-10-19T13:09:40.729Z"
   },
   "sensor.sp1pm71_energy": {
     "entity_id": "sensor.sp1pm71_energy",
-    "state": "6.21772",
+    "state": "6.220891",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -3949,12 +3949,12 @@
       "friendly_name": "SP1PM71 - Chaudi\u00E8re Energy"
     },
     "context": {
-      "id": "01M5A42BA77M55R62M9R7WWC2S",
+      "id": "01M5A4F5EVRYJ55D4ZF4MKECFX",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:00.007Z",
-    "last_updated": "2026-10-19T13:02:00.007Z"
+    "last_changed": "2026-10-19T13:08:59.995Z",
+    "last_updated": "2026-10-19T13:08:59.995Z"
   },
   "switch.sp1pm71": {
     "entity_id": "switch.sp1pm71",
@@ -4002,16 +4002,16 @@
     "entity_id": "weather.forecast_la_maison_des_dous",
     "state": "partlycloudy",
     "attributes": {
-      "temperature": 12.2,
-      "dew_point": 9.7,
+      "temperature": 12.8,
+      "dew_point": 9.9,
       "temperature_unit": "\u00B0C",
-      "humidity": 84,
-      "cloud_coverage": 75.8,
-      "uv_index": 2.6,
-      "pressure": 1022,
+      "humidity": 82,
+      "cloud_coverage": 50.8,
+      "uv_index": 1.9,
+      "pressure": 1021.1,
       "pressure_unit": "hPa",
-      "wind_bearing": 128.4,
-      "wind_speed": 9.4,
+      "wind_bearing": 118.4,
+      "wind_speed": 9,
       "wind_speed_unit": "km/h",
       "visibility_unit": "km",
       "precipitation_unit": "mm",
@@ -4020,12 +4020,12 @@
       "supported_features": 3
     },
     "context": {
-      "id": "01M5A0PWRQ6TANKMDDNMHJ9KFH",
+      "id": "01M5A4A85BBSQ61MPX50051BC6",
       "parent_id": null,
       "user_id": null
     },
     "last_changed": "2026-10-19T11:00:18.336Z",
-    "last_updated": "2026-10-19T12:03:18.935Z"
+    "last_updated": "2026-10-19T13:06:18.923Z"
   },
   "binary_sensor.porte_1er_battery": {
     "entity_id": "binary_sensor.porte_1er_battery",
@@ -4957,44 +4957,44 @@
       "friendly_name": "MikroTik CPU usage"
     },
     "context": {
-      "id": "01M5A43AX27WF7C11HXEZBKK07",
+      "id": "01M5A4G4FWTT6K3K24FEJST4AX",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:32.354Z",
-    "last_updated": "2026-10-19T13:02:32.354Z"
+    "last_changed": "2026-10-19T13:09:31.772Z",
+    "last_updated": "2026-10-19T13:09:31.772Z"
   },
   "sensor.mikrotik_memory_usage": {
     "entity_id": "sensor.mikrotik_memory_usage",
-    "state": "22.772216796875",
+    "state": "22.784423828125",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "%",
       "friendly_name": "MikroTik Memory usage"
     },
     "context": {
-      "id": "01M5A42Z8WDQT9ENNGJTWH8TY2",
+      "id": "01M5A47B9Y5C5MWCCEN5HXK6PC",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:20.444Z",
-    "last_updated": "2026-10-19T13:02:20.444Z"
+    "last_changed": "2026-10-19T13:04:43.838Z",
+    "last_updated": "2026-10-19T13:04:43.838Z"
   },
   "sensor.mikrotik_disk_usage": {
     "entity_id": "sensor.mikrotik_disk_usage",
-    "state": "16.5771484375",
+    "state": "16.5802001953125",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "%",
       "friendly_name": "MikroTik Disk usage"
     },
     "context": {
-      "id": "01M5A175HYGTF239BMDBTTX7D7",
+      "id": "01M5A46KSWNJNEY47VMMP9DQ9Y",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:12:12.222Z",
-    "last_updated": "2026-10-19T12:12:12.222Z"
+    "last_changed": "2026-10-19T13:04:19.772Z",
+    "last_updated": "2026-10-19T13:04:19.772Z"
   },
   "sensor.mikrotik_uptime": {
     "entity_id": "sensor.mikrotik_uptime",
@@ -5453,19 +5453,19 @@
   },
   "sensor.astroweather_la_maison_des_dous_forecast_length": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_forecast_length",
-    "state": "55",
+    "state": "54",
     "attributes": {
       "unit_of_measurement": "h",
       "icon": "mdi:map-marker-distance",
       "friendly_name": "AstroWeather La maison des Dous Forecast Length"
     },
     "context": {
-      "id": "01M5A0PB2GA9E13XTVVPRYF1J4",
+      "id": "01M5A44CJ3YRR0P9F9E7EFKSKJ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.816Z",
-    "last_updated": "2026-10-19T12:03:00.816Z"
+    "last_changed": "2026-10-19T13:03:06.819Z",
+    "last_updated": "2026-10-19T13:03:06.819Z"
   },
   "sensor.astroweather_la_maison_des_dous_location_name": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_location_name",
@@ -5547,19 +5547,19 @@
   },
   "sensor.astroweather_la_maison_des_dous_timestamp": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_timestamp",
-    "state": "2026-10-19T12:00:00\u002B00:00",
+    "state": "2026-10-19T13:00:00\u002B00:00",
     "attributes": {
       "device_class": "timestamp",
       "icon": "mdi:calendar",
       "friendly_name": "AstroWeather La maison des Dous Timestamp"
     },
     "context": {
-      "id": "01M5A0PB2HJ5GVGG9KEK1HNBKQ",
+      "id": "01M5A44CJ38A40XY71G7AW2ACP",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.819Z",
+    "last_updated": "2026-10-19T13:03:06.819Z"
   },
   "sensor.astroweather_la_maison_des_dous_cloud_cover": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_cloud_cover",
@@ -5614,7 +5614,7 @@
   },
   "sensor.astroweather_la_maison_des_dous_clouds_area_high": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_clouds_area_high",
-    "state": "22",
+    "state": "100",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "%",
@@ -5622,12 +5622,12 @@
       "friendly_name": "AstroWeather La maison des Dous Clouds Area High"
     },
     "context": {
-      "id": "01M5A0PB2HAV2W5TF8P366QMA4",
+      "id": "01M5A44CJ3Y7MN3NDFDB2N714W",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.819Z",
+    "last_updated": "2026-10-19T13:03:06.819Z"
   },
   "sensor.astroweather_la_maison_des_dous_clouds_area_medium": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_clouds_area_medium",
@@ -5665,7 +5665,7 @@
   },
   "sensor.astroweather_la_maison_des_dous_fog_area": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_fog_area",
-    "state": "2",
+    "state": "0",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "%",
@@ -5673,12 +5673,12 @@
       "friendly_name": "AstroWeather La maison des Dous Fog Area"
     },
     "context": {
-      "id": "01M5A0PB2HV5YQ5VTEWQ2R648X",
+      "id": "01M5A44CJ4C1VVASKGY0JT20MS",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_fog_2m_area": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_fog_2m_area",
@@ -5699,7 +5699,7 @@
   },
   "sensor.astroweather_la_maison_des_dous_seeing_percentage": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_seeing_percentage",
-    "state": "29",
+    "state": "28",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "%",
@@ -5707,28 +5707,28 @@
       "friendly_name": "AstroWeather La maison des Dous Seeing Percentage"
     },
     "context": {
-      "id": "01M5A0PB2HTKFW671NYKYTVE55",
+      "id": "01M5A44CJ4RNB2TX8WPCWS7KMQ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_seeing": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_seeing",
-    "state": "2.82",
+    "state": "2.84",
     "attributes": {
       "state_class": "measurement",
       "icon": "mdi:waves",
       "friendly_name": "AstroWeather La maison des Dous Seeing"
     },
     "context": {
-      "id": "01M5A0PB2H0W015QYDJMA3ZB5W",
+      "id": "01M5A44CJ4TW5DY03JBRVYTRWG",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_transparency": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_transparency",
@@ -5764,7 +5764,7 @@
   },
   "sensor.astroweather_la_maison_des_dous_lifted_index": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_lifted_index",
-    "state": "5.6",
+    "state": "5.5",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -5773,12 +5773,12 @@
       "friendly_name": "AstroWeather La maison des Dous Lifted Index"
     },
     "context": {
-      "id": "01M5A0PB2H2H06DTBDY6TYMEQJ",
+      "id": "01M5A44CJ4DA9C7CMNA3K38EVH",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_lifted_index_plain": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_lifted_index_plain",
@@ -5797,7 +5797,7 @@
   },
   "sensor.astroweather_la_maison_des_dous_2m_relative_humidity": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_2m_relative_humidity",
-    "state": "100.0",
+    "state": "97.0",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "%",
@@ -5806,12 +5806,12 @@
       "friendly_name": "AstroWeather La maison des Dous 2m Relative Humidity"
     },
     "context": {
-      "id": "01M59STEYD5YXT27R8SDSMREWA",
+      "id": "01M5A44CJ4J32EF3ZND7B2NX93",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T10:02:55.821Z",
-    "last_updated": "2026-10-19T10:02:55.821Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_calm_percentage": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_calm_percentage",
@@ -5832,22 +5832,22 @@
   },
   "sensor.astroweather_la_maison_des_dous_10m_wind_direction": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_10m_wind_direction",
-    "state": "N",
+    "state": "SW",
     "attributes": {
       "icon": "mdi:weather-windy",
       "friendly_name": "AstroWeather La maison des Dous 10m Wind Direction"
     },
     "context": {
-      "id": "01M5A0PB2H3DVD52V684BYC206",
+      "id": "01M5A44CJ46JSDGP9KVEX31FXZ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_10m_wind_speed": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_10m_wind_speed",
-    "state": "1.836",
+    "state": "1.8",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "km/h",
@@ -5856,16 +5856,16 @@
       "friendly_name": "AstroWeather La maison des Dous 10m Wind Speed"
     },
     "context": {
-      "id": "01M5A0PB2HYKMPES5H7C3BWCHD",
+      "id": "01M5A44CJ4AMCCW48YZ513YY0Q",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_2m_temperature": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_2m_temperature",
-    "state": "9.3",
+    "state": "10.3",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -5874,16 +5874,16 @@
       "friendly_name": "AstroWeather La maison des Dous 2m Temperature"
     },
     "context": {
-      "id": "01M5A0PB2H5F4RXMH9YWDNQCXB",
+      "id": "01M5A44CJ4PNA0PBEDCRNMDM3D",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_2m_dewpoint": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_2m_dewpoint",
-    "state": "9.3",
+    "state": "9.8",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -5892,12 +5892,12 @@
       "friendly_name": "AstroWeather La maison des Dous 2m Dewpoint"
     },
     "context": {
-      "id": "01M5A0PB2HNASR7Q0F89B76PSZ",
+      "id": "01M5A44CJ4YGF5R1MCX9AKXT1F",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:03:00.817Z",
-    "last_updated": "2026-10-19T12:03:00.817Z"
+    "last_changed": "2026-10-19T13:03:06.820Z",
+    "last_updated": "2026-10-19T13:03:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_precipitation_amount": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_precipitation_amount",
@@ -5936,35 +5936,35 @@
   },
   "sensor.astroweather_la_maison_des_dous_sun_altitude": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_sun_altitude",
-    "state": "28.575",
+    "state": "27.725",
     "attributes": {
       "unit_of_measurement": "\u00B0",
       "icon": "mdi:weather-sunny",
       "friendly_name": "AstroWeather La maison des Dous Sun Altitude"
     },
     "context": {
-      "id": "01M5A3V7K3WF3BKJ3G3NVNS2DV",
+      "id": "01M5A4DHH3H9PXRK179QR073YD",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.819Z",
-    "last_updated": "2026-10-19T12:58:06.819Z"
+    "last_changed": "2026-10-19T13:08:06.819Z",
+    "last_updated": "2026-10-19T13:08:06.819Z"
   },
   "sensor.astroweather_la_maison_des_dous_sun_azimuth": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_sun_azimuth",
-    "state": "208.519",
+    "state": "211.14",
     "attributes": {
       "unit_of_measurement": "\u00B0",
       "icon": "mdi:weather-sunny",
       "friendly_name": "AstroWeather La maison des Dous Sun Azimuth"
     },
     "context": {
-      "id": "01M5A3V7K3XTPBG5DZFPA5770C",
+      "id": "01M5A4DHH3YGNZXBQXFE44M6E5",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.819Z",
-    "last_updated": "2026-10-19T12:58:06.819Z"
+    "last_changed": "2026-10-19T13:08:06.819Z",
+    "last_updated": "2026-10-19T13:08:06.819Z"
   },
   "sensor.astroweather_la_maison_des_dous_sun_next_setting": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_sun_next_setting",
@@ -6174,39 +6174,39 @@
   },
   "sensor.astroweather_la_maison_des_dous_moon_altitude": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_moon_altitude",
-    "state": "-8.858",
+    "state": "-7.321",
     "attributes": {
       "unit_of_measurement": "\u00B0",
       "icon": "mdi:moon-new",
       "friendly_name": "AstroWeather La maison des Dous Moon Altitude"
     },
     "context": {
-      "id": "01M5A3V7K49PAYQC3Z1MNQKZ06",
+      "id": "01M5A4DHH43A67MGNT5SRNJP6N",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.820Z",
-    "last_updated": "2026-10-19T12:58:06.820Z"
+    "last_changed": "2026-10-19T13:08:06.820Z",
+    "last_updated": "2026-10-19T13:08:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_moon_azimuth": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_moon_azimuth",
-    "state": "112.015",
+    "state": "113.689",
     "attributes": {
       "unit_of_measurement": "\u00B0",
       "icon": "mdi:moon-new",
       "friendly_name": "AstroWeather La maison des Dous Moon Azimuth"
     },
     "context": {
-      "id": "01M5A3V7K4ZG9C915506F91YYQ",
+      "id": "01M5A4DHH409TYZ0E11WR3QQY3",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.820Z",
-    "last_updated": "2026-10-19T12:58:06.820Z"
+    "last_changed": "2026-10-19T13:08:06.820Z",
+    "last_updated": "2026-10-19T13:08:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_moon_distance": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_moon_distance",
-    "state": "401310.0",
+    "state": "401117.0",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "km",
@@ -6215,28 +6215,28 @@
       "friendly_name": "AstroWeather La maison des Dous Moon Distance"
     },
     "context": {
-      "id": "01M5A3V7K4C1C0YAFKH1FN0GWX",
+      "id": "01M5A4DHH4XFQYPSZCACRTAA6S",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.820Z",
-    "last_updated": "2026-10-19T12:58:06.820Z"
+    "last_changed": "2026-10-19T13:08:06.820Z",
+    "last_updated": "2026-10-19T13:08:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_moon_relative_distance": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_moon_relative_distance",
-    "state": "4.399",
+    "state": "4.349",
     "attributes": {
       "unit_of_measurement": "%",
       "icon": "mdi:moon-full",
       "friendly_name": "AstroWeather La maison des Dous Moon Relative Distance"
     },
     "context": {
-      "id": "01M5A3V7K4QTS9M7M4P28RMKHA",
+      "id": "01M5A4DHH425QVXK3PRC7H298N",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.820Z",
-    "last_updated": "2026-10-19T12:58:06.820Z"
+    "last_changed": "2026-10-19T13:08:06.820Z",
+    "last_updated": "2026-10-19T13:08:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_moon_angular_size": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_moon_angular_size",
@@ -6256,19 +6256,19 @@
   },
   "sensor.astroweather_la_maison_des_dous_moon_relative_size": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_moon_relative_size",
-    "state": "-4.102",
+    "state": "-4.056",
     "attributes": {
       "unit_of_measurement": "%",
       "icon": "mdi:moon-full",
       "friendly_name": "AstroWeather La maison des Dous Moon Relative Size"
     },
     "context": {
-      "id": "01M5A3V7K4RCDSPW20B532MSEA",
+      "id": "01M5A4DHH4JHNKTCZ9PM17S47C",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.820Z",
-    "last_updated": "2026-10-19T12:58:06.820Z"
+    "last_changed": "2026-10-19T13:08:06.820Z",
+    "last_updated": "2026-10-19T13:08:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_moon_constellation": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_moon_constellation",
@@ -6303,7 +6303,7 @@
   },
   "sensor.astroweather_la_maison_des_dous_astronomical_night_duration": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_astronomical_night_duration",
-    "state": "35776.290301",
+    "state": "35776.289963",
     "attributes": {
       "unit_of_measurement": "s",
       "device_class": "duration",
@@ -6311,16 +6311,16 @@
       "friendly_name": "AstroWeather La maison des Dous Astronomical Night Duration"
     },
     "context": {
-      "id": "01M5A3V7K4WKP9VBYYXBN3W9SA",
+      "id": "01M5A4DHH4F2VDK9KM1S75MJYC",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.820Z",
-    "last_updated": "2026-10-19T12:58:06.820Z"
+    "last_changed": "2026-10-19T13:08:06.820Z",
+    "last_updated": "2026-10-19T13:08:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_deep_sky_darkness": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_deep_sky_darkness",
-    "state": "18607.532202",
+    "state": "18607.532616",
     "attributes": {
       "unit_of_measurement": "s",
       "device_class": "duration",
@@ -6328,12 +6328,12 @@
       "friendly_name": "AstroWeather La maison des Dous Deep Sky Darkness"
     },
     "context": {
-      "id": "01M5A3V7K42ZCYC95XJ9XWBDCD",
+      "id": "01M5A4DHH4X5ZGM895PT86A1FY",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:06.820Z",
-    "last_updated": "2026-10-19T12:58:06.820Z"
+    "last_changed": "2026-10-19T13:08:06.820Z",
+    "last_updated": "2026-10-19T13:08:06.820Z"
   },
   "sensor.astroweather_la_maison_des_dous_deepsky_forecast_today": {
     "entity_id": "sensor.astroweather_la_maison_des_dous_deepsky_forecast_today",
@@ -6449,20 +6449,20 @@
     "entity_id": "weather.astroweather_la_maison_des_dous",
     "state": "Bad",
     "attributes": {
-      "temperature": 9.3,
+      "temperature": 10.3,
       "temperature_unit": "\u00B0C",
-      "humidity": 100,
+      "humidity": 97,
       "pressure_unit": "hPa",
-      "wind_bearing": "N",
-      "wind_speed": 0.51,
+      "wind_bearing": "SW",
+      "wind_speed": 0.5,
       "wind_speed_unit": "km/h",
       "visibility_unit": "km",
       "precipitation_unit": "mm",
       "attribution": "Powered by Met.no and Open-Meteo",
-      "datetime": "2026-10-19T12:00:00\u002B00:00",
+      "datetime": "2026-10-19T13:00:00\u002B00:00",
       "location_name": "La maison des Dous",
-      "night_duration_astronomical": 35776.290301,
-      "cloud_area_fraction_high": 22,
+      "night_duration_astronomical": 35776.289963,
+      "cloud_area_fraction_high": 100,
       "cloud_area_fraction_low": 100,
       "cloud_area_fraction_medium": 0,
       "cloud_area_fraction": 100,
@@ -6470,7 +6470,7 @@
       "cloudless_percentage": 0,
       "condition_plain": "Bad",
       "condition_percentage": 0,
-      "deep_sky_darkness": 18607.532202,
+      "deep_sky_darkness": 18607.532616,
       "deepsky_forecast_today_dayname": "Monday",
       "deepsky_forecast_today_desc": "Partlycloudy night",
       "deepsky_forecast_today_precipitation_amount6": 0,
@@ -6479,26 +6479,26 @@
       "deepsky_forecast_tomorrow_desc": "Lightrain",
       "deepsky_forecast_tomorrow_precipitation_amount6": 0.8,
       "deepsky_forecast_tomorrow_plain": "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581",
-      "fog_area_fraction": 2,
+      "fog_area_fraction": 0,
       "fog2m_area_fraction": 0,
-      "dewpoint": 9.3,
-      "lifted_index": 5.6,
-      "moon_next_full_moon": "2026-10-26T04:11:44.549796\u002B00:00",
-      "moon_next_new_moon": "2026-11-09T07:02:03.113021\u002B00:00",
-      "moon_next_rising": "2026-10-19T13:51:59.009779\u002B00:00",
-      "moon_next_setting": "2026-10-19T23:05:31.836162\u002B00:00",
+      "dewpoint": 9.8,
+      "lifted_index": 5.5,
+      "moon_next_full_moon": "2026-10-26T04:11:44.549819\u002B00:00",
+      "moon_next_new_moon": "2026-11-09T07:02:03.113036\u002B00:00",
+      "moon_next_rising": "2026-10-19T13:51:59.012889\u002B00:00",
+      "moon_next_setting": "2026-10-19T23:05:31.836268\u002B00:00",
       "moon_phase": 58.4,
       "moon_icon": "moon-waxing-gibbous",
       "moon_next_dark_night": "2026-11-05T17:54:15.540209\u002B00:00",
       "precipitation_amount": 0,
-      "seeing_percentage": 29,
-      "seeing": 2.82,
-      "sun_next_rising_astro": "2026-10-20T04:15:39.368364\u002B00:00",
-      "sun_next_rising_nautical": "2026-10-20T04:50:56.826711\u002B00:00",
-      "sun_next_rising": "2026-10-20T05:26:23.993583\u002B00:00",
-      "sun_next_setting_astro": "2026-10-19T18:19:23.078063\u002B00:00",
-      "sun_next_setting_nautical": "2026-10-19T17:44:09.958106\u002B00:00",
-      "sun_next_setting": "2026-10-19T17:08:48.245623\u002B00:00",
+      "seeing_percentage": 28,
+      "seeing": 2.84,
+      "sun_next_rising_astro": "2026-10-20T04:15:39.368884\u002B00:00",
+      "sun_next_rising_nautical": "2026-10-20T04:50:56.827224\u002B00:00",
+      "sun_next_rising": "2026-10-20T05:26:23.994119\u002B00:00",
+      "sun_next_setting_astro": "2026-10-19T18:19:23.078921\u002B00:00",
+      "sun_next_setting_nautical": "2026-10-19T17:44:09.958961\u002B00:00",
+      "sun_next_setting": "2026-10-19T17:08:48.246513\u002B00:00",
       "time_shift": 7200,
       "transparency_percentage": 0,
       "transparency": 1,
@@ -6508,12 +6508,12 @@
       "supported_features": 2
     },
     "context": {
-      "id": "01M5A3V7K58EABNS995CSJ3QG3",
+      "id": "01M5A4DHH50RBTE8D80ABJ9VP9",
       "parent_id": null,
       "user_id": null
     },
     "last_changed": "2026-10-18T07:42:18.869Z",
-    "last_updated": "2026-10-19T12:58:06.821Z"
+    "last_updated": "2026-10-19T13:08:06.821Z"
   },
   "sensor.energy_production_today": {
     "entity_id": "sensor.energy_production_today",
@@ -11613,7 +11613,7 @@
   },
   "sensor.zg_227z_17_galetas_temperature": {
     "entity_id": "sensor.zg_227z_17_galetas_temperature",
-    "state": "13.4",
+    "state": "13.6",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -11621,12 +11621,12 @@
       "friendly_name": "ZG-227Z-17 - Galetas Temperature"
     },
     "context": {
-      "id": "01M5A1RNVZGJ1FW4M5DC28D173",
+      "id": "01M5A4BK980FTFSVB5JDEW6BRN",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:21:45.983Z",
-    "last_updated": "2026-10-19T12:21:45.983Z"
+    "last_changed": "2026-10-19T13:07:03.080Z",
+    "last_updated": "2026-10-19T13:07:03.080Z"
   },
   "sensor.zg_227z_17_galetas_humidity": {
     "entity_id": "sensor.zg_227z_17_galetas_humidity",
@@ -11885,7 +11885,7 @@
   },
   "sensor.zg_227z_21_temperature": {
     "entity_id": "sensor.zg_227z_21_temperature",
-    "state": "10.2",
+    "state": "10.4",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -11893,16 +11893,16 @@
       "friendly_name": "ZG-227Z-21 - Garages Temperature"
     },
     "context": {
-      "id": "01M5A3BXSVTR1WF7W2T3EJS467",
+      "id": "01M5A4EXQ5151FZMJGC3YN4Q7J",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:49:45.275Z",
-    "last_updated": "2026-10-19T12:49:45.275Z"
+    "last_changed": "2026-10-19T13:08:52.069Z",
+    "last_updated": "2026-10-19T13:08:52.069Z"
   },
   "sensor.zg_227z_21_humidity": {
     "entity_id": "sensor.zg_227z_21_humidity",
-    "state": "69",
+    "state": "70",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "%",
@@ -11910,12 +11910,12 @@
       "friendly_name": "ZG-227Z-21 - Garages Humidity"
     },
     "context": {
-      "id": "01M5A3BY02FGMBMNXBABKJR5N0",
+      "id": "01M5A4EXXCZ0Q2A5AWM5TZYHPT",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:49:45.474Z",
-    "last_updated": "2026-10-19T12:49:45.474Z"
+    "last_changed": "2026-10-19T13:08:52.268Z",
+    "last_updated": "2026-10-19T13:08:52.268Z"
   },
   "sensor.zg_227z_21_battery": {
     "entity_id": "sensor.zg_227z_21_battery",
@@ -11987,7 +11987,7 @@
   },
   "sensor.zg_227z_23_temperature": {
     "entity_id": "sensor.zg_227z_23_temperature",
-    "state": "17.1",
+    "state": "17",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -11995,12 +11995,12 @@
       "friendly_name": "ZG-227Z-23 - Toilettes 1er Temperature"
     },
     "context": {
-      "id": "01M59TQH132PJKPRPM9RDM8SGH",
+      "id": "01M5A4561CJZ1VZ3TBSBSGPX7P",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T10:18:48.227Z",
-    "last_updated": "2026-10-19T10:18:48.227Z"
+    "last_changed": "2026-10-19T13:03:32.908Z",
+    "last_updated": "2026-10-19T13:03:32.908Z"
   },
   "sensor.zg_227z_23_humidity": {
     "entity_id": "sensor.zg_227z_23_humidity",
@@ -16678,7 +16678,7 @@
   },
   "sensor.slzb_06m_zigbee_chip_temp": {
     "entity_id": "sensor.slzb_06m_zigbee_chip_temp",
-    "state": "38.03",
+    "state": "38.01",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -16686,12 +16686,12 @@
       "friendly_name": "SLZB-06M Zigbee chip temp"
     },
     "context": {
-      "id": "01M5A3TTQBRV60ZS2Z8HDSV217",
+      "id": "01M5A4D4NBT3V5JMK05KYFEND7",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:57:53.643Z",
-    "last_updated": "2026-10-19T12:57:53.643Z"
+    "last_changed": "2026-10-19T13:07:53.643Z",
+    "last_updated": "2026-10-19T13:07:53.643Z"
   },
   "switch.slzb_06m_disable_leds": {
     "entity_id": "switch.slzb_06m_disable_leds",
@@ -17908,7 +17908,7 @@
   },
   "sensor.slzb_06m_r_zigbee_chip_temp": {
     "entity_id": "sensor.slzb_06m_r_zigbee_chip_temp",
-    "state": "54.08",
+    "state": "54.44",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -17916,12 +17916,12 @@
       "friendly_name": "SLZB-06M-R Zigbee chip temp"
     },
     "context": {
-      "id": "01M5A3TRTHF11NK7VSSCAFFSE1",
+      "id": "01M5A4D2RK3VVTFKWQM9A4DXYK",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:57:51.697Z",
-    "last_updated": "2026-10-19T12:57:51.697Z"
+    "last_changed": "2026-10-19T13:07:51.699Z",
+    "last_updated": "2026-10-19T13:07:51.699Z"
   },
   "sensor.slzb_06m_r_zigbee_type": {
     "entity_id": "sensor.slzb_06m_r_zigbee_type",
@@ -18097,7 +18097,7 @@
   },
   "select.onduleur_des_dous_battery_charging_usage_mode": {
     "entity_id": "select.onduleur_des_dous_battery_charging_usage_mode",
-    "state": "None",
+    "state": "unavailable",
     "attributes": {
       "options": [
         "None",
@@ -18107,12 +18107,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charging / Usage mode"
     },
     "context": {
-      "id": "01M5A40AVFGD16R7FVEJCDAKMM",
+      "id": "01M5A4FY6RJKXZX9YATT53PR78",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:53.999Z",
-    "last_updated": "2026-10-19T13:00:53.999Z"
+    "last_changed": "2026-10-19T13:09:25.336Z",
+    "last_updated": "2026-10-19T13:09:25.336Z"
   },
   "sensor.onduleur_des_dous_inverter_state": {
     "entity_id": "sensor.onduleur_des_dous_inverter_state",
@@ -18122,16 +18122,16 @@
       "friendly_name": "Onduleur-des-Dous Inverter State"
     },
     "context": {
-      "id": "01M5A3FE2KQXGDYA9F33W9VZ9F",
+      "id": "01M5A4DYJWF6NJHQ3YVJ7C5FKR",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.243Z",
-    "last_updated": "2026-10-19T12:51:40.243Z"
+    "last_changed": "2026-10-19T13:08:20.188Z",
+    "last_updated": "2026-10-19T13:08:20.188Z"
   },
   "sensor.onduleur_des_dous_solar_power": {
     "entity_id": "sensor.onduleur_des_dous_solar_power",
-    "state": "2619",
+    "state": "2329",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -18139,16 +18139,16 @@
       "friendly_name": "Onduleur-des-Dous Solar Power"
     },
     "context": {
-      "id": "01M5A43G9M2FAJS3PHRJB3WXF1",
+      "id": "01M5A4G6JZT4NCPM00E4CF0HY5",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.876Z",
-    "last_updated": "2026-10-19T13:02:37.876Z"
+    "last_changed": "2026-10-19T13:09:33.919Z",
+    "last_updated": "2026-10-19T13:09:33.919Z"
   },
   "sensor.onduleur_des_dous_grid_power": {
     "entity_id": "sensor.onduleur_des_dous_grid_power",
-    "state": "-2493",
+    "state": "-2206",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -18156,12 +18156,12 @@
       "friendly_name": "Onduleur-des-Dous Grid Power"
     },
     "context": {
-      "id": "01M5A43G9N224TBZ6VTEX5PTCX",
+      "id": "01M5A4FWEMZTX11FGEMBFNWNAB",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.877Z",
-    "last_updated": "2026-10-19T13:02:37.877Z"
+    "last_changed": "2026-10-19T13:09:23.540Z",
+    "last_updated": "2026-10-19T13:09:23.540Z"
   },
   "sensor.onduleur_des_dous_home_power_from_battery": {
     "entity_id": "sensor.onduleur_des_dous_home_power_from_battery",
@@ -18173,12 +18173,12 @@
       "friendly_name": "Onduleur-des-Dous Home Power from Battery"
     },
     "context": {
-      "id": "01M5A3FE2M0QA2GJ3QV0J91HYZ",
+      "id": "01M5A4DYJXE6129BY0Y610EBMN",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.189Z",
+    "last_updated": "2026-10-19T13:08:20.189Z"
   },
   "sensor.onduleur_des_dous_home_power_from_grid": {
     "entity_id": "sensor.onduleur_des_dous_home_power_from_grid",
@@ -18190,12 +18190,12 @@
       "friendly_name": "Onduleur-des-Dous Home Power from Grid"
     },
     "context": {
-      "id": "01M5A3FE2MQM8DC3JJ74F31R5Q",
+      "id": "01M5A4DYJX9WR9CB4PE242A2NH",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.189Z",
+    "last_updated": "2026-10-19T13:08:20.189Z"
   },
   "sensor.onduleur_des_dous_home_power_from_own": {
     "entity_id": "sensor.onduleur_des_dous_home_power_from_own",
@@ -18207,12 +18207,12 @@
       "friendly_name": "Onduleur-des-Dous Home Power from Own"
     },
     "context": {
-      "id": "01M5A3FE2MD769S8GZ88VN73X2",
+      "id": "01M5A4DYJXNRBD7TC2THZJH23G",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.189Z",
+    "last_updated": "2026-10-19T13:08:20.189Z"
   },
   "sensor.onduleur_des_dous_home_power_from_pv": {
     "entity_id": "sensor.onduleur_des_dous_home_power_from_pv",
@@ -18224,12 +18224,12 @@
       "friendly_name": "Onduleur-des-Dous Home Power from PV"
     },
     "context": {
-      "id": "01M5A3FE2M7ATK3PS8Y7H82P8V",
+      "id": "01M5A4DYJXRAXK8MV40E4MV0MF",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.189Z",
+    "last_updated": "2026-10-19T13:08:20.189Z"
   },
   "sensor.onduleur_des_dous_home_power": {
     "entity_id": "sensor.onduleur_des_dous_home_power",
@@ -18241,16 +18241,16 @@
       "friendly_name": "Onduleur-des-Dous Home Power"
     },
     "context": {
-      "id": "01M5A3FE2MBVT08N792STYTEYT",
+      "id": "01M5A4DYJX8H3P0P0M4TJWJPJM",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.189Z",
+    "last_updated": "2026-10-19T13:08:20.189Z"
   },
   "sensor.onduleur_des_dous_ac_power": {
     "entity_id": "sensor.onduleur_des_dous_ac_power",
-    "state": "2493",
+    "state": "2206",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -18258,16 +18258,16 @@
       "friendly_name": "Onduleur-des-Dous AC Power"
     },
     "context": {
-      "id": "01M5A43G9NT6BTH68M5JM08HV8",
+      "id": "01M5A4FWEN20MRHGMKDMWHE6VZ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.877Z",
-    "last_updated": "2026-10-19T13:02:37.877Z"
+    "last_changed": "2026-10-19T13:09:23.541Z",
+    "last_updated": "2026-10-19T13:09:23.541Z"
   },
   "sensor.onduleur_des_dous_dc1_power": {
     "entity_id": "sensor.onduleur_des_dous_dc1_power",
-    "state": "1301",
+    "state": "1157",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -18275,16 +18275,16 @@
       "friendly_name": "Onduleur-des-Dous DC1 Power"
     },
     "context": {
-      "id": "01M5A43G9NG63P5C9V63QSP4FM",
+      "id": "01M5A4G6JZ03F2P1GR9ZHBJXNN",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.877Z",
-    "last_updated": "2026-10-19T13:02:37.877Z"
+    "last_changed": "2026-10-19T13:09:33.919Z",
+    "last_updated": "2026-10-19T13:09:33.919Z"
   },
   "sensor.onduleur_des_dous_dc1_voltage": {
     "entity_id": "sensor.onduleur_des_dous_dc1_voltage",
-    "state": "336",
+    "state": "339",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "V",
@@ -18292,16 +18292,16 @@
       "friendly_name": "Onduleur-des-Dous DC1 Voltage"
     },
     "context": {
-      "id": "01M5A43G9NMCFZYGRYE7TQCX6V",
+      "id": "01M5A4FWEN5FBF68KV35M3ZPHR",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.877Z",
-    "last_updated": "2026-10-19T13:02:37.877Z"
+    "last_changed": "2026-10-19T13:09:23.541Z",
+    "last_updated": "2026-10-19T13:09:23.541Z"
   },
   "sensor.onduleur_des_dous_dc1_current": {
     "entity_id": "sensor.onduleur_des_dous_dc1_current",
-    "state": "3.863",
+    "state": "3.411",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "A",
@@ -18309,16 +18309,16 @@
       "friendly_name": "Onduleur-des-Dous DC1 Current"
     },
     "context": {
-      "id": "01M5A43G9N9GQ8QBKKC7XPB856",
+      "id": "01M5A4G6K0YQDSFS9KJ99B2WV8",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.877Z",
-    "last_updated": "2026-10-19T13:02:37.877Z"
+    "last_changed": "2026-10-19T13:09:33.920Z",
+    "last_updated": "2026-10-19T13:09:33.920Z"
   },
   "sensor.onduleur_des_dous_dc2_power": {
     "entity_id": "sensor.onduleur_des_dous_dc2_power",
-    "state": "1318",
+    "state": "1172",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -18326,12 +18326,12 @@
       "friendly_name": "Onduleur-des-Dous DC2 Power"
     },
     "context": {
-      "id": "01M5A43G9NE9VZFW859ZHW7NRD",
+      "id": "01M5A4FWENDXQMPDRQ9BDQ52ZA",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.877Z",
-    "last_updated": "2026-10-19T13:02:37.877Z"
+    "last_changed": "2026-10-19T13:09:23.541Z",
+    "last_updated": "2026-10-19T13:09:23.541Z"
   },
   "sensor.onduleur_des_dous_dc2_voltage": {
     "entity_id": "sensor.onduleur_des_dous_dc2_voltage",
@@ -18343,16 +18343,16 @@
       "friendly_name": "Onduleur-des-Dous DC2 Voltage"
     },
     "context": {
-      "id": "01M5A42JZ3FXQRFATQJJHAX12D",
+      "id": "01M5A4FWENBFMDZSBD5A193KGD",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:07.843Z",
-    "last_updated": "2026-10-19T13:02:07.843Z"
+    "last_changed": "2026-10-19T13:09:23.541Z",
+    "last_updated": "2026-10-19T13:09:23.541Z"
   },
   "sensor.onduleur_des_dous_dc2_current": {
     "entity_id": "sensor.onduleur_des_dous_dc2_current",
-    "state": "3.884",
+    "state": "3.455",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "A",
@@ -18360,12 +18360,12 @@
       "friendly_name": "Onduleur-des-Dous DC2 Current"
     },
     "context": {
-      "id": "01M5A43G9NH3WWP84H598A7CCV",
+      "id": "01M5A4G6K07JZTGQ4XYNW5F0EC",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.877Z",
-    "last_updated": "2026-10-19T13:02:37.877Z"
+    "last_changed": "2026-10-19T13:09:33.920Z",
+    "last_updated": "2026-10-19T13:09:33.920Z"
   },
   "sensor.onduleur_des_dous_dc3_power": {
     "entity_id": "sensor.onduleur_des_dous_dc3_power",
@@ -18377,12 +18377,12 @@
       "friendly_name": "Onduleur-des-Dous DC3 Power"
     },
     "context": {
-      "id": "01M5A3FE2MJ8C1F0DJN6DDRK8J",
+      "id": "01M5A4DYJXXSXG5Y76HRJ04DG0",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.189Z",
+    "last_updated": "2026-10-19T13:08:20.189Z"
   },
   "sensor.onduleur_des_dous_dc3_voltage": {
     "entity_id": "sensor.onduleur_des_dous_dc3_voltage",
@@ -18394,16 +18394,16 @@
       "friendly_name": "Onduleur-des-Dous DC3 Voltage"
     },
     "context": {
-      "id": "01M5A3FE2MERM3MYARE7Q9D4DY",
+      "id": "01M5A4DYJXF07WW4N7CSV1BSJ4",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.189Z",
+    "last_updated": "2026-10-19T13:08:20.189Z"
   },
   "sensor.onduleur_des_dous_dc3_current": {
     "entity_id": "sensor.onduleur_des_dous_dc3_current",
-    "state": "0.012",
+    "state": "0.009",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "A",
@@ -18411,12 +18411,12 @@
       "friendly_name": "Onduleur-des-Dous DC3 Current"
     },
     "context": {
-      "id": "01M5A43G9NPHV2S4HX7FVAJJEE",
+      "id": "01M5A4G6K0167ESAW06PMD8DYD",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.877Z",
-    "last_updated": "2026-10-19T13:02:37.877Z"
+    "last_changed": "2026-10-19T13:09:33.920Z",
+    "last_updated": "2026-10-19T13:09:33.920Z"
   },
   "sensor.onduleur_des_dous_pv_to_battery_power": {
     "entity_id": "sensor.onduleur_des_dous_pv_to_battery_power",
@@ -18428,12 +18428,12 @@
       "friendly_name": "Onduleur-des-Dous PV to Battery Power"
     },
     "context": {
-      "id": "01M5A3FE2MJ3VXRGYNAMRED40J",
+      "id": "01M5A4DYJX7RW69X7JC0QR8FWR",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.189Z",
+    "last_updated": "2026-10-19T13:08:20.189Z"
   },
   "sensor.onduleur_des_dous_energy_manager_state": {
     "entity_id": "sensor.onduleur_des_dous_energy_manager_state",
@@ -18443,12 +18443,12 @@
       "friendly_name": "Onduleur-des-Dous Energy Manager State"
     },
     "context": {
-      "id": "01M5A3FE2MRN7KQBQFAYZWSEYZ",
+      "id": "01M5A4DYJYZVKVKRDK4S8DY939",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_autarky_day": {
     "entity_id": "sensor.onduleur_des_dous_autarky_day",
@@ -18459,12 +18459,12 @@
       "friendly_name": "Onduleur-des-Dous Autarky Day"
     },
     "context": {
-      "id": "01M5A3FE2MF7SG96QH8N9C8H6E",
+      "id": "01M5A4DYJY84F8GX13HA57RQ81",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_autarky_month": {
     "entity_id": "sensor.onduleur_des_dous_autarky_month",
@@ -18475,12 +18475,12 @@
       "friendly_name": "Onduleur-des-Dous Autarky Month"
     },
     "context": {
-      "id": "01M5A3FE2MMTXY25B3J7DNFA2H",
+      "id": "01M5A4DYJY0N0AHQ802Z64QJM3",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_autarky_total": {
     "entity_id": "sensor.onduleur_des_dous_autarky_total",
@@ -18492,12 +18492,12 @@
       "friendly_name": "Onduleur-des-Dous Autarky Total"
     },
     "context": {
-      "id": "01M5A3FE2M6RDGY9KNQRP35JHK",
+      "id": "01M5A4DYJYWMDJS8SVK1T9H4Z4",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_autarky_year": {
     "entity_id": "sensor.onduleur_des_dous_autarky_year",
@@ -18508,12 +18508,12 @@
       "friendly_name": "Onduleur-des-Dous Autarky Year"
     },
     "context": {
-      "id": "01M5A3FE2M9N2Q6XNDVFHS8FJQ",
+      "id": "01M5A4DYJY6QWSYXWTGSSHHK02",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_own_consumption_rate_day": {
     "entity_id": "sensor.onduleur_des_dous_own_consumption_rate_day",
@@ -18524,12 +18524,12 @@
       "friendly_name": "Onduleur-des-Dous Own Consumption Rate Day"
     },
     "context": {
-      "id": "01M5A3FE2MB0W1TDVDS19EYBSJ",
+      "id": "01M5A4DYJY66ENMB75RH56SD2M",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_own_consumption_rate_month": {
     "entity_id": "sensor.onduleur_des_dous_own_consumption_rate_month",
@@ -18540,12 +18540,12 @@
       "friendly_name": "Onduleur-des-Dous Own Consumption Rate Month"
     },
     "context": {
-      "id": "01M5A3FE2MAGH8DTT15W6DQ6JC",
+      "id": "01M5A4DYJYP4FD10NHMYQF7J9Z",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_own_consumption_rate_total": {
     "entity_id": "sensor.onduleur_des_dous_own_consumption_rate_total",
@@ -18557,12 +18557,12 @@
       "friendly_name": "Onduleur-des-Dous Own Consumption Rate Total"
     },
     "context": {
-      "id": "01M5A3FE2MFV9ZGQ5Z4YRZ2F33",
+      "id": "01M5A4DYJYBAQR9BGMNVG9FVA4",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_own_consumption_rate_year": {
     "entity_id": "sensor.onduleur_des_dous_own_consumption_rate_year",
@@ -18573,12 +18573,12 @@
       "friendly_name": "Onduleur-des-Dous Own Consumption Rate Year"
     },
     "context": {
-      "id": "01M5A3FE2MRJQKRMS1N4P1XPAJ",
+      "id": "01M5A4DYJY8K2QNRQBYFMFPMN9",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_day": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_day",
@@ -18590,12 +18590,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption Day"
     },
     "context": {
-      "id": "01M5A3FE2MN75KHQTFK81DAJP5",
+      "id": "01M5A4DYJYJ0Z6XC6YMKQE4KVA",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_month": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_month",
@@ -18607,12 +18607,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption Month"
     },
     "context": {
-      "id": "01M5A3FE2MGNDXH4HT80GEB61P",
+      "id": "01M5A4DYJYYJ9DKVXPFAT8Z3Z2",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_year": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_year",
@@ -18624,12 +18624,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption Year"
     },
     "context": {
-      "id": "01M5A3FE2MAT4P04AZ3KCEGSSJ",
+      "id": "01M5A4DYJYY02H6WEVX4DQ9R81",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_total": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_total",
@@ -18641,12 +18641,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption Total"
     },
     "context": {
-      "id": "01M5A3FE2MQKK4EJS31EKEJ8KZ",
+      "id": "01M5A4DYJY8CV3SE3PHQDGCDTJ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_battery_day": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_battery_day",
@@ -18658,12 +18658,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from Battery Day"
     },
     "context": {
-      "id": "01M5A3FE2MD0ZAA99BDZNM9DGN",
+      "id": "01M5A4DYJY3BGBFZ9Z3A9F47RV",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_battery_month": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_battery_month",
@@ -18675,12 +18675,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from Battery Month"
     },
     "context": {
-      "id": "01M5A3FE2MGM1PKVMWHBHWVHRB",
+      "id": "01M5A4DYJYMW0NE33DGNSKXD9G",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_battery_year": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_battery_year",
@@ -18692,12 +18692,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from Battery Year"
     },
     "context": {
-      "id": "01M5A3FE2MZ7FSQYKFWSFQC4HF",
+      "id": "01M5A4DYJY2E52J8F8DX6HVTGZ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_battery_total": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_battery_total",
@@ -18709,12 +18709,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from Battery Total"
     },
     "context": {
-      "id": "01M5A3FE2MFJADPS519BHNCJ5A",
+      "id": "01M5A4DYJYPS7YWSXZA5EYWAWZ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_grid_day": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_grid_day",
@@ -18726,12 +18726,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from Grid Day"
     },
     "context": {
-      "id": "01M5A3FE2M0T6461133108W37M",
+      "id": "01M5A4DYJYMRGSXSMZQC1R4ZJK",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_grid_month": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_grid_month",
@@ -18743,12 +18743,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from Grid Month"
     },
     "context": {
-      "id": "01M5A3FE2MQ1H43EXPCTQ5S8B2",
+      "id": "01M5A4DYJY1NN081ZY7A1RG0AH",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.244Z",
-    "last_updated": "2026-10-19T12:51:40.244Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_grid_year": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_grid_year",
@@ -18760,12 +18760,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from Grid Year"
     },
     "context": {
-      "id": "01M5A3FE2NHMRQE02W73ZRPSKJ",
+      "id": "01M5A4DYJY1B14RX8091VAD9EB",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_grid_total": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_grid_total",
@@ -18777,12 +18777,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from Grid Total"
     },
     "context": {
-      "id": "01M5A3FE2N1RXBHXZXCPN4PGE7",
+      "id": "01M5A4DYJYABVHD0ABYZYXZCW0",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_pv_day": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_pv_day",
@@ -18794,12 +18794,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from PV Day"
     },
     "context": {
-      "id": "01M5A3FE2NCW7Z4BPS606F7N43",
+      "id": "01M5A4DYJY5XSQ7W05RM6HYMEQ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_pv_month": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_pv_month",
@@ -18811,12 +18811,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from PV Month"
     },
     "context": {
-      "id": "01M5A3FE2NYQXN0CDCADGVG7TW",
+      "id": "01M5A4DYJYCJRVCW6STSQC8ZSG",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_pv_year": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_pv_year",
@@ -18828,12 +18828,12 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from PV Year"
     },
     "context": {
-      "id": "01M5A3FE2NXHVYYCV708NPY7Q2",
+      "id": "01M5A4DYJYYXDVFZ7PRCNDT1D9",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.190Z",
+    "last_updated": "2026-10-19T13:08:20.190Z"
   },
   "sensor.onduleur_des_dous_home_consumption_from_pv_total": {
     "entity_id": "sensor.onduleur_des_dous_home_consumption_from_pv_total",
@@ -18845,16 +18845,16 @@
       "friendly_name": "Onduleur-des-Dous Home Consumption from PV Total"
     },
     "context": {
-      "id": "01M5A3FE2NXKPTJZW1KGBCZ7EX",
+      "id": "01M5A4DYJZQAZ2W3HBTE2G6539",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv1_day": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv1_day",
-    "state": "3.6",
+    "state": "3.7",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -18862,16 +18862,16 @@
       "friendly_name": "Onduleur-des-Dous Energy PV1 Day"
     },
     "context": {
-      "id": "01M5A40EM5P3RDY9KKARWZDQBC",
+      "id": "01M5A4DYJZ5R14MVSBZD7K3CZZ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv1_month": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv1_month",
-    "state": "196.3",
+    "state": "196.4",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -18879,16 +18879,16 @@
       "friendly_name": "Onduleur-des-Dous Energy PV1 Month"
     },
     "context": {
-      "id": "01M5A40EM59QNDSSK2TA0T89ZK",
+      "id": "01M5A4DYJZH8NBMPJ105097QBF",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv1_year": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv1_year",
-    "state": "4802.4",
+    "state": "4802.5",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -18896,16 +18896,16 @@
       "friendly_name": "Onduleur-des-Dous Energy PV1 Year"
     },
     "context": {
-      "id": "01M5A40EM5ZV11CEQE7HCFRJ8V",
+      "id": "01M5A4DYJZC0DJ7FH7VKXA5T7E",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv1_total": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv1_total",
-    "state": "20093.6",
+    "state": "20093.8",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -18913,16 +18913,16 @@
       "friendly_name": "Onduleur-des-Dous Energy PV1 Total"
     },
     "context": {
-      "id": "01M5A40EM5KR19RNP1MFWW0JQZ",
+      "id": "01M5A4DYJZE48XDQPDART0V3EQ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv2_day": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv2_day",
-    "state": "3.6",
+    "state": "3.8",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -18930,16 +18930,16 @@
       "friendly_name": "Onduleur-des-Dous Energy PV2 Day"
     },
     "context": {
-      "id": "01M5A40EM55VPQA703819XVPCE",
+      "id": "01M5A4DYJZDAWJF0EGG2AN458V",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv2_month": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv2_month",
-    "state": "196.9",
+    "state": "197.0",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -18947,16 +18947,16 @@
       "friendly_name": "Onduleur-des-Dous Energy PV2 Month"
     },
     "context": {
-      "id": "01M5A40EM5RPTZ8XYR738P4B4S",
+      "id": "01M5A4DYJZPV6NBTVFQP1WRHPJ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv2_year": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv2_year",
-    "state": "4909.6",
+    "state": "4909.8",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -18964,16 +18964,16 @@
       "friendly_name": "Onduleur-des-Dous Energy PV2 Year"
     },
     "context": {
-      "id": "01M5A40EM5AD0R2BG41BTJ9ABB",
+      "id": "01M5A4DYJZCFY58JRZWEN8JMYG",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv2_total": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv2_total",
-    "state": "19952.6",
+    "state": "19952.7",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -18981,12 +18981,12 @@
       "friendly_name": "Onduleur-des-Dous Energy PV2 Total"
     },
     "context": {
-      "id": "01M5A40EM50HMHSZ6X6K22XK40",
+      "id": "01M5A4DYJZ7B8VM80MZYGYYHR6",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv3_day": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv3_day",
@@ -18998,12 +18998,12 @@
       "friendly_name": "Onduleur-des-Dous Energy PV3 Day"
     },
     "context": {
-      "id": "01M5A3FE2N57CZW5K0SH8CNKHZ",
+      "id": "01M5A4DYJZ3E5ZNJ240MF5FZQK",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv3_month": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv3_month",
@@ -19015,12 +19015,12 @@
       "friendly_name": "Onduleur-des-Dous Energy PV3 Month"
     },
     "context": {
-      "id": "01M5A3FE2NSG6MP5BSCC9AN3HX",
+      "id": "01M5A4DYJZ57F8THMEQXKPJH8S",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv3_year": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv3_year",
@@ -19032,12 +19032,12 @@
       "friendly_name": "Onduleur-des-Dous Energy PV3 Year"
     },
     "context": {
-      "id": "01M5A3FE2NV92NGMX6K9AB3B68",
+      "id": "01M5A4DYJZGJ71PJ0A1BAJVGMW",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_pv3_total": {
     "entity_id": "sensor.onduleur_des_dous_energy_pv3_total",
@@ -19049,16 +19049,16 @@
       "friendly_name": "Onduleur-des-Dous Energy PV3 Total"
     },
     "context": {
-      "id": "01M5A3FE2NDZPJSDCRNMFANV92",
+      "id": "01M5A4DYJZCQHVX21EYM13HWJ6",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_yield_day": {
     "entity_id": "sensor.onduleur_des_dous_energy_yield_day",
-    "state": "6.6",
+    "state": "6.8",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19066,16 +19066,16 @@
       "friendly_name": "Onduleur-des-Dous Energy Yield Day"
     },
     "context": {
-      "id": "01M5A40EM5TGW2WS5G1JDKTBMM",
+      "id": "01M5A4DYJZ856M7Y0E5EZ2RBQN",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_yield_month": {
     "entity_id": "sensor.onduleur_des_dous_energy_yield_month",
-    "state": "370.0",
+    "state": "370.2",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19083,16 +19083,16 @@
       "friendly_name": "Onduleur-des-Dous Energy Yield Month"
     },
     "context": {
-      "id": "01M5A40EM594XHT0RM9F7F3KW6",
+      "id": "01M5A4DYJZ20HJWKT2DB9VMPGC",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_yield_year": {
     "entity_id": "sensor.onduleur_des_dous_energy_yield_year",
-    "state": "9224.3",
+    "state": "9224.5",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19100,16 +19100,16 @@
       "friendly_name": "Onduleur-des-Dous Energy Yield Year"
     },
     "context": {
-      "id": "01M5A40EM5Z2T4M98PHM97BX56",
+      "id": "01M5A4DYJZSJBZEV2CS21ZYYR3",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_energy_yield_total": {
     "entity_id": "sensor.onduleur_des_dous_energy_yield_total",
-    "state": "38079.7",
+    "state": "38079.9",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19117,12 +19117,12 @@
       "friendly_name": "Onduleur-des-Dous Energy Yield Total"
     },
     "context": {
-      "id": "01M5A40EM5FSM377QYRXAFV48A",
+      "id": "01M5A4DYJZ4FVETAZ75B9PP1SZ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.861Z",
-    "last_updated": "2026-10-19T13:00:57.861Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_charge_from_grid_day": {
     "entity_id": "sensor.onduleur_des_dous_battery_charge_from_grid_day",
@@ -19134,12 +19134,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charge from Grid Day"
     },
     "context": {
-      "id": "01M5A3FE2NM8S12WKF1TQG977G",
+      "id": "01M5A4DYJZ7JZEZ91KCR76Z8NV",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_charge_from_grid_month": {
     "entity_id": "sensor.onduleur_des_dous_battery_charge_from_grid_month",
@@ -19151,12 +19151,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charge from Grid Month"
     },
     "context": {
-      "id": "01M5A3FE2N2X5V6H9WB8QFKRST",
+      "id": "01M5A4DYJZXCP3KTYVKX7J4E37",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_charge_from_grid_year": {
     "entity_id": "sensor.onduleur_des_dous_battery_charge_from_grid_year",
@@ -19168,12 +19168,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charge from Grid Year"
     },
     "context": {
-      "id": "01M5A3FE2N73AQJ1KHKK1NCTQD",
+      "id": "01M5A4DYJZH8GRT3RR80NKVJM4",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_charge_from_grid_total": {
     "entity_id": "sensor.onduleur_des_dous_battery_charge_from_grid_total",
@@ -19185,12 +19185,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charge from Grid Total"
     },
     "context": {
-      "id": "01M5A3FE2N9G8K1125JPA1YCWY",
+      "id": "01M5A4DYJZ5TXK1GDEECH2XAT7",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_charge_from_pv_day": {
     "entity_id": "sensor.onduleur_des_dous_battery_charge_from_pv_day",
@@ -19202,12 +19202,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charge from PV Day"
     },
     "context": {
-      "id": "01M5A3FE2N47T7256CHTYKWJKT",
+      "id": "01M5A4DYJZPTX8Q7KV6WQEYVP5",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_charge_from_pv_month": {
     "entity_id": "sensor.onduleur_des_dous_battery_charge_from_pv_month",
@@ -19219,12 +19219,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charge from PV Month"
     },
     "context": {
-      "id": "01M5A3FE2NVEP0WCSB4N4SR0K9",
+      "id": "01M5A4DYJZZ0FFF1VXBJETBRCW",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_charge_from_pv_year": {
     "entity_id": "sensor.onduleur_des_dous_battery_charge_from_pv_year",
@@ -19236,12 +19236,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charge from PV Year"
     },
     "context": {
-      "id": "01M5A3FE2NRD3WHT7QY9G19C6G",
+      "id": "01M5A4DYJZG6YJA0NYZX2KCCWC",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_charge_from_pv_total": {
     "entity_id": "sensor.onduleur_des_dous_battery_charge_from_pv_total",
@@ -19253,12 +19253,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Charge from PV Total"
     },
     "context": {
-      "id": "01M5A3FE2N3YZQ1R88C8N1FJZV",
+      "id": "01M5A4DYJZYZY5ZHMF7QQGXBZJ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_discharge_day": {
     "entity_id": "sensor.onduleur_des_dous_battery_discharge_day",
@@ -19270,12 +19270,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Discharge Day"
     },
     "context": {
-      "id": "01M5A3FE2N42QW2DT087ZNBEQ4",
+      "id": "01M5A4DYJZ74153YZWN0WEWWC8",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.191Z",
+    "last_updated": "2026-10-19T13:08:20.191Z"
   },
   "sensor.onduleur_des_dous_battery_discharge_month": {
     "entity_id": "sensor.onduleur_des_dous_battery_discharge_month",
@@ -19287,12 +19287,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Discharge Month"
     },
     "context": {
-      "id": "01M5A3FE2NBER96BFDJTXKKDD4",
+      "id": "01M5A4DYK0Q19M63D5349BCC2Z",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.192Z",
+    "last_updated": "2026-10-19T13:08:20.192Z"
   },
   "sensor.onduleur_des_dous_battery_discharge_year": {
     "entity_id": "sensor.onduleur_des_dous_battery_discharge_year",
@@ -19304,12 +19304,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Discharge Year"
     },
     "context": {
-      "id": "01M5A3FE2N6DJ29XD4J3TYA6FV",
+      "id": "01M5A4DYK0NY4C7MHBGJAJYW7M",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.192Z",
+    "last_updated": "2026-10-19T13:08:20.192Z"
   },
   "sensor.onduleur_des_dous_battery_discharge_total": {
     "entity_id": "sensor.onduleur_des_dous_battery_discharge_total",
@@ -19321,12 +19321,12 @@
       "friendly_name": "Onduleur-des-Dous Battery Discharge Total"
     },
     "context": {
-      "id": "01M5A3FE2NN1AR4B0R38V0NV61",
+      "id": "01M5A4DYK0J4YQF2TRHP7CSB0Y",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.192Z",
+    "last_updated": "2026-10-19T13:08:20.192Z"
   },
   "sensor.onduleur_des_dous_energy_discharge_to_grid_day": {
     "entity_id": "sensor.onduleur_des_dous_energy_discharge_to_grid_day",
@@ -19338,12 +19338,12 @@
       "friendly_name": "Onduleur-des-Dous Energy Discharge to Grid Day"
     },
     "context": {
-      "id": "01M5A3FE2N5N4SNHCDN8KB8H7K",
+      "id": "01M5A4DYK08JY8TK157DRZ8G4A",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.245Z",
-    "last_updated": "2026-10-19T12:51:40.245Z"
+    "last_changed": "2026-10-19T13:08:20.192Z",
+    "last_updated": "2026-10-19T13:08:20.192Z"
   },
   "sensor.onduleur_des_dous_energy_discharge_to_grid_month": {
     "entity_id": "sensor.onduleur_des_dous_energy_discharge_to_grid_month",
@@ -19355,12 +19355,12 @@
       "friendly_name": "Onduleur-des-Dous Energy Discharge to Grid Month"
     },
     "context": {
-      "id": "01M5A3FE2P7EJ9S2X0X54YFR9C",
+      "id": "01M5A4DYK00EFPBYHZWRQJ4A62",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.246Z",
-    "last_updated": "2026-10-19T12:51:40.246Z"
+    "last_changed": "2026-10-19T13:08:20.192Z",
+    "last_updated": "2026-10-19T13:08:20.192Z"
   },
   "sensor.onduleur_des_dous_energy_discharge_to_grid_year": {
     "entity_id": "sensor.onduleur_des_dous_energy_discharge_to_grid_year",
@@ -19372,12 +19372,12 @@
       "friendly_name": "Onduleur-des-Dous Energy Discharge to Grid Year"
     },
     "context": {
-      "id": "01M5A3FE2PGPBK339DX5DTYPGE",
+      "id": "01M5A4DYK000WVFW3B2Q8ERTBD",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.246Z",
-    "last_updated": "2026-10-19T12:51:40.246Z"
+    "last_changed": "2026-10-19T13:08:20.192Z",
+    "last_updated": "2026-10-19T13:08:20.192Z"
   },
   "sensor.onduleur_des_dous_energy_discharge_to_grid_total": {
     "entity_id": "sensor.onduleur_des_dous_energy_discharge_to_grid_total",
@@ -19389,16 +19389,16 @@
       "friendly_name": "Onduleur-des-Dous Energy Discharge to Grid Total"
     },
     "context": {
-      "id": "01M5A3FE2PC1AV1H3EEZ6GGZ3G",
+      "id": "01M5A4DYK0THYC71P5XQWS3Z7E",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:51:40.246Z",
-    "last_updated": "2026-10-19T12:51:40.246Z"
+    "last_changed": "2026-10-19T13:08:20.192Z",
+    "last_updated": "2026-10-19T13:08:20.192Z"
   },
   "sensor.onduleur_des_dous_sum_power_of_all_pv_dc_inputs": {
     "entity_id": "sensor.onduleur_des_dous_sum_power_of_all_pv_dc_inputs",
-    "state": "2619",
+    "state": "2329",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "W",
@@ -19406,16 +19406,16 @@
       "friendly_name": "Onduleur-des-Dous Sum power of all PV DC inputs"
     },
     "context": {
-      "id": "01M5A43G9QJ3HFTZSJEBJMW8R4",
+      "id": "01M5A4G6K124EBRCYT9ZAH49G3",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:37.879Z",
-    "last_updated": "2026-10-19T13:02:37.879Z"
+    "last_changed": "2026-10-19T13:09:33.921Z",
+    "last_updated": "2026-10-19T13:09:33.921Z"
   },
   "sensor.onduleur_des_dous_energy_to_grid_total": {
     "entity_id": "sensor.onduleur_des_dous_energy_to_grid_total",
-    "state": "38079.7",
+    "state": "38079.9",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19423,16 +19423,16 @@
       "friendly_name": "Onduleur-des-Dous Energy to Grid Total"
     },
     "context": {
-      "id": "01M5A40EM6ZTG1DA632WW6BM52",
+      "id": "01M5A4DYK9PYCYA9MYX8Q4EBVQ",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.862Z",
-    "last_updated": "2026-10-19T13:00:57.862Z"
+    "last_changed": "2026-10-19T13:08:20.201Z",
+    "last_updated": "2026-10-19T13:08:20.201Z"
   },
   "sensor.onduleur_des_dous_energy_to_grid_year": {
     "entity_id": "sensor.onduleur_des_dous_energy_to_grid_year",
-    "state": "9224.3",
+    "state": "9224.5",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19440,16 +19440,16 @@
       "friendly_name": "Onduleur-des-Dous Energy to Grid Year"
     },
     "context": {
-      "id": "01M5A40EM6YNAY0SP3THWB9AFX",
+      "id": "01M5A4DYK96YTPMMEHH6NQP70A",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.862Z",
-    "last_updated": "2026-10-19T13:00:57.862Z"
+    "last_changed": "2026-10-19T13:08:20.201Z",
+    "last_updated": "2026-10-19T13:08:20.201Z"
   },
   "sensor.onduleur_des_dous_energy_to_grid_month": {
     "entity_id": "sensor.onduleur_des_dous_energy_to_grid_month",
-    "state": "370.0",
+    "state": "370.2",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19457,16 +19457,16 @@
       "friendly_name": "Onduleur-des-Dous Energy to Grid Month"
     },
     "context": {
-      "id": "01M5A40EM6RSACFZ77CSTN96B9",
+      "id": "01M5A4DYK996FVNJGYH9PJ05EY",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.862Z",
-    "last_updated": "2026-10-19T13:00:57.862Z"
+    "last_changed": "2026-10-19T13:08:20.201Z",
+    "last_updated": "2026-10-19T13:08:20.201Z"
   },
   "sensor.onduleur_des_dous_energy_to_grid_day": {
     "entity_id": "sensor.onduleur_des_dous_energy_to_grid_day",
-    "state": "6.6",
+    "state": "6.8",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19474,26 +19474,26 @@
       "friendly_name": "Onduleur-des-Dous Energy to Grid Day"
     },
     "context": {
-      "id": "01M5A40EM69CRB3M62J7P3KH38",
+      "id": "01M5A4DYK95YWDH3AHNKT282PK",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:57.862Z",
-    "last_updated": "2026-10-19T13:00:57.862Z"
+    "last_changed": "2026-10-19T13:08:20.201Z",
+    "last_updated": "2026-10-19T13:08:20.201Z"
   },
   "switch.onduleur_des_dous_battery_strategy": {
     "entity_id": "switch.onduleur_des_dous_battery_strategy",
-    "state": "on",
+    "state": "unavailable",
     "attributes": {
       "friendly_name": "Onduleur-des-Dous Battery Strategy"
     },
     "context": {
-      "id": "01M5A409JAKCV6JWX1YPYFWN19",
+      "id": "01M5A4E16PX66HV3BMQZ2CGFCC",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:00:52.682Z",
-    "last_updated": "2026-10-19T13:00:52.682Z"
+    "last_changed": "2026-10-19T13:08:22.870Z",
+    "last_updated": "2026-10-19T13:08:22.870Z"
   },
   "binary_sensor.slzb_06mra_ethernet": {
     "entity_id": "binary_sensor.slzb_06mra_ethernet",
@@ -19613,7 +19613,7 @@
   },
   "sensor.slzb_06mra_zigbee_chip_temp": {
     "entity_id": "sensor.slzb_06mra_zigbee_chip_temp",
-    "state": "28.68",
+    "state": "30.33",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -19621,12 +19621,12 @@
       "friendly_name": "SLZB-06MRA Zigbee chip temp"
     },
     "context": {
-      "id": "01M5A3W8YH99J18Y0H32T150SD",
+      "id": "01M5A4EMTN9C7C15BV5PDK33XF",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:58:40.977Z",
-    "last_updated": "2026-10-19T12:58:40.977Z"
+    "last_changed": "2026-10-19T13:08:42.965Z",
+    "last_updated": "2026-10-19T13:08:42.965Z"
   },
   "sensor.slzb_06mra_zigbee_type": {
     "entity_id": "sensor.slzb_06mra_zigbee_type",
@@ -19751,7 +19751,7 @@
   },
   "sensor.server_compteur_groupe_e_principal_power_production": {
     "entity_id": "sensor.server_compteur_groupe_e_principal_power_production",
-    "state": "2.116",
+    "state": "1.812",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "kW",
@@ -19759,12 +19759,12 @@
       "friendly_name": "Compteur Groupe E principal Power production"
     },
     "context": {
-      "id": "01M5A43H83BE06GDGVFWQQVM29",
+      "id": "01M5A4FPWT94FG1QCKM9ECSJK0",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:38.851Z",
-    "last_updated": "2026-10-19T13:02:38.851Z"
+    "last_changed": "2026-10-19T13:09:17.850Z",
+    "last_updated": "2026-10-19T13:09:17.850Z"
   },
   "sensor.server_compteur_groupe_e_principal_active_tariff": {
     "entity_id": "sensor.server_compteur_groupe_e_principal_active_tariff",
@@ -19838,7 +19838,7 @@
   },
   "sensor.server_compteur_groupe_e_principal_energy_production_tarif_2": {
     "entity_id": "sensor.server_compteur_groupe_e_principal_energy_production_tarif_2",
-    "state": "4576.698",
+    "state": "4576.912",
     "attributes": {
       "state_class": "total_increasing",
       "unit_of_measurement": "kWh",
@@ -19846,12 +19846,12 @@
       "friendly_name": "Compteur Groupe E principal Energy production (tarif 2)"
     },
     "context": {
-      "id": "01M5A43H847872554V047934WT",
+      "id": "01M5A4FPWTZ9XSNC5XFC4Z6MD3",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:38.852Z",
-    "last_updated": "2026-10-19T13:02:38.852Z"
+    "last_changed": "2026-10-19T13:09:17.850Z",
+    "last_updated": "2026-10-19T13:09:17.850Z"
   },
   "sensor.electricity_meter_power_consumption": {
     "entity_id": "sensor.electricity_meter_power_consumption",
@@ -20026,7 +20026,7 @@
   },
   "sensor.msws65_atelier_temperature": {
     "entity_id": "sensor.msws65_atelier_temperature",
-    "state": "16.4",
+    "state": "16.5",
     "attributes": {
       "state_class": "measurement",
       "unit_of_measurement": "\u00B0C",
@@ -20034,12 +20034,12 @@
       "friendly_name": "MSSW-Atelier Temperature"
     },
     "context": {
-      "id": "01M5A3X5P456QK1HR16QSEHJV9",
+      "id": "01M5A4FFMJKB6BNH8HC0RRKD3Z",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T12:59:10.404Z",
-    "last_updated": "2026-10-19T12:59:10.404Z"
+    "last_changed": "2026-10-19T13:09:10.418Z",
+    "last_updated": "2026-10-19T13:09:10.418Z"
   },
   "sensor.msws65_atelier_last_restart": {
     "entity_id": "sensor.msws65_atelier_last_restart",
@@ -20059,18 +20059,18 @@
   },
   "switch.msws65_atelier": {
     "entity_id": "switch.msws65_atelier",
-    "state": "unavailable",
+    "state": "off",
     "attributes": {
       "icon": "mdi:battery-charging-medium",
       "friendly_name": "Chargeurs atelier"
     },
     "context": {
-      "id": "01M5A42Z7T5THP681BPFXJAS19",
+      "id": "01M5A4B29QZ5RNXYG0C1Y9W8BR",
       "parent_id": null,
       "user_id": null
     },
-    "last_changed": "2026-10-19T13:02:20.410Z",
-    "last_updated": "2026-10-19T13:02:20.410Z"
+    "last_changed": "2026-10-19T13:06:45.687Z",
+    "last_updated": "2026-10-19T13:06:45.687Z"
   },
   "weather.rue_de_l_oree_15_chezard_st_martin": {
     "entity_id": "weather.rue_de_l_oree_15_chezard_st_martin",
