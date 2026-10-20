@@ -1,4 +1,4 @@
-// document.querySelector('home-assistant').hass.themes
+// WebSocket : frontend/get_themes
 {
   "themes": {
     "DarkTheme": {
@@ -384,7 +384,5 @@
     }
   },
   "default_theme": "default",
-  "default_dark_theme": null,
-  "theme": "DarkTheme",
-  "darkMode": false
+  "default_dark_theme": null
 }

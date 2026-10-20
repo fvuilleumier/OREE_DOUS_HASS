@@ -1,4 +1,4 @@
-// document.querySelector('home-assistant').hass.panels
+// WebSocket : get_panels
 {
   "config": {
     "component_name": "config",
@@ -14,7 +14,7 @@
   "la-maison-des-dous": {
     "component_name": "lovelace",
     "icon": "mdi:home",
-    "title": "L\u0027Or\u00E9e des Dous",
+    "title": "L'Orée des Dous",
     "default_visible": true,
     "config": {
       "mode": "storage"
@@ -40,7 +40,7 @@
   "l-oree-des-dous-new": {
     "component_name": "lovelace",
     "icon": "mdi:floor-plan",
-    "title": "L\u0027Or\u00E9e des Dous - Pieces",
+    "title": "L'Orée des Dous - Pieces",
     "default_visible": true,
     "config": {
       "mode": "storage"

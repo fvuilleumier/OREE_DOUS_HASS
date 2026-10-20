@@ -748,7 +748,7 @@
     device_id: e9cca8a39479d2b476f9e1b24688bb08
     entity_id: 72b4a45c2063f840fe78b78f2756e3f0
     domain: sensor
-    above: 10
+    above: 30
   actions:
   - data:
       message: "Salut Fabien, as-tu bien éteint ton ordi ? Désolé si tu es encore
@@ -926,16 +926,18 @@
   - trigger: time
     at: '19:30:00'
   conditions:
-  - condition: device
-    type: is_off
-    device_id: c22cb150242a268e85c3f394b941f8a7
-    entity_id: c8fdd2e6b8fbde909cf23ac434f96be8
-    domain: switch
+  - condition: switch.is_off
+    target:
+      entity_id: switch.sb24
+    options:
+      behavior: any
+      for: 00:00:00
   actions:
-  - type: turn_on
-    device_id: c22cb150242a268e85c3f394b941f8a7
-    entity_id: c8fdd2e6b8fbde909cf23ac434f96be8
-    domain: switch
+  - action: switch.turn_on
+    metadata: {}
+    target:
+      entity_id: switch.sb24
+    data: {}
   mode: single
 - id: '1730142178369'
   alias: Lampe lecture enfants OFF
@@ -944,16 +946,18 @@
   - trigger: time
     at: '20:20:00'
   conditions:
-  - condition: device
-    type: is_on
-    device_id: c22cb150242a268e85c3f394b941f8a7
-    entity_id: c8fdd2e6b8fbde909cf23ac434f96be8
-    domain: switch
+  - condition: switch.is_on
+    target:
+      entity_id: switch.sb24
+    options:
+      behavior: any
+      for: 00:00:00
   actions:
-  - type: turn_off
-    device_id: c22cb150242a268e85c3f394b941f8a7
-    entity_id: c8fdd2e6b8fbde909cf23ac434f96be8
-    domain: switch
+  - action: switch.turn_off
+    metadata: {}
+    target:
+      entity_id: switch.sb24
+    data: {}
   mode: single
 - id: '1730966316097'
   alias: Deshumidificateur off

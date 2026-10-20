@@ -7,31 +7,60 @@ max_columns: 2
 sections:
   - type: grid
     cards:
-      - type: statistics-graph
-        entities:
-          - sensor.zg_227z_18_temperature
-        days_to_show: 1
-        period: 5minute
-        chart_type: line
-        stat_types:
-          - mean
+      - type: custom:apexcharts-card
+        graph_span: 1d
+        update_interval: 5min
+        header:
+          show: true
+          title: Température salon
+          show_states: true
+          colorize_states: true
+        apex_config:
+          chart:
+            height: 220
+            animations:
+              enabled: false
+            toolbar:
+              show: false
+            zoom:
+              enabled: false
+          stroke:
+            curve: smooth
+            width: 2
+          dataLabels:
+            enabled: false
+          markers:
+            size: 0
+          legend:
+            show: true
+            position: bottom
+            fontSize: 10px
+          xaxis:
+            labels:
+              datetimeUTC: false
+              format: HH:mm
+              style:
+                fontSize: 10px
+        yaxis:
+          - decimals: 1
+            apex_config:
+              tickAmount: 4
+        series:
+          - entity: sensor.zg_227z_18_temperature
+            name: Rez
+            color: var(--info-color)
+            type: line
+            stroke_width: 2
+            group_by:
+              func: avg
+              duration: 10min
+        grid_options:
+          columns: full
+    column_span: 2
   - type: grid
     cards:
       - type: gauge
-        unit: °C
-        max: 35
-        severity:
-          green: 18
-          yellow: 25
-          red: 30
-        needle: true
-        entity: sensor.zg_227z_18_temperature
-        min: 10
-        name: Salon
-  - type: grid
-    cards:
-      - type: gauge
-        name: Rez
+        name: Bas
         unit: °C
         max: 35
         severity:
@@ -44,7 +73,7 @@ sections:
   - type: grid
     cards:
       - type: gauge
-        name: 1er
+        name: Haut
         unit: °C
         max: 35
         severity:

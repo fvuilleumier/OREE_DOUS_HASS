@@ -1,4 +1,4 @@
-// document.querySelector('home-assistant').hass.config
+// WebSocket : get_config
 {
   "allowlist_external_dirs": [
     "/config/www",
@@ -286,7 +286,7 @@
   "internal_url": null,
   "language": "en",
   "latitude": 47.06425728059066,
-  "location_name": "L\u0027Or\u00E9e des Dous",
+  "location_name": "L'Orée des Dous",
   "logging": {
     "log_file_disabled_reason": null
   },
@@ -299,10 +299,10 @@
   "unit_system": {
     "length": "km",
     "accumulated_precipitation": "mm",
-    "area": "m\u00B2",
+    "area": "m²",
     "mass": "g",
     "pressure": "Pa",
-    "temperature": "\u00B0C",
+    "temperature": "°C",
     "volume": "L",
     "wind_speed": "m/s"
   },

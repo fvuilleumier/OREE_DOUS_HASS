@@ -1,4 +1,4 @@
-// document.querySelector('home-assistant').hass.user
+// WebSocket : auth/current_user
 {
   "id": "7de188a07dc44e7da132231d22be024e",
   "name": "Wismerhill",
