@@ -221,7 +221,7 @@ views:
             secondary: "{{ states('sensor.myip') }}"
             icon: mdi:ip-network
             entity: sensor.myip
-            icon_color: ''
+            icon_color: ""
             grid_options:
               columns: full
       - type: grid
@@ -262,7 +262,7 @@ views:
           ✨ Sois toi même, tous les autres sont déjà pris ✨
     footer:
       type: markdown
-      content: ''
+      content: ""
     cards: []
   - title: Plan intéractif
     path: maison
@@ -1383,7 +1383,7 @@ views:
         content: "# \U0001F321️ Température - \U0001F4A7 Humidité"
     footer:
       type: markdown
-      content: ''
+      content: ""
     cards: []
   - type: sections
     max_columns: 4
@@ -1604,7 +1604,7 @@ views:
         content: '# ⚡️ Energie'
     footer:
       type: markdown
-      content: ''
+      content: ""
     cards: []
   - title: Graphes & consommation
     path: graphes-and-consommation
@@ -3145,7 +3145,7 @@ views:
           # 📈 Métriques
     footer:
       type: markdown
-      content: ''
+      content: ""
     cards: []
   - title: Santé système
     path: sante-systeme
@@ -4618,7 +4618,7 @@ views:
           - type: tile
             entity: switch.s168
             name: Garage droite
-            icon: ''
+            icon: ""
             color: purple
             vertical: false
             features_position: bottom
@@ -4693,14 +4693,14 @@ views:
             name: "\U0001F6E0️ Atelier"
           - type: tile
             entity: switch.msws65_atelier
-            icon: ''
+            icon: ""
             color: light-blue
             show_entity_picture: false
             vertical: false
             features_position: bottom
           - type: tile
             entity: switch.s1pm40
-            icon: ''
+            icon: ""
             color: green
             show_entity_picture: false
             vertical: false
@@ -4727,7 +4727,7 @@ views:
             vertical: false
           - type: tile
             entity: switch.sp1pm61
-            icon: ''
+            icon: ""
             color: cyan
             show_entity_picture: false
             vertical: false
@@ -4834,7 +4834,7 @@ views:
           # 🔘 Toutes les intéractions
     footer:
       type: markdown
-      content: ''
+      content: ""
     cards: []
   - title: Chauffage
     path: chauffage
@@ -4913,7 +4913,7 @@ views:
         icon: mdi:sun-thermometer-outline
     footer:
       type: markdown
-      content: ''
+      content: ""
     cards: []
   - theme: Backend-selected
     title: Lavette
@@ -4926,13 +4926,13 @@ views:
         show_state: true
         show_icon: true
         entity: sensor.lavette_program_progress
-        color: ''
+        color: ""
       - type: entity
         show_name: false
         show_state: true
         show_icon: true
         entity: sensor.lavette_program_finish_time
-        color: ''
+        color: ""
     type: sections
     max_columns: 1
     sections:
@@ -5088,7 +5088,7 @@ views:
           # 🧼 Lavette
     footer:
       type: markdown
-      content: ''
+      content: ""
   - theme: Backend-selected
     title: Ducon
     path: ducon
@@ -5123,7 +5123,7 @@ views:
           # ⛀ Lucien
     footer:
       type: markdown
-      content: ''
+      content: ""
   - theme: Backend-selected
     title: Natel de Fabien
     path: natel-de-fabien
@@ -5212,7 +5212,7 @@ views:
           # 📱 Natel de Fabien
     footer:
       type: markdown
-      content: ''
+      content: ""
   - theme: Backend-selected
     title: TV des Dous
     path: tv-des-dous
@@ -5234,7 +5234,7 @@ views:
           # 🖥️ TV des Dous
     footer:
       type: markdown
-      content: ''
+      content: ""
   - type: sections
     title: Yoto
     path: yoto
@@ -5256,7 +5256,7 @@ views:
           # 🎧 Yoto
     footer:
       type: markdown
-      content: ''
+      content: ""
   - type: sections
     max_columns: 1
     title: UPS
@@ -5292,7 +5292,7 @@ views:
           # 🔋 UPS
     footer:
       type: markdown
-      content: ''
+      content: ""
   - title: Tests
     path: tests
     icon: mdi:router-network

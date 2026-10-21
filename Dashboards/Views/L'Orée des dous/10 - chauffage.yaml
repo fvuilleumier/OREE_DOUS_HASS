@@ -75,5 +75,5 @@ header:
     icon: mdi:sun-thermometer-outline
 footer:
   type: markdown
-  content: ''
+  content: ""
 cards: []

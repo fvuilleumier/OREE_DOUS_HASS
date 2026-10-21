@@ -140,6 +140,34 @@
     "translation_key": null,
     "unique_id": "1697204392746"
   },
+  "automation.c_est_noel_pilote_sb18_et_sb20": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": null,
+    "config_subentry_id": null,
+    "created_at": 1792576355.97065,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "automation.c_est_noel_pilote_sb18_et_sb20",
+    "has_entity_name": false,
+    "hidden_by": null,
+    "icon": null,
+    "id": "90bef1c4369b68eaf1aa2c9b582d03c5",
+    "labels": [],
+    "modified_at": 1792576374.983335,
+    "name": null,
+    "next_name_part": null,
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "C'est noël - pilote SB18 et SB20",
+    "platform": "automation",
+    "translation_key": null,
+    "unique_id": "c_est_noel_sync"
+  },
   "automation.cave_a_vin_gestion_optimisee": {
     "area_id": null,
     "categories": {},
@@ -15035,6 +15063,34 @@
     "translation_key": null,
     "unique_id": "atelier_chargeur_started"
   },
+  "input_boolean.c_est_noel": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": null,
+    "config_subentry_id": null,
+    "created_at": 1792576349.301744,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "input_boolean.c_est_noel",
+    "has_entity_name": false,
+    "hidden_by": null,
+    "icon": null,
+    "id": "4f96b618cc603e135301d63f9342d29e",
+    "labels": [],
+    "modified_at": 1792576374.982508,
+    "name": null,
+    "next_name_part": null,
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "C'est noël",
+    "platform": "input_boolean",
+    "translation_key": null,
+    "unique_id": "c_est_noel"
+  },
   "input_boolean.eponge_started": {
     "area_id": "cuisine",
     "categories": {},
@@ -18998,7 +19054,7 @@
     "icon": null,
     "id": "7ded0394e48ea8277ac1ca06a6541408",
     "labels": [],
-    "modified_at": 1792491413.50005,
+    "modified_at": 1792576354.844316,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -19026,7 +19082,7 @@
     "icon": null,
     "id": "211e1704ea0ace5bfbe9627c2f1f1e80",
     "labels": [],
-    "modified_at": 1792491413.499634,
+    "modified_at": 1792576354.844117,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -22597,7 +22653,7 @@
     "icon": null,
     "id": "ffa3f0ce622ebc572486f80a670a4318",
     "labels": [],
-    "modified_at": 1792415783.182218,
+    "modified_at": 1792576353.841311,
     "name": null,
     "next_name_part": "area",
     "options": {
@@ -22737,7 +22793,7 @@
     "icon": null,
     "id": "febc9c5134f3ca261987ec92490a5a18",
     "labels": [],
-    "modified_at": 1792415783.181692,
+    "modified_at": 1792576353.840849,
     "name": null,
     "next_name_part": "area",
     "options": {
@@ -22768,7 +22824,7 @@
     "icon": null,
     "id": "e1770818515356cf9e5de4d6d9f5a9b6",
     "labels": [],
-    "modified_at": 1792415783.178605,
+    "modified_at": 1792576353.840054,
     "name": null,
     "next_name_part": "area",
     "options": {
@@ -22796,7 +22852,7 @@
     "icon": null,
     "id": "0c9d11852f06fdcdaed0d81a53eccb10",
     "labels": [],
-    "modified_at": 1792415783.183934,
+    "modified_at": 1792576353.842705,
     "name": null,
     "next_name_part": "area",
     "options": {
@@ -22827,7 +22883,7 @@
     "icon": null,
     "id": "b8e83e003a5592e0a4eb92fb4ae00644",
     "labels": [],
-    "modified_at": 1792415783.18305,
+    "modified_at": 1792576353.842093,
     "name": null,
     "next_name_part": "area",
     "options": {
@@ -25947,7 +26003,7 @@
     "icon": null,
     "id": "d3d9cab3311d9a38be9d058cab0bbafc",
     "labels": [],
-    "modified_at": 1792415783.323077,
+    "modified_at": 1792576353.820423,
     "name": null,
     "next_name_part": "device",
     "options": {

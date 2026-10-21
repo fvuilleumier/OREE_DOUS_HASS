@@ -2024,12 +2024,12 @@
     "config_subentry_id": null,
     "connections": [
       [
-        "upnp",
-        "uuid:3f97e6a2-6453-4afd-ae5f-460d6d4d6432"
-      ],
-      [
         "mac",
         "fc:8f:90:78:26:02"
+      ],
+      [
+        "upnp",
+        "uuid:3f97e6a2-6453-4afd-ae5f-460d6d4d6432"
       ]
     ],
     "created_at": 0.0,

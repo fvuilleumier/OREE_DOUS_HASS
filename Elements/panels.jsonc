@@ -149,6 +149,19 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
+  "core_ssh": {
+    "component_name": "app",
+    "icon": "mdi:console",
+    "title": "Terminal",
+    "default_visible": true,
+    "config": {
+      "addon": "core_ssh"
+    },
+    "url_path": "core_ssh",
+    "require_admin": true,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
   "45df7312_zigbee2mqtt": {
     "component_name": "app",
     "icon": "mdi:zigbee",
@@ -175,15 +188,15 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
-  "core_ssh": {
+  "a0d7b954_grafana": {
     "component_name": "app",
-    "icon": "mdi:console",
-    "title": "Terminal",
+    "icon": "mdi:chart-timeline",
+    "title": "Grafana",
     "default_visible": true,
     "config": {
-      "addon": "core_ssh"
+      "addon": "a0d7b954_grafana"
     },
-    "url_path": "core_ssh",
+    "url_path": "a0d7b954_grafana",
     "require_admin": true,
     "config_panel_domain": null,
     "show_in_sidebar": true
@@ -201,19 +214,6 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
-  "a0d7b954_grafana": {
-    "component_name": "app",
-    "icon": "mdi:chart-timeline",
-    "title": "Grafana",
-    "default_visible": true,
-    "config": {
-      "addon": "a0d7b954_grafana"
-    },
-    "url_path": "a0d7b954_grafana",
-    "require_admin": true,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
   "media-browser": {
     "component_name": "media-browser",
     "icon": "mdi:play-box-multiple",
@@ -225,17 +225,6 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
-  "history": {
-    "component_name": "history",
-    "icon": "mdi:chart-box",
-    "title": "history",
-    "default_visible": true,
-    "config": null,
-    "url_path": "history",
-    "require_admin": false,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
   "logbook": {
     "component_name": "logbook",
     "icon": "mdi:format-list-bulleted-type",
@@ -243,6 +232,17 @@
     "default_visible": true,
     "config": null,
     "url_path": "logbook",
+    "require_admin": false,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
+  "history": {
+    "component_name": "history",
+    "icon": "mdi:chart-box",
+    "title": "history",
+    "default_visible": true,
+    "config": null,
+    "url_path": "history",
     "require_admin": false,
     "config_panel_domain": null,
     "show_in_sidebar": true

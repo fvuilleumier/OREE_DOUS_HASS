@@ -22,17 +22,10 @@ badges:
     show_name: true
     show_state: false
     show_icon: true
-    entity: switch.sb20
+    entity: input_boolean.c_est_noel
     color: green
     icon: mdi:pine-tree
-    name: Sapin
-    tap_action:
-      action: toggle
-  - type: entity
-    show_name: true
-    show_state: false
-    show_icon: true
-    entity: switch.sb18
+    name: C'est noël
     tap_action:
       action: toggle
 type: sections
@@ -186,7 +179,7 @@ sections:
         secondary: "{{ states('sensor.myip') }}"
         icon: mdi:ip-network
         entity: sensor.myip
-        icon_color: ''
+        icon_color: ""
         grid_options:
           columns: full
   - type: grid
@@ -227,5 +220,5 @@ header:
       ✨ Sois toi même, tous les autres sont déjà pris ✨
 footer:
   type: markdown
-  content: ''
+  content: ""
 cards: []

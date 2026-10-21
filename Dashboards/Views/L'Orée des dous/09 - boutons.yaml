@@ -58,7 +58,7 @@ sections:
       - type: tile
         entity: switch.s168
         name: Garage droite
-        icon: ''
+        icon: ""
         color: purple
         vertical: false
         features_position: bottom
@@ -133,14 +133,14 @@ sections:
         name: "\U0001F6E0️ Atelier"
       - type: tile
         entity: switch.msws65_atelier
-        icon: ''
+        icon: ""
         color: light-blue
         show_entity_picture: false
         vertical: false
         features_position: bottom
       - type: tile
         entity: switch.s1pm40
-        icon: ''
+        icon: ""
         color: green
         show_entity_picture: false
         vertical: false
@@ -167,7 +167,7 @@ sections:
         vertical: false
       - type: tile
         entity: switch.sp1pm61
-        icon: ''
+        icon: ""
         color: cyan
         show_entity_picture: false
         vertical: false
@@ -274,5 +274,5 @@ header:
       # 🔘 Toutes les intéractions
 footer:
   type: markdown
-  content: ''
+  content: ""
 cards: []
