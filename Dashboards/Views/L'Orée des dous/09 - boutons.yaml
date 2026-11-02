@@ -79,6 +79,13 @@ sections:
         name: HDD NAS des Dous
         features_position: bottom
         vertical: false
+      - type: tile
+        entity: switch.s1pm58
+        name: Cave à vin
+        color: red
+        show_entity_picture: false
+        vertical: false
+        features_position: bottom
   - type: grid
     cards:
       - type: custom:button-card

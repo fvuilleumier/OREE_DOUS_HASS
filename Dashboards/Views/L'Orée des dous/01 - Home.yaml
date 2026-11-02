@@ -28,6 +28,14 @@ badges:
     name: C'est noël
     tap_action:
       action: toggle
+  - type: entity
+    show_name: true
+    show_state: true
+    show_icon: true
+    entity: switch.s1pm44
+    name: Pompe eau chaude
+    tap_action:
+      action: toggle
 type: sections
 max_columns: 1
 sections:
