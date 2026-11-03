@@ -1,4 +1,1 @@
-input_boolean:
-  c_est_noel:
-    name: C'est noël
-    icon: mdi:pine-tree
+{}

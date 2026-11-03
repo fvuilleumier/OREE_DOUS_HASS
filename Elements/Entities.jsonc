@@ -1,6 +1,6 @@
 // WebSocket : config/entity_registry/list
 {
-  "sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_boost_heating_countdown": {
+  "sensor.trv_btr_05_duration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -9,7 +9,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_boost_heating_countdown",
+    "entity_id": "sensor.trv_btr_05_duration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -151,7 +151,7 @@
     "translation_key": "pre-release",
     "unique_id": "1235526223"
   },
-  "sensor.sm27_lumiere_bureau_last_restart_time": {
+  "sensor.sm27_last_restart_time": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -160,14 +160,14 @@
     "device_id": "e6d84c19429b511cb6ca3bfefd98c038",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm27_lumiere_bureau_last_restart_time",
+    "entity_id": "sensor.sm27_last_restart_time",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "0070562569ccf391ad7ca7050b06747f",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM27 - Lumière Bureau Last Restart Time",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -1060,7 +1060,7 @@
     "id": "039d42848d3061c221fa5f61dfa2c8bb",
     "labels": [],
     "modified_at": 1791214638.198779,
-    "name": "S1PM58 - cave à vin overheating",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -1079,7 +1079,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "248bd1b525c35c20b8e38547bd24c084",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm55_restart_reason",
     "has_entity_name": true,
@@ -1100,7 +1100,7 @@
     "translation_key": null,
     "unique_id": "485519509B8E_status_sensor_status_sensor_status_restart_reason"
   },
-  "sensor.sb50_ssid": {
+  "sensor.sb17_ssid": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -1109,7 +1109,7 @@
     "device_id": "4359e811bbd9dc045249d9e56f670ef0",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sb50_ssid",
+    "entity_id": "sensor.sb17_ssid",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -1291,7 +1291,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "18fe40e30d65b7d530bf4699669b1f7a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm56_last_restart_time",
     "has_entity_name": true,
@@ -1503,7 +1503,7 @@
     "translation_key": "device_temperature",
     "unique_id": "34945472BEB8-device-deviceTemp"
   },
-  "sensor.tasmota_wifi_connect_count": {
+  "sensor.sb48_wifi_connect_count": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -1512,7 +1512,7 @@
     "device_id": "4ef2010b41e8bf6bbaae93d01f4a1cfb",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.tasmota_wifi_connect_count",
+    "entity_id": "sensor.sb48_wifi_connect_count",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -1579,7 +1579,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1385cd3754dca_linkquality_zigbee2mqtt"
   },
-  "number.trv_btr_01_chambre_1er_sud_est_bureau_max_temperature": {
+  "number.trv_btr_01_max_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -1588,7 +1588,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_01_chambre_1er_sud_est_bureau_max_temperature",
+    "entity_id": "number.trv_btr_01_max_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -1835,7 +1835,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138d30633d680_min_temperature_zigbee2mqtt"
   },
-  "sensor.sm28_lumieres_exterieur_wifi_connect_count": {
+  "sensor.sm28_wifi_connect_count": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -1844,14 +1844,14 @@
     "device_id": "b429a88b83ced03b288552f43b3dabc6",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm28_lumieres_exterieur_wifi_connect_count",
+    "entity_id": "sensor.sm28_wifi_connect_count",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "064b2902ed3fee057b0502a541e803cf",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM28 - Lumieres exterieur WiFi Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -1870,7 +1870,7 @@
     "config_subentry_id": null,
     "created_at": 1792410587.122029,
     "device_id": "203ac42a0993641bea599775268a3d29",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.2ch_usbs_02_l2",
     "has_entity_name": true,
@@ -2054,7 +2054,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_last_reboot"
   },
-  "select.trv_zb07_temperature_sensor_select": {
+  "select.trv_zb07_temperature_sensor": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -2063,7 +2063,7 @@
     "device_id": "77450e08236dbdb0cded4d618925ebe5",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "select.trv_zb07_temperature_sensor_select",
+    "entity_id": "select.trv_zb07_temperature_sensor",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -2214,7 +2214,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_ble_emitter"
   },
-  "binary_sensor.s1pm32_lavette_mesure_overcurrent": {
+  "binary_sensor.sp1pm62_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01K4SNPNA8XN70S27A8320NJ75",
@@ -2223,7 +2223,7 @@
     "device_id": "561e15499f74e5bd38d67b8240c260c2",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.s1pm32_lavette_mesure_overcurrent",
+    "entity_id": "binary_sensor.sp1pm62_overcurrent",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -2514,7 +2514,7 @@
     "id": "09a442d34ce3ae3a080dcbecee38ad0e",
     "labels": [],
     "modified_at": 1770820086.847998,
-    "name": "Déshumidificateur",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -2967,7 +2967,7 @@
     "translation_key": null,
     "unique_id": "244CAB442C20-uptime"
   },
-  "climate.trv_btr_03_chambre_1er_sud_est_enfants": {
+  "climate.trv_btr_03_climate": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -2976,14 +2976,14 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "climate.trv_btr_03_chambre_1er_sud_est_enfants",
+    "entity_id": "climate.trv_btr_03_climate",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "0b2a3f957b418a26a26da06442ba12d0",
     "labels": [],
     "modified_at": 1770820086.173618,
-    "name": "TRV-BTR-03 - Chambre 1er sud est (enfants)",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -3019,7 +3019,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_is_work_profile"
   },
-  "number.trv_btr_04_chambre_rez_salle_de_jeu_boost_heating_countdown_time_set": {
+  "number.trv_btr_04_boost_heating_countdown_time_set": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -3028,7 +3028,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_04_chambre_rez_salle_de_jeu_boost_heating_countdown_time_set",
+    "entity_id": "number.trv_btr_04_boost_heating_countdown_time_set",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -3607,7 +3607,7 @@
     "translation_key": "update",
     "unique_id": "home_assistant_core_version_latest"
   },
-  "switch.slzb_06mr_routeur": {
+  "switch.slzb_06mr": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -3616,7 +3616,7 @@
     "device_id": "d871be53f83f6c03a0427bf204fb00e0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.slzb_06mr_routeur",
+    "entity_id": "switch.slzb_06mr",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -3719,7 +3719,7 @@
     "translation_key": null,
     "unique_id": "7C87CEA1A26E_status_sensor_status_sensor_status_version"
   },
-  "sensor.trv_btr_03_chambre_1er_sud_est_enfants_local_temperature": {
+  "sensor.trv_btr_03_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -3728,7 +3728,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_03_chambre_1er_sud_est_enfants_local_temperature",
+    "entity_id": "sensor.trv_btr_03_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -3837,7 +3837,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "30d63d95226da0d8099c4c04dfd8659e",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm37_mqtt_connect_count",
     "has_entity_name": true,
@@ -3937,7 +3937,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "30d63d95226da0d8099c4c04dfd8659e",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm37_last_restart_time",
     "has_entity_name": true,
@@ -4221,7 +4221,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138621cc3aba0_temperature_calibration_zigbee2mqtt"
   },
-  "device_tracker.4c_eb_d6_b7_1c_83": {
+  "device_tracker.sb22_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -4230,7 +4230,7 @@
     "device_id": "dd20c1fa3932651a739978582fff7e9a",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.4c_eb_d6_b7_1c_83",
+    "entity_id": "device_tracker.sb22_device_tracker",
     "has_entity_name": false,
     "hidden_by": null,
     "icon": null,
@@ -4273,7 +4273,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_accent_color"
   },
-  "sensor.trv_btr_04_chambre_rez_salle_de_jeu_position": {
+  "sensor.trv_btr_04_position": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -4282,7 +4282,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_04_chambre_rez_salle_de_jeu_position",
+    "entity_id": "sensor.trv_btr_04_position",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -4489,7 +4489,7 @@
     "id": "1298e55418177eec4d5b4826bf1768c7",
     "labels": [],
     "modified_at": 1750149046.529008,
-    "name": "S1PM30 - Serveurs Power",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor": {
@@ -4528,7 +4528,7 @@
     "translation_key": "cloud",
     "unique_id": "E465B8F24AAC-cloud-cloud"
   },
-  "sensor.sm27_lumiere_bureau_ssid": {
+  "sensor.sm27_ssid": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -4537,14 +4537,14 @@
     "device_id": "e6d84c19429b511cb6ca3bfefd98c038",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm27_lumiere_bureau_ssid",
+    "entity_id": "sensor.sm27_ssid",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "12c901032ff30c44afd9b2041c042ad7",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM27 - Lumière Bureau SSID",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -4947,7 +4947,7 @@
     "translation_key": null,
     "unique_id": "485519509B8E_status_sensor_status_sensor_status_signal"
   },
-  "number.trv_btr_01_chambre_1er_sud_est_bureau_local_temperature_calibration": {
+  "number.trv_btr_01_temperature_delta": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -4956,7 +4956,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_01_chambre_1er_sud_est_bureau_local_temperature_calibration",
+    "entity_id": "number.trv_btr_01_temperature_delta",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -5003,7 +5003,7 @@
     "translation_key": null,
     "unique_id": "1730142178369"
   },
-  "number.trv_btr_02_chambre_1er_sud_ouest_parents_min_temperature": {
+  "number.trv_btr_02_min_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -5012,7 +5012,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_02_chambre_1er_sud_ouest_parents_min_temperature",
+    "entity_id": "number.trv_btr_02_min_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -5090,7 +5090,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": null,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "input_boolean.tous_a_la_maison",
     "has_entity_name": false,
@@ -5215,7 +5215,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138a24af79390_linkquality_zigbee2mqtt"
   },
-  "device_tracker.4c_eb_d6_b6_ad_a5": {
+  "device_tracker.sb16_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -5224,7 +5224,7 @@
     "device_id": "35efa49c0579402e2c46bea6ed5ebde1",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.4c_eb_d6_b6_ad_a5",
+    "entity_id": "device_tracker.sb16_device_tracker",
     "has_entity_name": false,
     "hidden_by": null,
     "icon": null,
@@ -5259,7 +5259,7 @@
     "id": "16ce8274237a8fd26d51c33e7c8cb32f",
     "labels": [],
     "modified_at": 1791541235.440046,
-    "name": "S1PM43 - Temperature boiler bas overheating",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -5323,7 +5323,7 @@
     "translation_key": null,
     "unique_id": "01JCZYZNZPTWNX2KYM3AMBJYHQ_astroweather_clouds_area_low"
   },
-  "button.s1pm31_reboot": {
+  "button.s1pm31_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "2cfd64f7f3a68ee546f84e41d78b99b5",
@@ -5332,14 +5332,14 @@
     "device_id": "75825f3a28aaff363d059e8b1ce451da",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm31_reboot",
+    "entity_id": "button.s1pm31_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "171348231fedb257abf49f42d9c7fd08",
     "labels": [],
     "modified_at": 1763374753.384228,
-    "name": "S1PM31 - Lampe salon Reboot",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -5351,7 +5351,7 @@
     "translation_key": null,
     "unique_id": "244CAB4333CF-reboot"
   },
-  "binary_sensor.trv_btr_01_chambre_1er_sud_est_bureau_valve_state": {
+  "binary_sensor.trv_btr_01_opening": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -5360,7 +5360,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_01_chambre_1er_sud_est_bureau_valve_state",
+    "entity_id": "binary_sensor.trv_btr_01_opening",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -5379,7 +5379,7 @@
     "translation_key": null,
     "unique_id": "0x003c84fffe2677bc_valve_state_zigbee2mqtt"
   },
-  "switch.trv_btr_01_chambre_1er_sud_est_bureau_child_lock": {
+  "switch.trv_btr_01_child_lock": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -5388,7 +5388,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_01_chambre_1er_sud_est_bureau_child_lock",
+    "entity_id": "switch.trv_btr_01_child_lock",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -5619,7 +5619,7 @@
     "translation_key": null,
     "unique_id": "4c_5e_0c_f1_fa_62_eth2.33"
   },
-  "sensor.msws65_atelier_average_consumption": {
+  "sensor.msws65_average_consumption": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M0HM2FZQED7VV9T7T2RGMTRY",
@@ -5628,7 +5628,7 @@
     "device_id": "68ed13399e2f6564af08adb9bd0fcb3e",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.msws65_atelier_average_consumption",
+    "entity_id": "sensor.msws65_average_consumption",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -5706,7 +5706,7 @@
     "translation_key": "backup_manager_state",
     "unique_id": "backup_manager_state"
   },
-  "number.trv_btr_04_chambre_rez_salle_de_jeu_max_temperature": {
+  "number.trv_btr_04_max_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -5715,7 +5715,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_04_chambre_rez_salle_de_jeu_max_temperature",
+    "entity_id": "number.trv_btr_04_max_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -5862,7 +5862,7 @@
     "translation_key": null,
     "unique_id": "01JCZYZNZPTWNX2KYM3AMBJYHQ_astroweather_sun_next_setting_nautical"
   },
-  "switch.2ch_usbs_02_l1": {
+  "switch.2ch_usbs_02": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -5871,7 +5871,7 @@
     "device_id": "203ac42a0993641bea599775268a3d29",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.2ch_usbs_02_l1",
+    "entity_id": "switch.2ch_usbs_02",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -5934,7 +5934,7 @@
     "id": "1a00836d2f4554225b9fa8242de6aafe",
     "labels": [],
     "modified_at": 1791541239.529027,
-    "name": "S1PM43 - Temperature boiler bas overpowering",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -6697,7 +6697,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_beacon_monitor"
   },
-  "switch.trv_btr_02_chambre_1er_sud_ouest_parents_window_detection": {
+  "switch.trv_btr_02_window_detection": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -6706,7 +6706,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_02_chambre_1er_sud_ouest_parents_window_detection",
+    "entity_id": "switch.trv_btr_02_window_detection",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -7714,7 +7714,7 @@
     "translation_key": null,
     "unique_id": "0xb0e8e8fffe5e7386_temporary_mode_duration_zigbee2mqtt"
   },
-  "button.reduit_sp1pm64_temp_et_mesure_cave_restart": {
+  "button.sp1pm64_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01KZDW1PGN9FFWGKV1SYZXP2CN",
@@ -7723,7 +7723,7 @@
     "device_id": "854e828ad8cf504ed9551236eb53cb9d",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.reduit_sp1pm64_temp_et_mesure_cave_restart",
+    "entity_id": "button.sp1pm64_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -7777,7 +7777,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "7c5c2592c52a4438cffe62713b4ac37f",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm54_restart_reason",
     "has_entity_name": true,
@@ -8010,7 +8010,7 @@
     "translation_key": null,
     "unique_id": "00:0C:29:60:EF:C6"
   },
-  "sensor.sb50_last_restart_time": {
+  "sensor.sb17_last_restart_time": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -8019,7 +8019,7 @@
     "device_id": "4359e811bbd9dc045249d9e56f670ef0",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sb50_last_restart_time",
+    "entity_id": "sensor.sb17_last_restart_time",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -8178,7 +8178,7 @@
     "translation_key": "milk_sensor_no_signal",
     "unique_id": "jura_homeassistant_jurae8_alert_milk_sensor_no_signal"
   },
-  "sensor.trv_zb07_local_temperature": {
+  "sensor.trv_zb07_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -8187,7 +8187,7 @@
     "device_id": "77450e08236dbdb0cded4d618925ebe5",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_zb07_local_temperature",
+    "entity_id": "sensor.trv_zb07_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -8261,7 +8261,7 @@
     "translation_key": null,
     "unique_id": "E465B8F24AAC-switch:0-current"
   },
-  "button.s1pm60_reboot": {
+  "button.s1pm60_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01JCZC2B5WT50TEF6D56W5R7AB",
@@ -8270,14 +8270,14 @@
     "device_id": "4c946c96af44f74e1f7451f6e3714a60",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm60_reboot",
+    "entity_id": "button.s1pm60_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "2375cc0152cbbd1686b2d59c82d992cd",
     "labels": [],
     "modified_at": 1763374753.374648,
-    "name": "S1PM60 - Rallong culligan Reboot",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -8289,7 +8289,7 @@
     "translation_key": null,
     "unique_id": "F4CFA2748E7B-reboot"
   },
-  "sensor.trv_btr_06_rez_sud_est_salon_local_temperature": {
+  "sensor.trv_btr_06_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -8298,7 +8298,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_06_rez_sud_est_salon_local_temperature",
+    "entity_id": "sensor.trv_btr_06_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -8344,7 +8344,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_app_rx_gb"
   },
-  "text.trv_btr_02_chambre_1er_sud_ouest_parents_programming_mode": {
+  "text.trv_btr_02_programming_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -8353,7 +8353,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "text.trv_btr_02_chambre_1er_sud_ouest_parents_programming_mode",
+    "entity_id": "text.trv_btr_02_programming_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -8400,7 +8400,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_bluetooth_state"
   },
-  "sensor.trv_btr_06_rez_sud_est_salon_battery": {
+  "sensor.trv_btr_06_battery": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -8409,7 +8409,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.trv_btr_06_rez_sud_est_salon_battery",
+    "entity_id": "sensor.trv_btr_06_battery",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -8604,7 +8604,7 @@
     "id": "24b8379640837123ed699671f0c08801",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB18 Restart Reason",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -8855,7 +8855,7 @@
     "id": "25c40eb3eebaf9fc7e257d48b8d97863",
     "labels": [],
     "modified_at": 1770820086.757695,
-    "name": "Salle de bain 1er",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -9089,7 +9089,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "30d63d95226da0d8099c4c04dfd8659e",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm37_ssid",
     "has_entity_name": true,
@@ -9241,7 +9241,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "7c5c2592c52a4438cffe62713b4ac37f",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm54_ssid",
     "has_entity_name": true,
@@ -9494,7 +9494,7 @@
     "translation_key": null,
     "unique_id": "353038363933_timestamp"
   },
-  "sensor.sb50_wifi_connect_count": {
+  "sensor.sb17_wifi_connect_count": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -9503,7 +9503,7 @@
     "device_id": "4359e811bbd9dc045249d9e56f670ef0",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sb50_wifi_connect_count",
+    "entity_id": "sensor.sb17_wifi_connect_count",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -10094,7 +10094,7 @@
     "id": "2b1f4eef6adaa8af49f0ba7e55694a9b",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB20 - Tasmorallonge vacances Restart Reason",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -10796,7 +10796,7 @@
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_63_ether3"
   },
-  "sensor.zg_227z_17_galetas_battery": {
+  "sensor.zg_227z_17_battery": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -10805,7 +10805,7 @@
     "device_id": "4daec655abda7afa68eb293120958615",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.zg_227z_17_galetas_battery",
+    "entity_id": "sensor.zg_227z_17_battery",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -10928,7 +10928,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_volume_dtmf"
   },
-  "switch.trv_btr_01_chambre_1er_sud_est_bureau_eco_mode": {
+  "switch.trv_btr_01_eco_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -10937,7 +10937,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_01_chambre_1er_sud_est_bureau_eco_mode",
+    "entity_id": "switch.trv_btr_01_eco_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -11372,7 +11372,7 @@
     "id": "2ffdd4760c2eb124b2cf3a38b29b4fd0",
     "labels": [],
     "modified_at": 1787565409.28467,
-    "name": "SM25- - Bureau PC Game - Interrupteur toilettes Restart Reason",
+    "name": null,
     "next_name_part": "area",
     "options": {
       "conversation": {
@@ -11711,7 +11711,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138b90293e8fc_temperature_unit_zigbee2mqtt"
   },
-  "switch.trv_btr_05_rez_sud_ouest_salle_a_manger_window_detection": {
+  "switch.trv_btr_05_window_detection": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -11720,7 +11720,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_05_rez_sud_ouest_salle_a_manger_window_detection",
+    "entity_id": "switch.trv_btr_05_window_detection",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -11823,7 +11823,7 @@
     "translation_key": null,
     "unique_id": "4c_5e_0c_f1_fa_67_eth7.31"
   },
-  "number.zg_227z_11_reduit_humidity_calibration": {
+  "number.zg_227z_11_humidity_calibration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -11832,7 +11832,7 @@
     "device_id": "2ff42f71efe45e7558b5dbf24a631b21",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.zg_227z_11_reduit_humidity_calibration",
+    "entity_id": "number.zg_227z_11_humidity_calibration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -11979,7 +11979,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_sim_1_data_network_type"
   },
-  "number.trv_btr_05_rez_sud_ouest_salle_a_manger_max_temperature": {
+  "number.trv_btr_05_max_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -11988,7 +11988,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_05_rez_sud_ouest_salle_a_manger_max_temperature",
+    "entity_id": "number.trv_btr_05_max_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -12889,7 +12889,7 @@
     "id": "36466b65d7361b03da954db43740d924",
     "labels": [],
     "modified_at": 1787299168.041515,
-    "name": "Lavette",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -12984,7 +12984,7 @@
     "translation_key": "tank_level",
     "unique_id": "tank_level_3115800C92225500"
   },
-  "binary_sensor.trv_btr_06_rez_sud_est_salon_window": {
+  "binary_sensor.trv_btr_06_window": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -12993,7 +12993,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_06_rez_sud_est_salon_window",
+    "entity_id": "binary_sensor.trv_btr_06_window",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -13095,7 +13095,7 @@
     "translation_key": null,
     "unique_id": "16:9E:02:BA:32:64"
   },
-  "number.trv_btr_02_chambre_1er_sud_ouest_parents_max_temperature": {
+  "number.trv_btr_02_max_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -13104,7 +13104,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_02_chambre_1er_sud_ouest_parents_max_temperature",
+    "entity_id": "number.trv_btr_02_max_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -13323,7 +13323,7 @@
     "translation_key": "input",
     "unique_id": "34945472BEB8-relay_0-input"
   },
-  "number.trv_btr_02_chambre_1er_sud_ouest_parents_eco_temperature": {
+  "number.trv_btr_02_eco_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -13332,7 +13332,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_02_chambre_1er_sud_ouest_parents_eco_temperature",
+    "entity_id": "number.trv_btr_02_eco_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -13379,7 +13379,7 @@
     "translation_key": "average_mission_time",
     "unique_id": "average_mission_time_3115800C92225500"
   },
-  "sensor.sm28_lumieres_exterieur_last_restart_time": {
+  "sensor.sm28_last_restart_time": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -13388,14 +13388,14 @@
     "device_id": "b429a88b83ced03b288552f43b3dabc6",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm28_lumieres_exterieur_last_restart_time",
+    "entity_id": "sensor.sm28_last_restart_time",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "38bd3e048be977e14c2c016f58b6b201",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM28 - Lumieres exterieur Last Restart Time",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -13681,7 +13681,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "30d63d95226da0d8099c4c04dfd8659e",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm37_restart_reason",
     "has_entity_name": true,
@@ -13777,7 +13777,7 @@
     "id": "3a83a4848fd46fbe27415b2b47542fbf",
     "labels": [],
     "modified_at": 1750149046.529189,
-    "name": "S1PM30 - Serveurs Energy",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor.private": {
@@ -13830,7 +13830,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "248bd1b525c35c20b8e38547bd24c084",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm55_wifi_connect_count",
     "has_entity_name": true,
@@ -14023,7 +14023,7 @@
     "translation_key": null,
     "unique_id": "1bd4a9fb_victoria_metrics_state"
   },
-  "number.trv_btr_04_chambre_rez_salle_de_jeu_local_temperature_calibration": {
+  "number.trv_btr_04_temperature_delta": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -14032,7 +14032,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_04_chambre_rez_salle_de_jeu_local_temperature_calibration",
+    "entity_id": "number.trv_btr_04_temperature_delta",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -14387,7 +14387,7 @@
     "id": "3c5d2dac3d6879614ace0cc19876a653",
     "labels": [],
     "modified_at": 1786907224.88521,
-    "name": "SM26 - Bureau Ecrans - Aération toilettes - Ventillation toilettes rez MQTT Connect count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -14535,7 +14535,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_device_locked"
   },
-  "number.trv_btr_05_rez_sud_ouest_salle_a_manger_min_temperature": {
+  "number.trv_btr_05_min_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -14544,7 +14544,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_05_rez_sud_ouest_salle_a_manger_min_temperature",
+    "entity_id": "number.trv_btr_05_min_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -14707,7 +14707,7 @@
     "id": "3e785b46b1366580c557e0bf7e831a17",
     "labels": [],
     "modified_at": 1750149046.515076,
-    "name": "S1PM59 - Rallonge deshumidificateur power",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor": {
@@ -14846,7 +14846,7 @@
     "id": "3f3881a76cac74339625c9c161067b07",
     "labels": [],
     "modified_at": 1787565409.285007,
-    "name": "SM25- - Bureau PC Game - Interrupteur toilettes SSID",
+    "name": null,
     "next_name_part": "area",
     "options": {
       "conversation": {
@@ -15018,7 +15018,7 @@
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_65_ether5"
   },
-  "update.s1pm32_lavette_mesure_firmware": {
+  "update.sp1pm62_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01K4SNPNA8XN70S27A8320NJ75",
@@ -15027,7 +15027,7 @@
     "device_id": "561e15499f74e5bd38d67b8240c260c2",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.s1pm32_lavette_mesure_firmware",
+    "entity_id": "update.sp1pm62_firmware",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -15206,7 +15206,7 @@
     "translation_key": "psram_usage",
     "unique_id": "50:78:7d:d7:b2:50_psram_usage"
   },
-  "sensor.sm28_lumieres_exterieur_restart_reason": {
+  "sensor.sm28_restart_reason": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -15215,14 +15215,14 @@
     "device_id": "b429a88b83ced03b288552f43b3dabc6",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm28_lumieres_exterieur_restart_reason",
+    "entity_id": "sensor.sm28_restart_reason",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "40af3eb1bd1ef8c7b9d2c4b241eddb1b",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM28 - Lumieres exterieur Restart Reason",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -15501,7 +15501,7 @@
     "id": "4246244ecd595f7ee90cb14845ed8097",
     "labels": [],
     "modified_at": 1791215264.071127,
-    "name": "Congélateur",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -15729,7 +15729,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_pressure_sensor"
   },
-  "button.s1pm43_reboot": {
+  "button.s1pm43_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "68ffc67ae377dac93fa35683d3375612",
@@ -15738,14 +15738,14 @@
     "device_id": "4f29bf77d96b03aac32b24f7430eede6",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm43_reboot",
+    "entity_id": "button.s1pm43_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "42b62904c2d5c3ffb9bac126164cf307",
     "labels": [],
     "modified_at": 1791541229.528685,
-    "name": "S1PM43 - Temperature boiler bas Reboot",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -15792,7 +15792,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "3bfec27e5b799f61e8df035a73129221",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm29_wifi_connect_count",
     "has_entity_name": true,
@@ -16349,7 +16349,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "ffc070ff4ee24844c933f2a4e9dd24c1",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.sm39",
     "has_entity_name": true,
@@ -16445,7 +16445,7 @@
     "id": "45b8b6dd152dc19f092c786ddb0f7d56",
     "labels": [],
     "modified_at": 1765955838.073216,
-    "name": "S1PM30 - Serveurs Overpowering",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -16553,7 +16553,7 @@
     "id": "460876335af6c7e3007d86edc26d4272",
     "labels": [],
     "modified_at": 1791213698.413105,
-    "name": "S1PM58 - Cave à vin energy",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor.private": {
@@ -16620,7 +16620,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_volume_call"
   },
-  "climate.trv_btr_04_chambre_rez_salle_de_jeu": {
+  "climate.trv_btr_04_climate": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -16629,14 +16629,14 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "climate.trv_btr_04_chambre_rez_salle_de_jeu",
+    "entity_id": "climate.trv_btr_04_climate",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "462c1b3e6795c499d36c6e56a5debfe6",
     "labels": [],
     "modified_at": 1770820086.211809,
-    "name": "TRV-BTR-04 - Chambre rez (Salle de jeu)",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -16766,7 +16766,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "7c5c2592c52a4438cffe62713b4ac37f",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm54_last_restart_time",
     "has_entity_name": true,
@@ -17145,7 +17145,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1380270beb5c0_linkquality_zigbee2mqtt"
   },
-  "climate.trv_btr_01_chambre_1er_sud_est_bureau": {
+  "climate.trv_btr_01_climate": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -17154,14 +17154,14 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "climate.trv_btr_01_chambre_1er_sud_est_bureau",
+    "entity_id": "climate.trv_btr_01_climate",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": "mdi:thermostat",
     "id": "490047f8758363f0195b8bb4b275f603",
     "labels": [],
     "modified_at": 1770820086.240505,
-    "name": "TRV-BTR-01 - Chambre 1er nord est (Bureau)",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -17173,7 +17173,7 @@
     "translation_key": null,
     "unique_id": "0x003c84fffe2677bc_climate_zigbee2mqtt"
   },
-  "switch.trv_btr_03_chambre_1er_sud_est_enfants_boost_heating": {
+  "switch.trv_btr_03": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -17182,7 +17182,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.trv_btr_03_chambre_1er_sud_est_enfants_boost_heating",
+    "entity_id": "switch.trv_btr_03",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -17390,7 +17390,7 @@
     "id": "4a3993ae0105efa8d49288f80497a37b",
     "labels": [],
     "modified_at": 1770820086.795299,
-    "name": "Salle de bain rez",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -17468,7 +17468,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "3bfec27e5b799f61e8df035a73129221",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm29_last_restart_time",
     "has_entity_name": true,
@@ -17496,7 +17496,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "3bfec27e5b799f61e8df035a73129221",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm29_ssid",
     "has_entity_name": true,
@@ -17633,7 +17633,7 @@
     "id": "4b2bd2f3e4061b6180b62634af5654b3",
     "labels": [],
     "modified_at": 1787565409.28532,
-    "name": "SM25- - Bureau PC Game - Interrupteur toilettes WiFi Connect Count",
+    "name": null,
     "next_name_part": "area",
     "options": {
       "conversation": {
@@ -17725,7 +17725,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138739d3c63c9_temperature_unit_zigbee2mqtt"
   },
-  "binary_sensor.trv_btr_02_chambre_1er_sud_ouest_parents_window": {
+  "binary_sensor.trv_btr_02_window": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -17734,7 +17734,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_02_chambre_1er_sud_ouest_parents_window",
+    "entity_id": "binary_sensor.trv_btr_02_window",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -17805,7 +17805,7 @@
     "translation_key": null,
     "unique_id": "4CEBD6B71CCA_status_sensor_status_sensor_status_signal"
   },
-  "binary_sensor.trv_btr_01_chambre_1er_sud_est_bureau_window": {
+  "binary_sensor.trv_btr_01_window": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -17814,7 +17814,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_01_chambre_1er_sud_est_bureau_window",
+    "entity_id": "binary_sensor.trv_btr_01_window",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -17861,7 +17861,7 @@
     "translation_key": null,
     "unique_id": "0xb0e8e8fffe5e7386_frost_protection_temperature_zigbee2mqtt"
   },
-  "number.trv_btr_01_chambre_1er_sud_est_bureau_eco_temperature": {
+  "number.trv_btr_01_eco_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -17870,7 +17870,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_01_chambre_1er_sud_est_bureau_eco_temperature",
+    "entity_id": "number.trv_btr_01_eco_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -17896,7 +17896,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "18fe40e30d65b7d530bf4699669b1f7a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm56_restart_reason",
     "has_entity_name": true,
@@ -18045,7 +18045,7 @@
     "id": "4cd638dd6635bab48b3161cf25a7cd84",
     "labels": [],
     "modified_at": 1787298604.605954,
-    "name": "S1PM59 - Rallonge deshumidificateur",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -18594,7 +18594,7 @@
     "translation_key": null,
     "unique_id": "0xa4c13802bd8eefce_last_seen_zigbee2mqtt"
   },
-  "update.snzb_01p_01": {
+  "update.snzb_01p_01_update": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -18603,7 +18603,7 @@
     "device_id": "01d02d0b7ad2de6010817dbf68113ab2",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.snzb_01p_01",
+    "entity_id": "update.snzb_01p_01_update",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -18740,7 +18740,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": null,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "input_boolean.tous_au_lit",
     "has_entity_name": false,
@@ -19256,7 +19256,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1383daa25320b_humidity_calibration_zigbee2mqtt"
   },
-  "switch.tasmota": {
+  "switch.sb48": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -19265,7 +19265,7 @@
     "device_id": "4ef2010b41e8bf6bbaae93d01f4a1cfb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.tasmota",
+    "entity_id": "switch.sb48",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -19315,7 +19315,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "248bd1b525c35c20b8e38547bd24c084",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm55_ssid",
     "has_entity_name": true,
@@ -19444,7 +19444,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_mobile_data"
   },
-  "device_tracker.48_55_19_74_a0_84": {
+  "device_tracker.sb15_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -19453,7 +19453,7 @@
     "device_id": "5e32146c579b7410c0ac2f6af1038b42",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.48_55_19_74_a0_84",
+    "entity_id": "device_tracker.sb15_device_tracker",
     "has_entity_name": false,
     "hidden_by": null,
     "icon": null,
@@ -19603,7 +19603,7 @@
     "translation_key": "core_temperature",
     "unique_id": "50:78:7d:d7:b2:50_core_temperature"
   },
-  "number.trv_btr_01_chambre_1er_sud_est_bureau_boost_heating_countdown_time_set": {
+  "number.trv_btr_01_boost_heating_countdown_time_set": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -19612,7 +19612,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_01_chambre_1er_sud_est_bureau_boost_heating_countdown_time_set",
+    "entity_id": "number.trv_btr_01_boost_heating_countdown_time_set",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -19647,7 +19647,7 @@
     "id": "530d5b2e4a944b3b8d96bbedae1439fa",
     "labels": [],
     "modified_at": 1791439311.111236,
-    "name": "S1PM58 - Cave à vin",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -19810,7 +19810,7 @@
     "id": "5354425aea9c2ba0db7cb9a5801043e9",
     "labels": [],
     "modified_at": 1786099442.154804,
-    "name": "S1PM42 - Mesure eponge energy",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor.private": {
@@ -20015,7 +20015,7 @@
     "translation_key": null,
     "unique_id": "34945472BEB8-uptime"
   },
-  "sensor.sm27_lumiere_bureau_restart_reason": {
+  "sensor.sm27_restart_reason": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -20024,14 +20024,14 @@
     "device_id": "e6d84c19429b511cb6ca3bfefd98c038",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm27_lumiere_bureau_restart_reason",
+    "entity_id": "sensor.sm27_restart_reason",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "545c7cba81323c0d6e8c7f55a681eb84",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM27 - Lumière Bureau Restart Reason",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -20182,7 +20182,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "18fe40e30d65b7d530bf4699669b1f7a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm56_wifi_connect_count",
     "has_entity_name": true,
@@ -20824,7 +20824,7 @@
     "translation_key": null,
     "unique_id": "0xa4c13802bd8eefce_temperature_zigbee2mqtt"
   },
-  "sensor.msws65_atelier_power": {
+  "sensor.msws65_power": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M0HM2FZQED7VV9T7T2RGMTRY",
@@ -20833,7 +20833,7 @@
     "device_id": "68ed13399e2f6564af08adb9bd0fcb3e",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.msws65_atelier_power",
+    "entity_id": "sensor.msws65_power",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -20914,7 +20914,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "18fe40e30d65b7d530bf4699669b1f7a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm56_mqtt_connect_count",
     "has_entity_name": true,
@@ -20951,7 +20951,7 @@
     "id": "578f14036e4ff4cdcfb3e3f3b1af979a",
     "labels": [],
     "modified_at": 1750149046.543307,
-    "name": "S1PM31 - Lampe salon Energy",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor.private": {
@@ -21129,7 +21129,7 @@
     "translation_key": null,
     "unique_id": "1672047017588"
   },
-  "sensor.sb50_restart_reason": {
+  "sensor.sb17_restart_reason": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -21138,7 +21138,7 @@
     "device_id": "4359e811bbd9dc045249d9e56f670ef0",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sb50_restart_reason",
+    "entity_id": "sensor.sb17_restart_reason",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -21595,7 +21595,7 @@
     "id": "59ac6c61ee80998468df0eb1528f648d",
     "labels": [],
     "modified_at": 1770820086.844174,
-    "name": "Déshumidificateur",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -21635,7 +21635,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_last_used_app"
   },
-  "text.trv_btr_04_chambre_rez_salle_de_jeu_programming_mode": {
+  "text.trv_btr_04_programming_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -21644,7 +21644,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "text.trv_btr_04_chambre_rez_salle_de_jeu_programming_mode",
+    "entity_id": "text.trv_btr_04_programming_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -21835,7 +21835,7 @@
     "id": "5a61dc6c7a54c459b87fc6b96282b12f",
     "labels": [],
     "modified_at": 1786650766.453666,
-    "name": "S1PM40 energy",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor.private": {
@@ -21897,7 +21897,7 @@
     "id": "5adde7d83dd243b979d03a7baa96fe25",
     "labels": [],
     "modified_at": 1750149046.543085,
-    "name": "S1PM31 - Lampe salon Power",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor": {
@@ -21940,7 +21940,7 @@
     "translation_key": null,
     "unique_id": "4855194C75C5_status_sensor_status_sensor_status_rssi"
   },
-  "switch.msws65_atelier": {
+  "switch.msws65": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M0HM2FZQED7VV9T7T2RGMTRY",
@@ -21949,14 +21949,14 @@
     "device_id": "68ed13399e2f6564af08adb9bd0fcb3e",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.msws65_atelier",
+    "entity_id": "switch.msws65",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": "mdi:battery-charging-medium",
     "id": "5b224919a90468a196305f2675666bc1",
     "labels": [],
     "modified_at": 1787298170.112752,
-    "name": "Chargeurs atelier",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -22027,7 +22027,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "248bd1b525c35c20b8e38547bd24c084",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.sm55",
     "has_entity_name": true,
@@ -22096,7 +22096,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_health_connect_weight"
   },
-  "binary_sensor.s1pm61_prise_jardin_switch_0_overcurrent": {
+  "binary_sensor.sp1pm61_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01JXWG5B4MD28YWF64WWTDAQEV",
@@ -22105,7 +22105,7 @@
     "device_id": "204522c59a1ef8adcbe7eb2f437beb01",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.s1pm61_prise_jardin_switch_0_overcurrent",
+    "entity_id": "binary_sensor.sp1pm61_overcurrent",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -22540,7 +22540,7 @@
     "id": "5d1a594f402a3242b7d48775d3060511",
     "labels": [],
     "modified_at": 1791214648.585962,
-    "name": "S1PM58 - cave à vin overpowering",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -22559,7 +22559,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "e4d6b587fbbfb3e67c1d813d1e30cb74",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm38_mqtt_connect_count",
     "has_entity_name": true,
@@ -22636,7 +22636,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1380270beb5c0_humidity_calibration_zigbee2mqtt"
   },
-  "sensor.trv_btr_03_chambre_1er_sud_est_enfants_boost_heating_countdown": {
+  "sensor.trv_btr_03_duration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -22645,7 +22645,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_03_chambre_1er_sud_est_enfants_boost_heating_countdown",
+    "entity_id": "sensor.trv_btr_03_duration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -22963,7 +22963,7 @@
     "translation_key": null,
     "unique_id": "7C87CEA1BD21_status_sensor_status_sensor_status_rssi"
   },
-  "binary_sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_valve_state": {
+  "binary_sensor.trv_btr_05_opening": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -22972,7 +22972,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_valve_state",
+    "entity_id": "binary_sensor.trv_btr_05_opening",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -23485,7 +23485,7 @@
     "id": "6076ad9e7b7f81a16b3d581c320c388b",
     "labels": [],
     "modified_at": 1786907224.891382,
-    "name": "SM26 - Bureau Ecrans - Aération toilettes - Ventillation toilettes rez SSID",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -23513,7 +23513,7 @@
     "id": "609c7309947d555d547049e625b8a891",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB20 - Tasmorallonge vacances SSID",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -23817,7 +23817,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_remaining_charge_time"
   },
-  "sensor.trv_btr_01_chambre_1er_sud_est_bureau_position": {
+  "sensor.trv_btr_01_position": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -23826,7 +23826,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_01_chambre_1er_sud_est_bureau_position",
+    "entity_id": "sensor.trv_btr_01_position",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -23917,7 +23917,7 @@
     "id": "62bee7603424d62ade44ad7a2295c868",
     "labels": [],
     "modified_at": 1787565409.283811,
-    "name": "SM25- - Bureau PC Game - Interrupteur toilettes Last Restart Time",
+    "name": null,
     "next_name_part": "area",
     "options": {
       "conversation": {
@@ -23957,7 +23957,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138c59605147c_temperature_calibration_zigbee2mqtt"
   },
-  "switch.sb50": {
+  "switch.sb17": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -23966,7 +23966,7 @@
     "device_id": "4359e811bbd9dc045249d9e56f670ef0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.sb50",
+    "entity_id": "switch.sb17",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": "mdi:television",
@@ -24203,7 +24203,7 @@
     "translation_key": "night_mode_start",
     "unique_id": "y2fPdcK65X6xAai6KLPX1kXY_night_mode_start"
   },
-  "switch.trv_btr_06_rez_sud_est_salon_eco_mode": {
+  "switch.trv_btr_06_eco_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -24212,7 +24212,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_06_rez_sud_est_salon_eco_mode",
+    "entity_id": "switch.trv_btr_06_eco_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -24373,7 +24373,7 @@
     "translation_key": null,
     "unique_id": "0xb0e8e8fffe5e7386_valve_closing_degree_zigbee2mqtt"
   },
-  "switch.trv_btr_01_chambre_1er_sud_est_bureau_boost_heating": {
+  "switch.trv_btr_01": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -24382,7 +24382,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.trv_btr_01_chambre_1er_sud_est_bureau_boost_heating",
+    "entity_id": "switch.trv_btr_01",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -24448,7 +24448,7 @@
     "id": "64f9c90ba12dac3d71ff7c0e89cce061",
     "labels": [],
     "modified_at": 1786099442.154914,
-    "name": "S1PM42 - Mesure eponge overheating",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -24488,7 +24488,7 @@
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_66_ether6"
   },
-  "binary_sensor.trv_btr_03_chambre_1er_sud_est_enfants_window": {
+  "binary_sensor.trv_btr_03_window": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -24497,7 +24497,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_03_chambre_1er_sud_est_enfants_window",
+    "entity_id": "binary_sensor.trv_btr_03_window",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -24648,7 +24648,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1380d8ef826d1_humidity_calibration_zigbee2mqtt"
   },
-  "binary_sensor.s1pm61_prise_jardin_switch_0_overpowering": {
+  "binary_sensor.sp1pm61_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01JXWG5B4MD28YWF64WWTDAQEV",
@@ -24657,7 +24657,7 @@
     "device_id": "204522c59a1ef8adcbe7eb2f437beb01",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.s1pm61_prise_jardin_switch_0_overpowering",
+    "entity_id": "binary_sensor.sp1pm61_overpowering",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -25103,7 +25103,7 @@
     "id": "679b77ecd0d3b70fb60f90e676a286cb",
     "labels": [],
     "modified_at": 1786650766.453334,
-    "name": "S1PM40 overpowering",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -25233,7 +25233,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "e4d6b587fbbfb3e67c1d813d1e30cb74",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm38_wifi_connect_count",
     "has_entity_name": true,
@@ -25282,7 +25282,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138a305a5a04c_temperature_unit_zigbee2mqtt"
   },
-  "sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_local_temperature": {
+  "sensor.trv_btr_05_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -25291,7 +25291,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_local_temperature",
+    "entity_id": "sensor.trv_btr_05_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -25329,7 +25329,7 @@
     "id": "683ff5afc6509e2b1ab7c61ee9a63907",
     "labels": [],
     "modified_at": 1791541220.067952,
-    "name": "S1PM43 - Temperature boiler bas power",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor": {
@@ -26073,7 +26073,7 @@
     "id": "6b4e6bc707c10d94bd81fb18f60cc861",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB20 - Tasmorallonge vacances WiFi Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -26208,7 +26208,7 @@
     "id": "6be6d69675e4da3147a11afaa9febc9b",
     "labels": [],
     "modified_at": 1787298420.102564,
-    "name": "Compresseur",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -26348,7 +26348,7 @@
     "translation_key": "setting",
     "unique_id": "jura_homeassistant_jurae8_setting_auto_off"
   },
-  "switch.trv_btr_02_chambre_1er_sud_ouest_parents_eco_mode": {
+  "switch.trv_btr_02_eco_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -26357,7 +26357,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_02_chambre_1er_sud_ouest_parents_eco_mode",
+    "entity_id": "switch.trv_btr_02_eco_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -26475,7 +26475,7 @@
     "id": "6d0e7171872524e14219966cad30f47a",
     "labels": [],
     "modified_at": 1750149046.532876,
-    "name": "S1PM60 - Rallong culligan energy",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor.private": {
@@ -26545,7 +26545,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_last_removed_notification"
   },
-  "switch.trv_zb07_smart_temperature_control": {
+  "switch.trv_zb07": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -26554,7 +26554,7 @@
     "device_id": "77450e08236dbdb0cded4d618925ebe5",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.trv_zb07_smart_temperature_control",
+    "entity_id": "switch.trv_zb07",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -26589,7 +26589,7 @@
     "id": "6de51283e47548d65bb2ee94de323528",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB20 - Tasmorallonge vacances MQTT Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -26725,7 +26725,7 @@
     "id": "6e3b070816ace21e588191e78bd02cb6",
     "labels": [],
     "modified_at": 1786099442.155097,
-    "name": "S1PM42 - Mesure eponge overpowering",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -26997,7 +26997,7 @@
     "translation_key": null,
     "unique_id": "FA:7A:E0:75:2E:F0"
   },
-  "binary_sensor.reduit_sp1pm64_temp_et_mesure_cave_overheating": {
+  "binary_sensor.sp1pm64_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01KZDW1PGN9FFWGKV1SYZXP2CN",
@@ -27006,7 +27006,7 @@
     "device_id": "854e828ad8cf504ed9551236eb53cb9d",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.reduit_sp1pm64_temp_et_mesure_cave_overheating",
+    "entity_id": "binary_sensor.sp1pm64_overheating",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -27025,7 +27025,7 @@
     "translation_key": "overheating",
     "unique_id": "CC7B5C82568C-switch:0-overtemp"
   },
-  "button.s1pm61_prise_jardin_reboot": {
+  "button.sp1pm61_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01JXWG5B4MD28YWF64WWTDAQEV",
@@ -27034,7 +27034,7 @@
     "device_id": "204522c59a1ef8adcbe7eb2f437beb01",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm61_prise_jardin_reboot",
+    "entity_id": "button.sp1pm61_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -27168,7 +27168,7 @@
     "translation_key": null,
     "unique_id": "4c_5e_0c_f1_fa_65_eth5.33"
   },
-  "binary_sensor.s1pm32_lavette_mesure_overheating": {
+  "binary_sensor.sp1pm62_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01K4SNPNA8XN70S27A8320NJ75",
@@ -27177,7 +27177,7 @@
     "device_id": "561e15499f74e5bd38d67b8240c260c2",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.s1pm32_lavette_mesure_overheating",
+    "entity_id": "binary_sensor.sp1pm62_overheating",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -27196,7 +27196,7 @@
     "translation_key": "overheating",
     "unique_id": "E465B8F24AAC-switch:0-overtemp"
   },
-  "text.trv_btr_01_chambre_1er_sud_est_bureau_programming_mode": {
+  "text.trv_btr_01_programming_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -27205,7 +27205,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "text.trv_btr_01_chambre_1er_sud_est_bureau_programming_mode",
+    "entity_id": "text.trv_btr_01_programming_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -27512,7 +27512,7 @@
     "id": "706c74a08f0dfd1a281824b13365071e",
     "labels": [],
     "modified_at": 1770820086.77785,
-    "name": "Salle de bain rez",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -27544,7 +27544,7 @@
     "id": "707463dd9fd9b788b6b968fba1bb74b1",
     "labels": [],
     "modified_at": 1791541206.056558,
-    "name": "S1PM43 - Temperature boiler bas",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -27695,7 +27695,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "ffc070ff4ee24844c933f2a4e9dd24c1",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm39_last_restart_time",
     "has_entity_name": true,
@@ -27990,7 +27990,7 @@
     "translation_key": "core_update",
     "unique_id": "fc:e8:c0:f8:7e:b4-core_update"
   },
-  "binary_sensor.trv_btr_06_rez_sud_est_salon_valve_state": {
+  "binary_sensor.trv_btr_06_opening": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -27999,7 +27999,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_06_rez_sud_est_salon_valve_state",
+    "entity_id": "binary_sensor.trv_btr_06_opening",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -28789,7 +28789,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "248bd1b525c35c20b8e38547bd24c084",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm55_mqtt_connect_count",
     "has_entity_name": true,
@@ -28896,7 +28896,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "e4d6b587fbbfb3e67c1d813d1e30cb74",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm38_last_restart_time",
     "has_entity_name": true,
@@ -29552,7 +29552,7 @@
     "id": "78c2a3377929e48d03285caf7683a157",
     "labels": [],
     "modified_at": 1786821213.224396,
-    "name": "SB18 - Lumières ext Noël",
+    "name": "SB18 - Lumières et Noël",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -29619,7 +29619,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "be279e239db2e74e665589530b5b0c6a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm35_ssid",
     "has_entity_name": true,
@@ -29628,7 +29628,7 @@
     "id": "78d27198bdd397e3cf53a5c09149930c",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM35 - Lumière réduit SSID",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -29734,7 +29734,7 @@
     "translation_key": null,
     "unique_id": "BOSCH-WAVH8E41CH-68A40E902CC0-Door"
   },
-  "number.trv_btr_05_rez_sud_ouest_salle_a_manger_eco_temperature": {
+  "number.trv_btr_05_eco_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -29743,7 +29743,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_05_rez_sud_ouest_salle_a_manger_eco_temperature",
+    "entity_id": "number.trv_btr_05_eco_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -29806,7 +29806,7 @@
     "id": "79c0633d3a11a0bb34ec9363041b09ab",
     "labels": [],
     "modified_at": 1786907269.00544,
-    "name": "Bureau Ecrans",
+    "name": "SM26 - Bureau Ecrans",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -29870,7 +29870,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_health_connect_systolic_blood_pressure"
   },
-  "button.s1pm42_reboot": {
+  "button.s1pm42_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "743888ab6fa893aa5c7838d096884b46",
@@ -29879,14 +29879,14 @@
     "device_id": "eac0995bd97c2184b13f7ef83180e363",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm42_reboot",
+    "entity_id": "button.s1pm42_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "79ed6b1694ef69a2e29aea4ad72b0135",
     "labels": [],
     "modified_at": 1786099442.155342,
-    "name": "S1PM42 - Mesure eponge Reboot",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -30217,7 +30217,7 @@
     "translation_key": "instantaneous_current_l3",
     "unique_id": "353038363937_instantaneous_current_l3"
   },
-  "climate.trv_btr_02_chambre_1er_sud_ouest_parents": {
+  "climate.trv_btr_02_climate": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -30226,7 +30226,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "climate.trv_btr_02_chambre_1er_sud_ouest_parents",
+    "entity_id": "climate.trv_btr_02_climate",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -30600,7 +30600,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_storage_sensor"
   },
-  "number.trv_btr_05_rez_sud_ouest_salle_a_manger_boost_heating_countdown_time_set": {
+  "number.trv_btr_05_boost_heating_countdown_time_set": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -30609,7 +30609,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_05_rez_sud_ouest_salle_a_manger_boost_heating_countdown_time_set",
+    "entity_id": "number.trv_btr_05_boost_heating_countdown_time_set",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -30628,7 +30628,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1381ebf9a14a2_boost_heating_countdown_time_set_zigbee2mqtt"
   },
-  "device_tracker.esp_60f706": {
+  "device_tracker.sm56_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -30637,7 +30637,7 @@
     "device_id": "f1ef91a7357c8f3228f805d550307873",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.esp_60f706",
+    "entity_id": "device_tracker.sm56_device_tracker",
     "has_entity_name": false,
     "hidden_by": null,
     "icon": null,
@@ -30784,7 +30784,7 @@
     "translation_key": null,
     "unique_id": "4c_5e_0c_f1_fa_62_eth2.51"
   },
-  "device_tracker.esp_9cfb22": {
+  "device_tracker.sm54_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -30793,7 +30793,7 @@
     "device_id": "06ceb31092dd82f139ca4eb4bb5df004",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.esp_9cfb22",
+    "entity_id": "device_tracker.sm54_device_tracker",
     "has_entity_name": false,
     "hidden_by": null,
     "icon": null,
@@ -31300,7 +31300,7 @@
     "id": "7fad7f2c56a35e68981b36aeb673b66c",
     "labels": [],
     "modified_at": 1786099442.155257,
-    "name": "S1PM42 - Mesure eponge power",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor": {
@@ -31607,7 +31607,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_volume_notification"
   },
-  "update.s1pm61_prise_jardin_firmware": {
+  "update.sp1pm61_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01JXWG5B4MD28YWF64WWTDAQEV",
@@ -31616,7 +31616,7 @@
     "device_id": "204522c59a1ef8adcbe7eb2f437beb01",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.s1pm61_prise_jardin_firmware",
+    "entity_id": "update.sp1pm61_firmware",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -31675,7 +31675,7 @@
     "id": "80efce1600944d3beb32678306299a56",
     "labels": [],
     "modified_at": 1787564633.058828,
-    "name": "Serveurs",
+    "name": null,
     "next_name_part": "area",
     "options": {
       "conversation": {
@@ -31728,7 +31728,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "ffc070ff4ee24844c933f2a4e9dd24c1",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm39_ssid",
     "has_entity_name": true,
@@ -31793,7 +31793,7 @@
     "id": "813806ca74b5878c30a0ffb32b06a57b",
     "labels": [],
     "modified_at": 1791213706.375779,
-    "name": "S1PM58 - Cave à vin temperature",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -31927,7 +31927,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "e4d6b587fbbfb3e67c1d813d1e30cb74",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.sm38",
     "has_entity_name": true,
@@ -32508,7 +32508,7 @@
     "translation_key": null,
     "unique_id": "4c_5e_0c_f1_fa_65_eth5.21"
   },
-  "sensor.msws65_atelier_energy_since_boot": {
+  "sensor.msws65_energy_since_boot": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M0HM2FZQED7VV9T7T2RGMTRY",
@@ -32517,7 +32517,7 @@
     "device_id": "68ed13399e2f6564af08adb9bd0fcb3e",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.msws65_atelier_energy_since_boot",
+    "entity_id": "sensor.msws65_energy_since_boot",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -32638,7 +32638,7 @@
     "id": "8479655963a18d1839f18b41a73d74dd",
     "labels": [],
     "modified_at": 1765955838.064883,
-    "name": "S1PM31 - Lampe salon Overheating",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -32678,7 +32678,7 @@
     "translation_key": null,
     "unique_id": "0xb0e8e8fffe5e7386_weekly_schedule_wednesday_zigbee2mqtt"
   },
-  "number.trv_btr_02_chambre_1er_sud_ouest_parents_boost_heating_countdown_time_set": {
+  "number.trv_btr_02_boost_heating_countdown_time_set": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -32687,7 +32687,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_02_chambre_1er_sud_ouest_parents_boost_heating_countdown_time_set",
+    "entity_id": "number.trv_btr_02_boost_heating_countdown_time_set",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -32955,7 +32955,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_is_idle"
   },
-  "switch.trv_btr_04_chambre_rez_salle_de_jeu_boost_heating": {
+  "switch.trv_btr_04": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -32964,7 +32964,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.trv_btr_04_chambre_rez_salle_de_jeu_boost_heating",
+    "entity_id": "switch.trv_btr_04",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -33401,7 +33401,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1380d8ef826d1_temperature_calibration_zigbee2mqtt"
   },
-  "sensor.trv_btr_02_chambre_1er_sud_ouest_parents_boost_heating_countdown": {
+  "sensor.trv_btr_02_duration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -33410,7 +33410,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_02_chambre_1er_sud_ouest_parents_boost_heating_countdown",
+    "entity_id": "sensor.trv_btr_02_duration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -33687,7 +33687,7 @@
     "translation_key": "wlan",
     "unique_id": "4e_5e_0c_f1_fa_6c_wlan1.31"
   },
-  "number.trv_btr_06_rez_sud_est_salon_boost_heating_countdown_time_set": {
+  "number.trv_btr_06_boost_heating_countdown_time_set": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -33696,7 +33696,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_06_rez_sud_est_salon_boost_heating_countdown_time_set",
+    "entity_id": "number.trv_btr_06_boost_heating_countdown_time_set",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -33799,7 +33799,7 @@
     "translation_key": "brew_water",
     "unique_id": "jura_homeassistant_jurae8_brew_water_ml"
   },
-  "event.s146": {
+  "event.s146_input": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "986db770e4b81b0a80a1d4579c1a6874",
@@ -33808,7 +33808,7 @@
     "device_id": "ccca51959f1c429c6acd2b83ef31453f",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "event.s146",
+    "entity_id": "event.s146_input",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -33903,7 +33903,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_wifi_signal_strength"
   },
-  "sensor.sm28_lumieres_exterieur_mqtt_connect_count": {
+  "sensor.sm28_mqtt_connect_count": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -33912,14 +33912,14 @@
     "device_id": "b429a88b83ced03b288552f43b3dabc6",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm28_lumieres_exterieur_mqtt_connect_count",
+    "entity_id": "sensor.sm28_mqtt_connect_count",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "89a2fc09837ca5c8493286172561c199",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM28 - Lumieres exterieur MQTT Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -34130,7 +34130,7 @@
     "id": "8a6cf696de9f25631f313cffb33888d1",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB20 - Tasmorallonge vacances Last Restart Time",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -34149,7 +34149,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "ffc070ff4ee24844c933f2a4e9dd24c1",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm39_wifi_connect_count",
     "has_entity_name": true,
@@ -34229,7 +34229,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "e4d6b587fbbfb3e67c1d813d1e30cb74",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm38_ssid",
     "has_entity_name": true,
@@ -34378,7 +34378,7 @@
     "translation_key": null,
     "unique_id": "BOSCH-WAVH8E41CH-68A40E902CC0-Program DrumClean"
   },
-  "sensor.trv_btr_02_chambre_1er_sud_ouest_parents_battery": {
+  "sensor.trv_btr_02_battery": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -34387,7 +34387,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.trv_btr_02_chambre_1er_sud_ouest_parents_battery",
+    "entity_id": "sensor.trv_btr_02_battery",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -34610,7 +34610,7 @@
     "translation_key": null,
     "unique_id": "00:23:F8:30:CC:FD"
   },
-  "select.trv_zb07_temporary_mode_select": {
+  "select.trv_zb07_temporary_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -34619,7 +34619,7 @@
     "device_id": "77450e08236dbdb0cded4d618925ebe5",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "select.trv_zb07_temporary_mode_select",
+    "entity_id": "select.trv_zb07_temporary_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -35440,7 +35440,7 @@
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_60_sfp1"
   },
-  "number.trv_btr_03_chambre_1er_sud_est_enfants_boost_heating_countdown_time_set": {
+  "number.trv_btr_03_boost_heating_countdown_time_set": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -35449,7 +35449,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_03_chambre_1er_sud_est_enfants_boost_heating_countdown_time_set",
+    "entity_id": "number.trv_btr_03_boost_heating_countdown_time_set",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -35520,7 +35520,7 @@
     "translation_key": "instantaneous_current_l2",
     "unique_id": "353038363937_instantaneous_current_l2"
   },
-  "sensor.tasmota_last_restart_time": {
+  "sensor.sb48_last_restart_time": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -35529,7 +35529,7 @@
     "device_id": "4ef2010b41e8bf6bbaae93d01f4a1cfb",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.tasmota_last_restart_time",
+    "entity_id": "sensor.sb48_last_restart_time",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -35628,7 +35628,7 @@
     "translation_key": null,
     "unique_id": "c_est_noel_sync"
   },
-  "number.trv_btr_05_rez_sud_ouest_salle_a_manger_local_temperature_calibration": {
+  "number.trv_btr_05_temperature_delta": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -35637,7 +35637,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_05_rez_sud_ouest_salle_a_manger_local_temperature_calibration",
+    "entity_id": "number.trv_btr_05_temperature_delta",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -36164,7 +36164,7 @@
     "id": "93569a33a209372d2ace07b6ea484dd6",
     "labels": [],
     "modified_at": 1787298226.730767,
-    "name": "Lampe salon",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -36563,7 +36563,7 @@
     "translation_key": null,
     "unique_id": "sensor.01JBRPFHZ66894ZYT52FQKEKQY-sun_radiant"
   },
-  "switch.trv_btr_02_chambre_1er_sud_ouest_parents_child_lock": {
+  "switch.trv_btr_02_child_lock": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -36572,7 +36572,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_02_chambre_1er_sud_ouest_parents_child_lock",
+    "entity_id": "switch.trv_btr_02_child_lock",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -37024,7 +37024,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "3bfec27e5b799f61e8df035a73129221",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.sm29",
     "has_entity_name": true,
@@ -37165,7 +37165,7 @@
     "id": "993d141141f2a414c28bc0a6c6b6744a",
     "labels": [],
     "modified_at": 1786907224.884717,
-    "name": "SM26 - Bureau Ecrans - Aération toilettes - Ventillation toilettes rez Last restart time",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -37576,7 +37576,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "7c5c2592c52a4438cffe62713b4ac37f",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.sm54",
     "has_entity_name": true,
@@ -37637,7 +37637,7 @@
     "id": "9b2416213152007dfe400c8a923583a0",
     "labels": [],
     "modified_at": 1787299069.081989,
-    "name": "Bureau PC Game",
+    "name": "SM25- - Bureau PC Game",
     "next_name_part": "area",
     "options": {
       "conversation": {
@@ -37881,7 +37881,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_charger_type"
   },
-  "switch.trv_btr_06_rez_sud_est_salon_window_detection": {
+  "switch.trv_btr_06_window_detection": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -37890,7 +37890,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_06_rez_sud_est_salon_window_detection",
+    "entity_id": "switch.trv_btr_06_window_detection",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -38191,7 +38191,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "ffc070ff4ee24844c933f2a4e9dd24c1",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm39_mqtt_connect_count",
     "has_entity_name": true,
@@ -38240,7 +38240,7 @@
     "translation_key": null,
     "unique_id": "7C87CEA1A26E_status_sensor_status_sensor_status_rssi"
   },
-  "number.trv_btr_06_rez_sud_est_salon_eco_temperature": {
+  "number.trv_btr_06_eco_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -38249,7 +38249,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_06_rez_sud_est_salon_eco_temperature",
+    "entity_id": "number.trv_btr_06_eco_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -38615,7 +38615,7 @@
     "translation_key": null,
     "unique_id": "1672046011619"
   },
-  "sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_position": {
+  "sensor.trv_btr_05_position": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -38624,7 +38624,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_position",
+    "entity_id": "sensor.trv_btr_05_position",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -38751,7 +38751,7 @@
     "translation_key": "zigbee_type",
     "unique_id": "fc:e8:c0:f8:7e:b4_zigbee_type"
   },
-  "device_tracker.80_64_6f_91_a8_79": {
+  "device_tracker.sb48_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -38760,7 +38760,7 @@
     "device_id": "c599f26fd0c4e5895fe2c3cb5ff7fa57",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.80_64_6f_91_a8_79",
+    "entity_id": "device_tracker.sb48_device_tracker",
     "has_entity_name": false,
     "hidden_by": null,
     "icon": null,
@@ -38914,7 +38914,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1383daa25320b_temperature_unit_zigbee2mqtt"
   },
-  "sensor.zg_227z_17_galetas_humidity": {
+  "sensor.zg_227z_17_humidity": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -38923,7 +38923,7 @@
     "device_id": "4daec655abda7afa68eb293120958615",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.zg_227z_17_galetas_humidity",
+    "entity_id": "sensor.zg_227z_17_humidity",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -38949,7 +38949,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "7c5c2592c52a4438cffe62713b4ac37f",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm54_mqtt_connect_count",
     "has_entity_name": true,
@@ -39552,7 +39552,7 @@
     "translation_key": "brew_counter",
     "unique_id": "jura_homeassistant_jurae8_brews_coffee"
   },
-  "binary_sensor.trv_btr_02_chambre_1er_sud_ouest_parents_valve_state": {
+  "binary_sensor.trv_btr_02_opening": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -39561,7 +39561,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_02_chambre_1er_sud_ouest_parents_valve_state",
+    "entity_id": "binary_sensor.trv_btr_02_opening",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -39836,7 +39836,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_keyguard_secure"
   },
-  "number.trv_btr_06_rez_sud_est_salon_max_temperature": {
+  "number.trv_btr_06_max_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -39845,7 +39845,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_06_rez_sud_est_salon_max_temperature",
+    "entity_id": "number.trv_btr_06_max_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -39972,7 +39972,7 @@
     "translation_key": "battery_runtime",
     "unique_id": "American Power Conversion_Back-UPS BX500MI_9B2541A17038_battery.runtime"
   },
-  "number.trv_btr_03_chambre_1er_sud_est_enfants_local_temperature_calibration": {
+  "number.trv_btr_03_temperature_delta": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -39981,7 +39981,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_03_chambre_1er_sud_est_enfants_local_temperature_calibration",
+    "entity_id": "number.trv_btr_03_temperature_delta",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -40345,7 +40345,7 @@
     "id": "a87d96a3e3b1539e0203915e54fa13bf",
     "labels": [],
     "modified_at": 1791213667.027993,
-    "name": "S1PM58 - mesure 1er power",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -40497,7 +40497,7 @@
     "translation_key": null,
     "unique_id": "3494546B33E9-light_0-power"
   },
-  "sensor.trv_btr_01_chambre_1er_nord_est_bureau_local_temperature": {
+  "sensor.trv_btr_01_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -40506,7 +40506,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_01_chambre_1er_nord_est_bureau_local_temperature",
+    "entity_id": "sensor.trv_btr_01_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -40559,7 +40559,7 @@
     "translation_key": "memory_usage",
     "unique_id": "5E6D040C78B6_memory-usage"
   },
-  "number.zg_227z_17_galetas_temperature_calibration": {
+  "number.zg_227z_17_temperature_calibration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -40568,7 +40568,7 @@
     "device_id": "4daec655abda7afa68eb293120958615",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.zg_227z_17_galetas_temperature_calibration",
+    "entity_id": "number.zg_227z_17_temperature_calibration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -41010,7 +41010,7 @@
     "id": "aa5c2c62ae598ce2189cb1e15d9795e4",
     "labels": [],
     "modified_at": 1765955838.050989,
-    "name": "S1PM59 - Rallonge deshumidificateur overheating",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -41118,7 +41118,7 @@
     "id": "aa8dc71a08d8d618847b5234c4358836",
     "labels": [],
     "modified_at": 1750149046.532697,
-    "name": "S1PM60 - Rallong culligan power",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor": {
@@ -41427,7 +41427,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_current_version"
   },
-  "number.trv_btr_04_chambre_rez_salle_de_jeu_eco_temperature": {
+  "number.trv_btr_04_eco_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -41436,7 +41436,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_04_chambre_rez_salle_de_jeu_eco_temperature",
+    "entity_id": "number.trv_btr_04_eco_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -41471,7 +41471,7 @@
     "id": "ac428eefc4f82a97fed8986e8739851f",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB18 WiFi Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -41511,7 +41511,7 @@
     "translation_key": null,
     "unique_id": "48551960F706_status_sensor_status_sensor_status_version"
   },
-  "event.s1pm40": {
+  "event.s1pm40_input": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "d0efcf184d4e0544409216f65d685be5",
@@ -41520,7 +41520,7 @@
     "device_id": "b60865f1cd122e66b619312732ea1244",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "event.s1pm40",
+    "entity_id": "event.s1pm40_input",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -41607,7 +41607,7 @@
     "id": "acb51c28eabde2dc8df9264be614bc04",
     "labels": [],
     "modified_at": 1791541213.24689,
-    "name": "S1PM43 - Temperature boiler bas energy",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor.private": {
@@ -42043,7 +42043,7 @@
     "translation_key": null,
     "unique_id": "0xa4c13811218e5ca4_programming_mode_zigbee2mqtt"
   },
-  "number.trv_zb07_local_temperature_calibration": {
+  "number.trv_zb07_temperature_delta": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -42052,7 +42052,7 @@
     "device_id": "77450e08236dbdb0cded4d618925ebe5",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_zb07_local_temperature_calibration",
+    "entity_id": "number.trv_zb07_temperature_delta",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -42199,7 +42199,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_volume_music"
   },
-  "binary_sensor.reduit_sp1pm64_temp_et_mesure_cave_overvoltage": {
+  "binary_sensor.sp1pm64_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01KZDW1PGN9FFWGKV1SYZXP2CN",
@@ -42208,7 +42208,7 @@
     "device_id": "854e828ad8cf504ed9551236eb53cb9d",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.reduit_sp1pm64_temp_et_mesure_cave_overvoltage",
+    "entity_id": "binary_sensor.sp1pm64_overvoltage",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -42385,7 +42385,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1383d07276425_linkquality_zigbee2mqtt"
   },
-  "update.buanderie_sp1pm71_chaudiere_firmware": {
+  "update.sp1pm71_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M4G13ZVCJ42S6XPDX9YWD0G0",
@@ -42394,7 +42394,7 @@
     "device_id": "20243f8a779481b93ca4ecd7200db327",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.buanderie_sp1pm71_chaudiere_firmware",
+    "entity_id": "update.sp1pm71_firmware",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -42469,7 +42469,7 @@
     "translation_key": "version",
     "unique_id": "core_mosquitto_version"
   },
-  "binary_sensor.s1pm32_lavette_mesure_overvoltage": {
+  "binary_sensor.sp1pm62_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01K4SNPNA8XN70S27A8320NJ75",
@@ -42478,7 +42478,7 @@
     "device_id": "561e15499f74e5bd38d67b8240c260c2",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.s1pm32_lavette_mesure_overvoltage",
+    "entity_id": "binary_sensor.sp1pm62_overvoltage",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -42525,7 +42525,7 @@
     "translation_key": "version_latest",
     "unique_id": "core_mosquitto_version_latest"
   },
-  "switch.trv_btr_05_rez_sud_ouest_salle_a_manger_boost_heating": {
+  "switch.trv_btr_05": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -42534,7 +42534,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.trv_btr_05_rez_sud_ouest_salle_a_manger_boost_heating",
+    "entity_id": "switch.trv_btr_05",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -42660,7 +42660,7 @@
     "translation_key": null,
     "unique_id": "y2fPdcK65X6xAai6KLPX1kXY"
   },
-  "sensor.tasmota_mqtt_connect_count": {
+  "sensor.sb48_mqtt_connect_count": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -42669,7 +42669,7 @@
     "device_id": "4ef2010b41e8bf6bbaae93d01f4a1cfb",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.tasmota_mqtt_connect_count",
+    "entity_id": "sensor.sb48_mqtt_connect_count",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -42768,7 +42768,7 @@
     "translation_key": "cpu_percent",
     "unique_id": "a0d7b954_grafana_cpu_percent"
   },
-  "switch.sm28_lumieres_exterieur": {
+  "switch.sm28": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -42777,14 +42777,14 @@
     "device_id": "b429a88b83ced03b288552f43b3dabc6",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.sm28_lumieres_exterieur",
+    "entity_id": "switch.sm28",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "b1c376f7c2e96a6f965b2a01256f6a18",
     "labels": [],
     "modified_at": 0.0,
-    "name": "Lumières extérieur",
+    "name": "SM28 - Lumieres exterieur",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -42848,7 +42848,7 @@
     "translation_key": "next_scheduled_automatic_backup",
     "unique_id": "next_scheduled_automatic_backup"
   },
-  "switch.trv_btr_03_chambre_1er_sud_est_enfants_child_lock": {
+  "switch.trv_btr_03_child_lock": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -42857,7 +42857,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_03_chambre_1er_sud_est_enfants_child_lock",
+    "entity_id": "switch.trv_btr_03_child_lock",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -42956,7 +42956,7 @@
     "translation_key": "local_control",
     "unique_id": "BOSCH-WAVH8E41CH-68A40E902CC0-BSH.Common.Status.LocalControlActive"
   },
-  "sensor.zg_227z_08_chambre_parents_battery": {
+  "sensor.zg_227z_08_battery": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -42965,7 +42965,7 @@
     "device_id": "7ebdcf807f60bf294689183778cca645",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.zg_227z_08_chambre_parents_battery",
+    "entity_id": "sensor.zg_227z_08_battery",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -42984,7 +42984,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138a305a5a04c_battery_zigbee2mqtt"
   },
-  "climate.trv_btr_06_rez_sud_est_salon": {
+  "climate.trv_btr_06_climate": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -42993,14 +42993,14 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "climate.trv_btr_06_rez_sud_est_salon",
+    "entity_id": "climate.trv_btr_06_climate",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "b33511f95df75dcc666d0609d41d5170",
     "labels": [],
     "modified_at": 1760455602.988212,
-    "name": "TRV-BTR-06 - Rez sud est (salon)",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -43295,7 +43295,7 @@
     "id": "b4c37ab2df59011809c12248f0df276f",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB18 SSID",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -43391,7 +43391,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_active_notification_count"
   },
-  "sensor.msws65_atelier_last_restart": {
+  "sensor.msws65_last_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M0HM2FZQED7VV9T7T2RGMTRY",
@@ -43400,7 +43400,7 @@
     "device_id": "68ed13399e2f6564af08adb9bd0fcb3e",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.msws65_atelier_last_restart",
+    "entity_id": "sensor.msws65_last_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -43475,7 +43475,7 @@
     "translation_key": null,
     "unique_id": "E8DB84458C35_status_sensor_status_sensor_status_version"
   },
-  "device_tracker.esp_509b8e": {
+  "device_tracker.sm55_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -43484,7 +43484,7 @@
     "device_id": "9d7ed2e90022ac2cb9a63edca828ee8b",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.esp_509b8e",
+    "entity_id": "device_tracker.sm55_device_tracker",
     "has_entity_name": false,
     "hidden_by": null,
     "icon": null,
@@ -43695,7 +43695,7 @@
     "translation_key": null,
     "unique_id": "4c_5e_0c_f1_fa_62_32-GUEST"
   },
-  "binary_sensor.trv_btr_04_chambre_rez_salle_de_jeu_valve_state": {
+  "binary_sensor.trv_btr_04_opening": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -43704,7 +43704,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_04_chambre_rez_salle_de_jeu_valve_state",
+    "entity_id": "binary_sensor.trv_btr_04_opening",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -43795,7 +43795,7 @@
     "translation_key": null,
     "unique_id": "F4CFA2748E7B-uptime"
   },
-  "binary_sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_window": {
+  "binary_sensor.trv_btr_05_window": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -43804,7 +43804,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_05_rez_sud_ouest_salle_a_manger_window",
+    "entity_id": "binary_sensor.trv_btr_05_window",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -43823,7 +43823,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1381ebf9a14a2_window_zigbee2mqtt"
   },
-  "switch.sm27_lumiere_bureau": {
+  "switch.sm27": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -43832,14 +43832,14 @@
     "device_id": "e6d84c19429b511cb6ca3bfefd98c038",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.sm27_lumiere_bureau",
+    "entity_id": "switch.sm27",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": "mdi:office-building",
     "id": "b64f251412030a17b5fbdc763d0d4268",
     "labels": [],
     "modified_at": 1787917928.832412,
-    "name": "Lumière Bureau",
+    "name": "SM27 - Lumière Bureau",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -43875,7 +43875,7 @@
     "translation_key": "instantaneous_voltage_l3",
     "unique_id": "353038363933_instantaneous_voltage_l3"
   },
-  "button.s1pm30_reboot": {
+  "button.s1pm30_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "41badf3b940a172f42110b1730decda2",
@@ -43884,14 +43884,14 @@
     "device_id": "fe9f575f093440169c7060736a332242",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm30_reboot",
+    "entity_id": "button.s1pm30_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "b672a11d3523158b99c1441ead0b25a6",
     "labels": [],
     "modified_at": 1763374753.364185,
-    "name": "S1PM30 - Serveurs Reboot",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -44692,7 +44692,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "e4d6b587fbbfb3e67c1d813d1e30cb74",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm38_restart_reason",
     "has_entity_name": true,
@@ -44997,7 +44997,7 @@
     "translation_key": null,
     "unique_id": "01JCZYZNZPTWNX2KYM3AMBJYHQ_astroweather_clouds_area"
   },
-  "button.s1pm32_lavette_mesure_reboot": {
+  "button.sp1pm62_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01K4SNPNA8XN70S27A8320NJ75",
@@ -45006,7 +45006,7 @@
     "device_id": "561e15499f74e5bd38d67b8240c260c2",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm32_lavette_mesure_reboot",
+    "entity_id": "button.sp1pm62_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -45073,7 +45073,7 @@
     "translation_key": "vpn",
     "unique_id": "84:1f:e8:28:f4:f4_vpn"
   },
-  "sensor.trv_btr_04_chambre_rez_salle_de_jeu_battery": {
+  "sensor.trv_btr_04_battery": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -45082,7 +45082,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.trv_btr_04_chambre_rez_salle_de_jeu_battery",
+    "entity_id": "sensor.trv_btr_04_battery",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -45281,7 +45281,7 @@
     "id": "bc0ab648e2a6718e1bdafb4721fbdd09",
     "labels": [],
     "modified_at": 1765955838.064749,
-    "name": "S1PM31 - Lampe salon Overpowering",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -45365,7 +45365,7 @@
     "id": "bc99e9cfeb88f4e110cef345e19a0ec8",
     "labels": [],
     "modified_at": 1787298441.017997,
-    "name": "S1PM42 - Mesure eponge",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -45641,7 +45641,7 @@
     "translation_key": null,
     "unique_id": "B4:2E:99:82:BB:26"
   },
-  "button.s1pm59_reboot": {
+  "button.s1pm59_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01JAWHZA1ZQNTW3ZQ42VTK2TH8",
@@ -45650,14 +45650,14 @@
     "device_id": "b1ba0975f337ce1abab3c63ce01d51f9",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm59_reboot",
+    "entity_id": "button.s1pm59_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "bd9e3ddfa031b963bb73495073e79dc4",
     "labels": [],
     "modified_at": 1763374753.376918,
-    "name": "S1PM59 - Rallonge deshumidificateur Reboot",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -45669,7 +45669,7 @@
     "translation_key": null,
     "unique_id": "34945472C3BA-reboot"
   },
-  "switch.trv_btr_04_chambre_rez_salle_de_jeu_child_lock": {
+  "switch.trv_btr_04_child_lock": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -45678,7 +45678,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_04_chambre_rez_salle_de_jeu_child_lock",
+    "entity_id": "switch.trv_btr_04_child_lock",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -45946,7 +45946,7 @@
     "translation_key": null,
     "unique_id": "AC:67:B2:E7:3E:0C"
   },
-  "sensor.trv_btr_02_chambre_1er_sud_ouest_parents_local_temperature": {
+  "sensor.trv_btr_02_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -45955,7 +45955,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_02_chambre_1er_sud_ouest_parents_local_temperature",
+    "entity_id": "sensor.trv_btr_02_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -46053,7 +46053,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_health_connect_heart_rate_variability"
   },
-  "number.trv_btr_04_chambre_rez_salle_de_jeu_min_temperature": {
+  "number.trv_btr_04_min_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -46062,7 +46062,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_04_chambre_rez_salle_de_jeu_min_temperature",
+    "entity_id": "number.trv_btr_04_min_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -46275,7 +46275,7 @@
     "translation_key": null,
     "unique_id": "weather.01JBRPFHZ66894ZYT52FQKEKQY"
   },
-  "binary_sensor.trv_btr_04_chambre_rez_salle_de_jeu_window": {
+  "binary_sensor.trv_btr_04_window": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -46284,7 +46284,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_04_chambre_rez_salle_de_jeu_window",
+    "entity_id": "binary_sensor.trv_btr_04_window",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -46331,7 +46331,7 @@
     "translation_key": null,
     "unique_id": "0xf044d3fffebacae5_humidity_zigbee2mqtt"
   },
-  "sensor.trv_btr_04_chambre_rez_salle_de_jeu_boost_heating_countdown": {
+  "sensor.trv_btr_04_duration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -46340,7 +46340,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_04_chambre_rez_salle_de_jeu_boost_heating_countdown",
+    "entity_id": "sensor.trv_btr_04_duration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -46378,7 +46378,7 @@
     "id": "c1016a5a31c95c51e6550af304129bba",
     "labels": [],
     "modified_at": 1787744742.339176,
-    "name": "Wall-E",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -46501,7 +46501,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_light_sensor"
   },
-  "switch.trv_btr_04_chambre_rez_salle_de_jeu_eco_mode": {
+  "switch.trv_btr_04_eco_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -46510,7 +46510,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_04_chambre_rez_salle_de_jeu_eco_mode",
+    "entity_id": "switch.trv_btr_04_eco_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -46553,7 +46553,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_high_accuracy_mode"
   },
-  "sensor.trv_btr_06_rez_sud_est_salon_position": {
+  "sensor.trv_btr_06_position": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -46562,7 +46562,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_06_rez_sud_est_salon_position",
+    "entity_id": "sensor.trv_btr_06_position",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -47055,7 +47055,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": null,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "input_boolean.tous_dehors",
     "has_entity_name": false,
@@ -47139,7 +47139,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "18fe40e30d65b7d530bf4699669b1f7a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm56_ssid",
     "has_entity_name": true,
@@ -47618,7 +47618,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1380270beb5c0_temperature_zigbee2mqtt"
   },
-  "sensor.zg_227z_17_galetas_temperature": {
+  "sensor.zg_227z_17_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -47627,7 +47627,7 @@
     "device_id": "4daec655abda7afa68eb293120958615",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.zg_227z_17_galetas_temperature",
+    "entity_id": "sensor.zg_227z_17_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -47677,7 +47677,7 @@
     "translation_key": "input",
     "unique_id": "3494547282A6-relay_0-1"
   },
-  "binary_sensor.trv_btr_03_valve_state": {
+  "binary_sensor.trv_btr_03_opening": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -47686,7 +47686,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.trv_btr_03_valve_state",
+    "entity_id": "binary_sensor.trv_btr_03_opening",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -47939,7 +47939,7 @@
     "id": "c839371f07f222cf492fe1a45818b317",
     "labels": [],
     "modified_at": 1787298851.818095,
-    "name": "Garage gauche",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -48003,7 +48003,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_sim_1"
   },
-  "sensor.zg_227z_11_reduit_battery": {
+  "sensor.zg_227z_11_battery": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -48012,7 +48012,7 @@
     "device_id": "2ff42f71efe45e7558b5dbf24a631b21",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.zg_227z_11_reduit_battery",
+    "entity_id": "sensor.zg_227z_11_battery",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -48083,7 +48083,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_android_os_version"
   },
-  "binary_sensor.reduit_sp1pm64_temp_et_mesure_cave_overcurrent": {
+  "binary_sensor.sp1pm64_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01KZDW1PGN9FFWGKV1SYZXP2CN",
@@ -48092,7 +48092,7 @@
     "device_id": "854e828ad8cf504ed9551236eb53cb9d",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.reduit_sp1pm64_temp_et_mesure_cave_overcurrent",
+    "entity_id": "binary_sensor.sp1pm64_overcurrent",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -48270,7 +48270,7 @@
     "translation_key": "input",
     "unique_id": "34945472B3A7-relay_0-input"
   },
-  "binary_sensor.s1pm61_prise_jardin_switch_0_overheating": {
+  "binary_sensor.sp1pm61_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01JXWG5B4MD28YWF64WWTDAQEV",
@@ -48279,7 +48279,7 @@
     "device_id": "204522c59a1ef8adcbe7eb2f437beb01",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.s1pm61_prise_jardin_switch_0_overheating",
+    "entity_id": "binary_sensor.sp1pm61_overheating",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -48298,7 +48298,7 @@
     "translation_key": "overheating",
     "unique_id": "E465B8F1A028-switch:0-overtemp"
   },
-  "switch.trv_btr_05_rez_sud_ouest_salle_a_manger_child_lock": {
+  "switch.trv_btr_05_child_lock": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -48307,7 +48307,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_05_rez_sud_ouest_salle_a_manger_child_lock",
+    "entity_id": "switch.trv_btr_05_child_lock",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -48326,7 +48326,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1381ebf9a14a2_switch_child_lock_zigbee2mqtt"
   },
-  "event.shelly1pm_244cab4333cf": {
+  "event.s1pm31_input": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "2cfd64f7f3a68ee546f84e41d78b99b5",
@@ -48335,7 +48335,7 @@
     "device_id": "75825f3a28aaff363d059e8b1ce451da",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "event.shelly1pm_244cab4333cf",
+    "entity_id": "event.s1pm31_input",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -48413,7 +48413,7 @@
     "translation_key": "version",
     "unique_id": "core_configurator_version"
   },
-  "number.trv_btr_01_chambre_1er_sud_est_bureau_min_temperature": {
+  "number.trv_btr_01_min_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -48422,7 +48422,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_01_chambre_1er_sud_est_bureau_min_temperature",
+    "entity_id": "number.trv_btr_01_min_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -48787,7 +48787,7 @@
     "id": "cb5f06bfb757f62c1d35ed8c079cf246",
     "labels": [],
     "modified_at": 1770820086.747045,
-    "name": "Salle de bain 1er",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -49179,7 +49179,7 @@
     "id": "cc75d8f19b7f7a6c8d5666f82b70c4e7",
     "labels": [],
     "modified_at": 1765955838.076006,
-    "name": "S1PM60 - Rallong culligan overheating",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -49782,7 +49782,7 @@
     "translation_key": "input",
     "unique_id": "485519CB1146-relay_0-input"
   },
-  "sensor.trv_btr_02_chambre_1er_sud_ouest_parents_position": {
+  "sensor.trv_btr_02_position": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -49791,7 +49791,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_02_chambre_1er_sud_ouest_parents_position",
+    "entity_id": "sensor.trv_btr_02_position",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -50081,7 +50081,7 @@
     "translation_key": "gfs_supplementary_data",
     "unique_id": "01JCZYZNZPTWNX2KYM3AMBJYHQ_astroweather_gfs_supplementary_data"
   },
-  "binary_sensor.reduit_sp1pm64_temp_et_mesure_cave_overpowering": {
+  "binary_sensor.sp1pm64_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01KZDW1PGN9FFWGKV1SYZXP2CN",
@@ -50090,7 +50090,7 @@
     "device_id": "854e828ad8cf504ed9551236eb53cb9d",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.reduit_sp1pm64_temp_et_mesure_cave_overpowering",
+    "entity_id": "binary_sensor.sp1pm64_overpowering",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -50137,7 +50137,7 @@
     "translation_key": null,
     "unique_id": "48551960F706_status_sensor_status_sensor_status_rssi"
   },
-  "switch.trv_btr_06_rez_sud_est_salon_boost_heating": {
+  "switch.trv_btr_06": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -50146,7 +50146,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.trv_btr_06_rez_sud_est_salon_boost_heating",
+    "entity_id": "switch.trv_btr_06",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -50435,7 +50435,7 @@
     "translation_key": null,
     "unique_id": "12:7A:D3:A3:EF:5D"
   },
-  "sensor.trv_btr_01_chambre_1er_sud_est_bureau_boost_heating_countdown": {
+  "sensor.trv_btr_01_duration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -50444,7 +50444,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_01_chambre_1er_sud_est_bureau_boost_heating_countdown",
+    "entity_id": "sensor.trv_btr_01_duration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -50482,7 +50482,7 @@
     "id": "d26ea91eff28444b5d5fb253fbf09188",
     "labels": [],
     "modified_at": 1786650766.45349,
-    "name": "S1PM40 overheating",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -50556,7 +50556,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "30d63d95226da0d8099c4c04dfd8659e",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm37_wifi_connect_count",
     "has_entity_name": true,
@@ -50696,7 +50696,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "248bd1b525c35c20b8e38547bd24c084",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm55_last_restart_time",
     "has_entity_name": true,
@@ -50831,7 +50831,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_health_connect_bone_mass"
   },
-  "sensor.sm27_lumiere_bureau_mqtt_connect_count": {
+  "sensor.sm27_mqtt_connect_count": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -50840,14 +50840,14 @@
     "device_id": "e6d84c19429b511cb6ca3bfefd98c038",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm27_lumiere_bureau_mqtt_connect_count",
+    "entity_id": "sensor.sm27_mqtt_connect_count",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "d3b3860ca65220b54356ae67d7b795f9",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM27 - Lumière Bureau MQTT Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -51297,7 +51297,7 @@
     "translation_key": "beta_firmware",
     "unique_id": "34945472C3BA-fwupdate_beta"
   },
-  "button.s1pm58_reboot": {
+  "button.s1pm58_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01J6SBZX4SYES4C8E7MA8CTW6Z",
@@ -51306,14 +51306,14 @@
     "device_id": "2f82cec33c7317b34366d5d44e7c846e",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm58_reboot",
+    "entity_id": "button.s1pm58_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "d51ab2184a4bb9af201f0ec6ab29a1b1",
     "labels": [],
     "modified_at": 1791214618.520736,
-    "name": "S1PM58 - cave à vin Reboot",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -51353,7 +51353,7 @@
     "translation_key": null,
     "unique_id": "48551974A0FB_status_sensor_status_sensor_status_rssi"
   },
-  "climate.trv_zb07": {
+  "climate.trv_zb07_climate": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -51362,7 +51362,7 @@
     "device_id": "77450e08236dbdb0cded4d618925ebe5",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "climate.trv_zb07",
+    "entity_id": "climate.trv_zb07_climate",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -51388,7 +51388,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "30d63d95226da0d8099c4c04dfd8659e",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.sm37",
     "has_entity_name": true,
@@ -51592,7 +51592,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_volume_music"
   },
-  "number.trv_btr_06_rez_sud_est_salon_min_temperature": {
+  "number.trv_btr_06_min_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -51601,7 +51601,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_06_rez_sud_est_salon_min_temperature",
+    "entity_id": "number.trv_btr_06_min_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -51800,7 +51800,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138a8a7d3aa5e_linkquality_zigbee2mqtt"
   },
-  "button.s146_reboot": {
+  "button.s146_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "986db770e4b81b0a80a1d4579c1a6874",
@@ -51809,7 +51809,7 @@
     "device_id": "ccca51959f1c429c6acd2b83ef31453f",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s146_reboot",
+    "entity_id": "button.s146_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -51915,7 +51915,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "7c5c2592c52a4438cffe62713b4ac37f",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm54_wifi_connect_count",
     "has_entity_name": true,
@@ -52016,7 +52016,7 @@
     "translation_key": "update",
     "unique_id": "core_ssh_version_latest"
   },
-  "switch.trv_btr_04_chambre_rez_salle_de_jeu_window_detection": {
+  "switch.trv_btr_04_window_detection": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -52025,7 +52025,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_04_chambre_rez_salle_de_jeu_window_detection",
+    "entity_id": "switch.trv_btr_04_window_detection",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -52044,7 +52044,7 @@
     "translation_key": null,
     "unique_id": "0xa4c13811218e5ca4_window_detection_zigbee2mqtt"
   },
-  "binary_sensor.s1pm32_lavette_mesure_overpowering": {
+  "binary_sensor.sp1pm62_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01K4SNPNA8XN70S27A8320NJ75",
@@ -52053,7 +52053,7 @@
     "device_id": "561e15499f74e5bd38d67b8240c260c2",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.s1pm32_lavette_mesure_overpowering",
+    "entity_id": "binary_sensor.sp1pm62_overpowering",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -52364,7 +52364,7 @@
     "translation_key": null,
     "unique_id": "0xa4c13892b299c65f_temperature_unit_zigbee2mqtt"
   },
-  "sensor.trv_btr_06_rez_sud_est_salon_boost_heating_countdown": {
+  "sensor.trv_btr_06_duration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -52373,7 +52373,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_06_rez_sud_est_salon_boost_heating_countdown",
+    "entity_id": "sensor.trv_btr_06_duration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -52780,7 +52780,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "be279e239db2e74e665589530b5b0c6a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm35_restart_reason",
     "has_entity_name": true,
@@ -52789,7 +52789,7 @@
     "id": "daa1f5447fce43f6cba53f556c79b152",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM35 - Lumière réduit Restart Reason",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -52825,7 +52825,7 @@
     "translation_key": "instantaneous_active_power_l1_negative",
     "unique_id": "353038363933_instantaneous_active_power_l1_negative"
   },
-  "sensor.msws65_atelier_temperature": {
+  "sensor.msws65_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M0HM2FZQED7VV9T7T2RGMTRY",
@@ -52834,7 +52834,7 @@
     "device_id": "68ed13399e2f6564af08adb9bd0fcb3e",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.msws65_atelier_temperature",
+    "entity_id": "sensor.msws65_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -53063,7 +53063,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "3bfec27e5b799f61e8df035a73129221",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm29_restart_reason",
     "has_entity_name": true,
@@ -53184,7 +53184,7 @@
     "id": "dc045b65e43d4b6acd8c16a694a85f3a",
     "labels": [],
     "modified_at": 1750149046.515273,
-    "name": "S1PM59 - Rallonge deshumidificateur energy",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor.private": {
@@ -53419,7 +53419,7 @@
     "id": "dcddc07f0199d6769b9f044541952769",
     "labels": [],
     "modified_at": 1787298945.793068,
-    "name": "S1PM60 - Rallonge culligan",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -53808,7 +53808,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "be279e239db2e74e665589530b5b0c6a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm35_mqtt_connect_count",
     "has_entity_name": true,
@@ -53817,7 +53817,7 @@
     "id": "de153aa48528ffc25130e1f59ee83ddd",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM35 - Lumière réduit MQTT Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -53884,7 +53884,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "ffc070ff4ee24844c933f2a4e9dd24c1",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm39_restart_reason",
     "has_entity_name": true,
@@ -53905,7 +53905,7 @@
     "translation_key": null,
     "unique_id": "4855194C71DD_status_sensor_status_sensor_status_restart_reason"
   },
-  "sensor.sm28_lumieres_exterieur_ssid": {
+  "sensor.sm28_ssid": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -53914,14 +53914,14 @@
     "device_id": "b429a88b83ced03b288552f43b3dabc6",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm28_lumieres_exterieur_ssid",
+    "entity_id": "sensor.sm28_ssid",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "de834749cb9f93f5ba3afe2180f395f6",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM28 - Lumieres exterieur SSID",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -53964,7 +53964,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "3bfec27e5b799f61e8df035a73129221",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm29_mqtt_connect_count",
     "has_entity_name": true,
@@ -54253,7 +54253,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_mobile_data_roaming"
   },
-  "number.zg_227z_11_reduit_temperature_calibration": {
+  "number.zg_227z_11_temperature_calibration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -54262,7 +54262,7 @@
     "device_id": "2ff42f71efe45e7558b5dbf24a631b21",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.zg_227z_11_reduit_temperature_calibration",
+    "entity_id": "number.zg_227z_11_temperature_calibration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -54364,7 +54364,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "be279e239db2e74e665589530b5b0c6a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.sm35",
     "has_entity_name": true,
@@ -54373,7 +54373,7 @@
     "id": "dff53e04903d3ea568d184f0fda8e2cb",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM35 - Lumière réduit",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -54617,7 +54617,7 @@
     "id": "e0ad4c949bcd954d17791277f3ea1ced",
     "labels": [],
     "modified_at": 1786907224.891676,
-    "name": "SM26 - Bureau Ecrans - Aération toilettes - Ventillation toilettes rez WIFI Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -54657,7 +54657,7 @@
     "translation_key": null,
     "unique_id": "4c_5e_0c_f1_fa_65_eth5.02"
   },
-  "button.s1pm40_reboot": {
+  "button.s1pm40_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "d0efcf184d4e0544409216f65d685be5",
@@ -54666,7 +54666,7 @@
     "device_id": "b60865f1cd122e66b619312732ea1244",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm40_reboot",
+    "entity_id": "button.s1pm40_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -54915,7 +54915,7 @@
     "translation_key": "zigbee_temperature",
     "unique_id": "50:78:7d:d7:b2:50_zigbee_temperature"
   },
-  "switch.trv_btr_01_chambre_1er_sud_est_bureau_window_detection": {
+  "switch.trv_btr_01_window_detection": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -54924,7 +54924,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_01_chambre_1er_sud_est_bureau_window_detection",
+    "entity_id": "switch.trv_btr_01_window_detection",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -55019,7 +55019,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_next_alarm"
   },
-  "binary_sensor.s1pm61_prise_jardin_switch_0_overvoltage": {
+  "binary_sensor.sp1pm61_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01JXWG5B4MD28YWF64WWTDAQEV",
@@ -55028,7 +55028,7 @@
     "device_id": "204522c59a1ef8adcbe7eb2f437beb01",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.s1pm61_prise_jardin_switch_0_overvoltage",
+    "entity_id": "binary_sensor.sp1pm61_overvoltage",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -55099,7 +55099,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_high_accuracy_update_interval"
   },
-  "device_tracker.48_55_19_74_a0_fb": {
+  "device_tracker.sb24_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -55108,7 +55108,7 @@
     "device_id": "e6d475ca8a0f54cfcc6d7cb3100fc0c5",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.48_55_19_74_a0_fb",
+    "entity_id": "device_tracker.sb24_device_tracker",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -55327,7 +55327,7 @@
     "id": "e2cac54f9ad94c32cf57f2371faad8ce",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB18 MQTT Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -55425,7 +55425,7 @@
     "translation_key": null,
     "unique_id": "01JCZYZNZPTWNX2KYM3AMBJYHQ_astroweather_moon_always_down_during_darkness"
   },
-  "sensor.trv_btr_01_chambre_1er_sud_est_bureau_battery": {
+  "sensor.trv_btr_01_battery": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -55434,7 +55434,7 @@
     "device_id": "ced0710f2bff8fc8c808d523f6e12575",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.trv_btr_01_chambre_1er_sud_est_bureau_battery",
+    "entity_id": "sensor.trv_btr_01_battery",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -55453,7 +55453,7 @@
     "translation_key": null,
     "unique_id": "0x003c84fffe2677bc_battery_zigbee2mqtt"
   },
-  "sensor.sb50_mqtt_connect_count": {
+  "sensor.sb17_mqtt_connect_count": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -55462,7 +55462,7 @@
     "device_id": "4359e811bbd9dc045249d9e56f670ef0",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sb50_mqtt_connect_count",
+    "entity_id": "sensor.sb17_mqtt_connect_count",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -55589,7 +55589,7 @@
     "translation_key": null,
     "unique_id": "7C87CEA325AC_status_sensor_status_sensor_status_version"
   },
-  "text.trv_btr_03_chambre_1er_sud_est_enfants_programming_mode": {
+  "text.trv_btr_03_programming_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -55598,7 +55598,7 @@
     "device_id": "ccc3812e3ebdb9cd730c17dffe9996e0",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "text.trv_btr_03_chambre_1er_sud_est_enfants_programming_mode",
+    "entity_id": "text.trv_btr_03_programming_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -55652,7 +55652,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "be279e239db2e74e665589530b5b0c6a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm35_last_restart_time",
     "has_entity_name": true,
@@ -55661,7 +55661,7 @@
     "id": "e4734ab7c30baec51b989b99766ed009",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM35 - Lumière réduit Last Restart Time",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -56214,7 +56214,7 @@
     "id": "e84bd6f493984a25d1064311ec35baaa",
     "labels": [],
     "modified_at": 1765955838.075864,
-    "name": "S1PM60 - Rallong culligan overpowering",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -56433,7 +56433,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "18fe40e30d65b7d530bf4699669b1f7a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": null,
     "entity_id": "switch.sm56",
     "has_entity_name": true,
@@ -56735,7 +56735,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": null,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "device_tracker.teb_fvu_lt02_tracker",
     "has_entity_name": false,
@@ -56784,7 +56784,7 @@
     "translation_key": "counter_cappu_clean",
     "unique_id": "jura_homeassistant_jurae8_counter_cappu_clean"
   },
-  "update.zg_227z_25": {
+  "update.zg_227z_25_update": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -56793,7 +56793,7 @@
     "device_id": "6cff1074dd0a32b068e2ab63c127b6ca",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.zg_227z_25",
+    "entity_id": "update.zg_227z_25_update",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -56880,7 +56880,7 @@
     "id": "eb36109baf416c6df33f69e0eb9061e8",
     "labels": [],
     "modified_at": 1786650766.453575,
-    "name": "S1PM40 power",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "sensor": {
@@ -57019,7 +57019,7 @@
     "id": "ebb7edcb7ac12616c94efe230a843e20",
     "labels": [],
     "modified_at": 1765955838.050851,
-    "name": "S1PM59 - Rallonge deshumidificateur overpowering",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -57031,7 +57031,7 @@
     "translation_key": "overpowering",
     "unique_id": "34945472C3BA-relay_0-overpower"
   },
-  "switch.trv_btr_06_rez_sud_est_salon_child_lock": {
+  "switch.trv_btr_06_child_lock": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -57040,7 +57040,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "switch.trv_btr_06_rez_sud_est_salon_child_lock",
+    "entity_id": "switch.trv_btr_06_child_lock",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -57730,7 +57730,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138c59605147c_linkquality_zigbee2mqtt"
   },
-  "update.snzb_01p_04": {
+  "update.snzb_01p_04_update": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -57739,7 +57739,7 @@
     "device_id": "7ff85b043f9797db4526561295d79b36",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.snzb_01p_04",
+    "entity_id": "update.snzb_01p_04_update",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -57878,7 +57878,7 @@
     "id": "ee5ebf9a15d33119ce752bbfeb756b98",
     "labels": [],
     "modified_at": 1765955838.073346,
-    "name": "S1PM30 - Serveurs Overheating",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -57994,7 +57994,7 @@
     "translation_key": "version",
     "unique_id": "1bd4a9fb_victoria_metrics_version"
   },
-  "sensor.sm27_lumiere_bureau_wifi_connect_count": {
+  "sensor.sm27_wifi_connect_count": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -58003,14 +58003,14 @@
     "device_id": "e6d84c19429b511cb6ca3bfefd98c038",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.sm27_lumiere_bureau_wifi_connect_count",
+    "entity_id": "sensor.sm27_wifi_connect_count",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "ef1e61e66f8cfa7216a03ee65bf72d55",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM27 - Lumière Bureau WiFi Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -58074,7 +58074,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138f1a37c550d_temperature_unit_zigbee2mqtt"
   },
-  "number.trv_btr_02_chambre_1er_sud_ouest_parents_local_temperature_calibration": {
+  "number.trv_btr_02_temperature_delta": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -58083,7 +58083,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_02_chambre_1er_sud_ouest_parents_local_temperature_calibration",
+    "entity_id": "number.trv_btr_02_temperature_delta",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -58657,7 +58657,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_wifi_connection"
   },
-  "select.zg_227z_17_galetas_temperature_unit": {
+  "select.zg_227z_17_temperature_unit": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -58666,7 +58666,7 @@
     "device_id": "4daec655abda7afa68eb293120958615",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "select.zg_227z_17_galetas_temperature_unit",
+    "entity_id": "select.zg_227z_17_temperature_unit",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -58753,7 +58753,7 @@
     "id": "f2d5b85f7811e778b81afd18bdcf5022",
     "labels": [],
     "modified_at": 1787565409.284323,
-    "name": "SM25- - Bureau PC Game - Interrupteur toilettes MQTT Connect Count",
+    "name": null,
     "next_name_part": "area",
     "options": {
       "conversation": {
@@ -59126,7 +59126,7 @@
     "translation_key": null,
     "unique_id": "50:8A:06:0C:67:2D"
   },
-  "number.trv_zb07_external_temperature_input": {
+  "number.trv_zb07_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -59135,7 +59135,7 @@
     "device_id": "77450e08236dbdb0cded4d618925ebe5",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_zb07_external_temperature_input",
+    "entity_id": "number.trv_zb07_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -59161,7 +59161,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "be279e239db2e74e665589530b5b0c6a",
-    "disabled_by": null,
+    "disabled_by": "user",
     "entity_category": "diagnostic",
     "entity_id": "sensor.sm35_wifi_connect_count",
     "has_entity_name": true,
@@ -59170,7 +59170,7 @@
     "id": "f51b969e382e35053fa7348303aab6f4",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SM35 - Lumière réduit WiFi Connect Count",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -59282,7 +59282,7 @@
     "translation_key": null,
     "unique_id": "485519509B8E_status_sensor_status_sensor_status_version"
   },
-  "sensor.tasmota_restart_reason": {
+  "sensor.sb48_restart_reason": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -59291,7 +59291,7 @@
     "device_id": "4ef2010b41e8bf6bbaae93d01f4a1cfb",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.tasmota_restart_reason",
+    "entity_id": "sensor.sb48_restart_reason",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -59362,7 +59362,7 @@
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_68_ether8"
   },
-  "text.trv_btr_06_rez_sud_est_salon_programming_mode": {
+  "text.trv_btr_06_programming_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -59371,7 +59371,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "text.trv_btr_06_rez_sud_est_salon_programming_mode",
+    "entity_id": "text.trv_btr_06_programming_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -59418,7 +59418,7 @@
     "translation_key": null,
     "unique_id": "34945470DAAD-uptime"
   },
-  "button.s1pm44_reboot": {
+  "button.s1pm44_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "2044c1633da8dfa1d58d6aa92833a28e",
@@ -59427,14 +59427,14 @@
     "device_id": "4ceed0c5b0469553a5efe605ef1306d1",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.s1pm44_reboot",
+    "entity_id": "button.s1pm44_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "f601e98bda5cd2581db33978332b5c2a",
     "labels": [],
     "modified_at": 1791541708.502545,
-    "name": "Reboot",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -59585,7 +59585,7 @@
     "translation_key": "overvoltage",
     "unique_id": "CC7B5C81F000-switch:0-overvoltage"
   },
-  "text.trv_btr_05_rez_sud_ouest_salle_a_manger_programming_mode": {
+  "text.trv_btr_05_programming_mode": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -59594,7 +59594,7 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "text.trv_btr_05_rez_sud_ouest_salle_a_manger_programming_mode",
+    "entity_id": "text.trv_btr_05_programming_mode",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -59613,7 +59613,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1381ebf9a14a2_programming_mode_zigbee2mqtt"
   },
-  "update.reduit_sp1pm64_temp_et_mesure_cave_firmware": {
+  "update.sp1pm64_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01KZDW1PGN9FFWGKV1SYZXP2CN",
@@ -59622,7 +59622,7 @@
     "device_id": "854e828ad8cf504ed9551236eb53cb9d",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.reduit_sp1pm64_temp_et_mesure_cave_firmware",
+    "entity_id": "update.sp1pm64_firmware",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -59741,7 +59741,7 @@
     "translation_key": "pre-release",
     "unique_id": "142051833"
   },
-  "sensor.tasmota_ssid": {
+  "sensor.sb48_ssid": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "253a16e1b03cc508b47c972b0f70bc90",
@@ -59750,7 +59750,7 @@
     "device_id": "4ef2010b41e8bf6bbaae93d01f4a1cfb",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "sensor.tasmota_ssid",
+    "entity_id": "sensor.sb48_ssid",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -60005,7 +60005,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_health_connect_basal_metabolic_rate"
   },
-  "select.zg_227z_11_reduit_temperature_unit": {
+  "select.zg_227z_11_temperature_unit": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -60014,7 +60014,7 @@
     "device_id": "2ff42f71efe45e7558b5dbf24a631b21",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "select.zg_227z_11_reduit_temperature_unit",
+    "entity_id": "select.zg_227z_11_temperature_unit",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -60061,7 +60061,7 @@
     "translation_key": "cloud",
     "unique_id": "34945471995C-cloud"
   },
-  "climate.trv_btr_05_rez_sud_ouest_salle_a_manger": {
+  "climate.trv_btr_05_climate": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -60070,14 +60070,14 @@
     "device_id": "90aa91a730c4366aff06ca252f12f281",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "climate.trv_btr_05_rez_sud_ouest_salle_a_manger",
+    "entity_id": "climate.trv_btr_05_climate",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
     "id": "f903c201cf3f6384e6a74dce153236f4",
     "labels": [],
     "modified_at": 1770820086.23928,
-    "name": "TRV-BTR-05 - Rez sud ouest (salle à manger)",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -60089,7 +60089,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1381ebf9a14a2_climate_zigbee2mqtt"
   },
-  "device_tracker.esp_e1ba4d": {
+  "device_tracker.sm38_device_tracker": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
@@ -60098,7 +60098,7 @@
     "device_id": "b6a5689adf6d6c3aceea76b16c7f6d89",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "device_tracker.esp_e1ba4d",
+    "entity_id": "device_tracker.sm38_device_tracker",
     "has_entity_name": false,
     "hidden_by": null,
     "icon": null,
@@ -60385,7 +60385,7 @@
     "id": "fab0e6064f5a876de018250a1489c8ff",
     "labels": [],
     "modified_at": 0.0,
-    "name": "SB18 Last Restart Time",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -60452,7 +60452,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1389a10c7dfdb_temperature_zigbee2mqtt"
   },
-  "update.trv_zb07": {
+  "update.trv_zb07_update": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -60461,7 +60461,7 @@
     "device_id": "77450e08236dbdb0cded4d618925ebe5",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.trv_zb07",
+    "entity_id": "update.trv_zb07_update",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -60978,7 +60978,7 @@
     "translation_key": "instantaneous_active_power_l3_positive",
     "unique_id": "353038363933_instantaneous_active_power_l3_positive"
   },
-  "sensor.trv_btr_04_chambre_rez_salle_de_jeu_local_temperature": {
+  "sensor.trv_btr_04_temperature": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -60987,7 +60987,7 @@
     "device_id": "b0b682943ff982a61511244e928b11ed",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.trv_btr_04_chambre_rez_salle_de_jeu_local_temperature",
+    "entity_id": "sensor.trv_btr_04_temperature",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -61247,7 +61247,7 @@
     "translation_key": null,
     "unique_id": "CC7B5C82568C-sys-uptime"
   },
-  "number.zg_227z_17_galetas_humidity_calibration": {
+  "number.zg_227z_17_humidity_calibration": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -61256,7 +61256,7 @@
     "device_id": "4daec655abda7afa68eb293120958615",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.zg_227z_17_galetas_humidity_calibration",
+    "entity_id": "number.zg_227z_17_humidity_calibration",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -61339,7 +61339,7 @@
     "id": "fe2d9e215f6a0028cd52140e3999a22c",
     "labels": [],
     "modified_at": 1786907224.885532,
-    "name": "SM26 - Bureau Ecrans - Aération toilettes - Ventillation toilettes rez Restart Reason",
+    "name": null,
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -61437,7 +61437,7 @@
     "translation_key": "program_progress",
     "unique_id": "BOSCH-WAVH8E41CH-68A40E902CC0-BSH.Common.Option.ProgramProgress"
   },
-  "switch.trv_btr_02_chambre_1er_sud_ouest_parents_boost_heating": {
+  "switch.trv_btr_02": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -61446,7 +61446,7 @@
     "device_id": "75fec778683a7deb9110d66d1c273feb",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.trv_btr_02_chambre_1er_sud_ouest_parents_boost_heating",
+    "entity_id": "switch.trv_btr_02",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -61597,7 +61597,7 @@
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_volume_call"
   },
-  "number.trv_btr_06_rez_sud_est_salon_local_temperature_calibration": {
+  "number.trv_btr_06_temperature_delta": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "35a576a70057cacfa7ace7b872ae41f8",
@@ -61606,7 +61606,7 @@
     "device_id": "b218f19a28118b404a9cf08ffb6ca6bb",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "number.trv_btr_06_rez_sud_est_salon_local_temperature_calibration",
+    "entity_id": "number.trv_btr_06_temperature_delta",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,

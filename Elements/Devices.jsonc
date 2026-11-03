@@ -137,7 +137,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "06ceb31092dd82f139ca4eb4bb5df004",
@@ -605,7 +605,7 @@
       ]
     ],
     "created_at": 1763373213.519352,
-    "disabled_by": "user",
+    "disabled_by": null,
     "entry_type": null,
     "hw_version": null,
     "id": "1579d5db1621978048bb8192751c5083",
@@ -683,7 +683,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "18fe40e30d65b7d530bf4699669b1f7a",
@@ -966,7 +966,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "248bd1b525c35c20b8e38547bd24c084",
@@ -1322,7 +1322,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "30d63d95226da0d8099c4c04dfd8659e",
@@ -1478,7 +1478,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "35efa49c0579402e2c46bea6ed5ebde1",
@@ -1795,7 +1795,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "3bfec27e5b799f61e8df035a73129221",
@@ -2399,7 +2399,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "4ef2010b41e8bf6bbaae93d01f4a1cfb",
@@ -3092,7 +3092,7 @@
     "model": null,
     "model_id": null,
     "modified_at": 1787297874.280766,
-    "name_by_user": null,
+    "name_by_user": "MSWS65 - MSSW-Atelier",
     "name": "MSSW-Atelier",
     "next_name_part": "area",
     "parent_device_id": null,
@@ -3721,7 +3721,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "7c5c2592c52a4438cffe62713b4ac37f",
@@ -4706,7 +4706,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "9d7ed2e90022ac2cb9a63edca828ee8b",
@@ -5198,45 +5198,6 @@
     "sw_version": null,
     "via_device_id": "c504e018abb2a0362923cdbdcf6aca90"
   },
-  "b3541d9fe6ff0aa50ee089d64d6131b2": {
-    "area_id": null,
-    "configuration_url": "http://192.168.33.15/",
-    "config_entries": [
-      "078b950bf5e13ad8dbe941c0a63d65c0"
-    ],
-    "config_entries_subentries": {
-      "078b950bf5e13ad8dbe941c0a63d65c0": [
-        null
-      ]
-    },
-    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
-    "config_subentry_id": null,
-    "connections": [
-      [
-        "mac",
-        "4c:eb:d6:b6:ab:33"
-      ]
-    ],
-    "created_at": 0.0,
-    "disabled_by": "user",
-    "entry_type": null,
-    "hw_version": null,
-    "id": "b3541d9fe6ff0aa50ee089d64d6131b2",
-    "identifiers": [],
-    "labels": [],
-    "manufacturer": "Tasmota",
-    "model": "Sonoff Basic",
-    "model_id": null,
-    "modified_at": 1757573718.052263,
-    "name_by_user": "Deprecated (ex NAS 192.168.33.15)",
-    "name": "SB15",
-    "next_name_part": null,
-    "parent_device_id": null,
-    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
-    "serial_number": null,
-    "sw_version": "12.1.0",
-    "via_device_id": null
-  },
   "b369edd7fb94ebaaa744f586e7c44f4f": {
     "area_id": null,
     "configuration_url": "http://192.168.11.1",
@@ -5457,7 +5418,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "b6a5689adf6d6c3aceea76b16c7f6d89",
@@ -5891,7 +5852,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "c599f26fd0c4e5895fe2c3cb5ff7fa57",
@@ -6598,7 +6559,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "dd20c1fa3932651a739978582fff7e9a",
@@ -6798,7 +6759,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "e4d6b587fbbfb3e67c1d813d1e30cb74",
@@ -6847,7 +6808,7 @@
     "model": "Sonoff Basic",
     "model_id": null,
     "modified_at": 1792316054.870872,
-    "name_by_user": null,
+    "name_by_user": "SB24 - Tasmorallonge",
     "name": "48:55:19:74:A0:FB",
     "next_name_part": null,
     "parent_device_id": null,
@@ -7276,7 +7237,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "f1ef91a7357c8f3228f805d550307873",
@@ -7369,7 +7330,7 @@
     "model": "Shelly 1",
     "model_id": "SHSW-1",
     "modified_at": 1787565295.977957,
-    "name_by_user": "Garage droite",
+    "name_by_user": "S168 - Garage droite",
     "name": "S168",
     "next_name_part": "area",
     "parent_device_id": null,
@@ -7793,7 +7754,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": null,
     "id": "ffc070ff4ee24844c933f2a4e9dd24c1",

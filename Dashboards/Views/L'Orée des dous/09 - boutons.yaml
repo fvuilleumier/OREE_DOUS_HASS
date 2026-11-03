@@ -32,7 +32,7 @@ sections:
         vertical: false
         features_position: bottom
       - type: tile
-        entity: switch.sm27_lumiere_bureau
+        entity: switch.sm27
         name: Lumière bureau
         icon: mdi:office-building
         color: amber
@@ -70,7 +70,7 @@ sections:
       - color: lime
         type: tile
         show_entity_picture: false
-        entity: switch.sb50
+        entity: switch.sb17
         name: TV des Dous
       - color: black
         type: tile
@@ -139,7 +139,7 @@ sections:
         template: section_title
         name: "\U0001F6E0️ Atelier"
       - type: tile
-        entity: switch.msws65_atelier
+        entity: switch.msws65
         icon: ""
         color: light-blue
         show_entity_picture: false
