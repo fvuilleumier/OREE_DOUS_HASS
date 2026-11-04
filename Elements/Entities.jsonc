@@ -5083,34 +5083,6 @@
     "translation_key": null,
     "unique_id": "E465B8F24AAC-wifi-rssi"
   },
-  "input_boolean.tous_a_la_maison": {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": null,
-    "config_subentry_id": null,
-    "created_at": 0.0,
-    "device_id": null,
-    "disabled_by": "user",
-    "entity_category": null,
-    "entity_id": "input_boolean.tous_a_la_maison",
-    "has_entity_name": false,
-    "hidden_by": null,
-    "icon": null,
-    "id": "157427f6972e38f5cabe99e9ceaa6b25",
-    "labels": [],
-    "modified_at": 0.0,
-    "name": null,
-    "next_name_part": null,
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "Tous à la maison",
-    "platform": "input_boolean",
-    "translation_key": null,
-    "unique_id": "tous_a_la_maison"
-  },
   "button.sp1pm63_restart": {
     "area_id": null,
     "categories": {},
@@ -18732,34 +18704,6 @@
     "platform": "mikrotik",
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_6a_ether10"
-  },
-  "input_boolean.tous_au_lit": {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": null,
-    "config_subentry_id": null,
-    "created_at": 0.0,
-    "device_id": null,
-    "disabled_by": "user",
-    "entity_category": null,
-    "entity_id": "input_boolean.tous_au_lit",
-    "has_entity_name": false,
-    "hidden_by": null,
-    "icon": null,
-    "id": "4f3402b5a0e3ce813fb855d21a472aff",
-    "labels": [],
-    "modified_at": 0.0,
-    "name": null,
-    "next_name_part": null,
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "Tous au lit",
-    "platform": "input_boolean",
-    "translation_key": null,
-    "unique_id": "tous_au_lit"
   },
   "sensor.natel_de_camille_detected_activity_2": {
     "area_id": null,
@@ -47048,34 +46992,6 @@
     "translation_key": null,
     "unique_id": "bridge_0x9035eafffeaf086e_coordinator_version_zigbee2mqtt"
   },
-  "input_boolean.tous_dehors": {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": null,
-    "config_subentry_id": null,
-    "created_at": 0.0,
-    "device_id": null,
-    "disabled_by": "user",
-    "entity_category": null,
-    "entity_id": "input_boolean.tous_dehors",
-    "has_entity_name": false,
-    "hidden_by": null,
-    "icon": null,
-    "id": "c48f5278a28642590ef33cfbb7f00488",
-    "labels": [],
-    "modified_at": 0.0,
-    "name": null,
-    "next_name_part": null,
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "Tous dehors",
-    "platform": "input_boolean",
-    "translation_key": null,
-    "unique_id": "tous_dehors"
-  },
   "update.gardena_smart_system_update": {
     "area_id": null,
     "categories": {},
@@ -56727,34 +56643,6 @@
     "platform": "mikrotik",
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_67_ether7"
-  },
-  "device_tracker.teb_fvu_lt02_tracker": {
-    "area_id": "maison_des_dous",
-    "categories": {},
-    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
-    "config_subentry_id": null,
-    "created_at": 0.0,
-    "device_id": null,
-    "disabled_by": "user",
-    "entity_category": "diagnostic",
-    "entity_id": "device_tracker.teb_fvu_lt02_tracker",
-    "has_entity_name": false,
-    "hidden_by": null,
-    "icon": "mdi:laptop",
-    "id": "ea9605a5eea8147700f3f18900c8cc5f",
-    "labels": [],
-    "modified_at": 0.0,
-    "name": "TEB-FVU-LT02",
-    "next_name_part": "area",
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "TEB-FVU-LT02",
-    "platform": "mikrotik",
-    "translation_key": null,
-    "unique_id": "AC:67:5D:A3:4C:47"
   },
   "sensor.cuisine_jura_cappuccino_clean_cycles": {
     "area_id": null,
