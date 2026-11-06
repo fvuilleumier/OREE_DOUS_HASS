@@ -2476,6 +2476,29 @@
         "update.sp1pm72_firmware"
       ]
     },
+    "appareil: SP1PM73 - Mesure bureau fv aux": {
+      "integration": "intégration: SP1PM73 (shelly)",
+      "entites": [
+        "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_input_0",
+        "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overcurrent",
+        "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overheating",
+        "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overpowering",
+        "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overvoltage",
+        "binary_sensor.sp1pm73_cloud",
+        "binary_sensor.sp1pm73_restart_required",
+        "button.bureau_fv_sp1pm73_mesure_bureau_fv_aux_restart",
+        "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_energy",
+        "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_power",
+        "sensor.sp1pm73_current",
+        "sensor.sp1pm73_signal_strength",
+        "sensor.sp1pm73_temperature",
+        "sensor.sp1pm73_uptime",
+        "sensor.sp1pm73_voltage",
+        "switch.bureau_fv_sp1pm73_mesure_bureau_fv_aux",
+        "update.bureau_fv_sp1pm73_mesure_bureau_fv_aux_firmware",
+        "update.sp1pm73_beta_firmware"
+      ]
+    },
     "appareil: Samba share": {
       "integration": "intégration: Supervisor (hassio)",
       "entites": [

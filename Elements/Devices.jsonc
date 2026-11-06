@@ -3896,6 +3896,50 @@
     "sw_version": "0123052026",
     "via_device_id": "c504e018abb2a0362923cdbdcf6aca90"
   },
+  "7f8e8692b752afe248a760e902460ff8": {
+    "area_id": "bureau",
+    "configuration_url": "http://192.168.33.73:80",
+    "config_entries": [
+      "01M6R7BCW4V41VASNBGG4ZD78P"
+    ],
+    "config_entries_subentries": {
+      "01M6R7BCW4V41VASNBGG4ZD78P": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "78:ee:4c:c9:f4:2c"
+      ]
+    ],
+    "created_at": 1793961866.855626,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "gen2",
+    "id": "7f8e8692b752afe248a760e902460ff8",
+    "identifiers": [
+      [
+        "shelly",
+        "78EE4CC9F42C"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Plus 1PM",
+    "model_id": "SNSW-001P16EU",
+    "modified_at": 1793961876.550977,
+    "name_by_user": "SP1PM73 - Mesure bureau fv aux",
+    "name": "SP1PM73",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "serial_number": null,
+    "sw_version": "20261026-143025/1.7.6-g01e9e18",
+    "via_device_id": null
+  },
   "7ff85b043f9797db4526561295d79b36": {
     "area_id": null,
     "configuration_url": null,

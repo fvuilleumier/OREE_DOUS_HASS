@@ -7510,6 +7510,30 @@
     "translation_key": null,
     "unique_id": "core_samba_state"
   },
+  "sensor.sp1pm73_temperature": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.866103,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.sp1pm73_temperature",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1e79854eadd06d794b603361da125f17",
+    "labels": [],
+    "modified_at": 1793961866.866145,
+    "name": null,
+    "next_name_part": "device",
+    "options": {},
+    "original_name": "Temperature",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-switch:0-temperature"
+  },
   "sensor.backup_last_attempted_automatic_backup": {
     "area_id": null,
     "categories": {},
@@ -12456,6 +12480,34 @@
     "translation_key": null,
     "unique_id": "01JCZYZNZPTWNX2KYM3AMBJYHQ_astroweather_moon_azimuth"
   },
+  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overvoltage": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.860574,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overvoltage",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "321848c37ee025b7970322626452b231",
+    "labels": [],
+    "modified_at": 1793961876.592776,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Overvoltage",
+    "platform": "shelly",
+    "translation_key": "overvoltage",
+    "unique_id": "78EE4CC9F42C-switch:0-overvoltage"
+  },
   "sensor.chaumont_10_minute_sun": {
     "area_id": null,
     "categories": {},
@@ -13074,6 +13126,34 @@
     "platform": "shelly",
     "translation_key": null,
     "unique_id": "F4CFA2748E7B-rssi"
+  },
+  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overheating": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.859282,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overheating",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "348eed33443c4ba657c486282710c9e6",
+    "labels": [],
+    "modified_at": 1793961876.590543,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Overheating",
+    "platform": "shelly",
+    "translation_key": "overheating",
+    "unique_id": "78EE4CC9F42C-switch:0-overtemp"
   },
   "sensor.sp1pm70_current": {
     "area_id": null,
@@ -16394,6 +16474,34 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_public_ip_address"
   },
+  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_input_0": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.85785,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_input_0",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "42a06692cd684b262af7031e9be1e937",
+    "labels": [],
+    "modified_at": 1793961876.589671,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Input 0",
+    "platform": "shelly",
+    "translation_key": "input_with_number",
+    "unique_id": "78EE4CC9F42C-input:0-input"
+  },
   "sensor.natel_de_camille_pressure_sensor_2": {
     "area_id": null,
     "categories": {},
@@ -17759,6 +17867,34 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_wifi_ip_address"
   },
+  "button.bureau_fv_sp1pm73_mesure_bureau_fv_aux_restart": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.86198,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "button.bureau_fv_sp1pm73_mesure_bureau_fv_aux_restart",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "479a9ee13fe7c6e8b3c70ecfd3cc2ccc",
+    "labels": [],
+    "modified_at": 1793961876.594252,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Restart",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-reboot"
+  },
   "sensor.couvet_humidity": {
     "area_id": null,
     "categories": {},
@@ -18370,6 +18506,30 @@
     "translation_key": "input_voltage_nominal",
     "unique_id": "American Power Conversion_Back-UPS BX500MI_9B2541A17038_input.voltage.nominal"
   },
+  "sensor.sp1pm73_uptime": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.866584,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.sp1pm73_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "4af83170641df076ca26fe06edefbb99",
+    "labels": [],
+    "modified_at": 1793961866.866622,
+    "name": null,
+    "next_name_part": "device",
+    "options": {},
+    "original_name": "Uptime",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-sys-uptime"
+  },
   "sensor.slzb_06mra_zigbee_uptime": {
     "area_id": null,
     "categories": {},
@@ -18449,6 +18609,34 @@
     "platform": "mqtt",
     "translation_key": null,
     "unique_id": "0xa4c138739d3c63c9_temperature_unit_zigbee2mqtt"
+  },
+  "update.bureau_fv_sp1pm73_mesure_bureau_fv_aux_firmware": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.868768,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.bureau_fv_sp1pm73_mesure_bureau_fv_aux_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "4b31bdab1ad4a34d56e5b7389325bdfb",
+    "labels": [],
+    "modified_at": 1793961876.597294,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-sys-fwupdate"
   },
   "switch.sb20": {
     "area_id": null,
@@ -18665,6 +18853,34 @@
     "platform": "mqtt",
     "translation_key": null,
     "unique_id": "0x003c84fffe2677bc_window_zigbee2mqtt"
+  },
+  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overcurrent": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.861069,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overcurrent",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "4c00bbe0d6282564c0e4b200f3ad5b46",
+    "labels": [],
+    "modified_at": 1793961876.593473,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Overcurrent",
+    "platform": "shelly",
+    "translation_key": "overcurrent",
+    "unique_id": "78EE4CC9F42C-switch:0-overcurrent"
   },
   "number.trv_zb07_frost_protection_temperature": {
     "area_id": null,
@@ -24610,6 +24826,30 @@
     "translation_key": null,
     "unique_id": "7C87CEA325AC_status_sensor_status_sensor_status_ssid"
   },
+  "sensor.sp1pm73_signal_strength": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.866345,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.sp1pm73_signal_strength",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6094ecb6b2487e0c91c6cdd00ebe1088",
+    "labels": [],
+    "modified_at": 1793961866.866384,
+    "name": null,
+    "next_name_part": "device",
+    "options": {},
+    "original_name": "Signal strength",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-wifi-rssi"
+  },
   "sensor.sb20_ssid": {
     "area_id": null,
     "categories": {},
@@ -28233,6 +28473,34 @@
     "platform": "mikrotik",
     "translation_key": null,
     "unique_id": "FA:7A:E0:75:2E:F0"
+  },
+  "switch.bureau_fv_sp1pm73_mesure_bureau_fv_aux": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.867024,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "switch.bureau_fv_sp1pm73_mesure_bureau_fv_aux",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": "mdi:lightning-bolt-circle",
+    "id": "6ec8dfa1f4e257b471eeaf0ce908ef79",
+    "labels": [],
+    "modified_at": 1793961895.38734,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "conversation": {
+        "should_expose": true
+      }
+    },
+    "original_name": null,
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-switch:0"
   },
   "binary_sensor.sp1pm64_overheating": {
     "area_id": null,
@@ -34038,6 +34306,30 @@
     "platform": "mystrom",
     "translation_key": "energy_since_boot",
     "unique_id": "B4E62DE92A71-energy_since_boot"
+  },
+  "binary_sensor.sp1pm73_cloud": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.858909,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "binary_sensor.sp1pm73_cloud",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "844915eb4317a4350b809258972fac6d",
+    "labels": [],
+    "modified_at": 1793961866.85897,
+    "name": null,
+    "next_name_part": "device",
+    "options": {},
+    "original_name": "Cloud",
+    "platform": "shelly",
+    "translation_key": "cloud",
+    "unique_id": "78EE4CC9F42C-cloud-cloud"
   },
   "sensor.natel_de_camille_battery_state_2": {
     "area_id": null,
@@ -39997,6 +40289,30 @@
     "translation_key": null,
     "unique_id": "353038363937_timestamp"
   },
+  "update.sp1pm73_beta_firmware": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.86937,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": "integration",
+    "entity_category": "config",
+    "entity_id": "update.sp1pm73_beta_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9cfe0bf90e1c159a4ad60c9a18b9fa67",
+    "labels": [],
+    "modified_at": 1793961866.869408,
+    "name": null,
+    "next_name_part": "device",
+    "options": {},
+    "original_name": "Beta firmware",
+    "platform": "shelly",
+    "translation_key": "beta_firmware",
+    "unique_id": "78EE4CC9F42C-sys-fwupdate_beta"
+  },
   "sensor.chambre_yoto_d_alix_day_mode": {
     "area_id": null,
     "categories": {},
@@ -40328,6 +40644,30 @@
     "platform": "mobile_app",
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_car_fuel"
+  },
+  "sensor.sp1pm73_voltage": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.864898,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": "integration",
+    "entity_category": null,
+    "entity_id": "sensor.sp1pm73_voltage",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9ebc053e0a87230f66a3f08732821783",
+    "labels": [],
+    "modified_at": 1793961866.86494,
+    "name": null,
+    "next_name_part": "device",
+    "options": {},
+    "original_name": "Voltage",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-switch:0-voltage"
   },
   "sensor.pixel_9_pro_xl_de_camille_app_memory": {
     "area_id": null,
@@ -45189,6 +45529,34 @@
     "translation_key": null,
     "unique_id": "0xa4c138a305a5a04c_battery_zigbee2mqtt"
   },
+  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overpowering": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.860053,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overpowering",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b30d95a17b5875d9879d0e0d15e1b253",
+    "labels": [],
+    "modified_at": 1793961876.592091,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Overpowering",
+    "platform": "shelly",
+    "translation_key": "overpowering",
+    "unique_id": "78EE4CC9F42C-switch:0-overpower"
+  },
   "climate.trv_btr_06_climate": {
     "area_id": null,
     "categories": {},
@@ -45459,6 +45827,30 @@
     "platform": "mobile_app",
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_android_os_security_patch"
+  },
+  "binary_sensor.sp1pm73_restart_required": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.861561,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "binary_sensor.sp1pm73_restart_required",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b4861e2301ac1a6309845faf643d8b41",
+    "labels": [],
+    "modified_at": 1793961866.8616,
+    "name": null,
+    "next_name_part": "device",
+    "options": {},
+    "original_name": "Restart required",
+    "platform": "shelly",
+    "translation_key": "restart_required",
+    "unique_id": "78EE4CC9F42C-sys-restart"
   },
   "sensor.zg_227z_02_temperature_calibration": {
     "area_id": null,
@@ -49703,6 +50095,37 @@
     "platform": "jura",
     "translation_key": "outlet_missing",
     "unique_id": "jura_homeassistant_jurae8_alert_outlet_missing"
+  },
+  "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_power": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.86409,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_power",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "c591d6f986290dedee46232b6b42c3cf",
+    "labels": [],
+    "modified_at": 1793961876.595031,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "sensor": {
+        "suggested_display_precision": 0
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Power",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-switch:0-power"
   },
   "sensor.appdaemon_newest_version": {
     "area_id": null,
@@ -60253,6 +60676,40 @@
     "translation_key": "remove_water_tank",
     "unique_id": "jura_homeassistant_jurae8_alert_remove_water_tank"
   },
+  "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_energy": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.865378,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_energy",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "ed7032626516107033c8735f524587ad",
+    "labels": [],
+    "modified_at": 1793961876.595781,
+    "name": null,
+    "next_name_part": "device",
+    "options": {
+      "sensor.private": {
+        "suggested_unit_of_measurement": "kWh"
+      },
+      "sensor": {
+        "suggested_display_precision": 2
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Energy",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-switch:0-energy"
+  },
   "automation.sitch_off_toilettes_1er_after_45min": {
     "area_id": null,
     "categories": {},
@@ -63239,6 +63696,30 @@
     "platform": "mqtt",
     "translation_key": null,
     "unique_id": "0xa4c1380270beb5c0_last_seen_zigbee2mqtt"
+  },
+  "sensor.sp1pm73_current": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
+    "config_subentry_id": null,
+    "created_at": 1793961866.865141,
+    "device_id": "7f8e8692b752afe248a760e902460ff8",
+    "disabled_by": "integration",
+    "entity_category": null,
+    "entity_id": "sensor.sp1pm73_current",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "fab68a7c2aadec48392359ac29c24b94",
+    "labels": [],
+    "modified_at": 1793961866.865181,
+    "name": null,
+    "next_name_part": "device",
+    "options": {},
+    "original_name": "Current",
+    "platform": "shelly",
+    "translation_key": null,
+    "unique_id": "78EE4CC9F42C-switch:0-current"
   },
   "sensor.zg_227z_23_temperature": {
     "area_id": null,
