@@ -194,6 +194,7 @@ sections:
         tap_action:
           action: toggle
         color: "{% if is_state('switch.trv_btr_01', 'on') %}orange{% else %}grey{% endif %}"
+        name: Chambre 1er nord est (Bureau)
   - type: grid
     column_span: 1
     cards:
@@ -324,6 +325,7 @@ sections:
           {% endif %}
         features_position: bottom
         vertical: true
+        name: Bureau PC Game
       - type: custom:mushroom-template-card
         entity: switch.sm27
         primary: Ecrans
@@ -344,6 +346,7 @@ sections:
           {% endif %}
         features_position: bottom
         vertical: true
+        name: Lumière Bureau
       - type: custom:vertical-stack-in-card
         cards:
           - type: custom:mushroom-title-card
@@ -357,6 +360,7 @@ sections:
             tap_action:
               action: toggle
             color: "{% set p = states('sensor.sp1pm63_power') | float(0) %} {% if not is_state('switch.sp1pm63', 'on') %}red {% elif p > 5 %}orange {% else %}green{% endif %}"
+            name: Mesure bureau
           - type: gauge
             entity: sensor.sp1pm63_power
             name: Puissance

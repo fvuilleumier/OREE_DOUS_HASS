@@ -274,6 +274,7 @@ sections:
               action: toggle
             color: "{% set p = states('sensor.s1pm58_power') | float(0) %} {% if not is_state('switch.s1pm58', 'on') %}red {% elif p > 5 %}orange {% else %}green{% endif %}"
             features_position: bottom
+            name: Cave à vin
           - type: gauge
             entity: sensor.s1pm58_power
             name: Puissance
@@ -387,6 +388,7 @@ sections:
               action: toggle
             color: "{% set p = states('sensor.sp1pm64_power') | float(0) %} {% if not is_state('switch.sp1pm64', 'on') %}red {% elif p > 5 %}orange {% else %}green{% endif %}"
             features_position: bottom
+            name: Congélateur
           - type: gauge
             entity: sensor.sp1pm64_power
             name: Puissance

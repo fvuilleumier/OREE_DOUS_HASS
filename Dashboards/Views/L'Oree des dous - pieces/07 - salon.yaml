@@ -18,6 +18,7 @@ sections:
         features:
           - type: toggle
         features_position: bottom
+        name: Lampe salon
       - type: tile
         entity: switch.sb17
         name: TV des Dous
@@ -201,6 +202,7 @@ sections:
         tap_action:
           action: toggle
         color: "{% if is_state('switch.trv_btr_06', 'on') %}orange{% else %}grey{% endif %}"
+        name: Rez sud est (salon)
   - type: grid
     column_span: 1
     cards:

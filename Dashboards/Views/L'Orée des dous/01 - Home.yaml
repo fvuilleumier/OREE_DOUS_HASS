@@ -9,6 +9,7 @@ badges:
       action: toggle
     state_content: name
     color: orange
+    name: Lampe salon
   - type: entity
     show_name: true
     show_state: false
@@ -144,10 +145,12 @@ sections:
         entity: switch.s146
         features:
           - type: toggle
+        name: Garage gauche
       - type: tile
         entity: switch.s168
         features:
           - type: toggle
+        name: Garage droite
   - type: grid
     cards:
       - camera_view: auto

@@ -1,6 +1,6 @@
-# Généré par MHassnage à chaque export — NE PAS MODIFIER.
+# Généré par MHassnager à chaque export — NE PAS MODIFIER.
 # Miroir des helpers créés dans l'interface de Hass (source de vérité : Hass).
-# Nouveaux helpers : les décrire dans Helpers.new.yaml, MHassnage les crée dans Hass.
+# Nouveaux helpers : les décrire dans Helpers.new.yaml, MHassnager les crée dans Hass.
 input_boolean:
   - id: atelier_chargeur_started
     name: Atelier chargeur started

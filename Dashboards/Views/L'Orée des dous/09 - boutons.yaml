@@ -31,6 +31,7 @@ sections:
         show_entity_picture: false
         vertical: false
         features_position: bottom
+        name: Lampe salon
       - type: tile
         entity: switch.sm27
         name: Lumière bureau
@@ -145,6 +146,7 @@ sections:
         show_entity_picture: false
         vertical: false
         features_position: bottom
+        name: MSSW-Atelier
       - type: tile
         entity: switch.s1pm40
         icon: ""
@@ -156,6 +158,7 @@ sections:
         icon_tap_action:
           action: more-info
         features_position: bottom
+        name: Compresseur
   - type: grid
     cards:
       - type: custom:button-card
@@ -172,6 +175,7 @@ sections:
         entity: switch.sp1pm62
         features_position: bottom
         vertical: false
+        name: Mesure Lavette
       - type: tile
         entity: switch.sp1pm61
         icon: ""
@@ -183,6 +187,7 @@ sections:
         icon_tap_action:
           action: more-info
         features_position: bottom
+        name: Prise jardin Wall-e
       - type: tile
         entity: switch.s1pm30
         name: Serveurs

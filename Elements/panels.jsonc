@@ -149,6 +149,32 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
+  "45df7312_zigbee2mqtt": {
+    "component_name": "app",
+    "icon": "mdi:zigbee",
+    "title": "Zigbee2MQTT",
+    "default_visible": true,
+    "config": {
+      "addon": "45df7312_zigbee2mqtt"
+    },
+    "url_path": "45df7312_zigbee2mqtt",
+    "require_admin": true,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
+  "core_ssh": {
+    "component_name": "app",
+    "icon": "mdi:console",
+    "title": "Terminal",
+    "default_visible": true,
+    "config": {
+      "addon": "core_ssh"
+    },
+    "url_path": "core_ssh",
+    "require_admin": true,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
   "a0d7b954_grafana": {
     "component_name": "app",
     "icon": "mdi:chart-timeline",
@@ -175,19 +201,6 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
-  "45df7312_zigbee2mqtt": {
-    "component_name": "app",
-    "icon": "mdi:zigbee",
-    "title": "Zigbee2MQTT",
-    "default_visible": true,
-    "config": {
-      "addon": "45df7312_zigbee2mqtt"
-    },
-    "url_path": "45df7312_zigbee2mqtt",
-    "require_admin": true,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
   "core_configurator": {
     "component_name": "app",
     "icon": "mdi:wrench",
@@ -197,19 +210,6 @@
       "addon": "core_configurator"
     },
     "url_path": "core_configurator",
-    "require_admin": true,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
-  "core_ssh": {
-    "component_name": "app",
-    "icon": "mdi:console",
-    "title": "Terminal",
-    "default_visible": true,
-    "config": {
-      "addon": "core_ssh"
-    },
-    "url_path": "core_ssh",
     "require_admin": true,
     "config_panel_domain": null,
     "show_in_sidebar": true
@@ -247,6 +247,28 @@
     "config_panel_domain": null,
     "show_in_sidebar": true
   },
+  "energy": {
+    "component_name": "energy",
+    "icon": "mdi:lightning-bolt",
+    "title": "energy",
+    "default_visible": true,
+    "config": null,
+    "url_path": "energy",
+    "require_admin": false,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
+  "_my_redirect": {
+    "component_name": "my",
+    "icon": null,
+    "title": null,
+    "default_visible": true,
+    "config": null,
+    "url_path": "_my_redirect",
+    "require_admin": false,
+    "config_panel_domain": null,
+    "show_in_sidebar": true
+  },
   "hacs": {
     "component_name": "custom",
     "icon": "hacs:hacs",
@@ -262,28 +284,6 @@
     },
     "url_path": "hacs",
     "require_admin": true,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
-  "_my_redirect": {
-    "component_name": "my",
-    "icon": null,
-    "title": null,
-    "default_visible": true,
-    "config": null,
-    "url_path": "_my_redirect",
-    "require_admin": false,
-    "config_panel_domain": null,
-    "show_in_sidebar": true
-  },
-  "energy": {
-    "component_name": "energy",
-    "icon": "mdi:lightning-bolt",
-    "title": "energy",
-    "default_visible": true,
-    "config": null,
-    "url_path": "energy",
-    "require_admin": false,
     "config_panel_domain": null,
     "show_in_sidebar": true
   },

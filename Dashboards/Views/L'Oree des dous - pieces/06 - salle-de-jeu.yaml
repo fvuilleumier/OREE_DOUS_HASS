@@ -193,6 +193,7 @@ sections:
         tap_action:
           action: toggle
         color: "{% if is_state('switch.trv_btr_04', 'on') %}orange{% else %}grey{% endif %}"
+        name: Chambre rez (Salle de jeu)
   - type: grid
     column_span: 1
     cards:

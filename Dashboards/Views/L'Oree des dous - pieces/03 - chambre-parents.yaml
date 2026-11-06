@@ -193,6 +193,7 @@ sections:
         tap_action:
           action: toggle
         color: "{% if is_state('switch.trv_btr_02', 'on') %}orange{% else %}grey{% endif %}"
+        name: Chambre 1er sud ouest (Parents)
   - type: grid
     column_span: 1
     cards:
@@ -314,6 +315,7 @@ sections:
             tap_action:
               action: toggle
             color: "{% set p = states('sensor.s1pm31_power') | float(0) %} {% if not is_state('switch.s1pm31', 'on') %}red {% elif p > 5 %}orange {% else %}green{% endif %}"
+            name: Lampe salon
           - type: gauge
             entity: sensor.s1pm31_power
             name: Puissance
