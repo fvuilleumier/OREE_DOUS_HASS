@@ -2456,24 +2456,24 @@
     "appareil: SP1PM72 - BambuDous": {
       "integration": "intégration: SP1PM72 (shelly)",
       "entites": [
-        "binary_sensor.cave_sp1pm72_bambudous_input_0",
-        "binary_sensor.cave_sp1pm72_bambudous_overcurrent",
-        "binary_sensor.cave_sp1pm72_bambudous_overheating",
-        "binary_sensor.cave_sp1pm72_bambudous_overpowering",
-        "binary_sensor.cave_sp1pm72_bambudous_overvoltage",
         "binary_sensor.sp1pm72_cloud",
+        "binary_sensor.sp1pm72_input_0",
+        "binary_sensor.sp1pm72_overcurrent",
+        "binary_sensor.sp1pm72_overheating",
+        "binary_sensor.sp1pm72_overpowering",
+        "binary_sensor.sp1pm72_overvoltage",
         "binary_sensor.sp1pm72_restart_required",
-        "button.cave_sp1pm72_bambudous_restart",
-        "sensor.cave_sp1pm72_bambudous_energy",
-        "sensor.cave_sp1pm72_bambudous_power",
+        "button.sp1pm72_restart",
         "sensor.sp1pm72_current",
+        "sensor.sp1pm72_energy",
+        "sensor.sp1pm72_power",
         "sensor.sp1pm72_signal_strength",
         "sensor.sp1pm72_temperature",
         "sensor.sp1pm72_uptime",
         "sensor.sp1pm72_voltage",
         "switch.sp1pm72",
-        "update.cave_sp1pm72_bambudous_firmware",
-        "update.sp1pm72_beta_firmware"
+        "update.sp1pm72_beta_firmware",
+        "update.sp1pm72_firmware"
       ]
     },
     "appareil: Samba share": {
