@@ -11373,7 +11373,7 @@
     "translation_key": null,
     "unique_id": "A4:6C:F1:83:8D:C7"
   },
-  "binary_sensor.cave_sp1pm72_bambudous_overheating": {
+  "binary_sensor.sp1pm72_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -11382,7 +11382,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.cave_sp1pm72_bambudous_overheating",
+    "entity_id": "binary_sensor.sp1pm72_overheating",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -13784,7 +13784,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138739d3c63c9_temperature_calibration_zigbee2mqtt"
   },
-  "binary_sensor.cave_sp1pm72_bambudous_input_0": {
+  "binary_sensor.sp1pm72_input_0": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -13793,7 +13793,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.cave_sp1pm72_bambudous_input_0",
+    "entity_id": "binary_sensor.sp1pm72_input_0",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -22620,7 +22620,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138733ffb78b7_temperature_zigbee2mqtt"
   },
-  "binary_sensor.cave_sp1pm72_bambudous_overpowering": {
+  "binary_sensor.sp1pm72_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -22629,7 +22629,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.cave_sp1pm72_bambudous_overpowering",
+    "entity_id": "binary_sensor.sp1pm72_overpowering",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -32944,7 +32944,7 @@
     "translation_key": null,
     "unique_id": "1670083346602"
   },
-  "binary_sensor.cave_sp1pm72_bambudous_overcurrent": {
+  "binary_sensor.sp1pm72_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -32953,7 +32953,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.cave_sp1pm72_bambudous_overcurrent",
+    "entity_id": "binary_sensor.sp1pm72_overcurrent",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -34770,7 +34770,7 @@
     "translation_key": null,
     "unique_id": "1668237117380"
   },
-  "sensor.cave_sp1pm72_bambudous_power": {
+  "sensor.sp1pm72_power": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -34779,7 +34779,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.cave_sp1pm72_bambudous_power",
+    "entity_id": "sensor.sp1pm72_power",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -37704,7 +37704,7 @@
     "translation_key": null,
     "unique_id": "01JCZYZNZPTWNX2KYM3AMBJYHQ_astroweather"
   },
-  "sensor.cave_sp1pm72_bambudous_energy": {
+  "sensor.sp1pm72_energy": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -37713,7 +37713,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.cave_sp1pm72_bambudous_energy",
+    "entity_id": "sensor.sp1pm72_energy",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -47060,7 +47060,7 @@
     "translation_key": null,
     "unique_id": "4855194C71DD_status_sensor_status_sensor_status_ip"
   },
-  "binary_sensor.cave_sp1pm72_bambudous_overvoltage": {
+  "binary_sensor.sp1pm72_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -47069,7 +47069,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.cave_sp1pm72_bambudous_overvoltage",
+    "entity_id": "binary_sensor.sp1pm72_overvoltage",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -47612,7 +47612,7 @@
     "translation_key": "overpowering",
     "unique_id": "244CAB4333CF-relay_0-overpower"
   },
-  "button.cave_sp1pm72_bambudous_restart": {
+  "button.sp1pm72_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -47621,7 +47621,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.cave_sp1pm72_bambudous_restart",
+    "entity_id": "button.sp1pm72_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -60361,7 +60361,7 @@
     "translation_key": "state",
     "unique_id": "core_ssh_state"
   },
-  "update.cave_sp1pm72_bambudous_firmware": {
+  "update.sp1pm72_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6QZE41HYDZ5WM7DHMN5SG65",
@@ -60370,7 +60370,7 @@
     "device_id": "e18b92800f3d8c591b1f579a9f793093",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.cave_sp1pm72_bambudous_firmware",
+    "entity_id": "update.sp1pm72_firmware",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
