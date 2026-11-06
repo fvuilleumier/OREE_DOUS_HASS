@@ -12480,7 +12480,7 @@
     "translation_key": null,
     "unique_id": "01JCZYZNZPTWNX2KYM3AMBJYHQ_astroweather_moon_azimuth"
   },
-  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overvoltage": {
+  "binary_sensor.sp1pm73_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -12489,7 +12489,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overvoltage",
+    "entity_id": "binary_sensor.sp1pm73_overvoltage",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -13127,7 +13127,7 @@
     "translation_key": null,
     "unique_id": "F4CFA2748E7B-rssi"
   },
-  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overheating": {
+  "binary_sensor.sp1pm73_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -13136,7 +13136,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overheating",
+    "entity_id": "binary_sensor.sp1pm73_overheating",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -16474,7 +16474,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_public_ip_address"
   },
-  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_input_0": {
+  "binary_sensor.sp1pm73_input_0": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -16483,7 +16483,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_input_0",
+    "entity_id": "binary_sensor.sp1pm73_input_0",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -17867,7 +17867,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_wifi_ip_address"
   },
-  "button.bureau_fv_sp1pm73_mesure_bureau_fv_aux_restart": {
+  "button.sp1pm73_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -17876,7 +17876,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.bureau_fv_sp1pm73_mesure_bureau_fv_aux_restart",
+    "entity_id": "button.sp1pm73_restart",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -18610,7 +18610,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138739d3c63c9_temperature_unit_zigbee2mqtt"
   },
-  "update.bureau_fv_sp1pm73_mesure_bureau_fv_aux_firmware": {
+  "update.sp1pm73_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -18619,7 +18619,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.bureau_fv_sp1pm73_mesure_bureau_fv_aux_firmware",
+    "entity_id": "update.sp1pm73_firmware",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -18854,7 +18854,7 @@
     "translation_key": null,
     "unique_id": "0x003c84fffe2677bc_window_zigbee2mqtt"
   },
-  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overcurrent": {
+  "binary_sensor.sp1pm73_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -18863,7 +18863,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overcurrent",
+    "entity_id": "binary_sensor.sp1pm73_overcurrent",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -28474,7 +28474,7 @@
     "translation_key": null,
     "unique_id": "FA:7A:E0:75:2E:F0"
   },
-  "switch.bureau_fv_sp1pm73_mesure_bureau_fv_aux": {
+  "switch.sp1pm73": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -28483,7 +28483,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.bureau_fv_sp1pm73_mesure_bureau_fv_aux",
+    "entity_id": "switch.sp1pm73",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": "mdi:lightning-bolt-circle",
@@ -45529,7 +45529,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138a305a5a04c_battery_zigbee2mqtt"
   },
-  "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overpowering": {
+  "binary_sensor.sp1pm73_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -45538,7 +45538,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_overpowering",
+    "entity_id": "binary_sensor.sp1pm73_overpowering",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -50096,7 +50096,7 @@
     "translation_key": "outlet_missing",
     "unique_id": "jura_homeassistant_jurae8_alert_outlet_missing"
   },
-  "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_power": {
+  "sensor.sp1pm73_power": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -50105,7 +50105,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_power",
+    "entity_id": "sensor.sp1pm73_power",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
@@ -60676,7 +60676,7 @@
     "translation_key": "remove_water_tank",
     "unique_id": "jura_homeassistant_jurae8_alert_remove_water_tank"
   },
-  "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_energy": {
+  "sensor.sp1pm73_energy": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6R7BCW4V41VASNBGG4ZD78P",
@@ -60685,7 +60685,7 @@
     "device_id": "7f8e8692b752afe248a760e902460ff8",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_energy",
+    "entity_id": "sensor.sp1pm73_energy",
     "has_entity_name": true,
     "hidden_by": null,
     "icon": null,
