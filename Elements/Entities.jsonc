@@ -5762,14 +5762,14 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "4f29bf77d96b03aac32b24f7430eede6",
-    "disabled_by": null,
+    "disabled_by": "config_entry",
     "entity_category": "diagnostic",
     "entity_id": "binary_sensor.s1pm43_overheating",
     "hidden_by": null,
     "icon": null,
     "id": "16ce8274237a8fd26d51c33e7c8cb32f",
     "labels": [],
-    "modified_at": 1793700820.986833,
+    "modified_at": 1794236390.632175,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -6543,14 +6543,14 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "4f29bf77d96b03aac32b24f7430eede6",
-    "disabled_by": null,
+    "disabled_by": "config_entry",
     "entity_category": "diagnostic",
     "entity_id": "binary_sensor.s1pm43_overpowering",
     "hidden_by": null,
     "icon": null,
     "id": "1a00836d2f4554225b9fa8242de6aafe",
     "labels": [],
-    "modified_at": 1793700821.002746,
+    "modified_at": 1794236390.632085,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -16987,14 +16987,14 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "4f29bf77d96b03aac32b24f7430eede6",
-    "disabled_by": null,
+    "disabled_by": "config_entry",
     "entity_category": "config",
     "entity_id": "button.s1pm43_restart",
     "hidden_by": null,
     "icon": null,
     "id": "42b62904c2d5c3ffb9bac126164cf307",
     "labels": [],
-    "modified_at": 1793700821.088022,
+    "modified_at": 1794236390.632335,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -20465,33 +20465,6 @@
     "platform": "mobile_app",
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_battery_cycles"
-  },
-  "input_boolean.c_est_noel": {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": null,
-    "config_subentry_id": null,
-    "created_at": 1792576349.301744,
-    "device_id": null,
-    "disabled_by": null,
-    "entity_category": null,
-    "entity_id": "input_boolean.c_est_noel",
-    "hidden_by": null,
-    "icon": null,
-    "id": "4f96b618cc603e135301d63f9342d29e",
-    "labels": [],
-    "modified_at": 1792576374.982508,
-    "name": null,
-    "next_name_part": null,
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "C'est noël",
-    "platform": "input_boolean",
-    "translation_key": null,
-    "unique_id": "c_est_noel"
   },
   "sensor.pixel_9_pro_xl_de_camille_screen_off_timeout": {
     "area_id": null,
@@ -27288,14 +27261,14 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "4f29bf77d96b03aac32b24f7430eede6",
-    "disabled_by": null,
+    "disabled_by": "config_entry",
     "entity_category": null,
     "entity_id": "sensor.s1pm43_power",
     "hidden_by": null,
     "icon": null,
     "id": "683ff5afc6509e2b1ab7c61ee9a63907",
     "labels": [],
-    "modified_at": 1793700821.201236,
+    "modified_at": 1794236390.632221,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -29635,14 +29608,14 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "4f29bf77d96b03aac32b24f7430eede6",
-    "disabled_by": null,
+    "disabled_by": "config_entry",
     "entity_category": null,
     "entity_id": "switch.s1pm43",
     "hidden_by": null,
     "icon": "mdi:hydraulic-oil-temperature",
     "id": "707463dd9fd9b788b6b968fba1bb74b1",
     "labels": [],
-    "modified_at": 1794231538.723058,
+    "modified_at": 1794236390.632299,
     "name": "S1PM43 - Temperature boiler bas",
     "next_name_part": "device",
     "options": {
@@ -37203,7 +37176,7 @@
     "unique_id": "00:23:F8:30:CC:FD"
   },
   "sensor.bureau_fv_energy_day": {
-    "area_id": null,
+    "area_id": "bureau",
     "categories": {},
     "config_entry_id": "01M70ABQ98GEC69YBXBQX09BD6",
     "config_subentry_id": null,
@@ -37216,9 +37189,9 @@
     "icon": null,
     "id": "8c4acb48827a32b6498e83b780ee916b",
     "labels": [],
-    "modified_at": 1794233457.961982,
+    "modified_at": 1794235905.205469,
     "name": null,
-    "next_name_part": null,
+    "next_name_part": "area",
     "options": {
       "conversation": {
         "should_expose": false
@@ -45040,14 +45013,14 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "4f29bf77d96b03aac32b24f7430eede6",
-    "disabled_by": null,
+    "disabled_by": "config_entry",
     "entity_category": null,
     "entity_id": "sensor.s1pm43_energy",
     "hidden_by": null,
     "icon": null,
     "id": "acb51c28eabde2dc8df9264be614bc04",
     "labels": [],
-    "modified_at": 1793700821.503344,
+    "modified_at": 1794236390.632262,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -62637,7 +62610,7 @@
     "unique_id": "485519509B8E_status_sensor_status_sensor_status_ip"
   },
   "sensor.bureau_fv_power": {
-    "area_id": null,
+    "area_id": "bureau",
     "categories": {},
     "config_entry_id": "01M70A957MCF161FQ2EDTZJYJJ",
     "config_subentry_id": null,
@@ -62650,12 +62623,15 @@
     "icon": null,
     "id": "efbf5bfe96ce04850cfc84c65ba2bc47",
     "labels": [],
-    "modified_at": 1794234057.20758,
+    "modified_at": 1794235923.979343,
     "name": null,
-    "next_name_part": null,
+    "next_name_part": "area",
     "options": {
       "conversation": {
         "should_expose": false
+      },
+      "sensor": {
+        "suggested_display_precision": 0
       }
     },
     "original_name": "bureau_fv_power",

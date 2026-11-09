@@ -1524,6 +1524,7 @@
     },
     "appareil: S1PM43 - Temperature boiler bas": {
       "integration": "intégration: S1PM43 - Temperature boiler bas (shelly)",
+      "desactive": true,
       "entites": [
         "binary_sensor.s1pm43_cloud",
         "binary_sensor.s1pm43_input",
@@ -1812,6 +1813,26 @@
         "automation: Vacances lampe enfants (SdJ Tasmorallonge) OFF",
         "automation: Vacances lampe enfants (SdJ Tasmorallonge) ON",
         "vue: L'Orée des dous › Boutons"
+      ]
+    },
+    "appareil: SB41 - Ampoule salle de bain": {
+      "integration": "intégration: SB41 - Ampoule salle de bain (shelly)",
+      "desactive": true,
+      "entites": [
+        "binary_sensor.sb41_cloud",
+        "button.sb41_reboot",
+        "light.sb41",
+        "sensor.sb41_energy",
+        "sensor.sb41_power",
+        "sensor.sb41_rssi",
+        "sensor.sb41_uptime",
+        "update.sb41_beta_firmware_update",
+        "update.sb41_firmware_update"
+      ],
+      "utilisePar": [
+        "automation: Toilettes 1er after 45min OFF",
+        "automation: Vacances SDB off",
+        "automation: Vacances SDB on"
       ]
     },
     "appareil: SB48": {
@@ -2403,10 +2424,13 @@
         "switch.sp1e78",
         "update.sp1e78_beta_firmware",
         "update.sp1e78_firmware"
+      ],
+      "utilisePar": [
+        "vue: L'Oree des dous - pieces › Salon"
       ]
     },
     "appareil: SP1PM61 - Prise jardin Wall-e": {
-      "integration": "intégration: SP1PM61 - Wall-e (shelly)",
+      "integration": "intégration: SP1PM61 - Prise jardin Wall-e (shelly)",
       "entites": [
         "binary_sensor.s1pm61_input",
         "binary_sensor.shellyplus1pm_e465b8f1a028_cloud",
@@ -2602,7 +2626,7 @@
       ]
     },
     "appareil: SP1PM72 - BambuDous": {
-      "integration": "intégration: SP1PM72 (shelly)",
+      "integration": "intégration: SP1PM72 - BambuDous (shelly)",
       "entites": [
         "binary_sensor.sp1pm72_cloud",
         "binary_sensor.sp1pm72_input_0",
@@ -2630,7 +2654,7 @@
       ]
     },
     "appareil: SP1PM73 - Mesure bureau fv aux": {
-      "integration": "intégration: SP1PM73 (shelly)",
+      "integration": "intégration: SP1PM73 - Mesure bureau fv aux (shelly)",
       "entites": [
         "binary_sensor.sp1pm73_cloud",
         "binary_sensor.sp1pm73_input_0",
@@ -4016,26 +4040,6 @@
         "switch.sfp1_ethernet"
       ]
     },
-    "appareil: shellycolorbulb-3494546B33E9": {
-      "integration": "intégration: SB41 (shelly)",
-      "desactive": true,
-      "entites": [
-        "binary_sensor.sb41_cloud",
-        "button.sb41_reboot",
-        "light.sb41",
-        "sensor.sb41_energy",
-        "sensor.sb41_power",
-        "sensor.sb41_rssi",
-        "sensor.sb41_uptime",
-        "update.sb41_beta_firmware_update",
-        "update.sb41_firmware_update"
-      ],
-      "utilisePar": [
-        "automation: Toilettes 1er after 45min OFF",
-        "automation: Vacances SDB off",
-        "automation: Vacances SDB on"
-      ]
-    },
     "appareil: wlan1.22": {
       "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
       "entites": [
@@ -4653,15 +4657,6 @@
         "automation: Atelier switch off chargeur"
       ]
     },
-    "input_boolean.c_est_noel": {
-      "nom": "C'est noël",
-      "utiliseePar": [
-        "automation: C'est noël - pilote SB18 et SB20",
-        "automation: Sapin de Noël Off",
-        "automation: Sapin de Noël On",
-        "vue: L'Orée des dous › Home"
-      ]
-    },
     "input_boolean.eponge_started": {
       "nom": "Eponge started",
       "appartientA": "helper: input_boolean.eponge_started",
@@ -4698,7 +4693,7 @@
       ]
     },
     "light.sb41": {
-      "appartientA": "appareil: shellycolorbulb-3494546B33E9",
+      "appartientA": "appareil: SB41 - Ampoule salle de bain",
       "desactivee": true,
       "utiliseePar": [
         "automation: Toilettes 1er after 45min OFF"
@@ -5265,6 +5260,7 @@
     "sensor.s1pm43_energy": {
       "nom": "Energy",
       "appartientA": "appareil: S1PM43 - Temperature boiler bas",
+      "desactivee": true,
       "utiliseePar": [
         "fichier: UtilityMeters.yaml"
       ]
@@ -5512,6 +5508,13 @@
         "vue: L'Orée des dous › Surveillance"
       ]
     },
+    "sensor.sp1e78_power": {
+      "nom": "Power",
+      "appartientA": "appareil: SP1E78 - Mesure 1er nord-ouest DIN",
+      "utiliseePar": [
+        "vue: L'Oree des dous - pieces › Salon"
+      ]
+    },
     "sensor.sp1pm61_energy": {
       "nom": "Energy",
       "appartientA": "appareil: SP1PM61 - Prise jardin Wall-e",
@@ -5702,6 +5705,13 @@
       "appartientA": "intégration: sp2e77_l0_l1_energy (min_max)",
       "utiliseePar": [
         "fichier: UtilityMeters.yaml"
+      ]
+    },
+    "sensor.sp2e77_l0_l1_power": {
+      "nom": "sp2e77_l0_l1_power",
+      "appartientA": "intégration: sp2e77_l0_l1_power (min_max)",
+      "utiliseePar": [
+        "vue: L'Oree des dous - pieces › Couloir premier"
       ]
     },
     "sensor.sp2e77_l0_power": {
@@ -6753,7 +6763,6 @@
     "automation: C'est noël - pilote SB18 et SB20": {
       "fichier": "Automations.yaml",
       "utilise": [
-        "input_boolean.c_est_noel",
         "switch.sb18",
         "switch.sb20"
       ]
@@ -6998,22 +7007,10 @@
         "lock.porte_1er"
       ]
     },
-    "automation: Sapin de Noël Off": {
-      "fichier": "Automations.yaml",
-      "utilise": [
-        "input_boolean.c_est_noel"
-      ]
-    },
-    "automation: Sapin de Noël On": {
-      "fichier": "Automations.yaml",
-      "utilise": [
-        "input_boolean.c_est_noel"
-      ]
-    },
     "automation: Toilettes 1er after 45min OFF": {
       "fichier": "Automations.yaml",
       "utilise": [
-        "appareil: shellycolorbulb-3494546B33E9",
+        "appareil: SB41 - Ampoule salle de bain",
         "light.sb41"
       ]
     },
@@ -7032,13 +7029,13 @@
     "automation: Vacances SDB off": {
       "fichier": "Automations.yaml",
       "utilise": [
-        "appareil: shellycolorbulb-3494546B33E9"
+        "appareil: SB41 - Ampoule salle de bain"
       ]
     },
     "automation: Vacances SDB on": {
       "fichier": "Automations.yaml",
       "utilise": [
-        "appareil: shellycolorbulb-3494546B33E9"
+        "appareil: SB41 - Ampoule salle de bain"
       ]
     },
     "automation: Vacances bureau off": {
@@ -7366,6 +7363,7 @@
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml",
       "utilise": [
         "lock.porte_1er",
+        "sensor.sp2e77_l0_l1_power",
         "sensor.zg_227z_07_humidity",
         "sensor.zg_227z_07_temperature"
       ]
@@ -7499,6 +7497,7 @@
         "sensor.slzb_06m_r_firmware_channel",
         "sensor.slzb_06m_r_zigbee_chip_temp",
         "sensor.slzb_06m_r_zigbee_type",
+        "sensor.sp1e78_power",
         "sensor.trv_btr_06_position",
         "sensor.zg_227z_18_humidity",
         "sensor.zg_227z_18_temperature",
@@ -7648,7 +7647,6 @@
       "fichier": "Dashboards/L'Orée des dous.yaml",
       "utilise": [
         "binary_sensor.production_panneaux_solaire",
-        "input_boolean.c_est_noel",
         "lock.porte_1er",
         "lock.porte_rez",
         "sensor.astroweather_la_maison_des_dous_moon_next_rising",
@@ -8050,6 +8048,21 @@
   },
   "referencesCassees": [
     {
+      "par": "automation: C'est noël - pilote SB18 et SB20",
+      "cible": "input_boolean.c_est_noel",
+      "fichier": "Automations.yaml"
+    },
+    {
+      "par": "automation: Sapin de Noël Off",
+      "cible": "input_boolean.c_est_noel",
+      "fichier": "Automations.yaml"
+    },
+    {
+      "par": "automation: Sapin de Noël On",
+      "cible": "input_boolean.c_est_noel",
+      "fichier": "Automations.yaml"
+    },
+    {
       "par": "vue: L'Oree des dous - pieces › Atelier",
       "cible": "sensor.msws65_atelier_energy",
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
@@ -8057,6 +8070,11 @@
     {
       "par": "vue: L'Oree des dous - pieces › Atelier",
       "cible": "sensor.msws65_atelier_energy_day",
+      "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
+    },
+    {
+      "par": "vue: L'Oree des dous - pieces › Couloir premier",
+      "cible": "sensor.sp2e77_l0_l1_energy_day",
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
     },
     {
@@ -8070,9 +8088,19 @@
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
     },
     {
+      "par": "vue: L'Oree des dous - pieces › Salon",
+      "cible": "sensor.sp1e78_energy_day",
+      "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
+    },
+    {
       "par": "vue: L'Oree des dous - pieces › Serveur",
       "cible": "sensor.sp1e74_energy_day",
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
+    },
+    {
+      "par": "vue: L'Orée des dous › Home",
+      "cible": "input_boolean.c_est_noel",
+      "fichier": "Dashboards/L'Orée des dous.yaml"
     }
   ]
 }

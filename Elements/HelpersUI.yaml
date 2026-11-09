@@ -69,6 +69,7 @@ config_entries:
       options:
         entity_ids:
           - sensor.sp1pm63_energy_day
+          - sensor.sp1pm73_energy_day
         name: bureau_fv_energy_day
         round_digits: 2
         type: sum
