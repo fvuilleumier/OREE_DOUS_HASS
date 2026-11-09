@@ -6530,7 +6530,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "user",
     "entry_type": null,
     "hw_version": "gen1",
     "id": "ba2c3e3df98aeb21ff3cad3a389c2004",
