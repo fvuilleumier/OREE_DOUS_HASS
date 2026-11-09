@@ -788,12 +788,12 @@
   conditions:
   - condition: device
     type: is_off
-    device_id: 8854dd5b7db1493ed213e19dd4af07ac
+    device_id: 88a397dc844a59843367825b8194b8a4
     entity_id: 260931306f24fbd11702e87725459358
     domain: switch
   actions:
   - type: turn_on
-    device_id: 8854dd5b7db1493ed213e19dd4af07ac
+    device_id: 88a397dc844a59843367825b8194b8a4
     entity_id: 260931306f24fbd11702e87725459358
     domain: switch
   mode: single
@@ -806,12 +806,12 @@
   conditions:
   - condition: device
     type: is_on
-    device_id: 8854dd5b7db1493ed213e19dd4af07ac
+    device_id: 88a397dc844a59843367825b8194b8a4
     entity_id: 260931306f24fbd11702e87725459358
     domain: switch
   actions:
   - type: turn_off
-    device_id: 8854dd5b7db1493ed213e19dd4af07ac
+    device_id: 88a397dc844a59843367825b8194b8a4
     entity_id: 260931306f24fbd11702e87725459358
     domain: switch
   mode: single
@@ -824,7 +824,7 @@
   conditions:
   - condition: device
     type: is_on
-    device_id: 8854dd5b7db1493ed213e19dd4af07ac
+    device_id: 88a397dc844a59843367825b8194b8a4
     entity_id: 260931306f24fbd11702e87725459358
     domain: switch
   - condition: time
@@ -832,7 +832,7 @@
     - mon
   actions:
   - type: turn_off
-    device_id: 8854dd5b7db1493ed213e19dd4af07ac
+    device_id: 88a397dc844a59843367825b8194b8a4
     entity_id: 260931306f24fbd11702e87725459358
     domain: switch
   mode: single
@@ -845,7 +845,7 @@
   conditions:
   - condition: device
     type: is_off
-    device_id: 8854dd5b7db1493ed213e19dd4af07ac
+    device_id: 88a397dc844a59843367825b8194b8a4
     entity_id: 260931306f24fbd11702e87725459358
     domain: switch
   - condition: time
@@ -853,7 +853,7 @@
     - mon
   actions:
   - type: turn_on
-    device_id: 8854dd5b7db1493ed213e19dd4af07ac
+    device_id: 88a397dc844a59843367825b8194b8a4
     entity_id: 260931306f24fbd11702e87725459358
     domain: switch
   mode: single
@@ -1796,7 +1796,7 @@
     target:
       entity_id: input_datetime.cave_a_vin_dernier_allumage
     data:
-          datetime: '{{ now().isoformat() }}'
+      datetime: '{{ now().isoformat() }}'
   mode: single
 - id: c_est_noel_sync
   alias: C'est noël - pilote SB18 et SB20
@@ -1821,7 +1821,6 @@
     target:
       entity_id: '{{ cibles }}'
   mode: queued
-
 - id: cave_a_vin_pas_allumee_depuis_2_jours
   alias: Cave à vin - pas allumée depuis 2 jours
   description: Alerte si le switch de la cave à vin est éteint et n'a pas été rallumé

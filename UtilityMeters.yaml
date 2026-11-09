@@ -55,7 +55,7 @@ sp1pm64_energy_day:
   cycle: daily
 
 msws65_energy_day:
-  source: sensor.msws65_energy
+  source: sensor.msws65_average_consumption
   cycle: daily
 
 sp1pm70_energy_day:

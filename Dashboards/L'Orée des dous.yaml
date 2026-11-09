@@ -1627,7 +1627,7 @@ views:
       - type: grid
         cards:
           - type: gauge
-            entity: sensor.s1pm30_power
+            entity: sensor.server_sp1e74_serveurs_power
             needle: true
             max: 350
             severity:
@@ -4957,7 +4957,8 @@ views:
     path: lavette
     icon: mdi:washing-machine
     badges:
-      - entity: sensor.lavette_operation_state
+      - type: entity
+        entity: sensor.lavette_operation_state
       - type: entity
         show_name: false
         show_state: true
@@ -5131,9 +5132,12 @@ views:
     path: ducon
     icon: mdi:vacuum
     badges:
-      - entity: vacuum.ducon
-      - entity: sensor.ducon_battery_level
-      - entity: binary_sensor.ducon_bin_full
+      - type: entity
+        entity: vacuum.ducon
+      - type: entity
+        entity: sensor.ducon_battery_level
+      - type: entity
+        entity: binary_sensor.ducon_bin_full
     type: sections
     max_columns: 1
     sections:
@@ -5255,7 +5259,8 @@ views:
     path: tv-des-dous
     icon: mdi:youtube-tv
     badges:
-      - entity: media_player.tv_des_dous
+      - type: entity
+        entity: media_player.tv_des_dous
     type: sections
     max_columns: 1
     sections:
