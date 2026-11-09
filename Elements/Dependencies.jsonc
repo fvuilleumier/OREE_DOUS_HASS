@@ -1435,12 +1435,7 @@
         "update.shelly1pm_485519cb1146_firmware_update"
       ],
       "utilisePar": [
-        "fichier: UtilityMeters.yaml",
-        "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Boutons",
-        "vue: L'Orée des dous › Plan intéractif",
-        "vue: L'Orée des dous › Santé système",
-        "vue: L'Orée des dous › Surveillance"
+        "fichier: UtilityMeters.yaml"
       ]
     },
     "appareil: S1PM31 - Lampe salon": {
@@ -2372,7 +2367,12 @@
       ],
       "utilisePar": [
         "fichier: UtilityMeters.yaml",
-        "vue: L'Orée des dous › Graphes & consommation"
+        "vue: L'Oree des dous - pieces › Serveur",
+        "vue: L'Orée des dous › Boutons",
+        "vue: L'Orée des dous › Graphes & consommation",
+        "vue: L'Orée des dous › Plan intéractif",
+        "vue: L'Orée des dous › Santé système",
+        "vue: L'Orée des dous › Surveillance"
       ]
     },
     "appareil: SP1E78 - Mesure 1er nord-ouest DIN": {
@@ -4654,7 +4654,6 @@
     },
     "input_boolean.c_est_noel": {
       "nom": "C'est noël",
-      "appartientA": "helper: input_boolean.c_est_noel",
       "utiliseePar": [
         "automation: C'est noël - pilote SB18 et SB20",
         "automation: Sapin de Noël Off",
@@ -5182,27 +5181,7 @@
       "appartientA": "appareil: S1PM30 - Serveurs (2)",
       "desactivee": true,
       "utiliseePar": [
-        "fichier: UtilityMeters.yaml",
-        "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Santé système"
-      ]
-    },
-    "sensor.s1pm30_energy_day": {
-      "nom": "s1pm30_energy_day",
-      "horsRegistre": true,
-      "utiliseePar": [
-        "vue: L'Oree des dous - pieces › Serveur"
-      ]
-    },
-    "sensor.s1pm30_power": {
-      "nom": "Power",
-      "appartientA": "appareil: S1PM30 - Serveurs (2)",
-      "desactivee": true,
-      "utiliseePar": [
-        "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Plan intéractif",
-        "vue: L'Orée des dous › Santé système",
-        "vue: L'Orée des dous › Surveillance"
+        "fichier: UtilityMeters.yaml"
       ]
     },
     "sensor.s1pm31_energy": {
@@ -5516,14 +5495,20 @@
       "nom": "Energy",
       "appartientA": "appareil: SP1E74 - Mesure serveurs DIN",
       "utiliseePar": [
-        "fichier: UtilityMeters.yaml"
+        "fichier: UtilityMeters.yaml",
+        "vue: L'Oree des dous - pieces › Serveur",
+        "vue: L'Orée des dous › Santé système"
       ]
     },
     "sensor.sp1e74_power": {
       "nom": "Power",
       "appartientA": "appareil: SP1E74 - Mesure serveurs DIN",
       "utiliseePar": [
-        "vue: L'Orée des dous › Graphes & consommation"
+        "vue: L'Oree des dous - pieces › Serveur",
+        "vue: L'Orée des dous › Graphes & consommation",
+        "vue: L'Orée des dous › Plan intéractif",
+        "vue: L'Orée des dous › Santé système",
+        "vue: L'Orée des dous › Surveillance"
       ]
     },
     "sensor.sp1pm61_energy": {
@@ -6461,16 +6446,6 @@
         "vue: L'Orée des dous › Home"
       ]
     },
-    "switch.s1pm30": {
-      "appartientA": "appareil: S1PM30 - Serveurs (2)",
-      "desactivee": true,
-      "utiliseePar": [
-        "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Boutons",
-        "vue: L'Orée des dous › Santé système",
-        "vue: L'Orée des dous › Surveillance"
-      ]
-    },
     "switch.s1pm31": {
       "nom": "S1PM31 - Lampe salon",
       "appartientA": "appareil: S1PM31 - Lampe salon",
@@ -6622,6 +6597,16 @@
       "desactivee": true,
       "utiliseePar": [
         "vue: L'Orée des dous › Boutons"
+      ]
+    },
+    "switch.sp1e74": {
+      "nom": "SP1E74 - Mesure serveurs DIN",
+      "appartientA": "appareil: SP1E74 - Mesure serveurs DIN",
+      "utiliseePar": [
+        "vue: L'Oree des dous - pieces › Serveur",
+        "vue: L'Orée des dous › Boutons",
+        "vue: L'Orée des dous › Santé système",
+        "vue: L'Orée des dous › Surveillance"
       ]
     },
     "switch.sp1pm61": {
@@ -7544,19 +7529,18 @@
         "sensor.onduleur_des_dous_own_consumption_rate_day",
         "sensor.onduleur_des_dous_pv_to_battery_power",
         "sensor.onduleur_des_dous_solar_power",
-        "sensor.s1pm30_energy",
-        "sensor.s1pm30_energy_day",
-        "sensor.s1pm30_power",
         "sensor.slzb_06m_connection_mode",
         "sensor.slzb_06m_core_chip_temp",
         "sensor.slzb_06m_firmware_channel",
         "sensor.slzb_06m_zigbee_chip_temp",
         "sensor.slzb_06m_zigbee_type",
+        "sensor.sp1e74_energy",
+        "sensor.sp1e74_power",
         "sensor.ups_battery_charge",
         "sensor.zg_227z_11_humidity",
         "sensor.zg_227z_11_temperature",
-        "switch.s1pm30",
         "switch.sb15",
+        "switch.sp1e74",
         "update.mikrotik_routerboard"
       ]
     },
@@ -7575,7 +7559,6 @@
         "switch.msws65",
         "switch.s146",
         "switch.s168",
-        "switch.s1pm30",
         "switch.s1pm31",
         "switch.s1pm40",
         "switch.s1pm42",
@@ -7591,6 +7574,7 @@
         "switch.sm26",
         "switch.sm27",
         "switch.sm35",
+        "switch.sp1e74",
         "switch.sp1pm61",
         "switch.sp1pm62",
         "switch.sp1pm63",
@@ -7803,7 +7787,7 @@
     "vue: L'Orée des dous › Plan intéractif": {
       "fichier": "Dashboards/L'Orée des dous.yaml",
       "utilise": [
-        "sensor.s1pm30_power",
+        "sensor.sp1e74_power",
         "sensor.zg_227z_01_humidity",
         "sensor.zg_227z_01_temperature",
         "sensor.zg_227z_02_humidity",
@@ -7851,8 +7835,6 @@
         "sensor.myip",
         "sensor.porte_1er_battery",
         "sensor.porte_rez_battery",
-        "sensor.s1pm30_energy",
-        "sensor.s1pm30_power",
         "sensor.slzb_06m_core_chip_temp",
         "sensor.slzb_06m_r_core_chip_temp",
         "sensor.slzb_06m_r_zigbee_chip_temp",
@@ -7863,6 +7845,8 @@
         "sensor.slzb_06mra_zigbee_chip_temp",
         "sensor.slzb_06mra_zigbee_type",
         "sensor.snzb_01p_01_battery",
+        "sensor.sp1e74_energy",
+        "sensor.sp1e74_power",
         "sensor.trv_btr_01_battery",
         "sensor.trv_btr_02_battery",
         "sensor.trv_btr_03_battery",
@@ -7891,9 +7875,9 @@
         "sensor.zg_227z_21_battery",
         "sensor.zg_227z_22_battery",
         "sensor.zg_227z_23_battery",
-        "switch.s1pm30",
         "switch.s1pm59",
         "switch.sb15",
+        "switch.sp1e74",
         "switch.sp1pm64"
       ]
     },
@@ -7904,13 +7888,13 @@
         "sensor.lavette_operation_state",
         "sensor.lavette_program_finish_time",
         "sensor.lavette_program_progress",
-        "sensor.s1pm30_power",
         "sensor.s1pm40_power",
         "sensor.s1pm42_power",
         "sensor.s1pm44_power",
         "sensor.s1pm58_power",
         "sensor.s1pm59_power",
         "sensor.s1pm60_power",
+        "sensor.sp1e74_power",
         "sensor.sp1pm61_power",
         "sensor.sp1pm62_power",
         "sensor.sp1pm63_power",
@@ -7918,11 +7902,11 @@
         "sensor.sp1pm70_energy",
         "sensor.sp1pm70_power",
         "sensor.sp1pm71_power",
-        "switch.s1pm30",
         "switch.s1pm40",
         "switch.s1pm44",
         "switch.s1pm58",
         "switch.sm25",
+        "switch.sp1e74",
         "switch.sp1pm61",
         "switch.sp1pm63",
         "switch.sp1pm70"
@@ -8082,6 +8066,11 @@
     {
       "par": "vue: L'Oree des dous - pieces › Salle à manger",
       "cible": "sensor.zg_227z_99_temperature",
+      "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
+    },
+    {
+      "par": "vue: L'Oree des dous - pieces › Serveur",
+      "cible": "sensor.sp1e74_energy_day",
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
     }
   ]
