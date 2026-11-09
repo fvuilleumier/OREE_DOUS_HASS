@@ -5501,7 +5501,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_battery_temperature"
   },
-  "switch.server_sp3e75_output_2": {
+  "switch.sp3e75_l2": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
@@ -5510,13 +5510,13 @@
     "device_id": "1594c7ecf42826a3948302f02c1eadf4",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.server_sp3e75_output_2",
+    "entity_id": "switch.sp3e75_l2",
     "hidden_by": null,
     "icon": null,
     "id": "153de96cc69288dd152594ea6ac56818",
     "labels": [],
     "modified_at": 1794167344.261107,
-    "name": null,
+    "name": "SP3E75-L2 - SP3E75 Output 2",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -6670,7 +6670,7 @@
     "translation_key": null,
     "unique_id": "38:22:E2:EF:55:54"
   },
-  "sensor.server_sp2e77_output_1_power_factor": {
+  "sensor.sp2e77_l1_power_factor": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -6679,7 +6679,7 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp2e77_output_1_power_factor",
+    "entity_id": "sensor.sp2e77_l1_power_factor",
     "hidden_by": null,
     "icon": null,
     "id": "1a73b67ddd5952b0ea14da82239464c0",
@@ -9528,7 +9528,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_wifi_signal_strength"
   },
-  "binary_sensor.server_sp2e77_output_1_overpowering": {
+  "binary_sensor.sp2e77_l1_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -9537,7 +9537,7 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp2e77_output_1_overpowering",
+    "entity_id": "binary_sensor.sp2e77_l1_overpowering",
     "hidden_by": null,
     "icon": null,
     "id": "25310db7ff7ab911e8207e4aaab16136",
@@ -9555,7 +9555,7 @@
     "translation_key": "overpowering",
     "unique_id": "EC626092973C-switch:1-overpower"
   },
-  "sensor.server_sp2e77_output_1_power": {
+  "sensor.sp2e77_l1_power": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -9564,7 +9564,7 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp2e77_output_1_power",
+    "entity_id": "sensor.sp2e77_l1_power",
     "hidden_by": null,
     "icon": null,
     "id": "2579d6b2433d5ac818e3430aba3b1e7b",
@@ -12262,7 +12262,7 @@
     "translation_key": null,
     "unique_id": "01KZNZD15E0Q2R6ZCBZ73TA0W1_devices:local_Inverter:ActivePowerLimitation"
   },
-  "sensor.server_sp2e77_output_1_energy": {
+  "sensor.sp2e77_l1_energy": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -12271,7 +12271,7 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp2e77_output_1_energy",
+    "entity_id": "sensor.sp2e77_l1_energy",
     "hidden_by": null,
     "icon": null,
     "id": "2f7f72efd57c1d913e4c3b155de1834c",
@@ -18126,7 +18126,7 @@
     "translation_key": null,
     "unique_id": "9C9C1F9CFB22_status_sensor_status_sensor_last_restart_time"
   },
-  "binary_sensor.server_sp2e77_output_1_overcurrent": {
+  "binary_sensor.sp2e77_l1_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -18135,7 +18135,7 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp2e77_output_1_overcurrent",
+    "entity_id": "binary_sensor.sp2e77_l1_overcurrent",
     "hidden_by": null,
     "icon": null,
     "id": "46e595767706d88e9f0d9c075eaadec6",
@@ -23971,7 +23971,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_app_memory"
   },
-  "switch.server_sp3e75_output_1": {
+  "switch.sp3e75_l1": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
@@ -23980,13 +23980,13 @@
     "device_id": "e636d221773a86277127876578d806af",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.server_sp3e75_output_1",
+    "entity_id": "switch.sp3e75_l1",
     "hidden_by": null,
     "icon": null,
     "id": "5c50ce56e1fb93ad6859644f8c82c2cf",
     "labels": [],
     "modified_at": 1794167344.260678,
-    "name": null,
+    "name": "SP3E75-L1 - SP3E75 Output 1",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -28181,7 +28181,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_speakerphone_state"
   },
-  "sensor.server_sp2e77_output_1_energy_returned": {
+  "sensor.sp2e77_l1_energy_returned": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -28190,7 +28190,7 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp2e77_output_1_energy_returned",
+    "entity_id": "sensor.sp2e77_l1_energy_returned",
     "hidden_by": null,
     "icon": null,
     "id": "6bc6943bcf2ffe810ff25f177a82c1a4",
@@ -34040,7 +34040,7 @@
     "translation_key": "energy_production_today",
     "unique_id": "01KZP0BSHMW029S0BM2WR2T85E_energy_production_today"
   },
-  "switch.server_sp3e75_output_0": {
+  "switch.sp3e75_l0": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
@@ -34049,13 +34049,13 @@
     "device_id": "b322a3828a8da2f399d25eb5b457aade",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.server_sp3e75_output_0",
+    "entity_id": "switch.sp3e75_l0",
     "hidden_by": null,
     "icon": null,
     "id": "80fc4e4a3d127fe4e5144f0babc4b342",
     "labels": [],
     "modified_at": 1794167344.244934,
-    "name": null,
+    "name": "SP3E75-L0 - SP3E75 Output 0",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -41519,7 +41519,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138c59605147c_temperature_calibration_zigbee2mqtt"
   },
-  "binary_sensor.server_sp2e77_output_1_overvoltage": {
+  "binary_sensor.sp2e77_l1_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -41528,7 +41528,7 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp2e77_output_1_overvoltage",
+    "entity_id": "binary_sensor.sp2e77_l1_overvoltage",
     "hidden_by": null,
     "icon": null,
     "id": "9f6517fee6afae66e0de6039c0febe04",
@@ -62167,7 +62167,7 @@
     "translation_key": null,
     "unique_id": "b83e3bb8384b90f5fb872c3687f96361ca6e31474b42328251c583f66e025330_car_fuel"
   },
-  "switch.server_sp2e77_output_1": {
+  "switch.sp2e77_l1": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -62176,13 +62176,13 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.server_sp2e77_output_1",
+    "entity_id": "switch.sp2e77_l1",
     "hidden_by": null,
     "icon": null,
     "id": "ee9454e694b869d32f27765a5b11c383",
     "labels": [],
     "modified_at": 1794167303.168144,
-    "name": null,
+    "name": "SP2E77-L1 - SP2E77 Output 1",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -65472,7 +65472,7 @@
     "translation_key": null,
     "unique_id": "sensor.01JBRPFHZ66894ZYT52FQKEKQY-pressure-precipitation"
   },
-  "binary_sensor.server_sp2e77_output_1_overheating": {
+  "binary_sensor.sp2e77_l1_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -65481,7 +65481,7 @@
     "device_id": "9a7528e81194a8c312b0bfdd026fc2ae",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp2e77_output_1_overheating",
+    "entity_id": "binary_sensor.sp2e77_l1_overheating",
     "hidden_by": null,
     "icon": null,
     "id": "fcfe4620f7015914aef517fcda1f0233",
