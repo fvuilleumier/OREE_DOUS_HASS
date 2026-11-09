@@ -4909,6 +4909,7 @@ views:
                 tap_action:
                   action: toggle
                 color: "{% set p = states('sensor.sp1pm70_power') | float(0) %} {% if not is_state('switch.sp1pm70', 'on') %}red {% elif p > 5 %}orange {% else %}green{% endif %}"
+                name: Pompe dilatation chaudière
               - type: gauge
                 entity: sensor.sp1pm70_power
                 name: Puissance
