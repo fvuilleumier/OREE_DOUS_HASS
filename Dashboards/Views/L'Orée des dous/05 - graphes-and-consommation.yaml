@@ -8,7 +8,7 @@ sections:
   - type: grid
     cards:
       - type: gauge
-        entity: sensor.server_sp1e74_serveurs_power
+        entity: sensor.sp1e74_power
         needle: true
         max: 350
         severity:
@@ -585,7 +585,7 @@ sections:
             apex_config:
               tickAmount: 4
         series:
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: s1pm30 power
             color: var(--info-color)
             type: area
@@ -1014,65 +1014,6 @@ sections:
         update_interval: 30min
         header:
           show: true
-          title: Lavette
-          show_states: true
-          colorize_states: true
-        apex_config:
-          chart:
-            height: 220
-            animations:
-              enabled: false
-            toolbar:
-              show: false
-            zoom:
-              enabled: false
-          stroke:
-            curve: smooth
-            width: 2
-          dataLabels:
-            enabled: false
-          markers:
-            size: 0
-          legend:
-            show: true
-            position: bottom
-            fontSize: 10px
-          xaxis:
-            labels:
-              datetimeUTC: false
-              format: dd/MM
-              style:
-                fontSize: 10px
-        yaxis:
-          - decimals: 0
-            apex_config:
-              tickAmount: 4
-        series:
-          - entity: sensor.s1pm32_power
-            name: s1pm32 power
-            color: var(--info-color)
-            type: column
-            stroke_width: 2
-            statistics:
-              type: mean
-              period: day
-              align: middle
-          - entity: sensor.sp1pm62_power
-            name: sp1pm62 power
-            color: var(--warning-color)
-            type: column
-            stroke_width: 2
-            statistics:
-              type: mean
-              period: day
-              align: middle
-  - type: grid
-    cards:
-      - type: custom:apexcharts-card
-        graph_span: 7d
-        update_interval: 30min
-        header:
-          show: true
           title: Eponge
           show_states: true
           colorize_states: true
@@ -1351,65 +1292,6 @@ sections:
             statistics:
               type: sum
               period: day
-              align: middle
-  - type: grid
-    cards:
-      - type: custom:apexcharts-card
-        graph_span: 7d
-        update_interval: 30min
-        header:
-          show: true
-          title: Lavette total
-          show_states: true
-          colorize_states: true
-        apex_config:
-          chart:
-            height: 220
-            animations:
-              enabled: false
-            toolbar:
-              show: false
-            zoom:
-              enabled: false
-          stroke:
-            curve: smooth
-            width: 2
-          dataLabels:
-            enabled: false
-          markers:
-            size: 0
-          legend:
-            show: true
-            position: bottom
-            fontSize: 10px
-          xaxis:
-            labels:
-              datetimeUTC: false
-              format: dd/MM
-              style:
-                fontSize: 10px
-        yaxis:
-          - decimals: 2
-            apex_config:
-              tickAmount: 4
-        series:
-          - entity: sensor.s1pm32_energy
-            name: s1pm32 energy
-            color: var(--info-color)
-            type: line
-            stroke_width: 2
-            statistics:
-              type: state
-              period: hour
-              align: middle
-          - entity: sensor.sp1pm62_energy
-            name: sp1pm62 energy
-            color: var(--warning-color)
-            type: line
-            stroke_width: 2
-            statistics:
-              type: state
-              period: hour
               align: middle
   - type: grid
     cards:

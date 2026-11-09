@@ -780,8 +780,7 @@
       ],
       "utilisePar": [
         "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Santé système",
-        "vue: L'Orée des dous › Tests"
+        "vue: L'Orée des dous › Santé système"
       ]
     },
     "appareil: Moon": {
@@ -1439,7 +1438,6 @@
         "fichier: UtilityMeters.yaml",
         "vue: L'Oree des dous - pieces › Serveur",
         "vue: L'Orée des dous › Boutons",
-        "vue: L'Orée des dous › Graphes & consommation",
         "vue: L'Orée des dous › Plan intéractif",
         "vue: L'Orée des dous › Santé système",
         "vue: L'Orée des dous › Surveillance"
@@ -2117,8 +2115,7 @@
         "automation: Ventilation toilettes OFF",
         "automation: Ventilation toilettes ON",
         "vue: L'Oree des dous - pieces › Bureau FV",
-        "vue: L'Orée des dous › Boutons",
-        "vue: L'Orée des dous › Surveillance"
+        "vue: L'Orée des dous › Boutons"
       ]
     },
     "appareil: SM27 - Lumière Bureau": {
@@ -2373,6 +2370,9 @@
         "switch.sp1e74",
         "update.sp1e74_beta_firmware",
         "update.sp1e74_firmware"
+      ],
+      "utilisePar": [
+        "vue: L'Orée des dous › Graphes & consommation"
       ]
     },
     "appareil: SP1E78 - Mesure 1er nord-ouest DIN": {
@@ -2434,8 +2434,7 @@
         "vue: L'Oree des dous - pieces › Jardin",
         "vue: L'Orée des dous › Boutons",
         "vue: L'Orée des dous › Graphes & consommation",
-        "vue: L'Orée des dous › Surveillance",
-        "vue: L'Orée des dous › Tests"
+        "vue: L'Orée des dous › Surveillance"
       ]
     },
     "appareil: SP1PM62 - Mesure Lavette": {
@@ -2468,8 +2467,7 @@
         "vue: L'Orée des dous › Boutons",
         "vue: L'Orée des dous › Graphes & consommation",
         "vue: L'Orée des dous › Lavette",
-        "vue: L'Orée des dous › Surveillance",
-        "vue: L'Orée des dous › Tests"
+        "vue: L'Orée des dous › Surveillance"
       ]
     },
     "appareil: SP1PM63 - Mesure bureau": {
@@ -4968,24 +4966,21 @@
       "nom": "CPU usage",
       "appartientA": "appareil: MikroTik (2)",
       "utiliseePar": [
-        "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Tests"
+        "vue: L'Oree des dous - pieces › Serveur"
       ]
     },
     "sensor.mikrotik_disk_usage": {
       "nom": "Disk usage",
       "appartientA": "appareil: MikroTik (2)",
       "utiliseePar": [
-        "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Tests"
+        "vue: L'Oree des dous - pieces › Serveur"
       ]
     },
     "sensor.mikrotik_memory_usage": {
       "nom": "Memory usage",
       "appartientA": "appareil: MikroTik (2)",
       "utiliseePar": [
-        "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Tests"
+        "vue: L'Oree des dous - pieces › Serveur"
       ]
     },
     "sensor.mikrotik_uptime": {
@@ -5191,7 +5186,6 @@
       "desactivee": true,
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Serveur",
-        "vue: L'Orée des dous › Graphes & consommation",
         "vue: L'Orée des dous › Plan intéractif",
         "vue: L'Orée des dous › Santé système",
         "vue: L'Orée des dous › Surveillance"
@@ -5518,6 +5512,13 @@
         "vue: L'Orée des dous › Santé système"
       ]
     },
+    "sensor.sp1e74_power": {
+      "nom": "Power",
+      "appartientA": "appareil: SP1E74 - Mesure serveurs DIN",
+      "utiliseePar": [
+        "vue: L'Orée des dous › Graphes & consommation"
+      ]
+    },
     "sensor.sp1pm61_energy": {
       "nom": "Energy",
       "appartientA": "appareil: SP1PM61 - Prise jardin Wall-e",
@@ -5539,8 +5540,7 @@
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Jardin",
         "vue: L'Orée des dous › Graphes & consommation",
-        "vue: L'Orée des dous › Surveillance",
-        "vue: L'Orée des dous › Tests"
+        "vue: L'Orée des dous › Surveillance"
       ]
     },
     "sensor.sp1pm62_energy": {
@@ -5548,8 +5548,7 @@
       "appartientA": "appareil: SP1PM62 - Mesure Lavette",
       "utiliseePar": [
         "fichier: UtilityMeters.yaml",
-        "vue: L'Oree des dous - pieces › Buanderie",
-        "vue: L'Orée des dous › Graphes & consommation"
+        "vue: L'Oree des dous - pieces › Buanderie"
       ]
     },
     "sensor.sp1pm62_energy_day": {
@@ -5568,8 +5567,7 @@
         "vue: L'Oree des dous - pieces › Buanderie",
         "vue: L'Orée des dous › Graphes & consommation",
         "vue: L'Orée des dous › Lavette",
-        "vue: L'Orée des dous › Surveillance",
-        "vue: L'Orée des dous › Tests"
+        "vue: L'Orée des dous › Surveillance"
       ]
     },
     "sensor.sp1pm63_energy": {
@@ -6536,8 +6534,7 @@
         "automation: Ventilation toilettes OFF",
         "automation: Ventilation toilettes ON",
         "vue: L'Oree des dous - pieces › Bureau FV",
-        "vue: L'Orée des dous › Boutons",
-        "vue: L'Orée des dous › Surveillance"
+        "vue: L'Orée des dous › Boutons"
       ]
     },
     "switch.sm27": {
@@ -7541,7 +7538,6 @@
     "vue: L'Orée des dous › Graphes & consommation": {
       "fichier": "Dashboards/L'Orée des dous.yaml",
       "utilise": [
-        "sensor.s1pm30_power",
         "sensor.s1pm31_power",
         "sensor.s1pm40_power",
         "sensor.s1pm42_energy",
@@ -7553,8 +7549,8 @@
         "sensor.s1pm59_power",
         "sensor.s1pm60_energy",
         "sensor.s1pm60_power",
+        "sensor.sp1e74_power",
         "sensor.sp1pm61_power",
-        "sensor.sp1pm62_energy",
         "sensor.sp1pm62_power",
         "sensor.sp1pm63_power",
         "sensor.sp1pm64_energy",
@@ -7833,7 +7829,6 @@
         "switch.s1pm44",
         "switch.s1pm58",
         "switch.sm25",
-        "switch.sm26",
         "switch.sp1pm61",
         "switch.sp1pm63",
         "switch.sp1pm70"
@@ -7843,16 +7838,6 @@
       "fichier": "Dashboards/L'Orée des dous.yaml",
       "utilise": [
         "media_player.tv_des_dous"
-      ]
-    },
-    "vue: L'Orée des dous › Tests": {
-      "fichier": "Dashboards/L'Orée des dous.yaml",
-      "utilise": [
-        "sensor.mikrotik_cpu_usage",
-        "sensor.mikrotik_disk_usage",
-        "sensor.mikrotik_memory_usage",
-        "sensor.sp1pm61_power",
-        "sensor.sp1pm62_power"
       ]
     },
     "vue: L'Orée des dous › UPS": {
@@ -8004,106 +7989,6 @@
       "par": "vue: L'Oree des dous - pieces › Salle à manger",
       "cible": "sensor.zg_227z_99_temperature",
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Graphes & consommation",
-      "cible": "sensor.s1pm32_energy",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Graphes & consommation",
-      "cible": "sensor.s1pm32_power",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Graphes & consommation",
-      "cible": "sensor.server_sp1e74_serveurs_power",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Surveillance",
-      "cible": "sensor.sm25_power",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Surveillance",
-      "cible": "sensor.sm26_power",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "binary_sensor.router_lte_connected",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.ap_floor_uptime",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.ap_ground_uptime",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.router_firmware",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.router_guest_clients",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.router_model",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.router_uptime",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.router_wifi_clients",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.router_wired_clients",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.vpn_tunnel_load",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "sensor.wan_upc_load",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "switch.adguard_filtering",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "switch.adguard_parental_control",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "switch.adguard_safe_browsing",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Tests",
-      "cible": "switch.adguard_safe_search",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
     }
   ]
 }

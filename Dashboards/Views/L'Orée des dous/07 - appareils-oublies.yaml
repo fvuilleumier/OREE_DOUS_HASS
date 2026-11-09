@@ -444,10 +444,10 @@ sections:
       - type: custom:mushroom-template-card
         primary: PC Game
         secondary: >
-          {{ states('sensor.sm25_power') }} W
+          {{ 'Allumé' if is_state('switch.sm25', 'on') else 'Éteint' }}
         icon: mdi:desktop-classic
         icon_color: >
-          {% if states('sensor.sm25_power')|float(0) > 10 %}
+          {% if is_state('switch.sm25', 'on') %}
             green
           {% else %}
             grey
@@ -456,19 +456,19 @@ sections:
           action: more-info
           entity: switch.sm25
       - type: custom:mushroom-template-card
-        primary: Bureau / écrans
+        primary: Ecrans PC
         secondary: >
-          {{ states('sensor.sm26_power') }} W
-        icon: mdi:monitor-multiple
+          {{ 'Allumés' if is_state('switch.sm25', 'on') else 'Éteints' }}
+        icon: mdi:desktop-classic
         icon_color: >
-          {% if states('sensor.sm26_power')|float(0) > 10 %}
-            amber
+          {% if is_state('switch.sm25', 'on') %}
+            green
           {% else %}
             grey
           {% endif %}
         tap_action:
           action: more-info
-          entity: switch.sm26
+          entity: switch.sm25
       - type: custom:mushroom-template-card
         primary: Prise bureau
         secondary: >
