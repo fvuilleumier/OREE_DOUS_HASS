@@ -1414,6 +1414,7 @@
     },
     "appareil: S1PM30 - Serveurs": {
       "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "desactive": true,
       "entites": []
     },
     "appareil: S1PM30 - Serveurs (2)": {
