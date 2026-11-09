@@ -78,6 +78,50 @@
     "sw_version": "0122052017",
     "via_device_id": "c504e018abb2a0362923cdbdcf6aca90"
   },
+  "042a46d6d9d9546f1dd8834afe611c0a": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.77:80",
+    "config_entries": [
+      "01M6YB7HXNXTHGYV2ND958040E"
+    ],
+    "config_entries_subentries": {
+      "01M6YB7HXNXTHGYV2ND958040E": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "ec:62:60:92:97:3c"
+      ]
+    ],
+    "created_at": 1794167262.267613,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "gen2",
+    "id": "042a46d6d9d9546f1dd8834afe611c0a",
+    "identifiers": [
+      [
+        "shelly",
+        "EC626092973C"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 2PM",
+    "model_id": "SPSW-202PE16EU",
+    "modified_at": 1794230124.063487,
+    "name_by_user": "SP2E77 - Mesure 1er sud-est DIN",
+    "name": "SP2E77",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB7HXNXTHGYV2ND958040E",
+    "serial_number": null,
+    "sw_version": "20261026-151320/2.1.1-g07e9ad2",
+    "via_device_id": null
+  },
   "06805977da384b9185bdae2bd464f8b0": {
     "area_id": null,
     "configuration_url": "http://192.168.11.1",
@@ -154,6 +198,45 @@
     "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
     "serial_number": null,
     "sw_version": "13.4.0",
+    "via_device_id": null
+  },
+  "06e288a3e554742d1f972b0474fd01fe": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "3c:97:0e:b7:37:83"
+      ]
+    ],
+    "created_at": 1794079581.843827,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "06e288a3e554742d1f972b0474fd01fe",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1794079581.843894,
+    "name_by_user": null,
+    "name": "Lenovo",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
     "via_device_id": null
   },
   "070e1d39e55565086277d2c0d83c5e5a": {
@@ -392,7 +475,7 @@
   },
   "0de9b8976f29dcb5a3de1ad149908ab6": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/a0d7b954_grafana",
+    "configuration_url": "homeassistant://config/app/a0d7b954_grafana",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -419,7 +502,7 @@
     "manufacturer": "Home Assistant Community Apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1793000453.105286,
+    "modified_at": 1793970525.613287,
     "name_by_user": null,
     "name": "Grafana",
     "next_name_part": null,
@@ -470,7 +553,7 @@
   },
   "10d1fc61fc55970fd907e74fb857c5fa": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/614083491",
+    "configuration_url": "homeassistant://marketplace/repository/614083491",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -489,7 +572,7 @@
     "id": "10d1fc61fc55970fd907e74fb857c5fa",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "614083491"
       ]
     ],
@@ -497,7 +580,7 @@
     "manufacturer": "rejuvenate",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1730985336.277238,
+    "modified_at": 1793970534.694111,
     "name_by_user": null,
     "name": "Horizon Card",
     "next_name_part": null,
@@ -509,7 +592,7 @@
   },
   "14185bc623bc693ceb0ef041f247f797": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/190927524",
+    "configuration_url": "homeassistant://marketplace/repository/190927524",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -528,7 +611,7 @@
     "id": "14185bc623bc693ceb0ef041f247f797",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "190927524"
       ]
     ],
@@ -536,7 +619,7 @@
     "manufacturer": "thomasloven",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1731946868.108487,
+    "modified_at": 1793970534.692737,
     "name_by_user": null,
     "name": "card-mod",
     "next_name_part": null,
@@ -548,7 +631,7 @@
   },
   "14c426e8b514e74ea90c132405faac6d": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/1bd4a9fb_victoria_metrics",
+    "configuration_url": "homeassistant://config/app/1bd4a9fb_victoria_metrics",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -575,7 +658,7 @@
     "manufacturer": "Home Assistant VictoriaMetrics add-on repository",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1790864281.474717,
+    "modified_at": 1793970525.613233,
     "name_by_user": null,
     "name": "VictoriaMetrics",
     "next_name_part": null,
@@ -622,6 +705,84 @@
     "primary_config_entry": "01JB9TAZW91CS84MMGKY5K3Z83",
     "serial_number": null,
     "sw_version": "core: v3.3.1 / zigbee: 20250220",
+    "via_device_id": null
+  },
+  "1594c7ecf42826a3948302f02c1eadf4": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.75:80",
+    "config_entries": [
+      "01M6YB9526JX2YN518JQ6JW91A"
+    ],
+    "config_entries_subentries": {
+      "01M6YB9526JX2YN518JQ6JW91A": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
+    "config_subentry_id": null,
+    "connections": [],
+    "created_at": 1794167314.66965,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "1594c7ecf42826a3948302f02c1eadf4",
+    "identifiers": [
+      [
+        "shelly",
+        "ECE334F87F5C-switch:2"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 3",
+    "model_id": "SPSW-003XE16EU",
+    "modified_at": 1794167344.040185,
+    "name_by_user": null,
+    "name": "SP3E75 Output 2",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB9526JX2YN518JQ6JW91A",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "c464ff741225cc8ea8886b4a5363445b"
+  },
+  "15c2ac40c32a5574d60027116281902c": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "02:05:01:cc:e5:a8"
+      ]
+    ],
+    "created_at": 1793970531.647617,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "15c2ac40c32a5574d60027116281902c",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.647641,
+    "name_by_user": null,
+    "name": "Galaxy-A51",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
     "via_device_id": null
   },
   "16dabd7d7ea2689045b8398a8d33ad7f": {
@@ -702,9 +863,53 @@
     "sw_version": "13.4.0",
     "via_device_id": null
   },
+  "1b90ce6288559cccdc4a83ca7d058d6c": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.74:80",
+    "config_entries": [
+      "01M6YB46SBFQA5ZSPFQKBHNAWT"
+    ],
+    "config_entries_subentries": {
+      "01M6YB46SBFQA5ZSPFQKBHNAWT": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "30:c6:f7:81:94:60"
+      ]
+    ],
+    "created_at": 1794167152.609623,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "gen2",
+    "id": "1b90ce6288559cccdc4a83ca7d058d6c",
+    "identifiers": [
+      [
+        "shelly",
+        "30C6F7819460"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 1PM",
+    "model_id": "SPSW-201PE16EU",
+    "modified_at": 1794230197.874913,
+    "name_by_user": "SP1E74 - Mesure serveurs DIN",
+    "name": "SP1E74",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB46SBFQA5ZSPFQKBHNAWT",
+    "serial_number": null,
+    "sw_version": "20261026-151206/2.1.1-g07e9ad2",
+    "via_device_id": null
+  },
   "1ded10c4c27bfa23530a90a03dc96150": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/590361131",
+    "configuration_url": "homeassistant://marketplace/repository/590361131",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -723,7 +928,7 @@
     "id": "1ded10c4c27bfa23530a90a03dc96150",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "590361131"
       ]
     ],
@@ -731,7 +936,7 @@
     "manufacturer": "Rudd-O",
     "model": "integration",
     "model_id": null,
-    "modified_at": 1730626495.818231,
+    "modified_at": 1793970534.693624,
     "name_by_user": null,
     "name": "MeteoSwiss (forked)",
     "next_name_part": null,
@@ -870,7 +1075,7 @@
   },
   "20db867be03986741ba14d96ca249ef9": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/142051833",
+    "configuration_url": "homeassistant://marketplace/repository/142051833",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -889,7 +1094,7 @@
     "id": "20db867be03986741ba14d96ca249ef9",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "142051833"
       ]
     ],
@@ -897,7 +1102,7 @@
     "manufacturer": "ofekashery",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1731943142.177959,
+    "modified_at": 1793970534.693796,
     "name_by_user": null,
     "name": "Vertical Stack In Card",
     "next_name_part": null,
@@ -945,6 +1150,45 @@
     "serial_number": "5E6D040C78B6",
     "sw_version": "6.43.2",
     "via_device_id": "c30b53bbe2f597be065d85fb835e1f2a"
+  },
+  "23c56f32ed8e4f251178aec1a36b71bd": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "9c:c8:fc:14:21:fa"
+      ]
+    ],
+    "created_at": 1793970531.64644,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "23c56f32ed8e4f251178aec1a36b71bd",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.646465,
+    "name_by_user": null,
+    "name": "TVbox-des-Dous",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
   },
   "248bd1b525c35c20b8e38547bd24c084": {
     "area_id": null,
@@ -1065,7 +1309,7 @@
   },
   "2acca829de2919922857584745156eea": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/331701152",
+    "configuration_url": "homeassistant://marketplace/repository/331701152",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -1084,7 +1328,7 @@
     "id": "2acca829de2919922857584745156eea",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "331701152"
       ]
     ],
@@ -1092,7 +1336,7 @@
     "manufacturer": "RomRider",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1788017958.398832,
+    "modified_at": 1793970534.693084,
     "name_by_user": null,
     "name": "apexcharts-card",
     "next_name_part": null,
@@ -1137,6 +1381,45 @@
     "next_name_part": "area",
     "parent_device_id": null,
     "primary_config_entry": "01J6SDX2VKPKA28CK6X0PC1GME",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  "2e7891dfcf72896a226cc34298c8642a": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "36:ea:5c:31:d0:69"
+      ]
+    ],
+    "created_at": 1794226876.749392,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "2e7891dfcf72896a226cc34298c8642a",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1794226876.749447,
+    "name_by_user": null,
+    "name": "Galaxy-Tab-A8",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
     "serial_number": null,
     "sw_version": null,
     "via_device_id": null
@@ -1382,7 +1665,7 @@
   },
   "31eb0d79f6110a456fe543895053cbba": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/156434866",
+    "configuration_url": "homeassistant://marketplace/repository/156434866",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -1401,7 +1684,7 @@
     "id": "31eb0d79f6110a456fe543895053cbba",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "156434866"
       ]
     ],
@@ -1409,7 +1692,7 @@
     "manufacturer": "thomasloven",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1788016504.638804,
+    "modified_at": 1793970534.692474,
     "name_by_user": null,
     "name": "layout-card",
     "next_name_part": null,
@@ -1421,7 +1704,7 @@
   },
   "32736e33b6f3c722888def7efdf73e5d": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/268118148",
+    "configuration_url": "homeassistant://marketplace/repository/268118148",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -1440,7 +1723,7 @@
     "id": "32736e33b6f3c722888def7efdf73e5d",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "268118148"
       ]
     ],
@@ -1448,7 +1731,7 @@
     "manufacturer": "py-smart-gardena",
     "model": "integration",
     "model_id": null,
-    "modified_at": 1730626053.636528,
+    "modified_at": 1793970534.693462,
     "name_by_user": null,
     "name": "Gardena Smart System",
     "next_name_part": null,
@@ -1696,6 +1979,45 @@
     "serial_number": "5E6D040C78B6",
     "sw_version": "6.43.2",
     "via_device_id": "c30b53bbe2f597be065d85fb835e1f2a"
+  },
+  "3ae4dbae2137fd9887b6ff72bc630df6": {
+    "area_id": null,
+    "configuration_url": "https://makerworld.com/en/@CH_Wismerhill",
+    "config_entries": [
+      "01M6KGVHZ4CHW38NW4TPYG4M99"
+    ],
+    "config_entries_subentries": {
+      "01M6KGVHZ4CHW38NW4TPYG4M99": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6KGVHZ4CHW38NW4TPYG4M99",
+    "config_subentry_id": null,
+    "connections": [],
+    "created_at": 1794229336.37721,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "3ae4dbae2137fd9887b6ff72bc630df6",
+    "identifiers": [
+      [
+        "bambu_lab",
+        "makerworld_u_1702053191"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "MakerWorld",
+    "model": "Creator profile",
+    "model_id": null,
+    "modified_at": 1794229336.377244,
+    "name_by_user": null,
+    "name": "MakerWorld (CH_Wismerhill)",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "01M6KGVHZ4CHW38NW4TPYG4M99",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
   },
   "3af876e6bd0f66f9ae1efbc166d7f247": {
     "area_id": null,
@@ -2009,6 +2331,84 @@
     "sw_version": "12.1.1",
     "via_device_id": null
   },
+  "44cb59256424513850145c73f022904f": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "c4:0f:08:97:08:a6"
+      ]
+    ],
+    "created_at": 1794158132.635639,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "44cb59256424513850145c73f022904f",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1794158132.6357,
+    "name_by_user": null,
+    "name": "TEB-444",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  "45df09fb7cb1c12aed50117b72bb9697": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "80:6d:97:03:ce:4d"
+      ]
+    ],
+    "created_at": 1793970531.648577,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "45df09fb7cb1c12aed50117b72bb9697",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.648602,
+    "name_by_user": null,
+    "name": "TEB-444",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
   "47ae0d9a6ef79e8b8c1abc6a94a378a1": {
     "area_id": "salon",
     "configuration_url": null,
@@ -2264,7 +2664,7 @@
   },
   "4d3a55daff9933d82a79211624cf7b50": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/45df7312_zigbee2mqtt",
+    "configuration_url": "homeassistant://config/app/45df7312_zigbee2mqtt",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -2291,7 +2691,7 @@
     "manufacturer": "Home Assistant App: Zigbee2MQTT",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1793701150.876649,
+    "modified_at": 1793970525.613113,
     "name_by_user": null,
     "name": "Zigbee2MQTT",
     "next_name_part": null,
@@ -2818,6 +3218,45 @@
     "sw_version": "IOC: 01.80 MC: 01.80",
     "via_device_id": null
   },
+  "5b0d7e90fe0cdebb5043ad2adf4fb90b": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "94:e6:86:60:90:28"
+      ]
+    ],
+    "created_at": 1793970531.646216,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "5b0d7e90fe0cdebb5043ad2adf4fb90b",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.646241,
+    "name_by_user": null,
+    "name": "espressif",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
   "5e32146c579b7410c0ac2f6af1038b42": {
     "area_id": "server",
     "configuration_url": "http://192.168.33.15/",
@@ -3020,7 +3459,7 @@
   },
   "66ab617d89c9ea36eaeb253209f78e1f": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/core_configurator",
+    "configuration_url": "homeassistant://config/app/core_configurator",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -3047,7 +3486,7 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1793000453.104971,
+    "modified_at": 1793970525.612873,
     "name_by_user": null,
     "name": "File editor",
     "next_name_part": null,
@@ -3095,6 +3534,45 @@
     "serial_number": null,
     "sw_version": "0122052017",
     "via_device_id": "c504e018abb2a0362923cdbdcf6aca90"
+  },
+  "6841f51049a7d187ba91f2562e52f2b6": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "8c:14:7d:70:9b:c5"
+      ]
+    ],
+    "created_at": 1793970531.645987,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "6841f51049a7d187ba91f2562e52f2b6",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.646018,
+    "name_by_user": null,
+    "name": "REMI-Alix",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
   },
   "6853348499504349e4dd680105f71d7d": {
     "area_id": "couloir_premier",
@@ -3181,7 +3659,7 @@
   },
   "6992e65f6921c94f2411beea6114475b": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/172177543",
+    "configuration_url": "homeassistant://marketplace/repository/172177543",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -3200,7 +3678,7 @@
     "id": "6992e65f6921c94f2411beea6114475b",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "172177543"
       ]
     ],
@@ -3208,7 +3686,7 @@
     "manufacturer": "iantrich",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1788204788.562354,
+    "modified_at": 1793970534.693954,
     "name_by_user": null,
     "name": "Config Template Card",
     "next_name_part": null,
@@ -3258,6 +3736,45 @@
     "next_name_part": "area",
     "parent_device_id": null,
     "primary_config_entry": "50b69a5094b5ba5e95fa73b311d9e7df",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  "6ae4f44babc0ecb8a6ca4e904176d5c1": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "30:34:f6:05:46:92"
+      ]
+    ],
+    "created_at": 1794017120.990855,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "6ae4f44babc0ecb8a6ca4e904176d5c1",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1794017120.990916,
+    "name_by_user": null,
+    "name": "Sunrise-TV-1",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
     "serial_number": null,
     "sw_version": null,
     "via_device_id": null
@@ -3330,14 +3847,53 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Backup",
     "model_id": null,
-    "modified_at": 1793000454.099939,
+    "modified_at": 1793970526.563347,
     "name_by_user": null,
     "name": "Backup",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "01JRSPGW5NKKSTGFQJS3CEYHJK",
     "serial_number": null,
-    "sw_version": "2026.10.4",
+    "sw_version": "2026.11.0",
+    "via_device_id": null
+  },
+  "707a896c747713802776af87a4e63500": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "3e:ad:c5:4d:ce:2f"
+      ]
+    ],
+    "created_at": 1793970531.648813,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "707a896c747713802776af87a4e63500",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.64884,
+    "name_by_user": null,
+    "name": "Camille",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
     "via_device_id": null
   },
   "71075878c40cd4ae9b2d1f71d494bf4e": {
@@ -3420,7 +3976,7 @@
   },
   "72b364ea6339f7ff494badb1480903e6": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/146194325",
+    "configuration_url": "homeassistant://marketplace/repository/146194325",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -3439,7 +3995,7 @@
     "id": "72b364ea6339f7ff494badb1480903e6",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "146194325"
       ]
     ],
@@ -3447,7 +4003,7 @@
     "manufacturer": "custom-cards",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1788018597.709645,
+    "modified_at": 1793970534.694435,
     "name_by_user": null,
     "name": "button-card",
     "next_name_part": null,
@@ -4181,7 +4737,7 @@
   },
   "86229aa4130b3424fe00c616a1cc1456": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/core_duckdns",
+    "configuration_url": "homeassistant://config/app/core_duckdns",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -4208,7 +4764,7 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1790076906.981851,
+    "modified_at": 1793970525.613171,
     "name_by_user": null,
     "name": "Duck DNS",
     "next_name_part": null,
@@ -4418,6 +4974,50 @@
     "sw_version": "6.43.2",
     "via_device_id": "c30b53bbe2f597be065d85fb835e1f2a"
   },
+  "8fd508eebf0fa70a8bdbbaa507cc1115": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.78:80",
+    "config_entries": [
+      "01M6YB5Y3R9NRR10F88ZKTR5GH"
+    ],
+    "config_entries_subentries": {
+      "01M6YB5Y3R9NRR10F88ZKTR5GH": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "08:3a:f2:be:11:ec"
+      ]
+    ],
+    "created_at": 1794167209.118072,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "gen2",
+    "id": "8fd508eebf0fa70a8bdbbaa507cc1115",
+    "identifiers": [
+      [
+        "shelly",
+        "083AF2BE11EC"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 1PM",
+    "model_id": "SPSW-201PE16EU",
+    "modified_at": 1794230182.225186,
+    "name_by_user": "SP1E78 - Mesure 1er nord-ouest DIN",
+    "name": "SP1E78",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB5Y3R9NRR10F88ZKTR5GH",
+    "serial_number": null,
+    "sw_version": "20261026-151206/2.1.1-g07e9ad2",
+    "via_device_id": null
+  },
   "90aa91a730c4366aff06ca252f12f281": {
     "area_id": "salle_a_manger",
     "configuration_url": null,
@@ -4576,7 +5176,7 @@
   },
   "92bfe225b15d4ab5c11e5b95a3a6863e": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/core_letsencrypt",
+    "configuration_url": "homeassistant://config/app/core_letsencrypt",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -4603,7 +5203,7 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1787237382.893936,
+    "modified_at": 1793970525.612803,
     "name_by_user": null,
     "name": "Let's Encrypt",
     "next_name_part": null,
@@ -4808,6 +5408,45 @@
     "sw_version": null,
     "via_device_id": null
   },
+  "9a7528e81194a8c312b0bfdd026fc2ae": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.77:80",
+    "config_entries": [
+      "01M6YB7HXNXTHGYV2ND958040E"
+    ],
+    "config_entries_subentries": {
+      "01M6YB7HXNXTHGYV2ND958040E": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
+    "config_subentry_id": null,
+    "connections": [],
+    "created_at": 1794167262.27237,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "9a7528e81194a8c312b0bfdd026fc2ae",
+    "identifiers": [
+      [
+        "shelly",
+        "EC626092973C-switch:1"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 2PM",
+    "model_id": "SPSW-202PE16EU",
+    "modified_at": 1794167302.996219,
+    "name_by_user": null,
+    "name": "SP2E77 Output 1",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB7HXNXTHGYV2ND958040E",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "042a46d6d9d9546f1dd8834afe611c0a"
+  },
   "9d7ed2e90022ac2cb9a63edca828ee8b": {
     "area_id": null,
     "configuration_url": "http://192.168.33.55/",
@@ -5003,6 +5642,45 @@
     "sw_version": "2026.10.5",
     "via_device_id": null
   },
+  "a33cfc30ea1427a29b33267497c47f65": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.77:80",
+    "config_entries": [
+      "01M6YB7HXNXTHGYV2ND958040E"
+    ],
+    "config_entries_subentries": {
+      "01M6YB7HXNXTHGYV2ND958040E": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
+    "config_subentry_id": null,
+    "connections": [],
+    "created_at": 1794167262.271359,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a33cfc30ea1427a29b33267497c47f65",
+    "identifiers": [
+      [
+        "shelly",
+        "EC626092973C-switch:0"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 2PM",
+    "model_id": "SPSW-202PE16EU",
+    "modified_at": 1794167302.995831,
+    "name_by_user": null,
+    "name": "SP2E77 Output 0",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB7HXNXTHGYV2ND958040E",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "042a46d6d9d9546f1dd8834afe611c0a"
+  },
   "a3910cae137cf11d576c3cf9801f1a39": {
     "area_id": null,
     "configuration_url": "http://192.168.11.1",
@@ -5122,7 +5800,7 @@
   },
   "a895fe4f4c2b61130d84557435d9c1f3": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/core_mosquitto",
+    "configuration_url": "homeassistant://config/app/core_mosquitto",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -5149,7 +5827,7 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1793177009.945618,
+    "modified_at": 1793970525.612668,
     "name_by_user": null,
     "name": "Mosquitto broker",
     "next_name_part": null,
@@ -5197,6 +5875,45 @@
     "serial_number": "5E6D040C78B6",
     "sw_version": "6.43.2",
     "via_device_id": "c30b53bbe2f597be065d85fb835e1f2a"
+  },
+  "aabd1b186531d30dc1ef4946027fdd9d": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "b0:8c:b3:f1:4d:7e"
+      ]
+    ],
+    "created_at": 1793970531.647952,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "aabd1b186531d30dc1ef4946027fdd9d",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.647978,
+    "name_by_user": null,
+    "name": "B0:8C:B3:F1:4D:7E",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
   },
   "ac6355ca258cec0c2f485976d8f46edc": {
     "area_id": "reduit",
@@ -5359,6 +6076,45 @@
     "sw_version": "Zigbee2MQTT 2.14.3",
     "via_device_id": "c504e018abb2a0362923cdbdcf6aca90"
   },
+  "b322a3828a8da2f399d25eb5b457aade": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.75:80",
+    "config_entries": [
+      "01M6YB9526JX2YN518JQ6JW91A"
+    ],
+    "config_entries_subentries": {
+      "01M6YB9526JX2YN518JQ6JW91A": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
+    "config_subentry_id": null,
+    "connections": [],
+    "created_at": 1794167314.668704,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "b322a3828a8da2f399d25eb5b457aade",
+    "identifiers": [
+      [
+        "shelly",
+        "ECE334F87F5C-switch:0"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 3",
+    "model_id": "SPSW-003XE16EU",
+    "modified_at": 1794167344.028849,
+    "name_by_user": null,
+    "name": "SP3E75 Output 0",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB9526JX2YN518JQ6JW91A",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "c464ff741225cc8ea8886b4a5363445b"
+  },
   "b3541d9fe6ff0aa50ee089d64d6131b2": {
     "area_id": null,
     "configuration_url": "http://192.168.33.15/",
@@ -5515,9 +6271,48 @@
     "sw_version": "12.2.0",
     "via_device_id": null
   },
+  "b5d925999dd42b4908228d08da4b045b": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "00:11:b8:0b:97:c7"
+      ]
+    ],
+    "created_at": 1793970531.64691,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "b5d925999dd42b4908228d08da4b045b",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.646938,
+    "name_by_user": null,
+    "name": "ICBbi  5122",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
   "b5d9422aed3841445f4ceac925641639": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/a0d7b954_appdaemon",
+    "configuration_url": "homeassistant://config/app/a0d7b954_appdaemon",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -5544,7 +6339,7 @@
     "manufacturer": "Home Assistant Community Apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1793000453.10513,
+    "modified_at": 1793970525.613053,
     "name_by_user": null,
     "name": "AppDaemon",
     "next_name_part": null,
@@ -5639,7 +6434,7 @@
   },
   "b92c56a3253388aac57cb15476a94d52": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/core_samba",
+    "configuration_url": "homeassistant://config/app/core_samba",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -5666,7 +6461,7 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1785946749.729531,
+    "modified_at": 1793970525.612936,
     "name_by_user": null,
     "name": "Samba share",
     "next_name_part": null,
@@ -5993,6 +6788,50 @@
     "sw_version": "v2.23.4",
     "via_device_id": null
   },
+  "c464ff741225cc8ea8886b4a5363445b": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.75:80",
+    "config_entries": [
+      "01M6YB9526JX2YN518JQ6JW91A"
+    ],
+    "config_entries_subentries": {
+      "01M6YB9526JX2YN518JQ6JW91A": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "ec:e3:34:f8:7f:5c"
+      ]
+    ],
+    "created_at": 1794167314.656418,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "gen2",
+    "id": "c464ff741225cc8ea8886b4a5363445b",
+    "identifiers": [
+      [
+        "shelly",
+        "ECE334F87F5C"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 3",
+    "model_id": "SPSW-003XE16EU",
+    "modified_at": 1794230082.871407,
+    "name_by_user": "SP3E75 - Commutateur triphasé cuisine DIN",
+    "name": "SP3E75",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB9526JX2YN518JQ6JW91A",
+    "serial_number": null,
+    "sw_version": "20261026-122229/2.0.3-g4601943",
+    "via_device_id": null
+  },
   "c504e018abb2a0362923cdbdcf6aca90": {
     "area_id": null,
     "configuration_url": null,
@@ -6112,7 +6951,7 @@
   },
   "c82672a472de6b526b2965bcaa14fc0f": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/444350375",
+    "configuration_url": "homeassistant://marketplace/repository/444350375",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -6131,7 +6970,7 @@
     "id": "c82672a472de6b526b2965bcaa14fc0f",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "444350375"
       ]
     ],
@@ -6139,7 +6978,7 @@
     "manufacturer": "piitaya",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1731940463.560324,
+    "modified_at": 1793970534.694761,
     "name_by_user": null,
     "name": "Mushroom",
     "next_name_part": null,
@@ -6178,14 +7017,14 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Core",
     "model_id": null,
-    "modified_at": 1793000453.085575,
+    "modified_at": 1793970525.591387,
     "name_by_user": null,
     "name": "Home Assistant Core",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "6b38281934e3239a15295f8d0caf35f3",
     "serial_number": null,
-    "sw_version": "2026.10.4",
+    "sw_version": "2026.11.0",
     "via_device_id": null
   },
   "caea340713ab7c32c9ba306ffe252139": {
@@ -6427,6 +7266,45 @@
     "sw_version": "6.43.2",
     "via_device_id": "c30b53bbe2f597be065d85fb835e1f2a"
   },
+  "d0ee66ae9a35ecbe51ec3abde4e8b465": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "30:e2:83:51:8a:a4"
+      ]
+    ],
+    "created_at": 1793970531.647137,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d0ee66ae9a35ecbe51ec3abde4e8b465",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.647161,
+    "name_by_user": null,
+    "name": "scb",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
   "d1b43f53abb0801e621d47f47d56d050": {
     "area_id": "maison_des_dous",
     "configuration_url": "http://192.168.33.20/",
@@ -6505,9 +7383,48 @@
     "sw_version": "6.43.2",
     "via_device_id": "c30b53bbe2f597be065d85fb835e1f2a"
   },
+  "d4c20664f1c423ebc4ac175afef21a3c": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "84:fc:14:74:fe:8c"
+      ]
+    ],
+    "created_at": 1793970531.647374,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d4c20664f1c423ebc4ac175afef21a3c",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.647399,
+    "name_by_user": null,
+    "name": "84:FC:14:74:FE:8C",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
   "d5666ad4525ccc6319f31e469c380a4e": {
     "area_id": null,
-    "configuration_url": "homeassistant://hassio/addon/core_ssh",
+    "configuration_url": "homeassistant://config/app/core_ssh",
     "config_entries": [
       "6b38281934e3239a15295f8d0caf35f3"
     ],
@@ -6534,14 +7451,14 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1790076906.981674,
+    "modified_at": 1793970525.612996,
     "name_by_user": null,
     "name": "Terminal & SSH",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "6b38281934e3239a15295f8d0caf35f3",
     "serial_number": null,
-    "sw_version": "10.5.0",
+    "sw_version": "10.6.0",
     "via_device_id": null
   },
   "d5e7faa2be2ba9d45f577fa50ae7fd8a": {
@@ -6729,12 +7646,51 @@
     "manufacturer": "Met.no",
     "model": "Forecast",
     "model_id": null,
-    "modified_at": 0.0,
+    "modified_at": 1793970531.149336,
     "name_by_user": null,
-    "name": "Forecast",
+    "name": "L'Orée des Dous",
     "next_name_part": null,
     "parent_device_id": null,
     "primary_config_entry": "2b014ad962ef96680bd34bbb0a5729b4",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  "dce37633d1ea3cedf3698c56d46f2f8c": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "20:d7:78:bd:2c:a7"
+      ]
+    ],
+    "created_at": 1793970531.645124,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "dce37633d1ea3cedf3698c56d46f2f8c",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1793970531.645166,
+    "name_by_user": null,
+    "name": "Toniebox",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
     "serial_number": null,
     "sw_version": null,
     "via_device_id": null
@@ -6851,7 +7807,7 @@
     "manufacturer": "Bambu Lab",
     "model": "X2D",
     "model_id": null,
-    "modified_at": 1793804145.435688,
+    "modified_at": 1794229339.134227,
     "name_by_user": "BambuDous_X2D",
     "name": "X2D_20P5BJ670401915",
     "next_name_part": "area",
@@ -7061,6 +8017,45 @@
     "sw_version": "12.2.0",
     "via_device_id": null
   },
+  "e636d221773a86277127876578d806af": {
+    "area_id": "server",
+    "configuration_url": "http://192.168.33.75:80",
+    "config_entries": [
+      "01M6YB9526JX2YN518JQ6JW91A"
+    ],
+    "config_entries_subentries": {
+      "01M6YB9526JX2YN518JQ6JW91A": [
+        null
+      ]
+    },
+    "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
+    "config_subentry_id": null,
+    "connections": [],
+    "created_at": 1794167314.669229,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "e636d221773a86277127876578d806af",
+    "identifiers": [
+      [
+        "shelly",
+        "ECE334F87F5C-switch:1"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Shelly",
+    "model": "Shelly Pro 3",
+    "model_id": "SPSW-003XE16EU",
+    "modified_at": 1794167344.039834,
+    "name_by_user": null,
+    "name": "SP3E75 Output 1",
+    "next_name_part": "area",
+    "parent_device_id": null,
+    "primary_config_entry": "01M6YB9526JX2YN518JQ6JW91A",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "c464ff741225cc8ea8886b4a5363445b"
+  },
   "e6d475ca8a0f54cfcc6d7cb3100fc0c5": {
     "area_id": null,
     "configuration_url": "http://192.168.33.51/",
@@ -7141,7 +8136,7 @@
   },
   "e73f02a850a36a5e12f6ca2f8db18c1e": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/334076222",
+    "configuration_url": "homeassistant://marketplace/repository/334076222",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -7160,7 +8155,7 @@
     "id": "e73f02a850a36a5e12f6ca2f8db18c1e",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "334076222"
       ]
     ],
@@ -7168,7 +8163,7 @@
     "manufacturer": "mawinkler",
     "model": "integration",
     "model_id": null,
-    "modified_at": 1731943925.713561,
+    "modified_at": 1793970534.69459,
     "name_by_user": null,
     "name": "AstroWeather",
     "next_name_part": null,
@@ -7180,7 +8175,7 @@
   },
   "e7dc11bca316bdf8e55bcad34da0cc59": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/1235526223",
+    "configuration_url": "homeassistant://marketplace/repository/1235526223",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -7199,7 +8194,7 @@
     "id": "e7dc11bca316bdf8e55bcad34da0cc59",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "1235526223"
       ]
     ],
@@ -7207,7 +8202,7 @@
     "manufacturer": "makefu",
     "model": "integration",
     "model_id": null,
-    "modified_at": 1787918193.146049,
+    "modified_at": 1793970534.693287,
     "name_by_user": null,
     "name": "Jura Connect",
     "next_name_part": null,
@@ -7251,14 +8246,14 @@
     "manufacturer": "Shelly",
     "model": "Shelly Plus 1PM",
     "model_id": "SNSW-001P16EU",
-    "modified_at": 1786356335.341984,
+    "modified_at": 1793962344.745929,
     "name_by_user": "SP1PM63 - Mesure bureau",
     "name": "S1PM61",
     "next_name_part": "area",
     "parent_device_id": null,
     "primary_config_entry": "01KGHPHWWX5Y0H501NAW74WB76",
     "serial_number": null,
-    "sw_version": "20260311-095847/1.7.5-g9979d16",
+    "sw_version": "20261026-143025/1.7.6-g01e9e18",
     "via_device_id": null
   },
   "eac0995bd97c2184b13f7ef83180e363": {
@@ -7424,7 +8419,7 @@
   },
   "f1b34dba8c0907e9c03c9564775e62bd": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/248954055",
+    "configuration_url": "homeassistant://marketplace/repository/248954055",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -7443,7 +8438,7 @@
     "id": "f1b34dba8c0907e9c03c9564775e62bd",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "248954055"
       ]
     ],
@@ -7451,7 +8446,7 @@
     "manufacturer": "custom-cards",
     "model": "plugin",
     "model_id": null,
-    "modified_at": 1731062971.451435,
+    "modified_at": 1793970534.692909,
     "name_by_user": null,
     "name": "Stack In Card",
     "next_name_part": null,
@@ -7663,7 +8658,7 @@
   },
   "f507257fdf1f3af41da3b39de0b6ca23": {
     "area_id": null,
-    "configuration_url": "homeassistant://hacs/repository/588734673",
+    "configuration_url": "homeassistant://marketplace/repository/588734673",
     "config_entries": [
       "9c1f03d34bb68c494e5cd2134f0f518e"
     ],
@@ -7682,7 +8677,7 @@
     "id": "f507257fdf1f3af41da3b39de0b6ca23",
     "identifiers": [
       [
-        "hacs",
+        "marketplace",
         "588734673"
       ]
     ],
@@ -7690,7 +8685,7 @@
     "manufacturer": "greghesp, AdrianGarside",
     "model": "integration",
     "model_id": null,
-    "modified_at": 1793803374.713789,
+    "modified_at": 1793970534.694279,
     "name_by_user": null,
     "name": "Bambu Lab",
     "next_name_part": null,
@@ -7778,6 +8773,45 @@
     "sw_version": "6.43.2",
     "via_device_id": "c30b53bbe2f597be065d85fb835e1f2a"
   },
+  "f7fc0375e82f78250b5d441f4a0dc63b": {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "078b950bf5e13ad8dbe941c0a63d65c0"
+    ],
+    "config_entries_subentries": {
+      "078b950bf5e13ad8dbe941c0a63d65c0": [
+        null
+      ]
+    },
+    "config_entry_id": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "config_subentry_id": null,
+    "connections": [
+      [
+        "mac",
+        "ee:40:da:06:7e:4f"
+      ]
+    ],
+    "created_at": 1794158072.22009,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "f7fc0375e82f78250b5d441f4a0dc63b",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1794158072.220125,
+    "name_by_user": null,
+    "name": "Galaxy-A51",
+    "next_name_part": null,
+    "parent_device_id": null,
+    "primary_config_entry": "078b950bf5e13ad8dbe941c0a63d65c0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
   "f806902986818494b8217fc7abaf9f11": {
     "area_id": "buanderie",
     "configuration_url": null,
@@ -7815,45 +8849,6 @@
     "primary_config_entry": "01JDS4T4R7FXG6Z03N5WAVQ958",
     "serial_number": null,
     "sw_version": null,
-    "via_device_id": null
-  },
-  "f877f6fca4e7ed4efef383b79446f688": {
-    "area_id": null,
-    "configuration_url": "homeassistant://hacs",
-    "config_entries": [
-      "9c1f03d34bb68c494e5cd2134f0f518e"
-    ],
-    "config_entries_subentries": {
-      "9c1f03d34bb68c494e5cd2134f0f518e": [
-        null
-      ]
-    },
-    "config_entry_id": "9c1f03d34bb68c494e5cd2134f0f518e",
-    "config_subentry_id": null,
-    "connections": [],
-    "created_at": 0.0,
-    "disabled_by": null,
-    "entry_type": "service",
-    "hw_version": null,
-    "id": "f877f6fca4e7ed4efef383b79446f688",
-    "identifiers": [
-      [
-        "hacs",
-        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
-      ]
-    ],
-    "labels": [],
-    "manufacturer": "hacs.xyz",
-    "model": "",
-    "model_id": null,
-    "modified_at": 1787564994.298099,
-    "name_by_user": null,
-    "name": "HACS",
-    "next_name_part": null,
-    "parent_device_id": null,
-    "primary_config_entry": "9c1f03d34bb68c494e5cd2134f0f518e",
-    "serial_number": null,
-    "sw_version": "2.0.5",
     "via_device_id": null
   },
   "f8df70f3f2b2b7cd3091541ca984522d": {
@@ -8032,7 +9027,7 @@
       ]
     ],
     "created_at": 0.0,
-    "disabled_by": null,
+    "disabled_by": "config_entry",
     "entry_type": null,
     "hw_version": "gen1",
     "id": "fe9f575f093440169c7060736a332242",
@@ -8046,7 +9041,7 @@
     "manufacturer": "Shelly",
     "model": "Shelly 1PM",
     "model_id": "SHSW-PM",
-    "modified_at": 1787565102.358912,
+    "modified_at": 1794229993.113804,
     "name_by_user": "S1PM30 - Serveurs",
     "name": "shelly1pm-485519CB1146",
     "next_name_part": "area",

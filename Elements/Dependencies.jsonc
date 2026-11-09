@@ -95,6 +95,12 @@
         "binary_sensor.51_dz_connectivity"
       ]
     },
+    "appareil: 84:FC:14:74:FE:8C": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.84_fc_14_74_fe_8c"
+      ]
+    },
     "appareil: AppDaemon": {
       "integration": "intégration: Supervisor (hassio)",
       "entites": [
@@ -108,7 +114,7 @@
       ]
     },
     "appareil: AstroWeather": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.astroweather_pre_release",
         "update.astroweather_update"
@@ -190,6 +196,12 @@
         "vue: L'Orée des dous › Home"
       ]
     },
+    "appareil: B0:8C:B3:F1:4D:7E": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.b0_8c_b3_f1_4d_7e"
+      ]
+    },
     "appareil: Backup": {
       "integration": "intégration: Backup (backup)",
       "entites": [
@@ -197,11 +209,12 @@
         "sensor.backup_backup_manager_state",
         "sensor.backup_last_attempted_automatic_backup",
         "sensor.backup_last_successful_automatic_backup",
+        "sensor.backup_last_successful_automatic_backup_size",
         "sensor.backup_next_scheduled_automatic_backup"
       ]
     },
     "appareil: Bambu Lab": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.bambu_lab_pre_release",
         "update.bambu_lab_update"
@@ -212,9 +225,11 @@
       "entites": [
         "binary_sensor.cave_bambudous_ams_2_pro_active",
         "binary_sensor.cave_bambudous_ams_2_pro_drying",
+        "sensor.cave_bambudous_ams_2_pro_connected_nozzle",
         "sensor.cave_bambudous_ams_2_pro_humidity",
         "sensor.cave_bambudous_ams_2_pro_humidity_index",
         "sensor.cave_bambudous_ams_2_pro_remaining_drying_time",
+        "sensor.cave_bambudous_ams_2_pro_status",
         "sensor.cave_bambudous_ams_2_pro_temperature",
         "sensor.cave_bambudous_ams_2_pro_tray_1",
         "sensor.cave_bambudous_ams_2_pro_tray_2",
@@ -245,14 +260,17 @@
         "binary_sensor.cave_bambudous_x2d_firmware",
         "binary_sensor.cave_bambudous_x2d_hms_errors",
         "binary_sensor.cave_bambudous_x2d_hybrid_mqtt_control_blocked",
+        "binary_sensor.cave_bambudous_x2d_left_extruder_filament",
         "binary_sensor.cave_bambudous_x2d_mqtt_encryption",
         "binary_sensor.cave_bambudous_x2d_online",
         "binary_sensor.cave_bambudous_x2d_print_error",
+        "binary_sensor.cave_bambudous_x2d_right_extruder_filament",
         "binary_sensor.cave_bambudous_x2d_timelapse",
         "camera.cave_bambudous_x2d_camera",
         "image.cave_bambudous_x2d_cover_image",
         "image.cave_bambudous_x2d_pick_image",
         "light.cave_bambudous_x2d_chamber_light",
+        "sensor.cave_bambudous_x2d_active_nozzle",
         "sensor.cave_bambudous_x2d_active_tray",
         "sensor.cave_bambudous_x2d_airduct_mode",
         "sensor.cave_bambudous_x2d_aux_fan_speed",
@@ -304,6 +322,12 @@
         "sensor.cave_bambudous_x2d_total_usage",
         "sensor.cave_bambudous_x2d_wi_fi_signal",
         "switch.cave_bambudous_x2d_camera"
+      ]
+    },
+    "appareil: Camille": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.camille_2"
       ]
     },
     "appareil: Compteur Groupe E principal": {
@@ -378,7 +402,7 @@
       ]
     },
     "appareil: Config Template Card": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.config_template_card_pre_release",
         "update.config_template_card_update"
@@ -413,14 +437,26 @@
         "update.file_editor_update"
       ]
     },
-    "appareil: Forecast": {
-      "integration": "intégration: Home (met)",
+    "appareil: Galaxy-A51": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
       "entites": [
-        "weather.forecast_la_maison_des_dous"
+        "device_tracker.galaxy_a51"
+      ]
+    },
+    "appareil: Galaxy-A51 (2)": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.galaxy_a51_3"
+      ]
+    },
+    "appareil: Galaxy-Tab-A8": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.galaxy_tab_a8_4"
       ]
     },
     "appareil: Gardena Smart System": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.gardena_smart_system_pre_release",
         "update.gardena_smart_system_update"
@@ -436,13 +472,6 @@
         "sensor.grafana_version",
         "switch.grafana",
         "update.grafana_update"
-      ]
-    },
-    "appareil: HACS": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
-      "entites": [
-        "switch.hacs_pre_release",
-        "update.hacs_update"
       ]
     },
     "appareil: Home Assistant Core": {
@@ -481,10 +510,16 @@
       ]
     },
     "appareil: Horizon Card": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.horizon_card_pre_release",
         "update.horizon_card_update"
+      ]
+    },
+    "appareil: ICBbi  5122": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.icbbi_5122"
       ]
     },
     "appareil: Jura": {
@@ -569,10 +604,16 @@
       ]
     },
     "appareil: Jura Connect": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.jura_connect_pre_release",
         "update.jura_connect_update"
+      ]
+    },
+    "appareil: L'Orée des Dous": {
+      "integration": "intégration: Home (met)",
+      "entites": [
+        "weather.forecast_la_maison_des_dous"
       ]
     },
     "appareil: Lavette": {
@@ -623,6 +664,12 @@
         "vue: L'Orée des dous › Journal des automatisations",
         "vue: L'Orée des dous › Lavette",
         "vue: L'Orée des dous › Surveillance"
+      ]
+    },
+    "appareil: Lenovo": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.ordinateur_salon_tracker"
       ]
     },
     "appareil: Let's Encrypt": {
@@ -680,8 +727,33 @@
         "vue: L'Orée des dous › Boutons"
       ]
     },
+    "appareil: MakerWorld (CH_Wismerhill)": {
+      "integration": "intégration: 20P5BJ670401915 (bambu_lab)",
+      "entites": [
+        "sensor.makerworld_ch_wismerhill_boost_tokens",
+        "sensor.makerworld_ch_wismerhill_boosts_expired",
+        "sensor.makerworld_ch_wismerhill_boosts_received",
+        "sensor.makerworld_ch_wismerhill_boosts_used",
+        "sensor.makerworld_ch_wismerhill_collects",
+        "sensor.makerworld_ch_wismerhill_downloads",
+        "sensor.makerworld_ch_wismerhill_downloads_incl_print_profiles",
+        "sensor.makerworld_ch_wismerhill_exclusive_points",
+        "sensor.makerworld_ch_wismerhill_followers",
+        "sensor.makerworld_ch_wismerhill_following",
+        "sensor.makerworld_ch_wismerhill_level",
+        "sensor.makerworld_ch_wismerhill_likes",
+        "sensor.makerworld_ch_wismerhill_points",
+        "sensor.makerworld_ch_wismerhill_points_earned",
+        "sensor.makerworld_ch_wismerhill_points_spent",
+        "sensor.makerworld_ch_wismerhill_print_profile_downloads",
+        "sensor.makerworld_ch_wismerhill_print_profile_prints",
+        "sensor.makerworld_ch_wismerhill_prints",
+        "sensor.makerworld_ch_wismerhill_prints_incl_print_profiles",
+        "sensor.makerworld_ch_wismerhill_published_models"
+      ]
+    },
     "appareil: MeteoSwiss (forked)": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.meteoswiss_forked_pre_release",
         "update.meteoswiss_forked_update"
@@ -735,7 +807,7 @@
       ]
     },
     "appareil: Mushroom": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.mushroom_pre_release",
         "update.mushroom_update"
@@ -1297,6 +1369,12 @@
         "vue: L'Orée des dous › Santé système"
       ]
     },
+    "appareil: REMI-Alix": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.8c_14_7d_70_9b_c5"
+      ]
+    },
     "appareil: S146 - Garage gauche": {
       "integration": "intégration: S146 - Garage gauche (shelly)",
       "entites": [
@@ -1340,6 +1418,7 @@
     },
     "appareil: S1PM30 - Serveurs (2)": {
       "integration": "intégration: S1PM30 - Serveurs (shelly)",
+      "desactive": true,
       "entites": [
         "binary_sensor.s1pm30_overheating",
         "binary_sensor.s1pm30_overpowering",
@@ -2262,6 +2341,64 @@
         "automation: Porte bas Toggle from entree 1er button"
       ]
     },
+    "appareil: SP1E74 - Mesure serveurs DIN": {
+      "integration": "intégration: SP1E74 (shelly)",
+      "entites": [
+        "binary_sensor.server_sp1e74_serveurs_input_0",
+        "binary_sensor.server_sp1e74_serveurs_input_1",
+        "binary_sensor.server_sp1e74_serveurs_overcurrent",
+        "binary_sensor.server_sp1e74_serveurs_overheating",
+        "binary_sensor.server_sp1e74_serveurs_overpowering",
+        "binary_sensor.server_sp1e74_serveurs_overvoltage",
+        "binary_sensor.sp1e74_cloud",
+        "binary_sensor.sp1e74_restart_required",
+        "button.server_sp1e74_serveurs_restart",
+        "sensor.server_sp1e74_serveurs_energy",
+        "sensor.server_sp1e74_serveurs_energy_returned",
+        "sensor.server_sp1e74_serveurs_power",
+        "sensor.server_sp1e74_serveurs_power_factor",
+        "sensor.sp1e74_current",
+        "sensor.sp1e74_energy_consumed",
+        "sensor.sp1e74_frequency",
+        "sensor.sp1e74_last_command_source",
+        "sensor.sp1e74_signal_strength",
+        "sensor.sp1e74_temperature",
+        "sensor.sp1e74_uptime",
+        "sensor.sp1e74_voltage",
+        "switch.server_sp1e74_serveurs",
+        "update.server_sp1e74_serveurs_firmware",
+        "update.sp1e74_beta_firmware"
+      ]
+    },
+    "appareil: SP1E78 - Mesure 1er nord-ouest DIN": {
+      "integration": "intégration: SP1E78 (shelly)",
+      "entites": [
+        "binary_sensor.server_sp1e78_haut_nord_ouest_input_0",
+        "binary_sensor.server_sp1e78_haut_nord_ouest_input_1",
+        "binary_sensor.server_sp1e78_haut_nord_ouest_overcurrent",
+        "binary_sensor.server_sp1e78_haut_nord_ouest_overheating",
+        "binary_sensor.server_sp1e78_haut_nord_ouest_overpowering",
+        "binary_sensor.server_sp1e78_haut_nord_ouest_overvoltage",
+        "binary_sensor.sp1e78_cloud",
+        "binary_sensor.sp1e78_restart_required",
+        "button.server_sp1e78_haut_nord_ouest_restart",
+        "sensor.server_sp1e78_haut_nord_ouest_energy",
+        "sensor.server_sp1e78_haut_nord_ouest_energy_returned",
+        "sensor.server_sp1e78_haut_nord_ouest_power",
+        "sensor.server_sp1e78_haut_nord_ouest_power_factor",
+        "sensor.sp1e78_current",
+        "sensor.sp1e78_energy_consumed",
+        "sensor.sp1e78_frequency",
+        "sensor.sp1e78_last_command_source",
+        "sensor.sp1e78_signal_strength",
+        "sensor.sp1e78_temperature",
+        "sensor.sp1e78_uptime",
+        "sensor.sp1e78_voltage",
+        "switch.server_sp1e78_haut_nord_ouest",
+        "update.server_sp1e78_haut_nord_ouest_firmware",
+        "update.sp1e78_beta_firmware"
+      ]
+    },
     "appareil: SP1PM61 - Prise jardin Wall-e": {
       "integration": "intégration: SP1PM61 - Wall-e (shelly)",
       "entites": [
@@ -2273,6 +2410,7 @@
         "binary_sensor.sp1pm61_overpowering",
         "binary_sensor.sp1pm61_overvoltage",
         "button.sp1pm61_restart",
+        "sensor.jardin_sp1pm61_prise_jardin_wall_e_last_command_source",
         "sensor.shellyplus1pm_e465b8f1a028_rssi",
         "sensor.shellyplus1pm_e465b8f1a028_switch_0_current",
         "sensor.shellyplus1pm_e465b8f1a028_switch_0_device_temperature",
@@ -2306,6 +2444,7 @@
         "binary_sensor.sp1pm62_overpowering",
         "binary_sensor.sp1pm62_overvoltage",
         "button.sp1pm62_restart",
+        "sensor.buanderie_sp1pm62_mesure_lavette_last_command_source",
         "sensor.shellyplus1pm_e465b8f24aac_current",
         "sensor.shellyplus1pm_e465b8f24aac_rssi",
         "sensor.shellyplus1pm_e465b8f24aac_temperature",
@@ -2339,6 +2478,7 @@
         "binary_sensor.sp1pm63_overpowering",
         "binary_sensor.sp1pm63_overvoltage",
         "button.sp1pm63_restart",
+        "sensor.bureau_fv_sp1pm63_mesure_bureau_last_command_source",
         "sensor.s1pm61_current",
         "sensor.s1pm61_last_restart",
         "sensor.s1pm61_signal_strength",
@@ -2370,6 +2510,7 @@
         "binary_sensor.sp1pm64_overvoltage",
         "binary_sensor.sp1pm64_restart_required",
         "button.sp1pm64_restart",
+        "sensor.cave_sp1pm64_congelateur_last_command_source",
         "sensor.sp1pm64_current",
         "sensor.sp1pm64_energy",
         "sensor.sp1pm64_power",
@@ -2402,6 +2543,7 @@
         "binary_sensor.sp1pm70_overvoltage",
         "binary_sensor.sp1pm70_restart_required",
         "button.sp1pm70_restart",
+        "sensor.buanderie_sp1pm70_pompe_dilatation_chaudiere_last_command_source",
         "sensor.sp1pm70_current",
         "sensor.sp1pm70_energy",
         "sensor.sp1pm70_power",
@@ -2433,6 +2575,7 @@
         "binary_sensor.sp1pm71_overvoltage",
         "binary_sensor.sp1pm71_restart_required",
         "button.sp1pm71_restart",
+        "sensor.buanderie_sp1pm71_chaudiere_last_command_source",
         "sensor.sp1pm71_current",
         "sensor.sp1pm71_energy",
         "sensor.sp1pm71_power",
@@ -2464,6 +2607,7 @@
         "binary_sensor.sp1pm72_overvoltage",
         "binary_sensor.sp1pm72_restart_required",
         "button.sp1pm72_restart",
+        "sensor.cave_sp1pm72_bambudous_last_command_source",
         "sensor.sp1pm72_current",
         "sensor.sp1pm72_energy",
         "sensor.sp1pm72_power",
@@ -2474,6 +2618,9 @@
         "switch.sp1pm72",
         "update.sp1pm72_beta_firmware",
         "update.sp1pm72_firmware"
+      ],
+      "utilisePar": [
+        "vue: L'Orée des dous › Boutons"
       ]
     },
     "appareil: SP1PM73 - Mesure bureau fv aux": {
@@ -2487,6 +2634,7 @@
         "binary_sensor.sp1pm73_overvoltage",
         "binary_sensor.sp1pm73_restart_required",
         "button.sp1pm73_restart",
+        "sensor.bureau_fv_sp1pm73_mesure_bureau_fv_aux_last_command_source",
         "sensor.sp1pm73_current",
         "sensor.sp1pm73_energy",
         "sensor.sp1pm73_power",
@@ -2497,6 +2645,99 @@
         "switch.sp1pm73",
         "update.sp1pm73_beta_firmware",
         "update.sp1pm73_firmware"
+      ]
+    },
+    "appareil: SP2E77 - Mesure 1er sud-est DIN": {
+      "integration": "intégration: SP2E77 (shelly)",
+      "entites": [
+        "binary_sensor.server_sp2e77_1er_sud_est_input_0",
+        "binary_sensor.server_sp2e77_1er_sud_est_input_1",
+        "binary_sensor.sp2e77_cloud",
+        "binary_sensor.sp2e77_restart_required",
+        "button.server_sp2e77_1er_sud_est_restart",
+        "sensor.sp2e77_signal_strength",
+        "sensor.sp2e77_uptime",
+        "update.server_sp2e77_1er_sud_est_firmware",
+        "update.sp2e77_beta_firmware"
+      ]
+    },
+    "appareil: SP2E77 Output 0": {
+      "integration": "intégration: SP2E77 (shelly)",
+      "entites": [
+        "binary_sensor.server_sp2e77_output_0_overcurrent",
+        "binary_sensor.server_sp2e77_output_0_overheating",
+        "binary_sensor.server_sp2e77_output_0_overpowering",
+        "binary_sensor.server_sp2e77_output_0_overvoltage",
+        "sensor.server_sp2e77_output_0_energy",
+        "sensor.server_sp2e77_output_0_energy_returned",
+        "sensor.server_sp2e77_output_0_power",
+        "sensor.server_sp2e77_output_0_power_factor",
+        "sensor.sp2e77_output_0_current",
+        "sensor.sp2e77_output_0_energy_consumed",
+        "sensor.sp2e77_output_0_frequency",
+        "sensor.sp2e77_output_0_last_command_source",
+        "sensor.sp2e77_output_0_temperature",
+        "sensor.sp2e77_output_0_voltage",
+        "switch.server_sp2e77_output_0"
+      ]
+    },
+    "appareil: SP2E77 Output 1": {
+      "integration": "intégration: SP2E77 (shelly)",
+      "entites": [
+        "binary_sensor.server_sp2e77_output_1_overcurrent",
+        "binary_sensor.server_sp2e77_output_1_overheating",
+        "binary_sensor.server_sp2e77_output_1_overpowering",
+        "binary_sensor.server_sp2e77_output_1_overvoltage",
+        "sensor.server_sp2e77_output_1_energy",
+        "sensor.server_sp2e77_output_1_energy_returned",
+        "sensor.server_sp2e77_output_1_power",
+        "sensor.server_sp2e77_output_1_power_factor",
+        "sensor.sp2e77_output_1_current",
+        "sensor.sp2e77_output_1_energy_consumed",
+        "sensor.sp2e77_output_1_frequency",
+        "sensor.sp2e77_output_1_last_command_source",
+        "sensor.sp2e77_output_1_temperature",
+        "sensor.sp2e77_output_1_voltage",
+        "switch.server_sp2e77_output_1"
+      ]
+    },
+    "appareil: SP3E75 - Commutateur triphasé cuisine DIN": {
+      "integration": "intégration: SP3E75 (shelly)",
+      "entites": [
+        "binary_sensor.server_sp3e75_mesure_cuisine_input_0",
+        "binary_sensor.server_sp3e75_mesure_cuisine_input_1",
+        "binary_sensor.server_sp3e75_mesure_cuisine_input_2",
+        "binary_sensor.sp3e75_cloud",
+        "binary_sensor.sp3e75_restart_required",
+        "button.server_sp3e75_mesure_cuisine_restart",
+        "sensor.sp3e75_signal_strength",
+        "sensor.sp3e75_uptime",
+        "update.server_sp3e75_mesure_cuisine_firmware",
+        "update.sp3e75_beta_firmware"
+      ]
+    },
+    "appareil: SP3E75 Output 0": {
+      "integration": "intégration: SP3E75 (shelly)",
+      "entites": [
+        "sensor.sp3e75_output_0_last_command_source",
+        "sensor.sp3e75_output_0_temperature",
+        "switch.server_sp3e75_output_0"
+      ]
+    },
+    "appareil: SP3E75 Output 1": {
+      "integration": "intégration: SP3E75 (shelly)",
+      "entites": [
+        "sensor.sp3e75_output_1_last_command_source",
+        "sensor.sp3e75_output_1_temperature",
+        "switch.server_sp3e75_output_1"
+      ]
+    },
+    "appareil: SP3E75 Output 2": {
+      "integration": "intégration: SP3E75 (shelly)",
+      "entites": [
+        "sensor.sp3e75_output_2_last_command_source",
+        "sensor.sp3e75_output_2_temperature",
+        "switch.server_sp3e75_output_2"
       ]
     },
     "appareil: Samba share": {
@@ -2528,7 +2769,7 @@
       ]
     },
     "appareil: Stack In Card": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.stack_in_card_pre_release",
         "update.stack_in_card_update"
@@ -2546,6 +2787,24 @@
         "sensor.sun_next_setting",
         "sensor.sun_solar_azimuth",
         "sensor.sun_solar_elevation"
+      ]
+    },
+    "appareil: Sunrise-TV-1": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.appstb"
+      ]
+    },
+    "appareil: TEB-444": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.teb_444"
+      ]
+    },
+    "appareil: TEB-444 (2)": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.teb_fvu_lt02"
       ]
     },
     "appareil: TRV-BTR-01 - Chambre 1er nord est (Bureau)": {
@@ -2794,6 +3053,12 @@
         "vue: L'Orée des dous › TV des Dous"
       ]
     },
+    "appareil: TVbox-des-Dous": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.tvbox_des_dous"
+      ]
+    },
     "appareil: Terminal & SSH": {
       "integration": "intégration: Supervisor (hassio)",
       "entites": [
@@ -2804,6 +3069,12 @@
         "sensor.terminal_ssh_version",
         "switch.terminal_ssh",
         "update.terminal_ssh_update"
+      ]
+    },
+    "appareil: Toniebox": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.20_d7_78_bd_2c_a7"
       ]
     },
     "appareil: Ups": {
@@ -2843,7 +3114,7 @@
       ]
     },
     "appareil: Vertical Stack In Card": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.vertical_stack_in_card_pre_release",
         "update.vertical_stack_in_card_update"
@@ -3438,24 +3709,30 @@
       ]
     },
     "appareil: apexcharts-card": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.apexcharts_card_pre_release",
         "update.apexcharts_card_update"
       ]
     },
     "appareil: button-card": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.button_card_pre_release",
         "update.button_card_update"
       ]
     },
     "appareil: card-mod": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.card_mod_pre_release",
         "update.card_mod_update"
+      ]
+    },
+    "appareil: espressif": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.espressif_2"
       ]
     },
     "appareil: eth2.02": {
@@ -3692,7 +3969,7 @@
       ]
     },
     "appareil: layout-card": {
-      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (hacs)",
+      "integration": "intégration: 9c1f03d34bb68c494e5cd2134f0f518e (marketplace)",
       "entites": [
         "switch.layout_card_pre_release",
         "update.layout_card_update"
@@ -3706,6 +3983,12 @@
       "utilisePar": [
         "vue: L'Orée des dous › Home",
         "vue: L'Orée des dous › Santé système"
+      ]
+    },
+    "appareil: scb": {
+      "integration": "intégration: Mikrotik (192.168.11.1) (mikrotik)",
+      "entites": [
+        "device_tracker.scb"
       ]
     },
     "appareil: sfp1": {
@@ -4876,6 +5159,7 @@
     "sensor.s1pm30_energy": {
       "nom": "Energy",
       "appartientA": "appareil: S1PM30 - Serveurs (2)",
+      "desactivee": true,
       "utiliseePar": [
         "fichier: UtilityMeters.yaml",
         "vue: L'Oree des dous - pieces › Serveur",
@@ -4892,6 +5176,7 @@
     "sensor.s1pm30_power": {
       "nom": "Power",
       "appartientA": "appareil: S1PM30 - Serveurs (2)",
+      "desactivee": true,
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Serveur",
         "vue: L'Orée des dous › Graphes & consommation",
@@ -5025,7 +5310,7 @@
       ]
     },
     "sensor.s1pm52_energy": {
-      "nom": "S1PM52 - Btn porte garage energy",
+      "nom": "Energy",
       "appartientA": "appareil: S1PM52 - Btn porte garage",
       "desactivee": true,
       "utiliseePar": [
@@ -6100,6 +6385,7 @@
     },
     "switch.s1pm30": {
       "appartientA": "appareil: S1PM30 - Serveurs (2)",
+      "desactivee": true,
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Serveur",
         "vue: L'Orée des dous › Boutons",
@@ -6178,7 +6464,7 @@
       ]
     },
     "switch.sb18": {
-      "nom": "SB18 - Lumières et Noël",
+      "nom": "SB18 - Lumieres ext noel",
       "appartientA": "appareil: SB18 - Lumières et Noël",
       "utiliseePar": [
         "automation: C'est noël - pilote SB18 et SB20",
@@ -6189,7 +6475,7 @@
       ]
     },
     "switch.sb20": {
-      "nom": "SB20 - Tasmorallonge vacances",
+      "nom": "Tasmorallonge vacances",
       "appartientA": "appareil: SB20 - Tasmorallonge vacances",
       "utiliseePar": [
         "automation: C'est noël - pilote SB18 et SB20",
@@ -6220,7 +6506,7 @@
       ]
     },
     "switch.sm26": {
-      "nom": "SM26 - Bureau Ecrans",
+      "nom": "SM26 - Aérations toilettes",
       "appartientA": "appareil: SM26 - Bureau Ecrans",
       "utiliseePar": [
         "automation: Ventilation toilettes OFF",
@@ -6231,7 +6517,7 @@
       ]
     },
     "switch.sm27": {
-      "nom": "SM27 - Lumière Bureau",
+      "nom": "SM27 - Lumieres bureau",
       "appartientA": "appareil: SM27 - Lumière Bureau",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Bureau FV",
@@ -6239,7 +6525,7 @@
       ]
     },
     "switch.sm28": {
-      "nom": "SM28 - Lumieres exterieur",
+      "nom": "SM28 - lumières extérieur",
       "appartientA": "appareil: SM28 - Lumieres exterieur",
       "utiliseePar": [
         "automation: Lumières exterieur after 2h OFF"
@@ -6297,6 +6583,12 @@
         "vue: L'Orée des dous › Boutons"
       ]
     },
+    "switch.sp1pm72": {
+      "appartientA": "appareil: SP1PM72 - BambuDous",
+      "utiliseePar": [
+        "vue: L'Orée des dous › Boutons"
+      ]
+    },
     "switch.trv_btr_01": {
       "nom": "Boost heating",
       "appartientA": "appareil: TRV-BTR-01 - Chambre 1er nord est (Bureau)",
@@ -6340,7 +6632,6 @@
       ]
     },
     "vacuum.ducon": {
-      "nom": "Lucien",
       "appartientA": "appareil: Lucien",
       "utiliseePar": [
         "automation: Lucien - Task started",
@@ -7158,7 +7449,8 @@
         "switch.sp1pm63",
         "switch.sp1pm64",
         "switch.sp1pm70",
-        "switch.sp1pm71"
+        "switch.sp1pm71",
+        "switch.sp1pm72"
       ]
     },
     "vue: L'Orée des dous › Chauffage": {
