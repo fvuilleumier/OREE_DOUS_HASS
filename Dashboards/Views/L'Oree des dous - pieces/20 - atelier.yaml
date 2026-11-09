@@ -293,19 +293,19 @@ sections:
               {% endif %}
             features_position: bottom
           - type: custom:mushroom-template-card
-            entity: sensor.slzb_06mra_r_core_chip_temp
+            entity: sensor.slzb_06mra_core_chip_temp
             icon: mdi:chip
-            icon_color: >-
-              {% set t = states('sensor.slzb_06mra_r_core_chip_temp') | float(0) %} {% if t >= 70 %}
+            primary: CPU
+            secondary: "{{ states('sensor.slzb_06mra_core_chip_temp') }} °C"
+            color: >-
+              {% set t = states('sensor.slzb_06mra_core_chip_temp') | float(0) %} {% if t >= 70 %}
                 red
               {% elif t >= 55 %}
                 amber
               {% else %}
                 green
               {% endif %}
-            primary: CPU
-            secondary: "{{ states('sensor.slzb_06mra_core_chip_temp') }} °C"
-            layout: horizontal
+            features_position: bottom
           - type: custom:mushroom-template-card
             entity: binary_sensor.slzb_06mra_ethernet
             icon: mdi:ethernet

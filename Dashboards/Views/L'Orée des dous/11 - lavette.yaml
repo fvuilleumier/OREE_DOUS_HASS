@@ -3,7 +3,8 @@ title: Lavette
 path: lavette
 icon: mdi:washing-machine
 badges:
-  - entity: sensor.lavette_operation_state
+  - type: entity
+    entity: sensor.lavette_operation_state
   - type: entity
     show_name: false
     show_state: true

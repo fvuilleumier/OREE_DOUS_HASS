@@ -723,6 +723,7 @@
       ],
       "utilisePar": [
         "automation: Atelier switch off chargeur",
+        "fichier: UtilityMeters.yaml",
         "vue: L'Oree des dous - pieces › Atelier",
         "vue: L'Orée des dous › Boutons"
       ]
@@ -1705,6 +1706,10 @@
         "switch.sb15"
       ],
       "utilisePar": [
+        "automation: HDD NAS daily OFF",
+        "automation: HDD NAS daily ON",
+        "automation: HDD NAS weekly OFF",
+        "automation: HDD NAS weekly ON",
         "vue: L'Oree des dous - pieces › Serveur",
         "vue: L'Orée des dous › Boutons",
         "vue: L'Orée des dous › Santé système"
@@ -2344,59 +2349,59 @@
     "appareil: SP1E74 - Mesure serveurs DIN": {
       "integration": "intégration: SP1E74 (shelly)",
       "entites": [
-        "binary_sensor.server_sp1e74_serveurs_input_0",
-        "binary_sensor.server_sp1e74_serveurs_input_1",
-        "binary_sensor.server_sp1e74_serveurs_overcurrent",
-        "binary_sensor.server_sp1e74_serveurs_overheating",
-        "binary_sensor.server_sp1e74_serveurs_overpowering",
-        "binary_sensor.server_sp1e74_serveurs_overvoltage",
         "binary_sensor.sp1e74_cloud",
+        "binary_sensor.sp1e74_input_0",
+        "binary_sensor.sp1e74_input_1",
+        "binary_sensor.sp1e74_overcurrent",
+        "binary_sensor.sp1e74_overheating",
+        "binary_sensor.sp1e74_overpowering",
+        "binary_sensor.sp1e74_overvoltage",
         "binary_sensor.sp1e74_restart_required",
-        "button.server_sp1e74_serveurs_restart",
-        "sensor.server_sp1e74_serveurs_energy",
-        "sensor.server_sp1e74_serveurs_energy_returned",
-        "sensor.server_sp1e74_serveurs_power",
-        "sensor.server_sp1e74_serveurs_power_factor",
+        "button.sp1e74_restart",
         "sensor.sp1e74_current",
+        "sensor.sp1e74_energy",
         "sensor.sp1e74_energy_consumed",
+        "sensor.sp1e74_energy_returned",
         "sensor.sp1e74_frequency",
         "sensor.sp1e74_last_command_source",
+        "sensor.sp1e74_power",
+        "sensor.sp1e74_power_factor",
         "sensor.sp1e74_signal_strength",
         "sensor.sp1e74_temperature",
         "sensor.sp1e74_uptime",
         "sensor.sp1e74_voltage",
-        "switch.server_sp1e74_serveurs",
-        "update.server_sp1e74_serveurs_firmware",
-        "update.sp1e74_beta_firmware"
+        "switch.sp1e74",
+        "update.sp1e74_beta_firmware",
+        "update.sp1e74_firmware"
       ]
     },
     "appareil: SP1E78 - Mesure 1er nord-ouest DIN": {
       "integration": "intégration: SP1E78 (shelly)",
       "entites": [
-        "binary_sensor.server_sp1e78_haut_nord_ouest_input_0",
-        "binary_sensor.server_sp1e78_haut_nord_ouest_input_1",
-        "binary_sensor.server_sp1e78_haut_nord_ouest_overcurrent",
-        "binary_sensor.server_sp1e78_haut_nord_ouest_overheating",
-        "binary_sensor.server_sp1e78_haut_nord_ouest_overpowering",
-        "binary_sensor.server_sp1e78_haut_nord_ouest_overvoltage",
         "binary_sensor.sp1e78_cloud",
+        "binary_sensor.sp1e78_input_0",
+        "binary_sensor.sp1e78_input_1",
+        "binary_sensor.sp1e78_overcurrent",
+        "binary_sensor.sp1e78_overheating",
+        "binary_sensor.sp1e78_overpowering",
+        "binary_sensor.sp1e78_overvoltage",
         "binary_sensor.sp1e78_restart_required",
-        "button.server_sp1e78_haut_nord_ouest_restart",
-        "sensor.server_sp1e78_haut_nord_ouest_energy",
-        "sensor.server_sp1e78_haut_nord_ouest_energy_returned",
-        "sensor.server_sp1e78_haut_nord_ouest_power",
-        "sensor.server_sp1e78_haut_nord_ouest_power_factor",
+        "button.sp1e78_restart",
         "sensor.sp1e78_current",
+        "sensor.sp1e78_energy",
         "sensor.sp1e78_energy_consumed",
+        "sensor.sp1e78_energy_returned",
         "sensor.sp1e78_frequency",
         "sensor.sp1e78_last_command_source",
+        "sensor.sp1e78_power",
+        "sensor.sp1e78_power_factor",
         "sensor.sp1e78_signal_strength",
         "sensor.sp1e78_temperature",
         "sensor.sp1e78_uptime",
         "sensor.sp1e78_voltage",
-        "switch.server_sp1e78_haut_nord_ouest",
-        "update.server_sp1e78_haut_nord_ouest_firmware",
-        "update.sp1e78_beta_firmware"
+        "switch.sp1e78",
+        "update.sp1e78_beta_firmware",
+        "update.sp1e78_firmware"
       ]
     },
     "appareil: SP1PM61 - Prise jardin Wall-e": {
@@ -2650,94 +2655,94 @@
     "appareil: SP2E77 - Mesure 1er sud-est DIN": {
       "integration": "intégration: SP2E77 (shelly)",
       "entites": [
-        "binary_sensor.server_sp2e77_1er_sud_est_input_0",
-        "binary_sensor.server_sp2e77_1er_sud_est_input_1",
         "binary_sensor.sp2e77_cloud",
+        "binary_sensor.sp2e77_input_0",
+        "binary_sensor.sp2e77_input_1",
         "binary_sensor.sp2e77_restart_required",
-        "button.server_sp2e77_1er_sud_est_restart",
+        "button.sp2e77_restart",
         "sensor.sp2e77_signal_strength",
         "sensor.sp2e77_uptime",
-        "update.server_sp2e77_1er_sud_est_firmware",
-        "update.sp2e77_beta_firmware"
+        "update.sp2e77_beta_firmware",
+        "update.sp2e77_firmware"
       ]
     },
-    "appareil: SP2E77 Output 0": {
+    "appareil: SP2E77-L0 - SP2E77 Output 0": {
       "integration": "intégration: SP2E77 (shelly)",
       "entites": [
-        "binary_sensor.server_sp2e77_output_0_overcurrent",
-        "binary_sensor.server_sp2e77_output_0_overheating",
-        "binary_sensor.server_sp2e77_output_0_overpowering",
-        "binary_sensor.server_sp2e77_output_0_overvoltage",
-        "sensor.server_sp2e77_output_0_energy",
-        "sensor.server_sp2e77_output_0_energy_returned",
-        "sensor.server_sp2e77_output_0_power",
-        "sensor.server_sp2e77_output_0_power_factor",
+        "binary_sensor.sp2e77_l0_overcurrent",
+        "binary_sensor.sp2e77_l0_overheating",
+        "binary_sensor.sp2e77_l0_overpowering",
+        "binary_sensor.sp2e77_l0_overvoltage",
+        "sensor.sp2e77_l0_energy",
+        "sensor.sp2e77_l0_energy_returned",
+        "sensor.sp2e77_l0_power",
+        "sensor.sp2e77_l0_power_factor",
         "sensor.sp2e77_output_0_current",
         "sensor.sp2e77_output_0_energy_consumed",
         "sensor.sp2e77_output_0_frequency",
         "sensor.sp2e77_output_0_last_command_source",
         "sensor.sp2e77_output_0_temperature",
         "sensor.sp2e77_output_0_voltage",
-        "switch.server_sp2e77_output_0"
+        "switch.sp2e77_l0"
       ]
     },
-    "appareil: SP2E77 Output 1": {
+    "appareil: SP2E77-L1 - SP2E77 Output 1": {
       "integration": "intégration: SP2E77 (shelly)",
       "entites": [
-        "binary_sensor.server_sp2e77_output_1_overcurrent",
-        "binary_sensor.server_sp2e77_output_1_overheating",
-        "binary_sensor.server_sp2e77_output_1_overpowering",
-        "binary_sensor.server_sp2e77_output_1_overvoltage",
-        "sensor.server_sp2e77_output_1_energy",
-        "sensor.server_sp2e77_output_1_energy_returned",
-        "sensor.server_sp2e77_output_1_power",
-        "sensor.server_sp2e77_output_1_power_factor",
+        "binary_sensor.sp2e77_l1_overcurrent",
+        "binary_sensor.sp2e77_l1_overheating",
+        "binary_sensor.sp2e77_l1_overpowering",
+        "binary_sensor.sp2e77_l1_overvoltage",
+        "sensor.sp2e77_l1_energy",
+        "sensor.sp2e77_l1_energy_returned",
+        "sensor.sp2e77_l1_power",
+        "sensor.sp2e77_l1_power_factor",
         "sensor.sp2e77_output_1_current",
         "sensor.sp2e77_output_1_energy_consumed",
         "sensor.sp2e77_output_1_frequency",
         "sensor.sp2e77_output_1_last_command_source",
         "sensor.sp2e77_output_1_temperature",
         "sensor.sp2e77_output_1_voltage",
-        "switch.server_sp2e77_output_1"
+        "switch.sp2e77_l1"
       ]
     },
     "appareil: SP3E75 - Commutateur triphasé cuisine DIN": {
       "integration": "intégration: SP3E75 (shelly)",
       "entites": [
-        "binary_sensor.server_sp3e75_mesure_cuisine_input_0",
-        "binary_sensor.server_sp3e75_mesure_cuisine_input_1",
-        "binary_sensor.server_sp3e75_mesure_cuisine_input_2",
         "binary_sensor.sp3e75_cloud",
+        "binary_sensor.sp3e75_input_0",
+        "binary_sensor.sp3e75_input_1",
+        "binary_sensor.sp3e75_input_2",
         "binary_sensor.sp3e75_restart_required",
-        "button.server_sp3e75_mesure_cuisine_restart",
+        "button.sp3e75_restart",
         "sensor.sp3e75_signal_strength",
         "sensor.sp3e75_uptime",
-        "update.server_sp3e75_mesure_cuisine_firmware",
-        "update.sp3e75_beta_firmware"
+        "update.sp3e75_beta_firmware",
+        "update.sp3e75_firmware"
       ]
     },
-    "appareil: SP3E75 Output 0": {
+    "appareil: SP3E75-L0 - SP3E75 Output 0": {
       "integration": "intégration: SP3E75 (shelly)",
       "entites": [
         "sensor.sp3e75_output_0_last_command_source",
         "sensor.sp3e75_output_0_temperature",
-        "switch.server_sp3e75_output_0"
+        "switch.sp3e75_l0"
       ]
     },
-    "appareil: SP3E75 Output 1": {
+    "appareil: SP3E75-L1 - SP3E75 Output 1": {
       "integration": "intégration: SP3E75 (shelly)",
       "entites": [
         "sensor.sp3e75_output_1_last_command_source",
         "sensor.sp3e75_output_1_temperature",
-        "switch.server_sp3e75_output_1"
+        "switch.sp3e75_l1"
       ]
     },
-    "appareil: SP3E75 Output 2": {
+    "appareil: SP3E75-L2 - SP3E75 Output 2": {
       "integration": "intégration: SP3E75 (shelly)",
       "entites": [
         "sensor.sp3e75_output_2_last_command_source",
         "sensor.sp3e75_output_2_temperature",
-        "switch.server_sp3e75_output_2"
+        "switch.sp3e75_l2"
       ]
     },
     "appareil: Samba share": {
@@ -5014,6 +5019,13 @@
         "intégration: atelier_power (min_max)"
       ]
     },
+    "sensor.msws65_average_consumption": {
+      "nom": "Average consumption",
+      "appartientA": "appareil: MSWS65 - MSSW-Atelier",
+      "utiliseePar": [
+        "fichier: UtilityMeters.yaml"
+      ]
+    },
     "sensor.msws65_energy_day": {
       "nom": "msws65_energy_day",
       "horsRegistre": true,
@@ -6360,6 +6372,7 @@
       ]
     },
     "switch.msws65": {
+      "nom": "MSWS65 - MSSW-Atelier",
       "appartientA": "appareil: MSWS65 - MSSW-Atelier",
       "utiliseePar": [
         "automation: Atelier switch off chargeur",
@@ -6368,6 +6381,7 @@
       ]
     },
     "switch.s146": {
+      "nom": "S146 - Garage gauche",
       "appartientA": "appareil: S146 - Garage gauche",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Garage",
@@ -6376,6 +6390,7 @@
       ]
     },
     "switch.s168": {
+      "nom": "S168 - Garage droite",
       "appartientA": "appareil: S168 - Garage droite",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Garage",
@@ -6394,6 +6409,7 @@
       ]
     },
     "switch.s1pm31": {
+      "nom": "S1PM31 - Lampe salon",
       "appartientA": "appareil: S1PM31 - Lampe salon",
       "utiliseePar": [
         "automation: Vacances lampe salon OFF",
@@ -6405,6 +6421,7 @@
       ]
     },
     "switch.s1pm40": {
+      "nom": "S1PM40 - Compresseur",
       "appartientA": "appareil: S1PM40 - Compresseur",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Atelier",
@@ -6413,6 +6430,7 @@
       ]
     },
     "switch.s1pm42": {
+      "nom": "S1PM42 - Mesure eponge",
       "appartientA": "appareil: S1PM42 - Mesure eponge",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Cuisine",
@@ -6420,6 +6438,7 @@
       ]
     },
     "switch.s1pm44": {
+      "nom": "S1PM44 - Pompe eau chaude - temp boiler bas",
       "appartientA": "appareil: S1PM44 - Pompe eau chaude - temp boiler bas",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Buanderie",
@@ -6429,6 +6448,7 @@
       ]
     },
     "switch.s1pm58": {
+      "nom": "S1PM58 - Cave à vin",
       "appartientA": "appareil: S1PM58 - Cave à vin",
       "utiliseePar": [
         "automation: Cave à vin - gestion optimisée",
@@ -6440,6 +6460,7 @@
       ]
     },
     "switch.s1pm59": {
+      "nom": "S1PM59 - Rallonge deshumidificateur",
       "appartientA": "appareil: S1PM59 - Rallonge deshumidificateur",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Buanderie",
@@ -6449,6 +6470,7 @@
       ]
     },
     "switch.sb15": {
+      "nom": "SB15 - HDD NAS des Dous",
       "appartientA": "appareil: SB15 - HDD NAS des Dous (2)",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Serveur",
@@ -6457,6 +6479,7 @@
       ]
     },
     "switch.sb17": {
+      "nom": "SB17 - TV des Dous",
       "appartientA": "appareil: SB17 - TV des Dous",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Salon",
@@ -6464,7 +6487,7 @@
       ]
     },
     "switch.sb18": {
-      "nom": "SB18 - Lumieres ext noel",
+      "nom": "SB18 - Lumières et Noël",
       "appartientA": "appareil: SB18 - Lumières et Noël",
       "utiliseePar": [
         "automation: C'est noël - pilote SB18 et SB20",
@@ -6475,7 +6498,7 @@
       ]
     },
     "switch.sb20": {
-      "nom": "Tasmorallonge vacances",
+      "nom": "SB20 - Tasmorallonge vacances",
       "appartientA": "appareil: SB20 - Tasmorallonge vacances",
       "utiliseePar": [
         "automation: C'est noël - pilote SB18 et SB20",
@@ -6485,6 +6508,7 @@
       ]
     },
     "switch.sb24": {
+      "nom": "SB24 - Tasmorallonge",
       "appartientA": "appareil: SB24 - Tasmorallonge (2)",
       "utiliseePar": [
         "automation: Lampe lecture enfants OFF",
@@ -6506,7 +6530,7 @@
       ]
     },
     "switch.sm26": {
-      "nom": "SM26 - Aérations toilettes",
+      "nom": "SM26 - Bureau Ecrans",
       "appartientA": "appareil: SM26 - Bureau Ecrans",
       "utiliseePar": [
         "automation: Ventilation toilettes OFF",
@@ -6517,7 +6541,7 @@
       ]
     },
     "switch.sm27": {
-      "nom": "SM27 - Lumieres bureau",
+      "nom": "SM27 - Lumière Bureau",
       "appartientA": "appareil: SM27 - Lumière Bureau",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Bureau FV",
@@ -6525,7 +6549,7 @@
       ]
     },
     "switch.sm28": {
-      "nom": "SM28 - lumières extérieur",
+      "nom": "SM28 - Lumieres exterieur",
       "appartientA": "appareil: SM28 - Lumieres exterieur",
       "utiliseePar": [
         "automation: Lumières exterieur after 2h OFF"
@@ -6539,6 +6563,7 @@
       ]
     },
     "switch.sp1pm61": {
+      "nom": "SP1PM61 - Prise jardin Wall-e",
       "appartientA": "appareil: SP1PM61 - Prise jardin Wall-e",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Jardin",
@@ -6547,12 +6572,14 @@
       ]
     },
     "switch.sp1pm62": {
+      "nom": "SP1PM62 - Mesure Lavette",
       "appartientA": "appareil: SP1PM62 - Mesure Lavette",
       "utiliseePar": [
         "vue: L'Orée des dous › Boutons"
       ]
     },
     "switch.sp1pm63": {
+      "nom": "SP1PM63 - Mesure bureau",
       "appartientA": "appareil: SP1PM63 - Mesure bureau",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Bureau FV",
@@ -6561,6 +6588,7 @@
       ]
     },
     "switch.sp1pm64": {
+      "nom": "SP1PM64 - Congélateur",
       "appartientA": "appareil: SP1PM64 - Congélateur",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Cave",
@@ -6569,6 +6597,7 @@
       ]
     },
     "switch.sp1pm70": {
+      "nom": "SP1PM70 - Pompe dilatation chaudière",
       "appartientA": "appareil: SP1PM70 - Pompe dilatation chaudière",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Buanderie",
@@ -6577,6 +6606,7 @@
       ]
     },
     "switch.sp1pm71": {
+      "nom": "SP1PM71 - Chaudière",
       "appartientA": "appareil: SP1PM71 - Chaudière",
       "utiliseePar": [
         "vue: L'Oree des dous - pieces › Buanderie",
@@ -6584,6 +6614,7 @@
       ]
     },
     "switch.sp1pm72": {
+      "nom": "SP1PM72 - BambuDous",
       "appartientA": "appareil: SP1PM72 - BambuDous",
       "utiliseePar": [
         "vue: L'Orée des dous › Boutons"
@@ -6756,6 +6787,30 @@
         "appareil: S1PM42 - Mesure eponge",
         "input_boolean.eponge_started",
         "sensor.s1pm42_power"
+      ]
+    },
+    "automation: HDD NAS daily OFF": {
+      "fichier": "Automations.yaml",
+      "utilise": [
+        "appareil: SB15 - HDD NAS des Dous (2)"
+      ]
+    },
+    "automation: HDD NAS daily ON": {
+      "fichier": "Automations.yaml",
+      "utilise": [
+        "appareil: SB15 - HDD NAS des Dous (2)"
+      ]
+    },
+    "automation: HDD NAS weekly OFF": {
+      "fichier": "Automations.yaml",
+      "utilise": [
+        "appareil: SB15 - HDD NAS des Dous (2)"
+      ]
+    },
+    "automation: HDD NAS weekly ON": {
+      "fichier": "Automations.yaml",
+      "utilise": [
+        "appareil: SB15 - HDD NAS des Dous (2)"
       ]
     },
     "automation: Lampe lecture enfants OFF": {
@@ -7030,6 +7085,7 @@
       "fichier": "UtilityMeters.yaml",
       "utilise": [
         "sensor.electricity_meter_secondary_compteur_energy_consumption_total",
+        "sensor.msws65_average_consumption",
         "sensor.s1pm30_energy",
         "sensor.s1pm31_energy",
         "sensor.s1pm40_energy",
@@ -7930,31 +7986,6 @@
   },
   "referencesCassees": [
     {
-      "par": "automation: HDD NAS daily OFF",
-      "cible": "appareil inexistant (device_id)",
-      "fichier": "Automations.yaml"
-    },
-    {
-      "par": "automation: HDD NAS daily ON",
-      "cible": "appareil inexistant (device_id)",
-      "fichier": "Automations.yaml"
-    },
-    {
-      "par": "automation: HDD NAS weekly OFF",
-      "cible": "appareil inexistant (device_id)",
-      "fichier": "Automations.yaml"
-    },
-    {
-      "par": "automation: HDD NAS weekly ON",
-      "cible": "appareil inexistant (device_id)",
-      "fichier": "Automations.yaml"
-    },
-    {
-      "par": "fichier: UtilityMeters.yaml",
-      "cible": "sensor.msws65_energy",
-      "fichier": "UtilityMeters.yaml"
-    },
-    {
       "par": "vue: L'Oree des dous - pieces › Atelier",
       "cible": "sensor.msws65_atelier_energy",
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
@@ -7962,16 +7993,6 @@
     {
       "par": "vue: L'Oree des dous - pieces › Atelier",
       "cible": "sensor.msws65_atelier_energy_day",
-      "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
-    },
-    {
-      "par": "vue: L'Oree des dous - pieces › Atelier",
-      "cible": "sensor.slzb_06mra_r_core_chip_temp",
-      "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
-    },
-    {
-      "par": "vue: L'Oree des dous - pieces › Buanderie",
-      "cible": "switch.sp1pm",
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
     },
     {
@@ -7992,6 +8013,11 @@
     {
       "par": "vue: L'Orée des dous › Graphes & consommation",
       "cible": "sensor.s1pm32_power",
+      "fichier": "Dashboards/L'Orée des dous.yaml"
+    },
+    {
+      "par": "vue: L'Orée des dous › Graphes & consommation",
+      "cible": "sensor.server_sp1e74_serveurs_power",
       "fichier": "Dashboards/L'Orée des dous.yaml"
     },
     {

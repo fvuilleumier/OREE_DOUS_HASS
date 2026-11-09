@@ -475,7 +475,7 @@ sections:
             alignment: center
             subtitle: "\U0001FAA3 Pompe dilatation chaudière"
           - type: custom:mushroom-template-card
-            entity: switch.sp1pm
+            entity: switch.sp1pm70
             icon: mdi:pump
             primary: "{% set p = states('sensor.sp1pm70_power') | float(0) %} {% if not is_state('switch.sp1pm70', 'on') %}Hors tension {% elif p > 5 %}En marche {% else %}En veille{% endif %}"
             secondary: "{{ states('sensor.sp1pm70_power') | float(0) | round(0) }} W"

@@ -8,7 +8,7 @@ sections:
   - type: grid
     cards:
       - type: gauge
-        entity: sensor.s1pm30_power
+        entity: sensor.server_sp1e74_serveurs_power
         needle: true
         max: 350
         severity:

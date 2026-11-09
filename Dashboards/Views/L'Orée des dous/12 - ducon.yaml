@@ -3,9 +3,12 @@ title: Ducon
 path: ducon
 icon: mdi:vacuum
 badges:
-  - entity: vacuum.ducon
-  - entity: sensor.ducon_battery_level
-  - entity: binary_sensor.ducon_bin_full
+  - type: entity
+    entity: vacuum.ducon
+  - type: entity
+    entity: sensor.ducon_battery_level
+  - type: entity
+    entity: binary_sensor.ducon_bin_full
 type: sections
 max_columns: 1
 sections:
