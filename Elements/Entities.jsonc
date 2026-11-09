@@ -6482,7 +6482,7 @@
     "translation_key": null,
     "unique_id": "bridge_0x9035eafffeaf086e_log_level_zigbee2mqtt"
   },
-  "binary_sensor.server_sp2e77_output_0_overcurrent": {
+  "binary_sensor.sp2e77_l0_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -6491,7 +6491,7 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp2e77_output_0_overcurrent",
+    "entity_id": "binary_sensor.sp2e77_l0_overcurrent",
     "hidden_by": null,
     "icon": null,
     "id": "19d181259f8273f8da52ea6130a92344",
@@ -17007,7 +17007,7 @@
     "translation_key": "camera",
     "unique_id": "20P5BJ670401915_camera"
   },
-  "sensor.server_sp2e77_output_0_power_factor": {
+  "sensor.sp2e77_l0_power_factor": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -17016,7 +17016,7 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp2e77_output_0_power_factor",
+    "entity_id": "sensor.sp2e77_l0_power_factor",
     "hidden_by": null,
     "icon": null,
     "id": "42ea1d07c13f9b932faef547e03a0ccb",
@@ -28078,7 +28078,7 @@
     "translation_key": null,
     "unique_id": "7C87CEA17A3A_status_sensor_status_sensor_status_rssi"
   },
-  "binary_sensor.server_sp2e77_output_0_overvoltage": {
+  "binary_sensor.sp2e77_l0_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -28087,7 +28087,7 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp2e77_output_0_overvoltage",
+    "entity_id": "binary_sensor.sp2e77_l0_overvoltage",
     "hidden_by": null,
     "icon": null,
     "id": "6b760f8b721dc8a52d112843c7f0f8d0",
@@ -30468,7 +30468,7 @@
     "translation_key": null,
     "unique_id": "0x003c84fffe2677bc_last_seen_zigbee2mqtt"
   },
-  "binary_sensor.server_sp2e77_output_0_overpowering": {
+  "binary_sensor.sp2e77_l0_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -30477,7 +30477,7 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp2e77_output_0_overpowering",
+    "entity_id": "binary_sensor.sp2e77_l0_overpowering",
     "hidden_by": null,
     "icon": null,
     "id": "737d1822acaed3a4a56341c1938c4601",
@@ -35089,7 +35089,7 @@
     "translation_key": null,
     "unique_id": "0xa4c13898f92c9563_boost_heating_countdown_time_set_zigbee2mqtt"
   },
-  "sensor.server_sp2e77_output_0_energy_returned": {
+  "sensor.sp2e77_l0_energy_returned": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -35098,7 +35098,7 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp2e77_output_0_energy_returned",
+    "entity_id": "sensor.sp2e77_l0_energy_returned",
     "hidden_by": null,
     "icon": null,
     "id": "84bd1ada5e6bdc60b4d3be19ab577c6f",
@@ -35259,7 +35259,7 @@
     "translation_key": "right_nozzle_type",
     "unique_id": "20P5BJ670401915_right_nozzle_type"
   },
-  "sensor.server_sp2e77_output_0_power": {
+  "sensor.sp2e77_l0_power": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -35268,7 +35268,7 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp2e77_output_0_power",
+    "entity_id": "sensor.sp2e77_l0_power",
     "hidden_by": null,
     "icon": null,
     "id": "854276a50c1c3e90a4ec83f0807f5a53",
@@ -41158,7 +41158,7 @@
     "translation_key": null,
     "unique_id": "1735165772616"
   },
-  "binary_sensor.server_sp2e77_output_0_overheating": {
+  "binary_sensor.sp2e77_l0_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -41167,7 +41167,7 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp2e77_output_0_overheating",
+    "entity_id": "binary_sensor.sp2e77_l0_overheating",
     "hidden_by": null,
     "icon": null,
     "id": "9dc341734a713ceac55f03c73bf8a8cf",
@@ -45824,7 +45824,7 @@
     "translation_key": "version",
     "unique_id": "core_mosquitto_version"
   },
-  "sensor.server_sp2e77_output_0_energy": {
+  "sensor.sp2e77_l0_energy": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -45833,7 +45833,7 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp2e77_output_0_energy",
+    "entity_id": "sensor.sp2e77_l0_energy",
     "hidden_by": null,
     "icon": null,
     "id": "b032ca01a4e806a1ebca37fcb7ed8b42",
@@ -52635,7 +52635,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138739d3c63c9_temperature_zigbee2mqtt"
   },
-  "switch.server_sp2e77_output_0": {
+  "switch.sp2e77_l0": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -52644,13 +52644,13 @@
     "device_id": "a33cfc30ea1427a29b33267497c47f65",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.server_sp2e77_output_0",
+    "entity_id": "switch.sp2e77_l0",
     "hidden_by": null,
     "icon": null,
     "id": "cb6eb9db163b32a29bc4b29b32f09544",
     "labels": [],
     "modified_at": 1794167303.165233,
-    "name": null,
+    "name": "SP2E77-L0 - SP2E77 Output 0",
     "next_name_part": "device",
     "options": {
       "conversation": {
