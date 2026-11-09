@@ -150,7 +150,7 @@ sections:
         primary: Serveurs
         secondary: >
           {{ states('sensor.zg_227z_11_temperature') }} °C · {{
-          states('sensor.s1pm30_power') }} W
+          states('sensor.sp1e74_power') }} W
         icon: mdi:server
         tap_action:
           action: navigate

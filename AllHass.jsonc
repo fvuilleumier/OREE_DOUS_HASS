@@ -1689,8 +1689,8 @@
           "last_changed": "2026-10-09T09:34:06.559Z",
           "last_updated": "2026-10-09T09:34:06.559Z",
         },
-        "sensor.s1pm30_energy_day": {
-          "entity_id": "sensor.s1pm30_energy_day",
+        "sensor.sp1e74_energy_day": {
+          "entity_id": "sensor.sp1e74_energy_day",
           "state": "0.7135166666667",
           "attributes": {
             "state_class": "total_increasing",
@@ -4005,8 +4005,8 @@
           "last_changed": "2026-10-08T06:28:23.079Z",
           "last_updated": "2026-10-08T06:28:23.079Z",
         },
-        "binary_sensor.s1pm30_overpowering": {
-          "entity_id": "binary_sensor.s1pm30_overpowering",
+        "binary_sensor.sp1e74_overpowering": {
+          "entity_id": "binary_sensor.sp1e74_overpowering",
           "state": "off",
           "attributes": {
             "device_class": "problem",
@@ -4020,8 +4020,8 @@
           "last_changed": "2026-10-08T06:28:23.080Z",
           "last_updated": "2026-10-08T06:28:23.080Z",
         },
-        "binary_sensor.s1pm30_overheating": {
-          "entity_id": "binary_sensor.s1pm30_overheating",
+        "binary_sensor.sp1e74_overheating": {
+          "entity_id": "binary_sensor.sp1e74_overheating",
           "state": "off",
           "attributes": {
             "device_class": "problem",
@@ -4035,8 +4035,8 @@
           "last_changed": "2026-10-08T06:28:23.080Z",
           "last_updated": "2026-10-08T06:28:23.080Z",
         },
-        "button.s1pm30_restart": {
-          "entity_id": "button.s1pm30_restart",
+        "button.sp1e74_restart": {
+          "entity_id": "button.sp1e74_restart",
           "state": "unknown",
           "attributes": {
             "device_class": "restart",
@@ -4050,8 +4050,8 @@
           "last_changed": "2026-10-08T06:28:23.080Z",
           "last_updated": "2026-10-08T06:28:23.080Z",
         },
-        "sensor.s1pm30_power": {
-          "entity_id": "sensor.s1pm30_power",
+        "sensor.sp1e74_power": {
+          "entity_id": "sensor.sp1e74_power",
           "state": "62.07",
           "attributes": {
             "state_class": "measurement",
@@ -4067,8 +4067,8 @@
           "last_changed": "2026-10-09T09:53:28.766Z",
           "last_updated": "2026-10-09T09:53:28.766Z",
         },
-        "sensor.s1pm30_energy": {
-          "entity_id": "sensor.s1pm30_energy",
+        "sensor.sp1e74_energy": {
+          "entity_id": "sensor.sp1e74_energy",
           "state": "86.91655",
           "attributes": {
             "state_class": "total_increasing",
@@ -4084,8 +4084,8 @@
           "last_changed": "2026-10-09T09:53:13.770Z",
           "last_updated": "2026-10-09T09:53:13.770Z",
         },
-        "switch.s1pm30": {
-          "entity_id": "switch.s1pm30",
+        "switch.sp1e74": {
+          "entity_id": "switch.sp1e74",
           "state": "on",
           "attributes": {
             "icon": "mdi:server-network",
@@ -20239,58 +20239,58 @@
             "en": "S1PM31 - Lampe salon Reboot",
           },
           {
-            "ei": "button.s1pm30_restart",
+            "ei": "button.sp1e74_restart",
             "pl": "shelly",
             "lb": [],
-            "di": "fe9f575f093440169c7060736a332242",
+            "di": "1b90ce6288559cccdc4a83ca7d058d6c",
             "ec": 0,
             "hn": true,
             "en": "S1PM30 - Serveurs Reboot",
           },
           {
-            "ei": "sensor.s1pm30_power",
+            "ei": "sensor.sp1e74_power",
             "pl": "shelly",
             "lb": [],
-            "di": "fe9f575f093440169c7060736a332242",
+            "di": "1b90ce6288559cccdc4a83ca7d058d6c",
             "hn": true,
             "en": "S1PM30 - Serveurs Power",
             "dp": 1,
           },
           {
-            "ei": "binary_sensor.s1pm30_overpowering",
+            "ei": "binary_sensor.sp1e74_overpowering",
             "pl": "shelly",
             "lb": [],
-            "di": "fe9f575f093440169c7060736a332242",
+            "di": "1b90ce6288559cccdc4a83ca7d058d6c",
             "tk": "overpowering",
             "ec": 1,
             "hn": true,
             "en": "S1PM30 - Serveurs Overpowering",
           },
           {
-            "ei": "binary_sensor.s1pm30_overheating",
+            "ei": "binary_sensor.sp1e74_overheating",
             "pl": "shelly",
             "lb": [],
-            "di": "fe9f575f093440169c7060736a332242",
+            "di": "1b90ce6288559cccdc4a83ca7d058d6c",
             "tk": "overheating",
             "ec": 1,
             "hn": true,
             "en": "S1PM30 - Serveurs Overheating",
           },
           {
-            "ei": "sensor.s1pm30_energy",
+            "ei": "sensor.sp1e74_energy",
             "pl": "shelly",
             "lb": [],
-            "di": "fe9f575f093440169c7060736a332242",
+            "di": "1b90ce6288559cccdc4a83ca7d058d6c",
             "hn": true,
             "en": "S1PM30 - Serveurs Energy",
             "dp": 2,
           },
           {
-            "ei": "switch.s1pm30",
+            "ei": "switch.sp1e74",
             "pl": "shelly",
             "ai": "server",
             "lb": [],
-            "di": "fe9f575f093440169c7060736a332242",
+            "di": "1b90ce6288559cccdc4a83ca7d058d6c",
             "ic": "mdi:server-network",
             "hn": true,
             "en": "Serveurs",
@@ -30138,7 +30138,7 @@
           "disabled_by": null,
           "entry_type": null,
           "hw_version": "gen1",
-          "id": "fe9f575f093440169c7060736a332242",
+          "id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "identifiers": [["shelly", "485519CB1146"]],
           "labels": [],
           "manufacturer": "Shelly",
@@ -46075,7 +46075,7 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": "integration",
           "entity_category": null,
           "entity_id": "binary_sensor.shelly1pm_485519cb1146_input",
@@ -46102,10 +46102,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": "integration",
           "entity_category": "diagnostic",
-          "entity_id": "binary_sensor.shelly1pm_485519cb1146_cloud",
+          "entity_id": "binary_sensor.sp1e74_cloud",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46129,7 +46129,7 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": "integration",
           "entity_category": "diagnostic",
           "entity_id": "sensor.shelly1pm_485519cb1146_device_temperature",
@@ -46156,10 +46156,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": "integration",
           "entity_category": "diagnostic",
-          "entity_id": "sensor.shelly1pm_485519cb1146_rssi",
+          "entity_id": "sensor.sp1e74_signal_strength",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46183,10 +46183,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": "integration",
           "entity_category": "diagnostic",
-          "entity_id": "sensor.shelly1pm_485519cb1146_uptime",
+          "entity_id": "sensor.sp1e74_uptime",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46210,10 +46210,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": "integration",
           "entity_category": "config",
-          "entity_id": "update.shelly1pm_485519cb1146_firmware_update",
+          "entity_id": "update.sp1e74_firmware",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46237,10 +46237,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": "integration",
           "entity_category": "config",
-          "entity_id": "update.shelly1pm_485519cb1146_beta_firmware_update",
+          "entity_id": "update.sp1e74_beta_firmware",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46597,10 +46597,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": null,
           "entity_category": "config",
-          "entity_id": "button.s1pm30_restart",
+          "entity_id": "button.sp1e74_restart",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46624,10 +46624,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": null,
           "entity_category": null,
-          "entity_id": "sensor.s1pm30_power",
+          "entity_id": "sensor.sp1e74_power",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46654,10 +46654,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": null,
           "entity_category": "diagnostic",
-          "entity_id": "binary_sensor.s1pm30_overpowering",
+          "entity_id": "binary_sensor.sp1e74_overpowering",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46681,10 +46681,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": null,
           "entity_category": "diagnostic",
-          "entity_id": "binary_sensor.s1pm30_overheating",
+          "entity_id": "binary_sensor.sp1e74_overheating",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46708,10 +46708,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": null,
           "entity_category": null,
-          "entity_id": "sensor.s1pm30_energy",
+          "entity_id": "sensor.sp1e74_energy",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": null,
@@ -46741,10 +46741,10 @@
           "config_entry_id": "41badf3b940a172f42110b1730decda2",
           "config_subentry_id": null,
           "created_at": 0,
-          "device_id": "fe9f575f093440169c7060736a332242",
+          "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
           "disabled_by": null,
           "entity_category": null,
-          "entity_id": "switch.s1pm30",
+          "entity_id": "switch.sp1e74",
           "has_entity_name": true,
           "hidden_by": null,
           "icon": "mdi:server-network",
@@ -106051,8 +106051,8 @@
       "last_changed": "2026-10-09T09:34:06.559Z",
       "last_updated": "2026-10-09T09:34:06.559Z",
     },
-    "sensor.s1pm30_energy_day": {
-      "entity_id": "sensor.s1pm30_energy_day",
+    "sensor.sp1e74_energy_day": {
+      "entity_id": "sensor.sp1e74_energy_day",
       "state": "0.7124833333334",
       "attributes": {
         "state_class": "total_increasing",
@@ -108367,8 +108367,8 @@
       "last_changed": "2026-10-08T06:28:23.079Z",
       "last_updated": "2026-10-08T06:28:23.079Z",
     },
-    "binary_sensor.s1pm30_overpowering": {
-      "entity_id": "binary_sensor.s1pm30_overpowering",
+    "binary_sensor.sp1e74_overpowering": {
+      "entity_id": "binary_sensor.sp1e74_overpowering",
       "state": "off",
       "attributes": {
         "device_class": "problem",
@@ -108382,8 +108382,8 @@
       "last_changed": "2026-10-08T06:28:23.080Z",
       "last_updated": "2026-10-08T06:28:23.080Z",
     },
-    "binary_sensor.s1pm30_overheating": {
-      "entity_id": "binary_sensor.s1pm30_overheating",
+    "binary_sensor.sp1e74_overheating": {
+      "entity_id": "binary_sensor.sp1e74_overheating",
       "state": "off",
       "attributes": {
         "device_class": "problem",
@@ -108397,8 +108397,8 @@
       "last_changed": "2026-10-08T06:28:23.080Z",
       "last_updated": "2026-10-08T06:28:23.080Z",
     },
-    "button.s1pm30_restart": {
-      "entity_id": "button.s1pm30_restart",
+    "button.sp1e74_restart": {
+      "entity_id": "button.sp1e74_restart",
       "state": "unknown",
       "attributes": {
         "device_class": "restart",
@@ -108412,8 +108412,8 @@
       "last_changed": "2026-10-08T06:28:23.080Z",
       "last_updated": "2026-10-08T06:28:23.080Z",
     },
-    "sensor.s1pm30_power": {
-      "entity_id": "sensor.s1pm30_power",
+    "sensor.sp1e74_power": {
+      "entity_id": "sensor.sp1e74_power",
       "state": "61.82",
       "attributes": {
         "state_class": "measurement",
@@ -108429,8 +108429,8 @@
       "last_changed": "2026-10-09T09:52:58.763Z",
       "last_updated": "2026-10-09T09:52:58.763Z",
     },
-    "sensor.s1pm30_energy": {
-      "entity_id": "sensor.s1pm30_energy",
+    "sensor.sp1e74_energy": {
+      "entity_id": "sensor.sp1e74_energy",
       "state": "86.9155166666667",
       "attributes": {
         "state_class": "total_increasing",
@@ -108446,8 +108446,8 @@
       "last_changed": "2026-10-09T09:52:13.764Z",
       "last_updated": "2026-10-09T09:52:13.764Z",
     },
-    "switch.s1pm30": {
-      "entity_id": "switch.s1pm30",
+    "switch.sp1e74": {
+      "entity_id": "switch.sp1e74",
       "state": "on",
       "attributes": {
         "icon": "mdi:server-network",
@@ -124593,27 +124593,27 @@
       "has_entity_name": true,
       "name": "S1PM31 - Lampe salon Reboot",
     },
-    "button.s1pm30_restart": {
-      "entity_id": "button.s1pm30_restart",
-      "device_id": "fe9f575f093440169c7060736a332242",
+    "button.sp1e74_restart": {
+      "entity_id": "button.sp1e74_restart",
+      "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
       "labels": [],
       "platform": "shelly",
       "entity_category": "config",
       "has_entity_name": true,
       "name": "S1PM30 - Serveurs Reboot",
     },
-    "sensor.s1pm30_power": {
-      "entity_id": "sensor.s1pm30_power",
-      "device_id": "fe9f575f093440169c7060736a332242",
+    "sensor.sp1e74_power": {
+      "entity_id": "sensor.sp1e74_power",
+      "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
       "labels": [],
       "platform": "shelly",
       "has_entity_name": true,
       "name": "S1PM30 - Serveurs Power",
       "display_precision": 1,
     },
-    "binary_sensor.s1pm30_overpowering": {
-      "entity_id": "binary_sensor.s1pm30_overpowering",
-      "device_id": "fe9f575f093440169c7060736a332242",
+    "binary_sensor.sp1e74_overpowering": {
+      "entity_id": "binary_sensor.sp1e74_overpowering",
+      "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
       "labels": [],
       "translation_key": "overpowering",
       "platform": "shelly",
@@ -124621,9 +124621,9 @@
       "has_entity_name": true,
       "name": "S1PM30 - Serveurs Overpowering",
     },
-    "binary_sensor.s1pm30_overheating": {
-      "entity_id": "binary_sensor.s1pm30_overheating",
-      "device_id": "fe9f575f093440169c7060736a332242",
+    "binary_sensor.sp1e74_overheating": {
+      "entity_id": "binary_sensor.sp1e74_overheating",
+      "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
       "labels": [],
       "translation_key": "overheating",
       "platform": "shelly",
@@ -124631,18 +124631,18 @@
       "has_entity_name": true,
       "name": "S1PM30 - Serveurs Overheating",
     },
-    "sensor.s1pm30_energy": {
-      "entity_id": "sensor.s1pm30_energy",
-      "device_id": "fe9f575f093440169c7060736a332242",
+    "sensor.sp1e74_energy": {
+      "entity_id": "sensor.sp1e74_energy",
+      "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
       "labels": [],
       "platform": "shelly",
       "has_entity_name": true,
       "name": "S1PM30 - Serveurs Energy",
       "display_precision": 2,
     },
-    "switch.s1pm30": {
-      "entity_id": "switch.s1pm30",
-      "device_id": "fe9f575f093440169c7060736a332242",
+    "switch.sp1e74": {
+      "entity_id": "switch.sp1e74",
+      "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
       "area_id": "server",
       "labels": [],
       "platform": "shelly",
@@ -134476,7 +134476,7 @@
       "sw_version": "6.5.0",
       "via_device_id": null,
     },
-    "fe9f575f093440169c7060736a332242": {
+    "1b90ce6288559cccdc4a83ca7d058d6c": {
       "area_id": "server",
       "configuration_url": "http://192.168.33.30:80",
       "config_entries": ["41badf3b940a172f42110b1730decda2"],
@@ -134490,7 +134490,7 @@
       "disabled_by": null,
       "entry_type": null,
       "hw_version": "gen1",
-      "id": "fe9f575f093440169c7060736a332242",
+      "id": "1b90ce6288559cccdc4a83ca7d058d6c",
       "identifiers": [["shelly", "485519CB1146"]],
       "labels": [],
       "manufacturer": "Shelly",
@@ -149401,7 +149401,7 @@
       "sensor.cave_energy_day": {
         "domain": "min_max",
       },
-      "sensor.s1pm30_energy_day": {
+      "sensor.sp1e74_energy_day": {
         "domain": "utility_meter",
       },
       "binary_sensor.porte_1er_battery": {
@@ -149803,22 +149803,22 @@
       "switch.s1pm43": {
         "domain": "shelly",
       },
-      "binary_sensor.s1pm30_overpowering": {
+      "binary_sensor.sp1e74_overpowering": {
         "domain": "shelly",
       },
-      "binary_sensor.s1pm30_overheating": {
+      "binary_sensor.sp1e74_overheating": {
         "domain": "shelly",
       },
-      "button.s1pm30_restart": {
+      "button.sp1e74_restart": {
         "domain": "shelly",
       },
-      "sensor.s1pm30_power": {
+      "sensor.sp1e74_power": {
         "domain": "shelly",
       },
-      "sensor.s1pm30_energy": {
+      "sensor.sp1e74_energy": {
         "domain": "shelly",
       },
-      "switch.s1pm30": {
+      "switch.sp1e74": {
         "domain": "shelly",
       },
       "binary_sensor.s1pm59_overpowering": {

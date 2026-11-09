@@ -50,17 +50,17 @@ sections:
         alignment: start
       - type: custom:mushroom-template-card
         primary: Puissance serveurs
-        secondary: "{{ states('sensor.s1pm30_power') }} W"
+        secondary: "{{ states('sensor.sp1e74_power') }} W"
         icon: mdi:flash
         icon_color: orange
       - type: custom:mushroom-template-card
         primary: Énergie cumulée
-        secondary: "{{ states('sensor.s1pm30_energy') }} kWh"
+        secondary: "{{ states('sensor.sp1e74_energy') }} kWh"
         icon: mdi:lightning-bolt
         icon_color: amber
       - type: history-graph
         entities:
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: Serveurs
         title: Puissance 24 h
         hours_to_show: 24
@@ -74,10 +74,10 @@ sections:
         title: 📟 Appareils
         alignment: start
       - type: custom:mushroom-template-card
-        entity: switch.s1pm30
+        entity: switch.sp1e74
         primary: Alimentation serveurs
         secondary: |
-          {% if is_state('switch.s1pm30', 'on') %}
+          {% if is_state('switch.sp1e74', 'on') %}
             Sous tension
           {% else %}
             Hors tension
@@ -87,7 +87,7 @@ sections:
           action: toggle
         features_position: bottom
         color: |
-          {% if is_state('switch.s1pm30', 'on') %}
+          {% if is_state('switch.sp1e74', 'on') %}
             green
           {% else %}
             red

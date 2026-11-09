@@ -50,17 +50,17 @@ sections:
         alignment: start
       - type: custom:mushroom-template-card
         primary: Puissance serveurs
-        secondary: '{{ states(''sensor.s1pm30_power'') }} W'
+        secondary: '{{ states(''sensor.sp1e74_power'') }} W'
         icon: mdi:flash
         icon_color: orange
       - type: custom:mushroom-template-card
         primary: Énergie cumulée
-        secondary: '{{ states(''sensor.s1pm30_energy'') }} kWh'
+        secondary: '{{ states(''sensor.sp1e74_energy'') }} kWh'
         icon: mdi:lightning-bolt
         icon_color: amber
       - type: history-graph
         entities:
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: Serveurs
         title: Puissance 24 h
         hours_to_show: 24
@@ -74,10 +74,10 @@ sections:
         title: 📟 Appareils
         alignment: start
       - type: custom:mushroom-template-card
-        entity: switch.s1pm30
+        entity: switch.sp1e74
         primary: Alimentation serveurs
         secondary: |
-          {% if is_state('switch.s1pm30', 'on') %}
+          {% if is_state('switch.sp1e74', 'on') %}
             Sous tension
           {% else %}
             Hors tension
@@ -87,7 +87,7 @@ sections:
           action: toggle
         features_position: bottom
         color: |
-          {% if is_state('switch.s1pm30', 'on') %}
+          {% if is_state('switch.sp1e74', 'on') %}
             green
           {% else %}
             red
@@ -610,7 +610,7 @@ cards:
           grid-template-columns: repeat(2, minmax(0, 1fr))
         cards:
           - type: custom:button-card
-            entity: sensor.s1pm30_power
+            entity: sensor.sp1e74_power
             name: PUISSANCE SERVEURS
             icon: mdi:flash
             show_icon: true
@@ -650,7 +650,7 @@ cards:
                 - font-size: 10px
                 - color: '#aeb0bd'
           - type: custom:button-card
-            entity: sensor.s1pm30_energy
+            entity: sensor.sp1e74_energy
             name: ÉNERGIE CUMULÉE
             icon: mdi:lightning-bolt
             show_icon: true
@@ -749,7 +749,7 @@ cards:
           tooltip:
             theme: dark
         series:
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: Serveurs
             color: '#efa928'
             type: area
@@ -844,7 +844,7 @@ cards:
               grid-template-columns: 1fr
         cards:
           - type: custom:button-card
-            entity: switch.s1pm30
+            entity: switch.sp1e74
             name: ALIMENTATION SERVEURS
             icon: mdi:server-network
             show_icon: true
@@ -2123,7 +2123,7 @@ cards:
               grid-template-columns: minmax(0, 1fr)
         cards:
           - type: custom:button-card
-            entity: sensor.s1pm30_energy
+            entity: sensor.sp1e74_energy
             name: CUMUL DE LA PIÈCE
             icon: mdi:home-lightning-bolt
             show_icon: true
@@ -2167,7 +2167,7 @@ cards:
                 - font-size: 10px
                 - color: '#aeb0bd'
           - type: custom:button-card
-            entity: sensor.s1pm30_power
+            entity: sensor.sp1e74_power
             name: SERVEURS
             icon: mdi:server-network
             show_icon: true
@@ -2182,7 +2182,7 @@ cards:
               ]]]
             label: |
               [[[
-                const energy = states["sensor.s1pm30_energy"];
+                const energy = states["sensor.sp1e74_energy"];
                 const value = parseFloat(energy?.state);
 
                 return Number.isFinite(value)
@@ -2286,7 +2286,7 @@ cards:
               tooltip:
                 theme: dark
             series:
-              - entity: sensor.s1pm30_power
+              - entity: sensor.sp1e74_power
                 name: Serveurs
                 color: '#efa928'
                 type: area
@@ -2383,7 +2383,7 @@ cards:
               tooltip:
                 theme: dark
             series:
-              - entity: sensor.s1pm30_energy
+              - entity: sensor.sp1e74_energy
                 name: Serveurs
                 color: '#ffd34d'
                 type: area
@@ -2482,7 +2482,7 @@ cards:
               grid-template-columns: minmax(0, 1fr)
         cards:
           - type: custom:button-card
-            entity: switch.s1pm30
+            entity: switch.sp1e74
             name: ALIMENTATION SERVEURS
             icon: mdi:server-network
             show_icon: true

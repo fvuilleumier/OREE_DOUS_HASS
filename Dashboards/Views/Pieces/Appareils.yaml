@@ -586,17 +586,17 @@ cards:
   #  Exemples existants de la vue Serveur
   # ====================================================================
   - type: custom:mushroom-template-card
-    entity: switch.s1pm30
+    entity: switch.sp1e74
     primary: Alimentation serveurs
     secondary: >-
-      {% if is_state('switch.s1pm30', 'on') %}Sous tension
+      {% if is_state('switch.sp1e74', 'on') %}Sous tension
       {% else %}Hors tension{% endif %}
     icon: mdi:server-network
     tap_action:
       action: toggle
     features_position: bottom
     color: >-
-      {% if is_state('switch.s1pm30', 'on') %}green{% else %}red{% endif %}
+      {% if is_state('switch.sp1e74', 'on') %}green{% else %}red{% endif %}
     vertical: true
     grid_options:
       columns: 6

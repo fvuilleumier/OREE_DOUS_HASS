@@ -196,7 +196,7 @@ sections:
         features_position: bottom
         name: Prise jardin Wall-e
       - type: tile
-        entity: switch.s1pm30
+        entity: switch.sp1e74
         name: Serveurs
         icon: mdi:server-network
         color: green

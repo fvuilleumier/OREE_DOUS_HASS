@@ -3727,7 +3727,7 @@ views:
             template: section_title
             name: ⚡ Énergie
           - type: gauge
-            entity: sensor.s1pm30_power
+            entity: sensor.sp1e74_power
             name: Puissance pièce
             needle: true
             min: 0
@@ -3742,9 +3742,9 @@ views:
           - type: custom:vertical-stack-in-card
             cards:
               - type: custom:mushroom-template-card
-                entity: sensor.s1pm30_power
+                entity: sensor.sp1e74_power
                 icon: mdi:flash
-                primary: "{{ states('sensor.s1pm30_power') | float(0) | round(0) }} W"
+                primary: "{{ states('sensor.sp1e74_power') | float(0) | round(0) }} W"
                 secondary: Puissance actuelle
                 tap_action:
                   action: more-info
@@ -3752,9 +3752,9 @@ views:
                 features_position: bottom
                 vertical: true
               - type: custom:mushroom-template-card
-                entity: sensor.s1pm30_energy_day
+                entity: sensor.sp1e74_energy_day
                 icon: mdi:lightning-bolt
-                primary: "{{ states('sensor.s1pm30_energy_day') | float(0) | round(2) }} kWh"
+                primary: "{{ states('sensor.sp1e74_energy_day') | float(0) | round(2) }} kWh"
                 secondary: Énergie du jour (24 h)
                 tap_action:
                   action: more-info
@@ -3812,7 +3812,7 @@ views:
                 apex_config:
                   tickAmount: 4
             series:
-              - entity: sensor.s1pm30_power
+              - entity: sensor.sp1e74_power
                 name: Serveurs
                 color: var(--warning-color)
                 type: area
@@ -3831,10 +3831,10 @@ views:
             template: section_title
             name: "\U0001F4DF Appareils"
           - type: custom:mushroom-template-card
-            entity: switch.s1pm30
+            entity: switch.sp1e74
             primary: Alimentation serveurs
             secondary: >
-              {% if is_state('switch.s1pm30', 'on') %}
+              {% if is_state('switch.sp1e74', 'on') %}
                 Sous tension
               {% else %}
                 Hors tension
@@ -3844,7 +3844,7 @@ views:
               action: toggle
             features_position: bottom
             color: >
-              {% if is_state('switch.s1pm30', 'on') %}
+              {% if is_state('switch.sp1e74', 'on') %}
                 green
               {% else %}
                 red
@@ -4037,16 +4037,16 @@ views:
                 alignment: center
                 subtitle: "\U0001F5C4️ Serveurs"
               - type: custom:mushroom-template-card
-                entity: switch.s1pm30
+                entity: switch.sp1e74
                 icon: mdi:pump
-                primary: "{% set p = states('sensor.s1pm30_power') | float(0) %} {% if not is_state('switch.s1pm30', 'on') %}Hors tension {% elif p > 5 %}En marche {% else %}En veille{% endif %}"
-                secondary: "{{ states('sensor.s1pm30_power') | float(0) | round(0) }} W"
+                primary: "{% set p = states('sensor.sp1e74_power') | float(0) %} {% if not is_state('switch.sp1e74', 'on') %}Hors tension {% elif p > 5 %}En marche {% else %}En veille{% endif %}"
+                secondary: "{{ states('sensor.sp1e74_power') | float(0) | round(0) }} W"
                 tap_action:
                   action: toggle
-                color: "{% set p = states('sensor.s1pm30_power') | float(0) %} {% if not is_state('switch.s1pm30', 'on') %}red {% elif p > 5 %}orange {% else %}green{% endif %}"
+                color: "{% set p = states('sensor.sp1e74_power') | float(0) %} {% if not is_state('switch.sp1e74', 'on') %}red {% elif p > 5 %}orange {% else %}green{% endif %}"
                 name: Serveurs
               - type: gauge
-                entity: sensor.s1pm30_power
+                entity: sensor.sp1e74_power
                 name: Puissance
                 needle: true
                 min: 0
@@ -4103,7 +4103,7 @@ views:
                     apex_config:
                       tickAmount: 4
                 series:
-                  - entity: sensor.s1pm30_power
+                  - entity: sensor.sp1e74_power
                     name: Maintenant
                     color: var(--warning-color)
                     type: area
@@ -4112,7 +4112,7 @@ views:
                     group_by:
                       func: avg
                       duration: 10min
-                  - entity: sensor.s1pm30_power
+                  - entity: sensor.sp1e74_power
                     name: moy 24 h
                     color: var(--info-color)
                     float_precision: 0
@@ -4122,7 +4122,7 @@ views:
                     show:
                       in_chart: false
                       in_header: true
-                  - entity: sensor.s1pm30_power
+                  - entity: sensor.sp1e74_power
                     name: pic 24 h
                     color: var(--error-color)
                     float_precision: 0
@@ -4133,10 +4133,10 @@ views:
                       in_chart: false
                       in_header: true
               - type: custom:mushroom-template-card
-                entity: sensor.s1pm30_energy
+                entity: sensor.sp1e74_energy
                 icon: mdi:lightning-bolt
                 icon_color: amber
-                primary: "{{ states('sensor.s1pm30_energy') | float(0) | round(2) }} kWh"
+                primary: "{{ states('sensor.sp1e74_energy') | float(0) | round(2) }} kWh"
                 secondary: Consommation cumulée
                 tap_action:
                   action: more-info

@@ -120,11 +120,11 @@ sections:
         type: entities
         show_header_toggle: false
         entities:
-          - entity: switch.s1pm30
+          - entity: switch.sp1e74
             name: Serveurs
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: Consommation instantanée
-          - entity: sensor.s1pm30_energy
+          - entity: sensor.sp1e74_energy
             name: Énergie aujourd'hui
           - entity: sensor.mikrotik_uptime
       - type: custom:apexcharts-card
@@ -175,7 +175,7 @@ sections:
             apex_config:
               tickAmount: 4
         series:
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: s1pm30 power
             color: var(--info-color)
             type: area
@@ -232,7 +232,7 @@ sections:
             apex_config:
               tickAmount: 4
         series:
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: Serveurs
             color: var(--info-color)
             type: area
@@ -288,7 +288,7 @@ sections:
         show_header_toggle: false
         state_color: true
         entities:
-          - entity: switch.s1pm30
+          - entity: switch.sp1e74
             name: Alimentation serveurs
           - entity: switch.sb15
             name: HDD NAS

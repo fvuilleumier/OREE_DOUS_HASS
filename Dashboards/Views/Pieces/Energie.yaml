@@ -16,7 +16,7 @@ cards:
     template: section_title
     name: ⚡ Énergie
   - type: gauge
-    entity: sensor.s1pm30_power
+    entity: sensor.sp1e74_power
     name: Puissance pièce
     needle: true
     min: 0
@@ -31,19 +31,19 @@ cards:
   - type: custom:vertical-stack-in-card
     cards:
       - type: custom:mushroom-template-card
-        entity: sensor.s1pm30_power
+        entity: sensor.sp1e74_power
         icon: mdi:flash
         icon_color: orange
-        primary: "{{ states('sensor.s1pm30_power') | float(0) | round(0) }} W"
+        primary: "{{ states('sensor.sp1e74_power') | float(0) | round(0) }} W"
         secondary: Puissance actuelle
         tap_action:
           action: more-info
         vertical: true
       - type: custom:mushroom-template-card
-        entity: sensor.s1pm30_energy_day
+        entity: sensor.sp1e74_energy_day
         icon: mdi:lightning-bolt
         icon_color: amber
-        primary: "{{ states('sensor.s1pm30_energy_day') | float(0) | round(2) }} kWh"
+        primary: "{{ states('sensor.sp1e74_energy_day') | float(0) | round(2) }} kWh"
         secondary: Énergie du jour (24 h)
         tap_action:
           action: more-info
@@ -99,7 +99,7 @@ cards:
         apex_config:
           tickAmount: 4
     series:
-      - entity: sensor.s1pm30_power
+      - entity: sensor.sp1e74_power
         name: Serveurs
         color: var(--warning-color)
         type: area

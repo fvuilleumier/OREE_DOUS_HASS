@@ -486,12 +486,12 @@ sections:
       - type: custom:mushroom-template-card
         primary: Serveurs
         secondary: >
-          {{ states('sensor.s1pm30_power') }} W
+          {{ states('sensor.sp1e74_power') }} W
         icon: mdi:server
         icon_color: green
         tap_action:
           action: more-info
-          entity: switch.s1pm30
+          entity: switch.sp1e74
   - type: grid
     cards:
       - type: custom:button-card
@@ -504,7 +504,7 @@ sections:
         show_header_toggle: false
         state_color: true
         entities:
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: "\U0001F5A5️ Serveurs"
           - entity: sensor.s1pm58_power
             name: "\U0001F377 Cave"

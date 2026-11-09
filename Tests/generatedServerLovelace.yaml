@@ -391,7 +391,7 @@ cards:
         cards:
 
           - type: custom:button-card
-            entity: sensor.s1pm30_power
+            entity: sensor.sp1e74_power
             name: PUISSANCE SERVEURS
             icon: mdi:flash
             show_icon: true
@@ -434,7 +434,7 @@ cards:
                 - color: "#aeb0bd"
 
           - type: custom:button-card
-            entity: sensor.s1pm30_energy
+            entity: sensor.sp1e74_energy
             name: ÉNERGIE CUMULÉE
             icon: mdi:lightning-bolt
             show_icon: true
@@ -539,7 +539,7 @@ cards:
           tooltip:
             theme: dark
         series:
-          - entity: sensor.s1pm30_power
+          - entity: sensor.sp1e74_power
             name: Serveurs
             color: "#efa928"
             type: area
@@ -637,7 +637,7 @@ cards:
         cards:
 
           - type: custom:button-card
-            entity: switch.s1pm30
+            entity: switch.sp1e74
             name: ALIMENTATION SERVEURS
             icon: mdi:server-network
             show_icon: true
