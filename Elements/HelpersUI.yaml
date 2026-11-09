@@ -5,6 +5,9 @@ input_boolean:
   - id: atelier_chargeur_started
     name: Atelier chargeur started
     icon: mdi:battery-charging-10
+  - id: c_est_noel
+    name: C'est noël
+    icon: mdi:pine-tree
   - id: chauffage_holiday
     name: Chauffage mode vacances
     icon: mdi:radiator-off
@@ -98,15 +101,6 @@ config_entries:
           - sensor.sp1pm64_power
           - sensor.s1pm58_power
         name: cave_power
-        round_digits: 2
-        type: sum
-    - entry_id: 01M70AKRDDER7EZDWCKAMCGRZ7
-      title: sp2e77_l0_l1_energy
-      options:
-        entity_ids:
-          - sensor.sp2e77_l0_energy
-          - sensor.sp2e77_l1_energy
-        name: sp2e77_l0_l1_energy
         round_digits: 2
         type: sum
     - entry_id: 01M70AP9H6HT8BM7XSH078E9PW

@@ -182,7 +182,7 @@
     "icon": null,
     "id": "0064d67a7eb1a3d2e74b6252413e9eb9",
     "labels": [],
-    "modified_at": 1794234061.177254,
+    "modified_at": 1794236788.819455,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -6305,33 +6305,6 @@
     "translation_key": null,
     "unique_id": "0xa4c13811218e5ca4_max_temperature_zigbee2mqtt"
   },
-  "sensor.sp2e77_l0_l1_energy": {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": "01M70AKRDDER7EZDWCKAMCGRZ7",
-    "config_subentry_id": null,
-    "created_at": 1794233721.262432,
-    "device_id": null,
-    "disabled_by": null,
-    "entity_category": null,
-    "entity_id": "sensor.sp2e77_l0_l1_energy",
-    "hidden_by": null,
-    "icon": null,
-    "id": "18c4565f9f4444eb62b02e9271ff40c9",
-    "labels": [],
-    "modified_at": 1794233721.263216,
-    "name": null,
-    "next_name_part": null,
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "sp2e77_l0_l1_energy",
-    "platform": "min_max",
-    "translation_key": null,
-    "unique_id": "01M70AKRDDER7EZDWCKAMCGRZ7"
-  },
   "sensor.sm_x200_tablette_light_sensor": {
     "area_id": null,
     "categories": {},
@@ -12053,7 +12026,7 @@
     "icon": null,
     "id": "2e8f02eee79d16c8c978354bf8716e85",
     "labels": [],
-    "modified_at": 1794234059.937141,
+    "modified_at": 1794236788.16206,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -20465,6 +20438,36 @@
     "platform": "mobile_app",
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_battery_cycles"
+  },
+  "input_boolean.c_est_noel": {
+    "area_id": "maison_des_dous",
+    "categories": {},
+    "config_entry_id": null,
+    "config_subentry_id": null,
+    "created_at": 1792576349.301744,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "input_boolean.c_est_noel",
+    "hidden_by": null,
+    "icon": null,
+    "id": "4f96b618cc603e135301d63f9342d29e",
+    "labels": [],
+    "modified_at": 1794236780.761719,
+    "name": null,
+    "next_name_part": "area",
+    "options": {
+      "conversation": {
+        "should_expose": false
+      },
+      "collection": {
+        "hash": "226794907542962944a45762a3362857"
+      }
+    },
+    "original_name": "C'est noël",
+    "platform": "input_boolean",
+    "translation_key": null,
+    "unique_id": "c_est_noel"
   },
   "sensor.pixel_9_pro_xl_de_camille_screen_off_timeout": {
     "area_id": null,
@@ -38462,7 +38465,7 @@
     "icon": null,
     "id": "9164c7cef0f15727ab11ec7ef41740c4",
     "labels": [],
-    "modified_at": 1794234061.185071,
+    "modified_at": 1794236788.822716,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -39368,12 +39371,15 @@
     "icon": null,
     "id": "9555fee0b10b998833ac726eb81e5dbb",
     "labels": [],
-    "modified_at": 1794234057.208733,
+    "modified_at": 1794236785.409326,
     "name": null,
     "next_name_part": null,
     "options": {
       "conversation": {
         "should_expose": false
+      },
+      "sensor": {
+        "suggested_display_precision": 0
       }
     },
     "original_name": "sp2e77_l0_l1_power",
@@ -47185,7 +47191,7 @@
     "icon": null,
     "id": "b5bd553993635d82318c01e796c34fb8",
     "labels": [],
-    "modified_at": 1794234059.990872,
+    "modified_at": 1794236788.219834,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -48109,12 +48115,15 @@
     "icon": null,
     "id": "b8e83e003a5592e0a4eb92fb4ae00644",
     "labels": [],
-    "modified_at": 1794234057.206686,
+    "modified_at": 1794236785.40671,
     "name": null,
     "next_name_part": "area",
     "options": {
       "conversation": {
         "should_expose": false
+      },
+      "sensor": {
+        "suggested_display_precision": 0
       }
     },
     "original_name": "cave_power",
@@ -54964,7 +54973,7 @@
     "icon": null,
     "id": "d3d9cab3311d9a38be9d058cab0bbafc",
     "labels": [],
-    "modified_at": 1794234057.101294,
+    "modified_at": 1794236785.129738,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -58933,12 +58942,15 @@
     "icon": null,
     "id": "e1770818515356cf9e5de4d6d9f5a9b6",
     "labels": [],
-    "modified_at": 1794234057.19858,
+    "modified_at": 1794236785.317539,
     "name": null,
     "next_name_part": "area",
     "options": {
       "conversation": {
         "should_expose": false
+      },
+      "sensor": {
+        "suggested_display_precision": 0
       }
     },
     "original_name": "buanderie_power",
@@ -62623,7 +62635,7 @@
     "icon": null,
     "id": "efbf5bfe96ce04850cfc84c65ba2bc47",
     "labels": [],
-    "modified_at": 1794235923.979343,
+    "modified_at": 1794236785.407691,
     "name": null,
     "next_name_part": "area",
     "options": {

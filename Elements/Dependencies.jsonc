@@ -2715,7 +2715,7 @@
         "switch.sp2e77_l0"
       ],
       "utilisePar": [
-        "intégration: sp2e77_l0_l1_energy (min_max)",
+        "fichier: Templates.yaml",
         "intégration: sp2e77_l0_l1_power (min_max)"
       ]
     },
@@ -2739,7 +2739,7 @@
         "switch.sp2e77_l1"
       ],
       "utilisePar": [
-        "intégration: sp2e77_l0_l1_energy (min_max)",
+        "fichier: Templates.yaml",
         "intégration: sp2e77_l0_l1_power (min_max)"
       ]
     },
@@ -4657,6 +4657,16 @@
         "automation: Atelier switch off chargeur"
       ]
     },
+    "input_boolean.c_est_noel": {
+      "nom": "C'est noël",
+      "appartientA": "helper: input_boolean.c_est_noel",
+      "utiliseePar": [
+        "automation: C'est noël - pilote SB18 et SB20",
+        "automation: Sapin de Noël Off",
+        "automation: Sapin de Noël On",
+        "vue: L'Orée des dous › Home"
+      ]
+    },
     "input_boolean.eponge_started": {
       "nom": "Eponge started",
       "appartientA": "helper: input_boolean.eponge_started",
@@ -5697,14 +5707,7 @@
       "nom": "Energy",
       "appartientA": "appareil: SP2E77-L0 - SP2E77 Output 0",
       "utiliseePar": [
-        "intégration: sp2e77_l0_l1_energy (min_max)"
-      ]
-    },
-    "sensor.sp2e77_l0_l1_energy": {
-      "nom": "sp2e77_l0_l1_energy",
-      "appartientA": "intégration: sp2e77_l0_l1_energy (min_max)",
-      "utiliseePar": [
-        "fichier: UtilityMeters.yaml"
+        "fichier: Templates.yaml"
       ]
     },
     "sensor.sp2e77_l0_l1_power": {
@@ -5725,7 +5728,7 @@
       "nom": "Energy",
       "appartientA": "appareil: SP2E77-L1 - SP2E77 Output 1",
       "utiliseePar": [
-        "intégration: sp2e77_l0_l1_energy (min_max)"
+        "fichier: Templates.yaml"
       ]
     },
     "sensor.sp2e77_l1_power": {
@@ -6763,6 +6766,7 @@
     "automation: C'est noël - pilote SB18 et SB20": {
       "fichier": "Automations.yaml",
       "utilise": [
+        "input_boolean.c_est_noel",
         "switch.sb18",
         "switch.sb20"
       ]
@@ -7007,6 +7011,18 @@
         "lock.porte_1er"
       ]
     },
+    "automation: Sapin de Noël Off": {
+      "fichier": "Automations.yaml",
+      "utilise": [
+        "input_boolean.c_est_noel"
+      ]
+    },
+    "automation: Sapin de Noël On": {
+      "fichier": "Automations.yaml",
+      "utilise": [
+        "input_boolean.c_est_noel"
+      ]
+    },
     "automation: Toilettes 1er after 45min OFF": {
       "fichier": "Automations.yaml",
       "utilise": [
@@ -7123,7 +7139,9 @@
         "sensor.electricity_meter_secondary_compteur_energy_consumption_total",
         "sensor.moon_phase",
         "sensor.moon_phase_image",
-        "sensor.onduleur_des_dous_grid_power"
+        "sensor.onduleur_des_dous_grid_power",
+        "sensor.sp2e77_l0_energy",
+        "sensor.sp2e77_l1_energy"
       ]
     },
     "fichier: UtilityMeters.yaml": {
@@ -7149,8 +7167,7 @@
         "sensor.sp1pm70_energy",
         "sensor.sp1pm71_energy",
         "sensor.sp1pm72_energy",
-        "sensor.sp1pm73_energy",
-        "sensor.sp2e77_l0_l1_energy"
+        "sensor.sp1pm73_energy"
       ]
     },
     "intégration: atelier_energy_day (min_max)": {
@@ -7212,13 +7229,6 @@
       "utilise": [
         "sensor.s1pm58_power",
         "sensor.sp1pm64_power"
-      ]
-    },
-    "intégration: sp2e77_l0_l1_energy (min_max)": {
-      "fichier": "Elements/HelpersUI.yaml",
-      "utilise": [
-        "sensor.sp2e77_l0_energy",
-        "sensor.sp2e77_l1_energy"
       ]
     },
     "intégration: sp2e77_l0_l1_power (min_max)": {
@@ -7647,6 +7657,7 @@
       "fichier": "Dashboards/L'Orée des dous.yaml",
       "utilise": [
         "binary_sensor.production_panneaux_solaire",
+        "input_boolean.c_est_noel",
         "lock.porte_1er",
         "lock.porte_rez",
         "sensor.astroweather_la_maison_des_dous_moon_next_rising",
@@ -8048,19 +8059,9 @@
   },
   "referencesCassees": [
     {
-      "par": "automation: C'est noël - pilote SB18 et SB20",
-      "cible": "input_boolean.c_est_noel",
-      "fichier": "Automations.yaml"
-    },
-    {
-      "par": "automation: Sapin de Noël Off",
-      "cible": "input_boolean.c_est_noel",
-      "fichier": "Automations.yaml"
-    },
-    {
-      "par": "automation: Sapin de Noël On",
-      "cible": "input_boolean.c_est_noel",
-      "fichier": "Automations.yaml"
+      "par": "fichier: UtilityMeters.yaml",
+      "cible": "sensor.sp2e77_l0_l1_energy",
+      "fichier": "UtilityMeters.yaml"
     },
     {
       "par": "vue: L'Oree des dous - pieces › Atelier",
@@ -8096,11 +8097,6 @@
       "par": "vue: L'Oree des dous - pieces › Serveur",
       "cible": "sensor.sp1e74_energy_day",
       "fichier": "Dashboards/L'Oree des dous - pieces.yaml"
-    },
-    {
-      "par": "vue: L'Orée des dous › Home",
-      "cible": "input_boolean.c_est_noel",
-      "fichier": "Dashboards/L'Orée des dous.yaml"
     }
   ]
 }

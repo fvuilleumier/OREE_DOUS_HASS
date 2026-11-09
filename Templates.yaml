@@ -28,8 +28,16 @@
       device_class: energy
       state_class: total_increasing
       availability: >-
-        {{ has_value('sensor.electricity_meter_energy_consumption_tarif_1')
-           and has_value('sensor.electricity_meter_energy_consumption_tarif_2') }}
+        {{ has_value('sensor.electricity_meter_energy_consumption_tarif_1') and has_value('sensor.electricity_meter_energy_consumption_tarif_2') }}
       state: >-
-        {{ (states('sensor.electricity_meter_energy_consumption_tarif_1') | float(0)
-          + states('sensor.electricity_meter_energy_consumption_tarif_2') | float(0)) | round(3) }}
+        {{ (states('sensor.electricity_meter_energy_consumption_tarif_1') | float(0) + states('sensor.electricity_meter_energy_consumption_tarif_2') | float(0)) | round(3) }}
+
+    - default_entity_id: sensor.sp2e77_l0_l1_energy
+      name: "SP2E77 L0+L1 Energy"
+      unit_of_measurement: Wh
+      device_class: energy
+      state_class: total_increasing
+      availability: >
+        {{ has_value('sensor.sp2e77_l0_energy') and has_value('sensor.sp2e77_l1_energy') }}
+      state: >
+        {{ (states('sensor.sp2e77_l0_energy')|float(0) + states('sensor.sp2e77_l1_energy')|float(0)) | round(1) }}

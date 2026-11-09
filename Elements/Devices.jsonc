@@ -2424,12 +2424,12 @@
     "config_subentry_id": null,
     "connections": [
       [
-        "mac",
-        "fc:8f:90:78:26:02"
-      ],
-      [
         "upnp",
         "uuid:3f97e6a2-6453-4afd-ae5f-460d6d4d6432"
+      ],
+      [
+        "mac",
+        "fc:8f:90:78:26:02"
       ]
     ],
     "created_at": 0.0,
@@ -7807,7 +7807,7 @@
     "manufacturer": "Bambu Lab",
     "model": "X2D",
     "model_id": null,
-    "modified_at": 1794234061.156487,
+    "modified_at": 1794236788.800997,
     "name_by_user": "BambuDous_X2D",
     "name": "X2D_20P5BJ670401915",
     "next_name_part": "area",
