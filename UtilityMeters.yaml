@@ -66,6 +66,22 @@ sp1pm71_energy_day:
   source: sensor.sp1pm71_energy
   cycle: daily
 
+sp1pm72_energy_day:
+  source: sensor.sp1pm72_energy
+  cycle: daily
+  
+sp1pm73_energy_day:
+  source: sensor.sp1pm73_energy
+  cycle: daily
+
+sp1e74_energy_day:
+  source: sensor.sp1e74_energy
+  cycle: daily
+
+sp1e77_energy_day:
+  source: sensor.sp2e77_l0_l1_energy
+  cycle: daily
+
 electricity_meter_secondary_compteur_energy_day:
   source: sensor.electricity_meter_secondary_compteur_energy_consumption_total
   cycle: daily

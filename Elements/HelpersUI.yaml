@@ -14,15 +14,6 @@ input_boolean:
   - id: lumiere_toilettes_rez_was_on
     name: Lumière toilettes rez was on
     icon: mdi:toggle-switch
-  - id: tous_a_la_maison
-    name: Tous à la maison
-    icon: mdi:home-account
-  - name: Tous au lit
-    icon: mdi:power-sleep
-    id: tous_au_lit
-  - name: Tous dehors
-    icon: mdi:home-export-outline
-    id: tous_dehors
 input_datetime:
   - id: cave_a_vin_dernier_allumage
     name: Cave a vin dernier allumage
@@ -56,7 +47,6 @@ config_entries:
           - sensor.s1pm59_energy_day
           - sensor.sp1pm62_energy_day
           - sensor.sp1pm70_energy_day
-          - sensor.s1pm43_energy_day
           - sensor.s1pm44_energy_day
           - sensor.sp1pm71_energy_day
         name: buanderie_energy_day
@@ -69,10 +59,26 @@ config_entries:
           - sensor.sp1pm62_power
           - sensor.s1pm59_power
           - sensor.sp1pm70_power
-          - sensor.s1pm43_power
           - sensor.s1pm44_power
           - sensor.sp1pm71_power
         name: buanderie_power
+        round_digits: 2
+        type: sum
+    - entry_id: 01M70ABQ98GEC69YBXBQX09BD6
+      title: bureau_fv_energy_day
+      options:
+        entity_ids:
+          - sensor.sp1pm63_energy_day
+        name: bureau_fv_energy_day
+        round_digits: 2
+        type: sum
+    - entry_id: 01M70A957MCF161FQ2EDTZJYJJ
+      title: bureau_fv_power
+      options:
+        entity_ids:
+          - sensor.sp1pm73_power
+          - sensor.sp1pm63_power
+        name: bureau_fv_power
         round_digits: 2
         type: sum
     - entry_id: 01M46B177TV0A0W53T1RT5YDMD
@@ -91,5 +97,23 @@ config_entries:
           - sensor.sp1pm64_power
           - sensor.s1pm58_power
         name: cave_power
+        round_digits: 2
+        type: sum
+    - entry_id: 01M70AKRDDER7EZDWCKAMCGRZ7
+      title: sp2e77_l0_l1_energy
+      options:
+        entity_ids:
+          - sensor.sp2e77_l0_energy
+          - sensor.sp2e77_l1_energy
+        name: sp2e77_l0_l1_energy
+        round_digits: 2
+        type: sum
+    - entry_id: 01M70AP9H6HT8BM7XSH078E9PW
+      title: sp2e77_l0_l1_power
+      options:
+        entity_ids:
+          - sensor.sp2e77_l0_power
+          - sensor.sp2e77_l1_power
+        name: sp2e77_l0_l1_power
         round_digits: 2
         type: sum

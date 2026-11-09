@@ -182,7 +182,7 @@
     "icon": null,
     "id": "0064d67a7eb1a3d2e74b6252413e9eb9",
     "labels": [],
-    "modified_at": 1794229339.153318,
+    "modified_at": 1794234061.177254,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -6305,6 +6305,33 @@
     "translation_key": null,
     "unique_id": "0xa4c13811218e5ca4_max_temperature_zigbee2mqtt"
   },
+  "sensor.sp2e77_l0_l1_energy": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M70AKRDDER7EZDWCKAMCGRZ7",
+    "config_subentry_id": null,
+    "created_at": 1794233721.262432,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "sensor.sp2e77_l0_l1_energy",
+    "hidden_by": null,
+    "icon": null,
+    "id": "18c4565f9f4444eb62b02e9271ff40c9",
+    "labels": [],
+    "modified_at": 1794233721.263216,
+    "name": null,
+    "next_name_part": null,
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "sp2e77_l0_l1_energy",
+    "platform": "min_max",
+    "translation_key": null,
+    "unique_id": "01M70AKRDDER7EZDWCKAMCGRZ7"
+  },
   "sensor.sm_x200_tablette_light_sensor": {
     "area_id": null,
     "categories": {},
@@ -12026,7 +12053,7 @@
     "icon": null,
     "id": "2e8f02eee79d16c8c978354bf8716e85",
     "labels": [],
-    "modified_at": 1794229338.334636,
+    "modified_at": 1794234059.937141,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -32919,7 +32946,7 @@
     "icon": null,
     "id": "7ded0394e48ea8277ac1ca06a6541408",
     "labels": [],
-    "modified_at": 1794229338.273214,
+    "modified_at": 1794232931.656685,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -36386,7 +36413,7 @@
     "icon": null,
     "id": "8924a96ca9520a2ec0f2c03f5332043e",
     "labels": [],
-    "modified_at": 1793701155.764685,
+    "modified_at": 1794234058.442542,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -37174,6 +37201,33 @@
     "platform": "mikrotik",
     "translation_key": null,
     "unique_id": "00:23:F8:30:CC:FD"
+  },
+  "sensor.bureau_fv_energy_day": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M70ABQ98GEC69YBXBQX09BD6",
+    "config_subentry_id": null,
+    "created_at": 1794233457.961247,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "sensor.bureau_fv_energy_day",
+    "hidden_by": null,
+    "icon": null,
+    "id": "8c4acb48827a32b6498e83b780ee916b",
+    "labels": [],
+    "modified_at": 1794233457.961982,
+    "name": null,
+    "next_name_part": null,
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "bureau_fv_energy_day",
+    "platform": "min_max",
+    "translation_key": null,
+    "unique_id": "01M70ABQ98GEC69YBXBQX09BD6"
   },
   "select.trv_zb07_temporary_mode": {
     "area_id": null,
@@ -38435,7 +38489,7 @@
     "icon": null,
     "id": "9164c7cef0f15727ab11ec7ef41740c4",
     "labels": [],
-    "modified_at": 1794229339.159948,
+    "modified_at": 1794234061.185071,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -39326,6 +39380,33 @@
     "platform": "mobile_app",
     "translation_key": null,
     "unique_id": "570642543e4c3609160417cc2de1220de7d71e411d6b95302efb79b2bce97032_android_auto"
+  },
+  "sensor.sp2e77_l0_l1_power": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M70AP9H6HT8BM7XSH078E9PW",
+    "config_subentry_id": null,
+    "created_at": 1794233804.327276,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "sensor.sp2e77_l0_l1_power",
+    "hidden_by": null,
+    "icon": null,
+    "id": "9555fee0b10b998833ac726eb81e5dbb",
+    "labels": [],
+    "modified_at": 1794234057.208733,
+    "name": null,
+    "next_name_part": null,
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "sp2e77_l0_l1_power",
+    "platform": "min_max",
+    "translation_key": null,
+    "unique_id": "01M70AP9H6HT8BM7XSH078E9PW"
   },
   "time.chambre_yoto_d_alix_day_mode_start": {
     "area_id": null,
@@ -44889,7 +44970,7 @@
     "icon": null,
     "id": "ac7b2072ff72d21fb3edbe5a02b15b95",
     "labels": [],
-    "modified_at": 1793701155.767621,
+    "modified_at": 1794234057.385932,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -47131,7 +47212,7 @@
     "icon": null,
     "id": "b5bd553993635d82318c01e796c34fb8",
     "labels": [],
-    "modified_at": 1794229338.397125,
+    "modified_at": 1794234059.990872,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -48055,7 +48136,7 @@
     "icon": null,
     "id": "b8e83e003a5592e0a4eb92fb4ae00644",
     "labels": [],
-    "modified_at": 1794229335.289644,
+    "modified_at": 1794234057.206686,
     "name": null,
     "next_name_part": "area",
     "options": {
@@ -51441,7 +51522,7 @@
     "icon": null,
     "id": "c765f063e532e1e554009d064af62024",
     "labels": [],
-    "modified_at": 1793701155.758979,
+    "modified_at": 1794234057.588743,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -52093,7 +52174,7 @@
     "icon": null,
     "id": "c948474f45d42eb935dff36181be2de0",
     "labels": [],
-    "modified_at": 1793701155.785354,
+    "modified_at": 1794234057.382456,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -54910,7 +54991,7 @@
     "icon": null,
     "id": "d3d9cab3311d9a38be9d058cab0bbafc",
     "labels": [],
-    "modified_at": 1794229335.148787,
+    "modified_at": 1794234057.101294,
     "name": null,
     "next_name_part": "device",
     "options": {
@@ -58879,7 +58960,7 @@
     "icon": null,
     "id": "e1770818515356cf9e5de4d6d9f5a9b6",
     "labels": [],
-    "modified_at": 1794229335.284253,
+    "modified_at": 1794234057.19858,
     "name": null,
     "next_name_part": "area",
     "options": {
@@ -62554,6 +62635,33 @@
     "platform": "tasmota",
     "translation_key": null,
     "unique_id": "485519509B8E_status_sensor_status_sensor_status_ip"
+  },
+  "sensor.bureau_fv_power": {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01M70A957MCF161FQ2EDTZJYJJ",
+    "config_subentry_id": null,
+    "created_at": 1794233373.940517,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "sensor.bureau_fv_power",
+    "hidden_by": null,
+    "icon": null,
+    "id": "efbf5bfe96ce04850cfc84c65ba2bc47",
+    "labels": [],
+    "modified_at": 1794234057.20758,
+    "name": null,
+    "next_name_part": null,
+    "options": {
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "bureau_fv_power",
+    "platform": "min_max",
+    "translation_key": null,
+    "unique_id": "01M70A957MCF161FQ2EDTZJYJJ"
   },
   "sensor.ducon_total_cleaning_time": {
     "area_id": null,

@@ -1544,8 +1544,7 @@
         "update.s1pm43_firmware_update"
       ],
       "utilisePar": [
-        "fichier: UtilityMeters.yaml",
-        "intégration: buanderie_power (min_max)"
+        "fichier: UtilityMeters.yaml"
       ]
     },
     "appareil: S1PM44 - Pompe eau chaude - temp boiler bas": {
@@ -2372,6 +2371,7 @@
         "update.sp1e74_firmware"
       ],
       "utilisePar": [
+        "fichier: UtilityMeters.yaml",
         "vue: L'Orée des dous › Graphes & consommation"
       ]
     },
@@ -2496,6 +2496,7 @@
       "utilisePar": [
         "automation: Ordi allumé ",
         "fichier: UtilityMeters.yaml",
+        "intégration: bureau_fv_power (min_max)",
         "vue: L'Oree des dous - pieces › Bureau FV",
         "vue: L'Orée des dous › Boutons",
         "vue: L'Orée des dous › Graphes & consommation",
@@ -2623,6 +2624,7 @@
         "update.sp1pm72_firmware"
       ],
       "utilisePar": [
+        "fichier: UtilityMeters.yaml",
         "vue: L'Orée des dous › Boutons"
       ]
     },
@@ -2648,6 +2650,10 @@
         "switch.sp1pm73",
         "update.sp1pm73_beta_firmware",
         "update.sp1pm73_firmware"
+      ],
+      "utilisePar": [
+        "fichier: UtilityMeters.yaml",
+        "intégration: bureau_fv_power (min_max)"
       ]
     },
     "appareil: SP2E77 - Mesure 1er sud-est DIN": {
@@ -2682,6 +2688,10 @@
         "sensor.sp2e77_output_0_temperature",
         "sensor.sp2e77_output_0_voltage",
         "switch.sp2e77_l0"
+      ],
+      "utilisePar": [
+        "intégration: sp2e77_l0_l1_energy (min_max)",
+        "intégration: sp2e77_l0_l1_power (min_max)"
       ]
     },
     "appareil: SP2E77-L1 - SP2E77 Output 1": {
@@ -2702,6 +2712,10 @@
         "sensor.sp2e77_output_1_temperature",
         "sensor.sp2e77_output_1_voltage",
         "switch.sp2e77_l1"
+      ],
+      "utilisePar": [
+        "intégration: sp2e77_l0_l1_energy (min_max)",
+        "intégration: sp2e77_l0_l1_power (min_max)"
       ]
     },
     "appareil: SP3E75 - Commutateur triphasé cuisine DIN": {
@@ -5275,20 +5289,6 @@
         "fichier: UtilityMeters.yaml"
       ]
     },
-    "sensor.s1pm43_energy_day": {
-      "nom": "s1pm43_energy_day",
-      "horsRegistre": true,
-      "utiliseePar": [
-        "intégration: buanderie_energy_day (min_max)"
-      ]
-    },
-    "sensor.s1pm43_power": {
-      "nom": "Power",
-      "appartientA": "appareil: S1PM43 - Temperature boiler bas",
-      "utiliseePar": [
-        "intégration: buanderie_power (min_max)"
-      ]
-    },
     "sensor.s1pm44_energy": {
       "nom": "Energy",
       "appartientA": "appareil: S1PM44 - Pompe eau chaude - temp boiler bas",
@@ -5512,6 +5512,13 @@
         "vue: L'Orée des dous › Santé système"
       ]
     },
+    "sensor.sp1e74_energy": {
+      "nom": "Energy",
+      "appartientA": "appareil: SP1E74 - Mesure serveurs DIN",
+      "utiliseePar": [
+        "fichier: UtilityMeters.yaml"
+      ]
+    },
     "sensor.sp1e74_power": {
       "nom": "Power",
       "appartientA": "appareil: SP1E74 - Mesure serveurs DIN",
@@ -5582,6 +5589,7 @@
       "nom": "sp1pm63_energy_day",
       "horsRegistre": true,
       "utiliseePar": [
+        "intégration: bureau_fv_energy_day (min_max)",
         "vue: L'Oree des dous - pieces › Bureau FV"
       ]
     },
@@ -5589,6 +5597,7 @@
       "nom": "Power",
       "appartientA": "appareil: SP1PM63 - Mesure bureau",
       "utiliseePar": [
+        "intégration: bureau_fv_power (min_max)",
         "vue: L'Oree des dous - pieces › Bureau FV",
         "vue: L'Orée des dous › Graphes & consommation",
         "vue: L'Orée des dous › Surveillance"
@@ -5672,6 +5681,62 @@
         "vue: L'Oree des dous - pieces › Buanderie",
         "vue: L'Orée des dous › Graphes & consommation",
         "vue: L'Orée des dous › Surveillance"
+      ]
+    },
+    "sensor.sp1pm72_energy": {
+      "nom": "Energy",
+      "appartientA": "appareil: SP1PM72 - BambuDous",
+      "utiliseePar": [
+        "fichier: UtilityMeters.yaml"
+      ]
+    },
+    "sensor.sp1pm73_energy": {
+      "nom": "Energy",
+      "appartientA": "appareil: SP1PM73 - Mesure bureau fv aux",
+      "utiliseePar": [
+        "fichier: UtilityMeters.yaml"
+      ]
+    },
+    "sensor.sp1pm73_power": {
+      "nom": "Power",
+      "appartientA": "appareil: SP1PM73 - Mesure bureau fv aux",
+      "utiliseePar": [
+        "intégration: bureau_fv_power (min_max)"
+      ]
+    },
+    "sensor.sp2e77_l0_energy": {
+      "nom": "Energy",
+      "appartientA": "appareil: SP2E77-L0 - SP2E77 Output 0",
+      "utiliseePar": [
+        "intégration: sp2e77_l0_l1_energy (min_max)"
+      ]
+    },
+    "sensor.sp2e77_l0_l1_energy": {
+      "nom": "sp2e77_l0_l1_energy",
+      "appartientA": "intégration: sp2e77_l0_l1_energy (min_max)",
+      "utiliseePar": [
+        "fichier: UtilityMeters.yaml"
+      ]
+    },
+    "sensor.sp2e77_l0_power": {
+      "nom": "Power",
+      "appartientA": "appareil: SP2E77-L0 - SP2E77 Output 0",
+      "utiliseePar": [
+        "intégration: sp2e77_l0_l1_power (min_max)"
+      ]
+    },
+    "sensor.sp2e77_l1_energy": {
+      "nom": "Energy",
+      "appartientA": "appareil: SP2E77-L1 - SP2E77 Output 1",
+      "utiliseePar": [
+        "intégration: sp2e77_l0_l1_energy (min_max)"
+      ]
+    },
+    "sensor.sp2e77_l1_power": {
+      "nom": "Power",
+      "appartientA": "appareil: SP2E77-L1 - SP2E77 Output 1",
+      "utiliseePar": [
+        "intégration: sp2e77_l0_l1_power (min_max)"
       ]
     },
     "sensor.trv_btr_01_battery": {
@@ -7093,12 +7158,16 @@
         "sensor.s1pm58_energy",
         "sensor.s1pm59_energy",
         "sensor.s1pm60_energy",
+        "sensor.sp1e74_energy",
         "sensor.sp1pm61_energy",
         "sensor.sp1pm62_energy",
         "sensor.sp1pm63_energy",
         "sensor.sp1pm64_energy",
         "sensor.sp1pm70_energy",
-        "sensor.sp1pm71_energy"
+        "sensor.sp1pm71_energy",
+        "sensor.sp1pm72_energy",
+        "sensor.sp1pm73_energy",
+        "sensor.sp2e77_l0_l1_energy"
       ]
     },
     "intégration: atelier_energy_day (min_max)": {
@@ -7118,7 +7187,6 @@
     "intégration: buanderie_energy_day (min_max)": {
       "fichier": "Elements/HelpersUI.yaml",
       "utilise": [
-        "sensor.s1pm43_energy_day",
         "sensor.s1pm44_energy_day",
         "sensor.s1pm59_energy_day",
         "sensor.sp1pm62_energy_day",
@@ -7129,12 +7197,24 @@
     "intégration: buanderie_power (min_max)": {
       "fichier": "Elements/HelpersUI.yaml",
       "utilise": [
-        "sensor.s1pm43_power",
         "sensor.s1pm44_power",
         "sensor.s1pm59_power",
         "sensor.sp1pm62_power",
         "sensor.sp1pm70_power",
         "sensor.sp1pm71_power"
+      ]
+    },
+    "intégration: bureau_fv_energy_day (min_max)": {
+      "fichier": "Elements/HelpersUI.yaml",
+      "utilise": [
+        "sensor.sp1pm63_energy_day"
+      ]
+    },
+    "intégration: bureau_fv_power (min_max)": {
+      "fichier": "Elements/HelpersUI.yaml",
+      "utilise": [
+        "sensor.sp1pm63_power",
+        "sensor.sp1pm73_power"
       ]
     },
     "intégration: cave_energy_day (min_max)": {
@@ -7149,6 +7229,20 @@
       "utilise": [
         "sensor.s1pm58_power",
         "sensor.sp1pm64_power"
+      ]
+    },
+    "intégration: sp2e77_l0_l1_energy (min_max)": {
+      "fichier": "Elements/HelpersUI.yaml",
+      "utilise": [
+        "sensor.sp2e77_l0_energy",
+        "sensor.sp2e77_l1_energy"
+      ]
+    },
+    "intégration: sp2e77_l0_l1_power (min_max)": {
+      "fichier": "Elements/HelpersUI.yaml",
+      "utilise": [
+        "sensor.sp2e77_l0_power",
+        "sensor.sp2e77_l1_power"
       ]
     },
     "vue: L'Oree des dous - pieces › Atelier": {
