@@ -1054,7 +1054,7 @@
     "translation_key": null,
     "unique_id": "94:E6:86:60:90:28"
   },
-  "binary_sensor.server_sp1e78_haut_nord_ouest_overcurrent": {
+  "binary_sensor.sp1e78_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -1063,7 +1063,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp1e78_haut_nord_ouest_overcurrent",
+    "entity_id": "binary_sensor.sp1e78_overcurrent",
     "hidden_by": null,
     "icon": null,
     "id": "0370d2a5b7e80cb477b5b1ef945a35c4",
@@ -2345,7 +2345,7 @@
     "translation_key": "overcurrent",
     "unique_id": "E465B8F24AAC-switch:0-overcurrent"
   },
-  "button.server_sp1e74_serveurs_restart": {
+  "button.sp1e74_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -2354,7 +2354,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.server_sp1e74_serveurs_restart",
+    "entity_id": "button.sp1e74_restart",
     "hidden_by": null,
     "icon": null,
     "id": "086d37deb25256cd7fb8157c55666a72",
@@ -2372,7 +2372,7 @@
     "translation_key": null,
     "unique_id": "30C6F7819460-reboot"
   },
-  "sensor.server_sp1e78_haut_nord_ouest_power_factor": {
+  "sensor.sp1e78_power_factor": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -2381,7 +2381,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp1e78_haut_nord_ouest_power_factor",
+    "entity_id": "sensor.sp1e78_power_factor",
     "hidden_by": null,
     "icon": null,
     "id": "08759fe9ee283928fe3fc56e7d2d510f",
@@ -2399,7 +2399,7 @@
     "translation_key": null,
     "unique_id": "083AF2BE11EC-switch:0-switch_pf"
   },
-  "switch.server_sp1e74_serveurs": {
+  "switch.sp1e74": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -2408,13 +2408,13 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.server_sp1e74_serveurs",
+    "entity_id": "switch.sp1e74",
     "hidden_by": null,
     "icon": null,
     "id": "08925b9f0bf19614f24a66596b66fe18",
     "labels": [],
     "modified_at": 1794167202.376051,
-    "name": null,
+    "name": "SP1E74 - Mesure serveurs DIN",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -3713,7 +3713,7 @@
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_64_ether4"
   },
-  "sensor.server_sp1e74_serveurs_power_factor": {
+  "sensor.sp1e74_power_factor": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -3722,7 +3722,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp1e74_serveurs_power_factor",
+    "entity_id": "sensor.sp1e74_power_factor",
     "hidden_by": null,
     "icon": null,
     "id": "0d83be6a68d063b6ad177688a332abfa",
@@ -5393,7 +5393,7 @@
     "translation_key": null,
     "unique_id": "0x003c84fffe2677bc_local_temperature_calibration_zigbee2mqtt"
   },
-  "binary_sensor.server_sp1e78_haut_nord_ouest_overvoltage": {
+  "binary_sensor.sp1e78_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -5402,7 +5402,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp1e78_haut_nord_ouest_overvoltage",
+    "entity_id": "binary_sensor.sp1e78_overvoltage",
     "hidden_by": null,
     "icon": null,
     "id": "14ca1eb1b0aeeed9579a5d0de3de1feb",
@@ -5551,33 +5551,6 @@
     "translation_key": null,
     "unique_id": "E465B8F24AAC-wifi-rssi"
   },
-  "input_boolean.tous_a_la_maison": {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": null,
-    "config_subentry_id": null,
-    "created_at": 0.0,
-    "device_id": null,
-    "disabled_by": "user",
-    "entity_category": null,
-    "entity_id": "input_boolean.tous_a_la_maison",
-    "hidden_by": null,
-    "icon": null,
-    "id": "157427f6972e38f5cabe99e9ceaa6b25",
-    "labels": [],
-    "modified_at": 1793970526.863315,
-    "name": null,
-    "next_name_part": null,
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "Tous à la maison",
-    "platform": "input_boolean",
-    "translation_key": null,
-    "unique_id": "tous_a_la_maison"
-  },
   "button.sp1pm63_restart": {
     "area_id": null,
     "categories": {},
@@ -5678,7 +5651,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138a24af79390_linkquality_zigbee2mqtt"
   },
-  "binary_sensor.server_sp1e74_serveurs_overheating": {
+  "binary_sensor.sp1e74_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -5687,7 +5660,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp1e74_serveurs_overheating",
+    "entity_id": "binary_sensor.sp1e74_overheating",
     "hidden_by": null,
     "icon": null,
     "id": "1677a742990a3e16259bc2333bafd0bb",
@@ -8106,7 +8079,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_volume_system"
   },
-  "binary_sensor.server_sp1e74_serveurs_overvoltage": {
+  "binary_sensor.sp1e74_overvoltage": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -8115,7 +8088,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp1e74_serveurs_overvoltage",
+    "entity_id": "binary_sensor.sp1e74_overvoltage",
     "hidden_by": null,
     "icon": null,
     "id": "1fb97e5ff7d29e2e08d68e138e6aca60",
@@ -9811,7 +9784,7 @@
     "id": "260931306f24fbd11702e87725459358",
     "labels": [],
     "modified_at": 1787298934.759259,
-    "name": null,
+    "name": "SB15 - HDD NAS des Dous",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -9977,7 +9950,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1383daa25320b_humidity_zigbee2mqtt"
   },
-  "update.server_sp3e75_mesure_cuisine_firmware": {
+  "update.sp3e75_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
@@ -9986,7 +9959,7 @@
     "device_id": "c464ff741225cc8ea8886b4a5363445b",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.server_sp3e75_mesure_cuisine_firmware",
+    "entity_id": "update.sp3e75_firmware",
     "hidden_by": null,
     "icon": null,
     "id": "2681d2f6fe5c54372858204f4d6c171e",
@@ -13268,7 +13241,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1388b560f4222_temperature_unit_zigbee2mqtt"
   },
-  "update.server_sp1e74_serveurs_firmware": {
+  "update.sp1e74_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -13277,7 +13250,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.server_sp1e74_serveurs_firmware",
+    "entity_id": "update.sp1e74_firmware",
     "hidden_by": null,
     "icon": null,
     "id": "32fc96aa1c583cb27971306c72739a0d",
@@ -13879,7 +13852,7 @@
     "id": "3605de67ec70d61acc3722bbe93fe576",
     "labels": [],
     "modified_at": 1791539493.83158,
-    "name": null,
+    "name": "SP1PM71 - Chaudière",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -14033,7 +14006,7 @@
     "id": "36466b65d7361b03da954db43740d924",
     "labels": [],
     "modified_at": 1793700821.057651,
-    "name": null,
+    "name": "SP1PM62 - Mesure Lavette",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -16133,7 +16106,7 @@
     "translation_key": "part_fan_speed",
     "unique_id": "20P5BJ670401915_cooling_fan_speed"
   },
-  "update.server_sp1e78_haut_nord_ouest_firmware": {
+  "update.sp1e78_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -16142,7 +16115,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.server_sp1e78_haut_nord_ouest_firmware",
+    "entity_id": "update.sp1e78_firmware",
     "hidden_by": null,
     "icon": null,
     "id": "3f674b7b8b3f6d8f419c0deb690a9775",
@@ -16733,7 +16706,7 @@
     "id": "4246244ecd595f7ee90cb14845ed8097",
     "labels": [],
     "modified_at": 1793700821.086157,
-    "name": null,
+    "name": "SP1PM64 - Congélateur",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -18721,7 +18694,7 @@
     "id": "495a6ae3a2a137de4d2fd06f13983cab",
     "labels": [],
     "modified_at": 1790865287.185053,
-    "name": null,
+    "name": "S1PM44 - Pompe eau chaude - temp boiler bas",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -19195,7 +19168,7 @@
     "id": "4b381b2d8d9f8b2ffb30f439e056d8b7",
     "labels": [],
     "modified_at": 1787299009.066795,
-    "name": "",
+    "name": "SB20 - Tasmorallonge vacances",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -19257,7 +19230,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138739d3c63c9_temperature_unit_zigbee2mqtt"
   },
-  "binary_sensor.server_sp1e78_haut_nord_ouest_overheating": {
+  "binary_sensor.sp1e78_overheating": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -19266,7 +19239,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp1e78_haut_nord_ouest_overheating",
+    "entity_id": "binary_sensor.sp1e78_overheating",
     "hidden_by": null,
     "icon": null,
     "id": "4b554f089e082639744c9b17df52df9c",
@@ -19646,7 +19619,7 @@
     "id": "4cd638dd6635bab48b3161cf25a7cd84",
     "labels": [],
     "modified_at": 1793700821.122735,
-    "name": null,
+    "name": "S1PM59 - Rallonge deshumidificateur",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -20362,33 +20335,6 @@
     "platform": "mikrotik",
     "translation_key": "ether",
     "unique_id": "4c_5e_0c_f1_fa_6a_ether10"
-  },
-  "input_boolean.tous_au_lit": {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": null,
-    "config_subentry_id": null,
-    "created_at": 0.0,
-    "device_id": null,
-    "disabled_by": "user",
-    "entity_category": null,
-    "entity_id": "input_boolean.tous_au_lit",
-    "hidden_by": null,
-    "icon": null,
-    "id": "4f3402b5a0e3ce813fb855d21a472aff",
-    "labels": [],
-    "modified_at": 1793970526.863224,
-    "name": null,
-    "next_name_part": null,
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "Tous au lit",
-    "platform": "input_boolean",
-    "translation_key": null,
-    "unique_id": "tous_au_lit"
   },
   "sensor.natel_de_camille_detected_activity_2": {
     "area_id": null,
@@ -21302,7 +21248,7 @@
     "id": "530d5b2e4a944b3b8d96bbedae1439fa",
     "labels": [],
     "modified_at": 1793700821.136296,
-    "name": null,
+    "name": "S1PM58 - Cave à vin",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -23204,7 +23150,7 @@
     "translation_key": "insert_coffee_bin",
     "unique_id": "jura_homeassistant_jurae8_alert_insert_coffee_bin"
   },
-  "button.server_sp1e78_haut_nord_ouest_restart": {
+  "button.sp1e78_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -23213,7 +23159,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.server_sp1e78_haut_nord_ouest_restart",
+    "entity_id": "button.sp1e78_restart",
     "hidden_by": null,
     "icon": null,
     "id": "58d17fa7a6ad78e58e60e986df922d71",
@@ -23740,7 +23686,7 @@
     "id": "5b224919a90468a196305f2675666bc1",
     "labels": [],
     "modified_at": 1793700821.160937,
-    "name": null,
+    "name": "MSWS65 - MSSW-Atelier",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -23925,7 +23871,7 @@
     "translation_key": "overcurrent",
     "unique_id": "E465B8F1A028-switch:0-overcurrent"
   },
-  "binary_sensor.server_sp1e78_haut_nord_ouest_input_1": {
+  "binary_sensor.sp1e78_input_1": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -23934,7 +23880,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp1e78_haut_nord_ouest_input_1",
+    "entity_id": "binary_sensor.sp1e78_input_1",
     "hidden_by": null,
     "icon": null,
     "id": "5bf7c084c7801a3c8c55d8f0b45d473a",
@@ -25930,7 +25876,7 @@
     "id": "62dac3353f50dfa8d7646e5c8d94624a",
     "labels": [],
     "modified_at": 1793700821.183158,
-    "name": null,
+    "name": "SB17 - TV des Dous",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -27944,7 +27890,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_keyguard_locked"
   },
-  "sensor.server_sp1e78_haut_nord_ouest_power": {
+  "sensor.sp1e78_power": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -27953,7 +27899,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp1e78_haut_nord_ouest_power",
+    "entity_id": "sensor.sp1e78_power",
     "hidden_by": null,
     "icon": null,
     "id": "6ae116d931832ba3e0f9c41118803b78",
@@ -28283,7 +28229,7 @@
     "id": "6be6d69675e4da3147a11afaa9febc9b",
     "labels": [],
     "modified_at": 1793700821.206238,
-    "name": null,
+    "name": "S1PM40 - Compresseur",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -28754,7 +28700,7 @@
     "id": "6e30650b0464529c05c9c35f39b78b57",
     "labels": [],
     "modified_at": 1790865785.2197,
-    "name": null,
+    "name": "SP1PM70 - Pompe dilatation chaudière",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -29085,7 +29031,7 @@
     "id": "6ec8dfa1f4e257b471eeaf0ce908ef79",
     "labels": [],
     "modified_at": 1793961963.035077,
-    "name": null,
+    "name": "SP1PM73 - Mesure bureau fv aux",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -29670,7 +29616,7 @@
     "id": "707463dd9fd9b788b6b968fba1bb74b1",
     "labels": [],
     "modified_at": 1793700821.226131,
-    "name": null,
+    "name": "S1PM43 - Temperature boiler bas",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -29859,7 +29805,7 @@
     "translation_key": null,
     "unique_id": "4855194C71DD_status_sensor_status_sensor_last_restart_time"
   },
-  "binary_sensor.server_sp1e74_serveurs_overpowering": {
+  "binary_sensor.sp1e74_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -29868,7 +29814,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp1e74_serveurs_overpowering",
+    "entity_id": "binary_sensor.sp1e74_overpowering",
     "hidden_by": null,
     "icon": null,
     "id": "71107a0d5475316ca2d9e1d78fe1f85f",
@@ -31845,7 +31791,7 @@
     "id": "78c2a3377929e48d03285caf7683a157",
     "labels": [],
     "modified_at": 1793700821.235759,
-    "name": "",
+    "name": "SB18 - Lumières et Noël",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -32090,7 +32036,7 @@
     "id": "79c0633d3a11a0bb34ec9363041b09ab",
     "labels": [],
     "modified_at": 1793700821.241221,
-    "name": "",
+    "name": "SM26 - Bureau Ecrans",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -35988,7 +35934,7 @@
     "translation_key": null,
     "unique_id": "0xa4c1380d8ef826d1_temperature_calibration_zigbee2mqtt"
   },
-  "button.server_sp2e77_1er_sud_est_restart": {
+  "button.sp2e77_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -35997,7 +35943,7 @@
     "device_id": "042a46d6d9d9546f1dd8834afe611c0a",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.server_sp2e77_1er_sud_est_restart",
+    "entity_id": "button.sp2e77_restart",
     "hidden_by": null,
     "icon": null,
     "id": "87c6e1ba332b73f7ba56174e3256c108",
@@ -36141,7 +36087,7 @@
     "id": "880d83d56331d765c49693999aa48776",
     "labels": [],
     "modified_at": 1787565295.983038,
-    "name": null,
+    "name": "S168 - Garage droite",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -37483,7 +37429,7 @@
     "translation_key": null,
     "unique_id": "0x18690afffe1256d2_linkquality_zigbee2mqtt"
   },
-  "sensor.server_sp1e78_haut_nord_ouest_energy": {
+  "sensor.sp1e78_energy": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -37492,7 +37438,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp1e78_haut_nord_ouest_energy",
+    "entity_id": "sensor.sp1e78_energy",
     "hidden_by": null,
     "icon": null,
     "id": "8d72c35cd5ca6eba18d2d8ed0c88b2c9",
@@ -38960,7 +38906,7 @@
     "id": "93569a33a209372d2ace07b6ea484dd6",
     "labels": [],
     "modified_at": 1793700821.447481,
-    "name": null,
+    "name": "S1PM31 - Lampe salon",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -39872,7 +39818,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_health_connect_oxygen_saturation"
   },
-  "binary_sensor.server_sp3e75_mesure_cuisine_input_0": {
+  "binary_sensor.sp3e75_input_0": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
@@ -39881,7 +39827,7 @@
     "device_id": "c464ff741225cc8ea8886b4a5363445b",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp3e75_mesure_cuisine_input_0",
+    "entity_id": "binary_sensor.sp3e75_input_0",
     "hidden_by": null,
     "icon": null,
     "id": "987dd579dbd600e51d743a029fad2483",
@@ -39979,7 +39925,7 @@
     "translation_key": null,
     "unique_id": "01KZNZD15E0Q2R6ZCBZ73TA0W1__virt__Statistic:EnergyGrid:Month"
   },
-  "sensor.server_sp1e74_serveurs_energy_returned": {
+  "sensor.sp1e74_energy_returned": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -39988,7 +39934,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp1e74_serveurs_energy_returned",
+    "entity_id": "sensor.sp1e74_energy_returned",
     "hidden_by": null,
     "icon": null,
     "id": "98c86840ff0daa0b18c426537d1114b6",
@@ -42453,7 +42399,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_steps_sensor"
   },
-  "switch.server_sp1e78_haut_nord_ouest": {
+  "switch.sp1e78": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -42462,13 +42408,13 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "switch.server_sp1e78_haut_nord_ouest",
+    "entity_id": "switch.sp1e78",
     "hidden_by": null,
     "icon": null,
     "id": "a3bb3884a575dbc33540ab144ff295b5",
     "labels": [],
     "modified_at": 1794167242.844204,
-    "name": null,
+    "name": "SP1E78 - Mesure 1er nord-ouest DIN",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -42503,7 +42449,7 @@
     "translation_key": null,
     "unique_id": "A0DD6C4E4028-switch:0-voltage"
   },
-  "binary_sensor.server_sp1e78_haut_nord_ouest_overpowering": {
+  "binary_sensor.sp1e78_overpowering": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -42512,7 +42458,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp1e78_haut_nord_ouest_overpowering",
+    "entity_id": "binary_sensor.sp1e78_overpowering",
     "hidden_by": null,
     "icon": null,
     "id": "a3cf435a637d4563975c1fcdd7dc6439",
@@ -43264,7 +43210,7 @@
     "translation_key": null,
     "unique_id": "0xa4c138d30633d680_local_temperature_calibration_zigbee2mqtt"
   },
-  "sensor.server_sp1e78_haut_nord_ouest_energy_returned": {
+  "sensor.sp1e78_energy_returned": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -43273,7 +43219,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp1e78_haut_nord_ouest_energy_returned",
+    "entity_id": "sensor.sp1e78_energy_returned",
     "hidden_by": null,
     "icon": null,
     "id": "a71495777f526dafc4a83b3264ec31b0",
@@ -43378,7 +43324,7 @@
     "translation_key": null,
     "unique_id": "1787560199768"
   },
-  "binary_sensor.server_sp1e74_serveurs_input_0": {
+  "binary_sensor.sp1e74_input_0": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -43387,7 +43333,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp1e74_serveurs_input_0",
+    "entity_id": "binary_sensor.sp1e74_input_0",
     "hidden_by": null,
     "icon": null,
     "id": "a74f310b06803ee1093e235b73e50f74",
@@ -44131,7 +44077,7 @@
     "translation_key": null,
     "unique_id": "a2e7df8e6ec48a9fb37b663dbff9d68c9e4582e92953eed86740348361351afc_wifi_frequency"
   },
-  "sensor.server_sp1e74_serveurs_energy": {
+  "sensor.sp1e74_energy": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -44140,7 +44086,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp1e74_serveurs_energy",
+    "entity_id": "sensor.sp1e74_energy",
     "hidden_by": null,
     "icon": null,
     "id": "a98eeca837b2350a5aa59aca0540b3ff",
@@ -45441,7 +45387,7 @@
     "translation_key": null,
     "unique_id": "0xa4c13811218e5ca4_programming_mode_zigbee2mqtt"
   },
-  "binary_sensor.server_sp2e77_1er_sud_est_input_1": {
+  "binary_sensor.sp2e77_input_1": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -45450,7 +45396,7 @@
     "device_id": "042a46d6d9d9546f1dd8834afe611c0a",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp2e77_1er_sud_est_input_1",
+    "entity_id": "binary_sensor.sp2e77_input_1",
     "hidden_by": null,
     "icon": null,
     "id": "ae983c97236b5cf856b9f35f29dfbbf1",
@@ -46241,7 +46187,7 @@
     "id": "b1c376f7c2e96a6f965b2a01256f6a18",
     "labels": [],
     "modified_at": 1793700821.519824,
-    "name": "",
+    "name": "SM28 - Lumieres exterieur",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -46601,7 +46547,7 @@
     "translation_key": "last_command_source",
     "unique_id": "E465B8F24AAC-switch:0-switch_source"
   },
-  "binary_sensor.server_sp3e75_mesure_cuisine_input_2": {
+  "binary_sensor.sp3e75_input_2": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
@@ -46610,7 +46556,7 @@
     "device_id": "c464ff741225cc8ea8886b4a5363445b",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp3e75_mesure_cuisine_input_2",
+    "entity_id": "binary_sensor.sp3e75_input_2",
     "hidden_by": null,
     "icon": null,
     "id": "b351e0e3f4f0d4a16ee2c1bb1bb80de4",
@@ -46901,7 +46847,7 @@
     "translation_key": null,
     "unique_id": "4CEBD6C95DF2_status_sensor_status_sensor_status_ssid"
   },
-  "binary_sensor.server_sp2e77_1er_sud_est_input_0": {
+  "binary_sensor.sp2e77_input_0": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -46910,7 +46856,7 @@
     "device_id": "042a46d6d9d9546f1dd8834afe611c0a",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp2e77_1er_sud_est_input_0",
+    "entity_id": "binary_sensor.sp2e77_input_0",
     "hidden_by": null,
     "icon": null,
     "id": "b4da8a9eafc1f65c8dd044981cc7e6b3",
@@ -47440,7 +47386,7 @@
     "id": "b64f251412030a17b5fbdc763d0d4268",
     "labels": [],
     "modified_at": 1793700821.540246,
-    "name": "",
+    "name": "SM27 - Lumière Bureau",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -47579,7 +47525,7 @@
     "translation_key": null,
     "unique_id": "37de21ec6bc6cb2eeaa08d531ca7b3d7ed5ca08676a96720d2f554f860e978c4_public_ip_address"
   },
-  "button.server_sp3e75_mesure_cuisine_restart": {
+  "button.sp3e75_restart": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
@@ -47588,7 +47534,7 @@
     "device_id": "c464ff741225cc8ea8886b4a5363445b",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "button.server_sp3e75_mesure_cuisine_restart",
+    "entity_id": "button.sp3e75_restart",
     "hidden_by": null,
     "icon": null,
     "id": "b70b81cb89bc173b48b3efd1c6d3e853",
@@ -47960,7 +47906,7 @@
     "id": "b8980fdf7f61dbd559d9c1bea13bcdc0",
     "labels": [],
     "modified_at": 1787299198.97551,
-    "name": null,
+    "name": "SP1PM63 - Mesure bureau",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -49095,7 +49041,7 @@
     "id": "bc99e9cfeb88f4e110cef345e19a0ec8",
     "labels": [],
     "modified_at": 1793700821.556204,
-    "name": null,
+    "name": "S1PM42 - Mesure eponge",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -50094,7 +50040,7 @@
     "id": "c1016a5a31c95c51e6550af304129bba",
     "labels": [],
     "modified_at": 1793700821.571244,
-    "name": null,
+    "name": "SP1PM61 - Prise jardin Wall-e",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -50240,7 +50186,7 @@
     "translation_key": null,
     "unique_id": "0xa4c13811218e5ca4_switch_eco_mode_zigbee2mqtt"
   },
-  "update.server_sp2e77_1er_sud_est_firmware": {
+  "update.sp2e77_firmware": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB7HXNXTHGYV2ND958040E",
@@ -50249,7 +50195,7 @@
     "device_id": "042a46d6d9d9546f1dd8834afe611c0a",
     "disabled_by": null,
     "entity_category": "config",
-    "entity_id": "update.server_sp2e77_1er_sud_est_firmware",
+    "entity_id": "update.sp2e77_firmware",
     "hidden_by": null,
     "icon": null,
     "id": "c22d746f24f8cd49887c7c8363895f12",
@@ -50842,33 +50788,6 @@
     "platform": "mqtt",
     "translation_key": null,
     "unique_id": "bridge_0x9035eafffeaf086e_coordinator_version_zigbee2mqtt"
-  },
-  "input_boolean.tous_dehors": {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": null,
-    "config_subentry_id": null,
-    "created_at": 0.0,
-    "device_id": null,
-    "disabled_by": "user",
-    "entity_category": null,
-    "entity_id": "input_boolean.tous_dehors",
-    "hidden_by": null,
-    "icon": null,
-    "id": "c48f5278a28642590ef33cfbb7f00488",
-    "labels": [],
-    "modified_at": 1793970526.863375,
-    "name": null,
-    "next_name_part": null,
-    "options": {
-      "conversation": {
-        "should_expose": false
-      }
-    },
-    "original_name": "Tous dehors",
-    "platform": "input_boolean",
-    "translation_key": null,
-    "unique_id": "tous_dehors"
   },
   "update.gardena_smart_system_update": {
     "area_id": null,
@@ -51787,7 +51706,7 @@
     "id": "c839371f07f222cf492fe1a45818b317",
     "labels": [],
     "modified_at": 1793700821.588643,
-    "name": null,
+    "name": "S146 - Garage gauche",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -52187,7 +52106,7 @@
     "translation_key": "input",
     "unique_id": "244CAB4333CF-relay_0-1"
   },
-  "binary_sensor.server_sp1e74_serveurs_overcurrent": {
+  "binary_sensor.sp1e74_overcurrent": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -52196,7 +52115,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": "diagnostic",
-    "entity_id": "binary_sensor.server_sp1e74_serveurs_overcurrent",
+    "entity_id": "binary_sensor.sp1e74_overcurrent",
     "hidden_by": null,
     "icon": null,
     "id": "c94a60326ff8e774ffa0539d0b3ef369",
@@ -52493,7 +52412,7 @@
     "id": "cad84837b2b610595b1509bc7f975b65",
     "labels": [],
     "modified_at": 1792316216.210408,
-    "name": null,
+    "name": "SB24 - Tasmorallonge",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -53343,7 +53262,7 @@
     "translation_key": "version_latest",
     "unique_id": "45df7312_zigbee2mqtt_version_latest"
   },
-  "binary_sensor.server_sp1e74_serveurs_input_1": {
+  "binary_sensor.sp1e74_input_1": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -53352,7 +53271,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp1e74_serveurs_input_1",
+    "entity_id": "binary_sensor.sp1e74_input_1",
     "hidden_by": null,
     "icon": null,
     "id": "ccf99bc1eaf1b0004848cd9bf41ba910",
@@ -54391,7 +54310,7 @@
     "translation_key": "beta_firmware",
     "unique_id": "CC7B5C82568C-sys-fwupdate_beta"
   },
-  "binary_sensor.server_sp1e78_haut_nord_ouest_input_0": {
+  "binary_sensor.sp1e78_input_0": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB5Y3R9NRR10F88ZKTR5GH",
@@ -54400,7 +54319,7 @@
     "device_id": "8fd508eebf0fa70a8bdbbaa507cc1115",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp1e78_haut_nord_ouest_input_0",
+    "entity_id": "binary_sensor.sp1e78_input_0",
     "hidden_by": null,
     "icon": null,
     "id": "d1e014936cd10fb3786647380d333fc1",
@@ -55445,7 +55364,7 @@
     "translation_key": "last_command_source",
     "unique_id": "CC7B5C82568C-switch:0-switch_source"
   },
-  "binary_sensor.server_sp3e75_mesure_cuisine_input_1": {
+  "binary_sensor.sp3e75_input_1": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB9526JX2YN518JQ6JW91A",
@@ -55454,7 +55373,7 @@
     "device_id": "c464ff741225cc8ea8886b4a5363445b",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "binary_sensor.server_sp3e75_mesure_cuisine_input_1",
+    "entity_id": "binary_sensor.sp3e75_input_1",
     "hidden_by": null,
     "icon": null,
     "id": "d5178f04d396c25f17bdf5416bddfec8",
@@ -57542,7 +57461,7 @@
     "id": "dcddc07f0199d6769b9f044541952769",
     "labels": [],
     "modified_at": 1793700821.657547,
-    "name": null,
+    "name": "S1PM60 - Rallonge culligan",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -59248,7 +59167,7 @@
     "id": "e2436073789ea39edef34a99fb59a865",
     "labels": [],
     "modified_at": 1793953806.930807,
-    "name": null,
+    "name": "SP1PM72 - BambuDous",
     "next_name_part": "device",
     "options": {
       "conversation": {
@@ -60642,7 +60561,7 @@
     "translation_key": "power_production_next_24hours",
     "unique_id": "01KZP0BSHMW029S0BM2WR2T85E_power_production_next_24hours"
   },
-  "sensor.server_sp1e74_serveurs_power": {
+  "sensor.sp1e74_power": {
     "area_id": null,
     "categories": {},
     "config_entry_id": "01M6YB46SBFQA5ZSPFQKBHNAWT",
@@ -60651,7 +60570,7 @@
     "device_id": "1b90ce6288559cccdc4a83ca7d058d6c",
     "disabled_by": null,
     "entity_category": null,
-    "entity_id": "sensor.server_sp1e74_serveurs_power",
+    "entity_id": "sensor.sp1e74_power",
     "hidden_by": null,
     "icon": null,
     "id": "e95c83dfecf5f028e9dd078874f40b18",
